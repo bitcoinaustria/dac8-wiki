@@ -22,6 +22,7 @@ The repository is intended to become reusable for comparable proceedings in othe
 - [`.wiki/wiki/`](.wiki/wiki/) — compiled articles and legal issue maps
 - [`.wiki/output/`](.wiki/output/) — research reports
 - [`legal-docs/`](legal-docs/) — downloaded legislation, judgments, and official materials
+- [`docs/llm-wiki-quickstart.md`](docs/llm-wiki-quickstart.md) — install and use LLM Wiki with Codex or Claude Code
 - [`VISION.md`](VISION.md) — audience, direction, and editorial priorities
 - [`AGENTS.md`](AGENTS.md) — rules for agents changing the repository
 
