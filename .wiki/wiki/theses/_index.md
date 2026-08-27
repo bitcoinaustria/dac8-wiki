@@ -8,4 +8,4 @@ Last updated: 2026-08-27
 
 | File | Summary | Tags | Updated |
 |------|---------|------|---------|
-| [VfGH-to-CJEU DAC8 Route](vfgh-to-cjeu-dac8-route.md) | The proposed individual-citizen VfGH-to-CJEU route is legally available and has a data-retention analogue, but it is conditionally supported because direct/current injury and subsidiarity remain unresolved. | dac8, austria, vfgh, cjeu, individualantrag, litigation-strategy | 2026-08-27 |
+| [VfGH-to-CJEU DAC8 Route](vfgh-to-cjeu-dac8-route.md) | A DAC8 user should normally proceed through DSB and BVwG and may separately assess an Article 79 GDPR action, while a qualifying Austria-home CASP may have direct Article 140 standing. | dac8, austria, vfgh, cjeu, individualantrag, litigation-strategy | 2026-08-27 |

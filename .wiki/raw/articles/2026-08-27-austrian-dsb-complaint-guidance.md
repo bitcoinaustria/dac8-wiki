@@ -15,4 +15,6 @@ The Austrian DSB describes a section 24 DSG complaint as a formal and adversaria
 
 Complaints can be submitted through the official online form, by email, or by post. The respondent should be identified by name and address; an unknown-respondent filing is described as unhelpful. The complaint must state the right, full facts, legal reasons, requested finding, and timeliness. A prior data-subject request and response must be attached when the asserted right first required a request to the controller.
 
+The guidance also permits a person present in Austria to submit a complaint to the Austrian DSB against a private respondent whose main establishment is in another EU or EEA state. In a cross-border case, supervisory-authority cooperation or transfer to the foreign partner authority may follow and may take additional time. Lodging in Austria therefore does not establish that the Austrian DSB will be the lead authority or control the timetable.
+
 The DSB transmits a formally complete complaint to the respondent, obtains a response, and gives the complainant an opportunity to comment. It may take additional evidence. For a DAC8 claimant, this makes the access request, CASP response, and precise identification of the controller operational evidence rather than optional background.

@@ -8,6 +8,12 @@ sources:
   - wiki/topics/dac2-crs-austrian-litigation.md
   - wiki/references/epicenter-vorratsdatenspeicherung-precedent.md
   - wiki/references/austrian-gold-plating-and-claimant-audit.md
+  - raw/articles/2026-08-27-cjeu-c414-24-parallel-gdpr-remedies.md
+  - raw/articles/2026-08-27-cjeu-c655-23-preventive-injunction-limit.md
+  - raw/articles/2026-08-27-vfgh-g287-2022-dsb-bvwg-article-140.md
+  - raw/articles/2026-08-27-vfgh-g37-38-2024-civil-route.md
+  - raw/articles/2026-08-27-austria-dsg-urgent-processing-prohibition.md
+  - raw/articles/2026-08-27-vfgh-g34-2022-section-20a-vfgg.md
 generated: 2026-08-27
 ---
 
@@ -38,6 +44,8 @@ Für einen gewöhnlichen betroffenen Kryptowert-Nutzer ist ein direkter Art.-140
 **konkrete CASP-Verarbeitung → § 24 DSG/DSB → BVwG → Art. 267 AEUV und/oder gerichtlicher Art.-140-Antrag → Art. 144 B-VG/VfGH.**
 
 Der früheste gerichtliche EuGH-Knoten ist dabei bereits das **BVwG**, nicht erst der VfGH.
+
+Daneben besteht ein eigenständiger gerichtlicher Rechtsbehelf nach Art. 79 DSGVO. Der EuGH hat in C-414/24 am 18. Juni 2026 auf österreichische Vorlage bestätigt, dass Art. 77 und Art. 79 DSGVO parallel und unabhängig ausgeübt werden können. Ein solcher Zivilweg ist kein garantierter Unterlassungserfolg: C-655/23 verneint einen allein aus der DSGVO folgenden besonderen vorbeugenden Unterlassungsanspruch, wenn keine Löschung verlangt wird. Die Verfügbarkeit des gerichtlichen Weges widerlegt dennoch die Aussage, nur der direkte Individualantrag sei für eine Privatperson gehbar.
 
 ## Warum G 178/2024 so gefährlich ist
 
@@ -83,6 +91,12 @@ Das ist die beste denkbare Abgrenzung, aber noch kein Selbstläufer. Erforderlic
 - ein irreversibler, individualisierter Schaden und nicht nur ein allgemeines Leck- oder Missbrauchsrisiko.
 
 Die gesetzliche Zeitschiene schwächt eine künstlich erzeugte Dringlichkeit: Die Verarbeitung läuft seit 1. Jänner 2026; die erste Meldung für 2026 ist bis 31. Juli 2027 abzugeben; der BMF-Austausch erfolgt innerhalb von neun Monaten nach Ablauf des Meldejahres. Wer bis kurz vor der ersten Meldung wartet, wird schwer argumentieren können, der ordentliche Weg sei von Anfang an wirkungslos gewesen.
+
+### „Nur der Individualantrag kann die erste Meldung rechtzeitig stoppen“
+
+Auch das ist nicht belegt. Der direkte Antrag hemmt die Verarbeitung nicht automatisch. § 20a VfGG ermöglicht unionsrechtlich erforderlichen einstweiligen Rechtsschutz, vermittelt nach G 34/2022 aber kein Antragsrecht; der VfGH wird gegebenenfalls von Amts wegen tätig.
+
+Die DSB kann dagegen im Beschwerdeverfahren nach § 25 Abs. 1 iVm § 22 Abs. 4 DSG mit Mandatsbescheid die Verarbeitung ganz oder teilweise untersagen, wenn die gesetzlich definierten Schwellen einer wesentlichen Beeinträchtigung sowie einer wesentlichen unmittelbaren Gefährdung bei Gefahr im Verzug glaubhaft erfüllt sind. Auch im Zivilweg kann nach österreichischem Recht vorläufiger Rechtsschutz in Betracht kommen. Keine dieser Schienen garantiert eine Sperre; der direkte Antrag hat aber keinen exklusiven Eilrechtsschutzvorteil.
 
 ### „Es gibt mehrere oder unbekannte Empfänger“
 
@@ -146,6 +160,8 @@ Die DSB-Beschwerde ist ein kontradiktorisches Verfahren und nach amtlicher Infor
 
 Die DSB kann nicht nach Art. 267 AEUV vorlegen. EU- und Verfassungsargumente werden dort konserviert; die ausformulierte Vorlagefrage gehört in die BVwG-Beschwerde.
 
+Bei glaubhaft zu machender Dringlichkeit sollte ausdrücklich ein Vorgehen nach § 25 Abs. 1 iVm § 22 Abs. 4 DSG angeregt und mit konkreten Transferdaten, Empfängern und individueller Gefährdung belegt werden. Ein bloßer Hinweis auf die grenzüberschreitende Natur von DAC8 ersetzt die gesetzlichen Voraussetzungen nicht.
+
 ### Stufe 3: BVwG
 
 Gegen den DSB-Bescheid läuft grundsätzlich eine vierwöchige Frist ab Zustellung. Das BVwG entscheidet nach § 27 DSG durch einen Senat mit Vorsitz und zwei fachkundigen Laienrichtern.
@@ -160,6 +176,14 @@ Für den nicht meldepflichtigen Nutzer ist die engere Auslegungsfrage am stärks
 > Erlauben oder verlangen Art. 8ad und Anhang VI Abschnitte II und III der Richtlinie 2011/16/EU idF Richtlinie (EU) 2023/2226, gelesen mit Art. 25 DAC und Art. 5 Abs. 1 lit. b, c und e sowie Art. 6 Abs. 3 DSGVO, dass ein Mitgliedstaat die vollständigen meldepflichtigen Transaktionsinformationen für jeden Kunden unabhängig von dessen endgültigem Status als meldepflichtiger Nutzer erzeugen und speichern lässt?
 
 Diese Frage muss für den konkreten Streit entscheidungserheblich sein. Sie ist nicht mit einer pauschalen Frage „Ist DAC8 grundrechtswidrig?“ zu vermischen.
+
+Dass diese Kette tatsächlich zur Normenkontrolle führen kann, zeigt VfGH G 287/2022 ua: Individuelle DSB-Beschwerden gelangten zum BVwG, das Art.-140-Anträge stellte; der VfGH ließ sie zu und hob § 9 Abs. 1 DSG auf.
+
+### Parallele Art.-79-Zivilroute
+
+Ein Art.-79-Verfahren gegen den CASP kann parallel zur DSB-Beschwerde geführt werden. Das ordentliche Gericht kann eine entscheidungserhebliche EU-Frage nach Art. 267 AEUV vorlegen und muss bei eigenen Verfassungsbedenken gegen ein präjudizielles österreichisches Gesetz nach Art. 89 Abs. 2 B-VG den VfGH anrufen. Nach einem erstinstanzlichen Hauptsacheurteil kann die Partei aus Anlass ihres Rechtsmittels einen Parteiantrag nach Art. 140 Abs. 1 Z 1 lit. d B-VG stellen.
+
+Der genaue Anspruch und die begehrte Abhilfe bleiben der Schwachpunkt: Der CASP beruft sich auf § 20 Krypto-MPfG und Art. 6 Abs. 1 lit. c DSGVO; C-655/23 garantiert keinen isolierten vorbeugenden Unterlassungsanspruch aus der DSGVO. Die Zivilroute ist daher eine reale Verfahrensoption, kein sicherer materieller Sieg.
 
 ### Stufe 4: Säumnis
 
@@ -230,5 +254,10 @@ Vor einer Schriftsatzfassung fehlen vor allem reale, nicht öffentliche Mandante
 - [VfGH E 2097/2021, DAC2](../../legal-docs/core/at-vfgh-e-2097-2021-13.pdf)
 - [EuGH Foto-Frost](../../legal-docs/core/eu-cjeu-c314-85-foto-frost.pdf)
 - [EuGH KUBERA](../../legal-docs/core/eu-cjeu-c144-23-kubera.pdf)
+- [EuGH C-414/24](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0414)
+- [EuGH C-655/23](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62023CJ0655)
+- [VfGH G 287/2022 ua](https://www.ris.bka.gv.at/Dokumente/Vfgh/JFT_20221214_22G00287_00/JFT_20221214_22G00287_00.html)
+- [VfGH G 37-38/2024](https://www.ris.bka.gv.at/Dokumente/Vfgh/JFT_20241003_24G00037_00/JFT_20241003_24G00037_00.pdf)
+- [VfGH G 34/2022](https://www.ris.bka.gv.at/Dokumente/Vfgh/JFT_20220429_22G00034_00/JFT_20220429_22G00034_00.html)
 
 Rechtsstand und Quellenprüfung: 27. August 2026. Dies ist strategische Rechtsrecherche, keine einbringungsfertige Rechtsberatung oder Prozessschrift.
