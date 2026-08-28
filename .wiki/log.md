@@ -136,3 +136,27 @@
 ## [2026-08-27] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
 ## [2026-08-27] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-28] research | Completed an adversarial claimant, Austrian-route and EU-perimeter precheck for an ordinary Krypto-MPfG user, including the one-cent premise, G 178/2024 subsidiarity and transaction-specific challenge scope
+
+## [2026-08-28] ingest | Added official-source records for the 2025 DAC8 corrigendum, the DSB limit on merely future processing, and CJEU Article 15 recipient and copy requirements
+
+## [2026-08-28] output | Added the ordinary-user Go/No-Go preliminary review with evidence gates, exact candidate provisions and a staged cost-control mandate
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 4 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-28] compile | Generalized the public report's cost-control language so private mandate context remains excluded while preserving the staged legal decision gates
+
+## [2026-08-28] verify | Checked all local report links, confidential prompt-language exclusions, official-source provenance and final wiki structure
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 4 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 3 auto-fixed
+
+## [2026-08-28] ingest | Added the official consolidated Directive 2011/16/EU record at the 1 January 2026 DAC8 application date
+
+## [2026-08-28] compile | Finalized the ordinary-user decision tree, separated proof of current processing from access enforcement, and added the independent Article 79 counterroute and its limiting case law
+
+## [2026-08-28] verify | Removed trailing blank lines from the five new source records after the staged publication check

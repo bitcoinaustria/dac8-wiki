@@ -9,3 +9,4 @@
 | [G 178/2024, DSB, BVwG und der DAC8-Bürgerweg](research-report-g178-dsb-bvwg-individualantrag-2026-08-27.md) | report |  |
 | [DAC8 Individualantrag, MiCA, Fundamental Rights, and Wealth-Register Report](research-report-individualantrag-mica-rights-wealth-register-2026-08-27.md) | report |  |
 | [Individualantrag gegen DAC8: systematischer Dreifachcheck der Verfahrenswege](research-report-individualantrag-route-triplecheck-2026-08-27.md) | report |  |
+| [Vorprüfung: gewöhnlicher Nutzer gegen Krypto-MPfG und DAC8](vorpruefung-gewoehnlicher-nutzer-krypto-mpfg-2026-08-28.md) | report |  |

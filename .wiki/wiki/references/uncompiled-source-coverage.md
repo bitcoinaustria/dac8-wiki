@@ -40,9 +40,14 @@ sources:
   - raw/articles/2026-08-27-vwgh-2025-practical-duration.md
   - raw/articles/2026-08-27-vwgh-current-revision-procedure.md
   - raw/articles/2026-08-27-waltio-security-incident.md
-created: 2026-08-27
-updated: 2026-08-27
-verified: 2026-08-27
+  - raw/articles/2026-08-28-cjeu-c154-21-recipient-identity.md
+  - raw/articles/2026-08-28-cjeu-c487-21-access-copy.md
+  - raw/articles/2026-08-28-dsb-future-processing-complaint-limit.md
+  - raw/articles/2026-08-28-eu-dac8-corrigendum-2025-90947.md
+  - raw/articles/2026-08-28-eu-directive-2011-16-consolidated-2026.md
+created: 2026-08-28
+updated: 2026-08-28
+verified: 2026-08-28
 tags: [coverage, uncompiled-sources, backlog, lint-repair]
 confidence: low
 volatility: warm
@@ -95,6 +100,11 @@ This reference page makes the remaining raw-source coverage gap explicit. These 
 | [VwGH 2025 average duration](../../raw/articles/2026-08-27-vwgh-2025-practical-duration.md) | `raw/articles/2026-08-27-vwgh-2025-practical-duration.md` | The VwGH's official facts and figures report a 5.2-month average duration for proceedings completed in 2025. | austria, vwgh, duration, judicial-statistics, revision |
 | [VwGH current revision procedure: deadline, counsel and fee](../../raw/articles/2026-08-27-vwgh-current-revision-procedure.md) | `raw/articles/2026-08-27-vwgh-current-revision-procedure.md` | The VwGH's official FAQ records the six-week revision period, lawyer requirement, EUR 340 fee and the separate rules for suspensive effect. | austria, vwgh, revision, costs, counsel, deadline |
 | [Waltio security-incident disclosure](../../raw/articles/2026-08-27-waltio-security-incident.md) | `raw/articles/2026-08-27-waltio-security-incident.md` | Provider account of a crypto-tax-data breach that exposed emails and financial summary data but not wallet addresses or transaction history. | waltio, crypto, data-breach, provider-source, security |
+| [CJEU C-154/21: Article 15 generally requires actual recipient identity](../../raw/articles/2026-08-28-cjeu-c154-21-recipient-identity.md) | `raw/articles/2026-08-28-cjeu-c154-21-recipient-identity.md` | The CJEU held that a controller generally must identify actual and already known future recipients under Article 15(1)(c), subject to impossibility and manifestly unfounded or excessive requests. | cjeu, gdpr, article-15, recipients, access, primary-court |
+| [CJEU C-487/21: Article 15 copy must reproduce personal data faithfully and intelligibly](../../raw/articles/2026-08-28-cjeu-c487-21-access-copy.md) | `raw/articles/2026-08-28-cjeu-c487-21-access-copy.md` | The CJEU held that an Article 15(3) copy must faithfully and intelligibly reproduce all personal data, including document or database extracts where context is necessary. | cjeu, gdpr, article-15, copy, access, primary-court |
+| [DSB 2023-0.632.875: section 24 DSG complaint requires existing processing](../../raw/articles/2026-08-28-dsb-future-processing-complaint-limit.md) | `raw/articles/2026-08-28-dsb-future-processing-complaint-limit.md` | Official DSB decision distinguishing a complaint about existing unlawful processing from a freestanding request to prohibit only possible future processing. | austria, dsb, section-24-dsg, future-processing, admissibility, adverse-authority |
+| [DAC8 corrigendum: distributed-ledger address references TFR, not MiCA](../../raw/articles/2026-08-28-eu-dac8-corrigendum-2025-90947.md) | `raw/articles/2026-08-28-eu-dac8-corrigendum-2025-90947.md` | Official 2025 corrigendum replacing DAC8's erroneous MiCA reference with Article 3(18) of Regulation (EU) 2023/1113 in the distributed-ledger-address definition and reporting fields. | dac8, corrigendum, directive-2023-2226, tfr, mica, distributed-ledger-address, primary-law |
+| [Directive 2011/16/EU consolidated with DAC8 from 1 January 2026](../../raw/articles/2026-08-28-eu-directive-2011-16-consolidated-2026.md) | `raw/articles/2026-08-28-eu-directive-2011-16-consolidated-2026.md` | Official consolidated DAC text applying from 1 January 2026, incorporating DAC8 and the corrected TFR references for distributed-ledger addresses. | dac, dac8, directive-2011-16, consolidated-law, article-8ad, annex-vi, primary-law |
 
 ## Next Action
 
