@@ -38,13 +38,15 @@ sources:
   - raw/articles/2026-08-27-echr-mn-others-san-marino.md
   - raw/articles/2026-08-27-ecthr-bernh-larsen-tax-server-copy.md
   - raw/articles/2026-08-27-article-263-tfeu-individual-direct-action.md
+  - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
+  - raw/articles/2026-08-28-austrian-bao-243-bescheidbeschwerde.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-28
 tags: [dac8, austria, eu, precedent, standing, proportionality, article-267]
 aliases: [DAC8 case matrix, Austrian EU privacy precedents]
 confidence: high
 volatility: warm
-verified: 2026-08-27
+verified: 2026-08-28
 summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR authorities support, limit, or contradict a citizen DAC8 challenge."
 ---
 
@@ -60,6 +62,7 @@ summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR
 | VfGH G 385/2018; G 178/2024 | DSB → BVwG → Article 144 is a reasonable alternative for statutory data processing; poor first-instance prospects do not change that. | Strongly adverse to a primary direct Article 140 filing. |
 | VfGH G 287/2022 ua | Individual DSB complaints led to BVwG Article 140 applications and successful annulment of section 9(1) DSG. | Direct proof that the alternative route can deliver norm review and annulment. |
 | VfGH G 37-38/2024 | Civil proceedings are generally reasonable and may lead to court-initiated review or a party application after a first-instance merits judgment. | Independent alternative; ordinary cost and poor prospects do not restore direct standing. |
+| Krypto-MPfG sections 2(2) and 19(2); BAO section 243 | The BAO applies mutatis mutandis and the provider report is an `Abgabenerklärung`, but a BAO complaint under section 243 requires a tax-authority Bescheid. | No ordinary pre-report BFG route for the private user has been identified; do not assume one without a concrete user-facing Bescheid and party status. |
 | VfGH G 34/2022; G 231/2021 ua | Section 20a VfGG gives no applicant right to interim relief; an EO interim proceeding cannot itself support a party application. | Direct filing has no unique interim advantage; urgent and merits routes must be separated. |
 | VwGH Ro 2023/04/0028; Ra 2023/04/0076; DSB 2024-0.215.259 | The one-year knowledge-based DSB limit is effective; immediate mandate prohibitions exist but require concrete weighty illegality and claimant-specific imminent danger. | File early; urgent relief is real, fact-heavy and revisable. General future fears do not suffice. |
 | VwGH 2010/07/0171; Ro 2025/04/0021 | An unprovided declaratory order must be necessary and suitable to protect a subjective right prospectively; changed law and concrete punishment risk supported a separate interest in 2013. | No established user route, but potentially important counterauthority for a sanctioned CASP that proves competence, an unresolved duty and current risk. |
@@ -80,7 +83,7 @@ summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR
 | Foto-Frost, 314/85 | A national court may reject invalidity but cannot itself invalidate an EU act. | A genuine DAC8 validity doubt must go to the CJEU. |
 | Unibet, C-432/05 | EU law does not require a standalone action where incidental remedies are effective. | Supports using DSB/BVwG rather than demanding direct review. |
 | État luxembourgeois, C-245/19 and C-246/19 | Article 47 can be satisfied by effective incidental review in tax-information cases. | Adverse to a claimed right to pre-exchange direct action. |
-| C-414/24, Datenschutzbehörde | Article 77 supervisory and Article 79 judicial remedies are concurrent and independent. | Directly contradicts private-remedy exclusivity. |
+| C-414/24, Datenschutzbehörde | The judgment itself restates that Article 77 supervisory and Article 79 judicial remedies are concurrent and independent. It describes a national stay mechanism as a permissible coordination option, not as an already established Austrian DSB power. | Directly contradicts private-remedy exclusivity without deciding the availability or result of a concrete Austrian civil action. |
 | C-655/23, Quirin Privatbank | The GDPR does not itself require a special free-standing preventive injunction independent of erasure. | Limits the civil route without making Article 140 exclusive. |
 | ABNA, C-453/03 ua; Petlichev, C-56/25 | Ordinary national courts can carry directive-validity references and retain Article 267 powers despite constitutional review. | Direct counterexamples to a VfGH monopoly. |
 | Atlanta, C-465/93 | Interim relief based on EU-act invalidity requires serious doubts, a reference, urgency, serious irreparable harm, Union interest and consistency. | Non-VfGH urgent relief exists, but the threshold is high. |

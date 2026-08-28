@@ -147,6 +147,14 @@
 
 ## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
+## [2026-08-28] project | Colocated the private-person VfGH subsidiarity Markdown report and one-page PDF in a durable output project and added a reusable plain legal-research-note template under docs/templates
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed output index
+
+## [2026-08-28] output | Shortened the report status line and removed the redundant footer from the one-page PDF template and concrete report
+
+## [2026-08-28] output | Linked the concise LLM Wiki attribution in the template and concrete report to the repository
+
 ## [2026-08-28] compile | Generalized the public report's cost-control language so private mandate context remains excluded while preserving the staged legal decision gates
 
 ## [2026-08-28] verify | Checked all local report links, confidential prompt-language exclusions, official-source provenance and final wiki structure
@@ -160,3 +168,31 @@
 ## [2026-08-28] compile | Finalized the ordinary-user decision tree, separated proof of current processing from access enforcement, and added the independent Article 79 counterroute and its limiting case law
 
 ## [2026-08-28] verify | Removed trailing blank lines from the five new source records after the staged publication check
+
+## [2026-08-28] output | Added an executive counsel prompt on the admissibility risk of an immediate user Individualantrag, with official judgment links and the user-versus-CASP distinction
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-08-28] ingest | Added the official section 243 BAO Bescheid requirement as a negative route boundary; the external AI review itself was not ingested
+
+## [2026-08-28] compile | Corrected C-414/24 attribution and stay-mechanism scope, recorded the anonymized G 178/2024 publication boundary, and separated a possible later tax appeal from the unproven pre-report BFG route for a private user
+
+## [2026-08-28] output | Replaced the counsel-question checklist and CASP counterfactual in the short report with a narrow, source-linked subsidiarity note for a private-person Individualantrag
+
+## [2026-08-28] verify | Verified the six official report links, one-page PDF rendering and link annotations, source-backed wiki references, and exclusion of copied external-review or confidential prompt language
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed

@@ -12,13 +12,15 @@ sources:
   - raw/articles/2026-08-27-vfgh-v532-2020-smart-meter.md
   - raw/articles/2026-08-27-vfgh-g105-2025-data-monitoring.md
   - raw/articles/2026-08-27-vfgh-g606-2015-registrierkasse.md
+  - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
+  - raw/articles/2026-08-28-austrian-bao-243-bescheidbeschwerde.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-28
 tags: [austria, vfgh, individualantrag, article-140-b-vg, admissibility]
 aliases: [Individual application, Normenkontrollantrag]
 confidence: high
 volatility: warm
-verified: 2026-08-27
+verified: 2026-08-28
 summary: "Article 140 direct review is a high-risk fallback for a DAC8 user with a DSB route, but recent cost-intensive compliance cases make an evidence-backed CASP a strong direct-applicant candidate."
 ---
 
@@ -58,6 +60,8 @@ The 11,129 other collective applicants were rejected because only Tschohl's own 
 An ordinary DAC8 user normally knows their CASP; records are retained far longer than six months; and the DAC2 litigation proves the DSB → BVwG → VfGH/VwGH chain is operational. Those facts materially weaken the retention exception.
 
 For a user, a direct Article 140 application is best treated as a fallback only if the claimant can prove why the DSB route is genuinely incapable of effective protection—not merely slower, inconvenient, or likely to fail. The strongest conceivable distinction is a specific irreversible injury that cannot be prevented through timely DSB/BVwG protection; generic cross-border transfer or breach risk is insufficient. The factual file should include the provider relationship, reportable period/activity, notices/self-certification, actual processing, affected provisions, deadlines, unavailable protection, and requested remedy.
+
+A tax route must be proved rather than inferred from the Krypto-MPfG's BAO references. Although section 19(2) treats the provider report as an `Abgabenerklärung`, section 243 BAO requires a tax-authority Bescheid for a Bescheidbeschwerde. No ordinary pre-report user Bescheid has been identified. A later assessment route to the BFG is not automatically a remedy against the earlier provider processing or report.
 
 ## Different result for the provider
 

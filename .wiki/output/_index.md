@@ -10,3 +10,9 @@
 | [DAC8 Individualantrag, MiCA, Fundamental Rights, and Wealth-Register Report](research-report-individualantrag-mica-rights-wealth-register-2026-08-27.md) | report |  |
 | [Individualantrag gegen DAC8: systematischer Dreifachcheck der Verfahrenswege](research-report-individualantrag-route-triplecheck-2026-08-27.md) | report |  |
 | [Vorprüfung: gewöhnlicher Nutzer gegen Krypto-MPfG und DAC8](vorpruefung-gewoehnlicher-nutzer-krypto-mpfg-2026-08-28.md) | report |  |
+
+## Projects
+
+| Project | Goal |
+|---------|------|
+| [VfGH Subsidiaritäts-Kurzvermerk](projects/vfgh-subsidiaritaets-kurzvermerk/WHY.md) | This project keeps the source-backed Markdown report and its plain PDF export together. The concrete report is limited to the risk that a private-person Individualantrag may be rejected because another reasonable route exists; it is not a full admissibility or |

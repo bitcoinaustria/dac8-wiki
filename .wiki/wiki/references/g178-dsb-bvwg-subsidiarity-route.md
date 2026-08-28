@@ -13,13 +13,16 @@ sources:
   - raw/articles/2026-08-27-vfgh-e-2097-2021-dac2.md
   - raw/articles/2026-08-27-cjeu-foto-frost-c-314-85.md
   - raw/articles/2026-08-27-cjeu-kubera-c-144-23.md
+  - raw/articles/2026-08-27-cjeu-c414-24-parallel-gdpr-remedies.md
+  - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
+  - raw/articles/2026-08-28-austrian-bao-243-bescheidbeschwerde.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-28
 tags: [dac8, austria, vfgh, individualantrag, dsb, bvwg, subsidiarity, article-267]
 aliases: [G 178 DAC8 route, DSB BVwG citizen route]
 confidence: high
 volatility: hot
-verified: 2026-08-27
+verified: 2026-08-28
 summary: "G 178/2024 makes a direct citizen Article 140 application against DAC8 processing highly vulnerable and shifts the primary route to a concrete DSB complaint, BVwG review, and judicial Article 267 or Article 140 escalation."
 ---
 
@@ -47,6 +50,8 @@ The Court rejected the application without reaching the merits:
 6. The applicant's immediate prospects before the DSB are irrelevant to whether that route is reasonable.
 
 The Court expressly left other defects undecided: challenge perimeter, adequate statement of constitutional concerns, and whether the direct applicability of the GDPR itself might independently preclude the Individualantrag. G 178/2024 therefore removes no other admissibility risk; it simply held that the alternative route was already dispositive.
+
+The published judgment anonymizes the applicant and identifies counsel, but no applicant organisation. The holding should not be attributed to a named political party or campaign without a separate public source.
 
 ## Why it maps closely to section 20 Krypto-MPfG
 
@@ -76,6 +81,20 @@ The DAC2 litigation removes any suggestion that this is only a theoretical route
 | The process will be slow and expensive | Weak. G 17/2024 requires special, extraordinary circumstances; ordinary time, cost, and process risk do not suffice. |
 | Data-security and physical-security harm could occur before judgment | Relevant to the merits and to a request for timely protection, but normally insufficient by itself to erase the statutory review chain. The risk must be claimant-specific, technically supported, and linked to the actual dataset and recipients. |
 | The user can rely on the exceptional retention-case route | Usually weak. DAC8 users normally know their CASP, records have a long horizon, and the ordinary route has already operated in DAC2. |
+
+## Boundaries of the alternative-route analysis
+
+### Article 77 and Article 79 GDPR
+
+CJEU C-414/24 itself restates that the Article 77 supervisory route and Article 79 judicial route can be pursued concurrently and independently. C-132/21 is the cited antecedent, not a substitute for C-414/24. Paragraphs 54 and 55 say that a Member State could coordinate parallel proceedings through a stay mechanism. They do not establish that Austrian law already gives the DSB a general power to stay every parallel Krypto-MPfG case.
+
+### Tax and BFG route
+
+Section 2(2) Krypto-MPfG applies the BAO mutatis mutandis, and section 19(2) treats the reporting provider's annual report as an `Abgabenerklärung`. Section 243 BAO, however, provides a complaint against a tax-authority **Bescheid**. No individual pre-report Krypto-MPfG Bescheid addressed to the private user has been identified. A BFG route must therefore not be treated as an established user remedy unless a concrete appealable act and party status are shown. A later tax assessment is a separate route and need not prevent the earlier provider processing or report.
+
+### DSB competence
+
+No Krypto-MPfG provision equivalent to the former section 9 DSG media-privilege exclusion has been identified. Section 20(2) and (3) instead require pre-report information that expressly engages GDPR duties and data-subject rights. This supports examining the DSB route, but does not resolve the concrete controller, jurisdiction, processing act, or relief.
 
 The best possible direct-application distinction is therefore not predicted failure. It is proof that the alternative route cannot provide effective protection before a concrete, irreversible injury. On the present statutory timeline, that is difficult: processing began on 1 January 2026, the first provider report for 2026 is due by 31 July 2027, and the BMF exchange follows within nine months after the reporting year.
 

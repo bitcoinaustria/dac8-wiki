@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-08-27
+Last updated: 2026-08-28
 
 ## Statistics
 
-- Sources: 119 raw source records
+- Sources: 180 raw source records
 - Articles: 22 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
-- Outputs: 4 generated artifacts
-- Last compiled: 2026-08-27
-- Last lint: 2026-08-27
+- Outputs: 7 reports and 1 PDF export
+- Last compiled: 2026-08-28
+- Last lint: 2026-08-28
 
 ## Quick Navigation
 
@@ -25,6 +25,8 @@ Last updated: 2026-08-27
 
 ## Recent Changes
 
+- 2026-08-28: Colocated the VfGH subsidiarity report and PDF in an output project and added a reusable plain legal-research-note template under `docs/templates/`.
+- 2026-08-28: Narrowed the private-person Individualantrag report to the subsidiarity risk; clarified C-414/24, the G 178/2024 publication boundary, and the absence of an identified pre-report BAO/BFG user route.
 - 2026-08-27: Rechecked the private-person Individualantrag thesis and added CJEU C-414/24 on concurrent Article 77 and Article 79 GDPR remedies.
 - 2026-08-27: Deepened G 178/2024 into a citizen DSB → BVwG → VfGH/CJEU procedure, including deadlines, remedies, red-team distinctions, and a filing evidence checklist.
 - 2026-08-27: Current corpus: 118 source records, 22 compiled articles, 4 reports, and 131 checksum-verified full legal documents or official snapshots.
