@@ -15,7 +15,8 @@ This file contains the repository-specific rules for agents. Read [README.md](RE
 - Use exact statutory terms. Define an ambiguous term where it first matters; do not substitute campaign shorthand for a legal definition.
 - Separate enacted law, holdings, party arguments, strategic inference, and missing facts. This prevents advocacy claims from silently becoming evidence.
 - Prefer official legislation, judgments, dockets, and institutional materials. Preserve adverse authority and procedural barriers because early negative findings save time and legal cost.
-- Reports should contain substantive analysis, not recurring prose about their audience, workflow, or intended reader. The canonical audience and purpose live in [VISION.md](VISION.md).
+- Write to the artifact's purpose, not to the conversation that produced it. Treat audience, motivation, desired outcome, and examples as guidance for scope and emphasis, not automatic copy.
+- Include only decision-relevant substance. Prefer precise, evidence-led language; state uncertainty at the relevant claim, and omit prompt restatement, workflow narration, generic filler, and unnecessary reader instructions.
 - A short standalone research/no-legal-advice status line may remain in exported reports because those files can circulate without repository context.
 
 ## Wiki workflow
@@ -54,7 +55,3 @@ Before handoff:
 - Multiple agents may research bounded questions in parallel; the primary agent integrates conflicts and preserves source provenance.
 - Keep changes narrow and reviewable. Preserve unrelated concurrent work.
 - Do not create commits, publish the repository, or mutate external systems unless the user explicitly asks.
-
-## Common gotchas
-
-Record only traps that have caused a real error or wasted work. The first established trap is that conversational context about intended users is agent guidance, not automatic report copy.
