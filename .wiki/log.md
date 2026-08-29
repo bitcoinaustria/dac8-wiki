@@ -147,6 +147,18 @@
 
 ## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
+## [2026-08-29] research | Rechecked the private-person Article 140 subsidiarity risk through independent VfGH-admissibility, remedy-and-interim-relief, and claimant-fact workstreams against current official sources
+
+## [2026-08-29] ingest | Added VfGH G 216/2024 as current counterauthority for the no-penalty-provocation exception
+
+## [2026-08-29] compile | Added the Austrian provider-nexus gate, the private-person admissibility double bind, and the G 216/2024 distinction to the G 178/2024 remedy-chain article
+
+## [2026-08-29] output | Added a focused source-linked deepening report on the private-person subsidiarity risk without expanding the existing one-page counsel note
+
+## [2026-08-29] verify | Checked changed local provenance, official judgment and statute links, the private repository attribution, and exclusion of confidential prompt or external-review language
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed raw-article index; final pass 0 critical, 0 warnings, 0 suggestions
+
 ## [2026-08-28] project | Colocated the private-person VfGH subsidiarity Markdown report and one-page PDF in a durable output project and added a reusable plain legal-research-note template under docs/templates
 
 ## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed output index
@@ -196,3 +208,37 @@
 ## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
 ## [2026-08-28] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-29] compile | Clarified the data-retention outcome sequence by separating the Article 267 reference, CJEU invalidity ruling, and final Austrian annulment
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 3 auto-fixed
+
+## [2026-08-29] research | Ran independent max-reasoning reviews of the international AML/CDD genealogy, empirical AML/KYC effectiveness and crypto-crime measurement, including adverse and positive evidence
+
+## [2026-08-29] ingest | Added public source records for UN, Basel, FATF, EU and OECD origins; effectiveness and side-effect studies; and official, academic and commercial crypto-crime measurement series
+
+## [2026-08-29] compile | Added reference articles separating legal lineage from policy diffusion, compliance outputs from social outcomes, and attributed on-chain crime estimates from total criminality
+
+## [2026-08-29] verify | Preserved the separate CARF/DAC8 tax lineage, qualified historical global estimates and asset-recovery ratios, and labelled commercial crypto-crime figures as dynamic lower-bound attribution series
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-08-29] review | Applied independent second-pass corrections to FATF legal transmission, 1990 standards, UNODC and FATF denominators, vendor attribution, Travel Rule survey wording and KYC causal claims
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-29] verify | Checked all local Markdown targets, public source URL reachability including Europol through the web fetcher, confidential mandate-language exclusions, source counts and clean diff whitespace
+
+## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed

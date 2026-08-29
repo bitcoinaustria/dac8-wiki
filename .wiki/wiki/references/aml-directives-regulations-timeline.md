@@ -2,6 +2,13 @@
 title: "AML Directives and Regulations Timeline"
 category: reference
 sources:
+  - raw/articles/2026-08-29-un-vienna-convention-money-laundering.md
+  - raw/articles/2026-08-29-basel-statement-money-laundering-1988.md
+  - raw/articles/2026-08-29-fatf-forty-recommendations-1990.md
+  - raw/articles/2026-08-29-eu-first-aml-directive-91-308.md
+  - raw/articles/2026-08-29-fatf-history-and-mandate.md
+  - raw/articles/2026-08-29-un-terrorist-financing-convention-1999.md
+  - raw/articles/2026-08-29-un-palermo-convention-aml.md
   - raw/articles/2026-08-27-eu-amld4-amld5-transition.md
   - raw/articles/2026-08-27-eu-criminal-amld6-2018-1673.md
   - raw/articles/2026-08-27-eu-tfr-regulation-2023-1113.md
@@ -11,7 +18,7 @@ sources:
   - raw/articles/2026-08-27-eu-directive-2019-1153-financial-info.md
   - raw/articles/2026-08-27-eu-asset-recovery-directive-2024-1260.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-29
 tags: [eu, aml, timeline, amlr, amla, amld6, tfr, baris]
 aliases: [EU AML timeline, AML package dates]
 confidence: high
@@ -21,6 +28,17 @@ summary: "Controlling dates for the current-to-future transition from AMLD4/5 to
 ---
 
 # AML Directives and Regulations Timeline
+
+## Origins before the current transition
+
+| Date | Development | Legal character |
+|---|---|---|
+| 1988 | Vienna Convention criminalised laundering of drug proceeds; Basel issued non-legal bank principles on customer identification | treaty law after ratification and implementation; supervisory soft law |
+| 1989–1990 | G7 created FATF; the first Forty Recommendations set CDD, records, unusual-transaction review and reporting standards | international standard, not directly enforceable customer law |
+| 1991 | First EU AML Directive translated Vienna and FATF concepts into EU customer-identification, record and reporting duties | binding EU directive |
+| 1999–2001 | terrorist-financing and Palermo instruments broadened the public-international-law base | treaty and UN obligations, followed by FATF and domestic implementation |
+
+The full transmission chain and the separate OECD CARF → DAC8 tax lineage are mapped in [[international-aml-cdd-crypto-genealogy|International AML, CDD and Crypto-Regime Genealogy]] ([article](international-aml-cdd-crypto-genealogy.md)).
 
 | Date | Legal event | Practical meaning |
 |---|---|---|
@@ -50,11 +68,19 @@ National law remains decisive during the transition. A future-dated EU requireme
 
 ## See Also
 
+- [[international-aml-cdd-crypto-genealogy|International AML, CDD and Crypto-Regime Genealogy]] ([International AML, CDD and Crypto-Regime Genealogy](international-aml-cdd-crypto-genealogy.md))
 - [[eu-aml-crypto-regulatory-stack|EU AML Crypto Regulatory Stack]] ([EU AML Crypto Regulatory Stack](../topics/eu-aml-crypto-regulatory-stack.md))
 - [[austrian-aml-crypto-implementation|Austrian AML Crypto Implementation]] ([Austrian AML Crypto Implementation](../topics/austrian-aml-crypto-implementation.md))
 
 ## Sources
 
+- [UN Vienna Convention](../../raw/articles/2026-08-29-un-vienna-convention-money-laundering.md)
+- [Basel 1988 statement](../../raw/articles/2026-08-29-basel-statement-money-laundering-1988.md)
+- [FATF Forty Recommendations 1990](../../raw/articles/2026-08-29-fatf-forty-recommendations-1990.md)
+- [First EU AML Directive](../../raw/articles/2026-08-29-eu-first-aml-directive-91-308.md)
+- [FATF institutional history](../../raw/articles/2026-08-29-fatf-history-and-mandate.md)
+- [UN Terrorist Financing Convention](../../raw/articles/2026-08-29-un-terrorist-financing-convention-1999.md)
+- [UN Palermo Convention](../../raw/articles/2026-08-29-un-palermo-convention-aml.md)
 - [AMLD4 and AMLD5 transition](../../raw/articles/2026-08-27-eu-amld4-amld5-transition.md)
 - [Criminal AMLD6](../../raw/articles/2026-08-27-eu-criminal-amld6-2018-1673.md)
 - [TFR](../../raw/articles/2026-08-27-eu-tfr-regulation-2023-1113.md)

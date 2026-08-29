@@ -2,6 +2,11 @@
 title: "EU AML Crypto Regulatory Stack"
 category: topic
 sources:
+  - raw/articles/2026-08-29-fatf-history-and-mandate.md
+  - raw/articles/2026-08-29-fatf-virtual-assets-standard-2019.md
+  - raw/papers/2026-08-29-fatf-va-vasp-targeted-update-2026.md
+  - raw/articles/2026-08-29-oecd-carf-2022.md
+  - raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md
   - raw/articles/2026-08-27-eu-amlr-regulation-2024-1624.md
   - raw/articles/2026-08-27-eu-amla-regulation-2024-1620.md
   - raw/articles/2026-08-27-eu-amld4-amld5-transition.md
@@ -12,7 +17,7 @@ sources:
   - raw/articles/2026-08-27-eu-asset-recovery-directive-2024-1260.md
   - raw/articles/2026-08-27-eu-directive-2026-799-insolvency-baris-access.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-29
 tags: [eu, aml, amlr, amla, casp, self-hosted-address, baris, crypto-assets]
 aliases: [EU AML package for crypto, AMLD6 crypto, AMLR CASPs]
 confidence: high
@@ -24,6 +29,12 @@ summary: "The EU crypto AML stack is a staged system: current AMLD4/5 national l
 # EU AML Crypto Regulatory Stack
 
 > In 2026, the mistake is to describe the entire 2024 AML package as already applicable. TFR and national AMLD4/5 implementations operate now; most AMLR and recast AMLD6 rules arrive in 2027, while BARIS interconnection follows in 2029.
+
+## Where the crypto layer came from
+
+AMLD5 brought limited fiat/crypto exchange and custody activity into EU AML law in May 2018, before FATF completed its October 2018 and June 2019 virtual-asset revisions. TFR recital 6 is the clearest express EU translation of FATF's June 2019 Recommendations 15 and 16 framework. The resulting provider duty comes from EU law, not directly from the FATF standard.
+
+CARF and DAC8 have a separate OECD tax-transparency lineage. Reuse of AML customer data does not convert DAC8 due diligence or reporting into AML law. See [[international-aml-cdd-crypto-genealogy|International AML, CDD and Crypto-Regime Genealogy]] ([article](../references/international-aml-cdd-crypto-genealogy.md)).
 
 ## Which instrument does what?
 
@@ -101,6 +112,8 @@ For the current Austrian Krypto-MPfG challenge, AML is mostly a baseline and cou
 
 Future AML implementation becomes separately reviewable where Austria enacts concrete account fields, users, access tiers, retention, sanctions, or remedies that exceed the EU floor.
 
+FATF reported Travel Rule legislation in 91 of 109 responding jurisdictions in 2026, but 55 of those 91 reported no findings, directives, enforcement or other supervisory action focused on Travel Rule compliance. The data were self-reported and the question did not cover the entire FATF network. This is an implementation gap, not an estimate of prevention or crime reduction. The measurement limits are collected in [[crypto-crime-measurement-and-aml-evidence|Crypto-Crime Measurement and AML Evidence]] ([article](../references/crypto-crime-measurement-and-aml-evidence.md)).
+
 ## Claims to avoid
 
 - “The EU has banned self-hosted wallets.”
@@ -112,6 +125,8 @@ Future AML implementation becomes separately reviewable where Austria enacts con
 
 ## See Also
 
+- [[international-aml-cdd-crypto-genealogy|International AML, CDD and Crypto-Regime Genealogy]] ([International AML, CDD and Crypto-Regime Genealogy](../references/international-aml-cdd-crypto-genealogy.md))
+- [[crypto-crime-measurement-and-aml-evidence|Crypto-Crime Measurement and AML Evidence]] ([Crypto-Crime Measurement and AML Evidence](../references/crypto-crime-measurement-and-aml-evidence.md))
 - [[austrian-aml-crypto-implementation|Austrian AML Crypto Implementation]] ([Austrian AML Crypto Implementation](austrian-aml-crypto-implementation.md))
 - [[aml-financial-intelligence-and-fundamental-rights|AML Financial Intelligence and Fundamental Rights]] ([AML Financial Intelligence and Fundamental Rights](aml-financial-intelligence-and-fundamental-rights.md))
 - [[mica-tfr-krypto-mpfg-nexus|MiCA, TFR, and the Krypto-MPfG Nexus]] ([MiCA, TFR, and the Krypto-MPfG Nexus](mica-tfr-krypto-mpfg-nexus.md))
@@ -119,6 +134,11 @@ Future AML implementation becomes separately reviewable where Austria enacts con
 
 ## Sources
 
+- [FATF institutional history](../../raw/articles/2026-08-29-fatf-history-and-mandate.md)
+- [FATF virtual-assets standard 2019](../../raw/articles/2026-08-29-fatf-virtual-assets-standard-2019.md)
+- [FATF targeted update 2026](../../raw/papers/2026-08-29-fatf-va-vasp-targeted-update-2026.md)
+- [OECD CARF](../../raw/articles/2026-08-29-oecd-carf-2022.md)
+- [DAC8](../../raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md)
 - [AMLR official source record](../../raw/articles/2026-08-27-eu-amlr-regulation-2024-1624.md)
 - [AMLA official source record](../../raw/articles/2026-08-27-eu-amla-regulation-2024-1620.md)
 - [AMLD4 and AMLD5 transition](../../raw/articles/2026-08-27-eu-amld4-amld5-transition.md)

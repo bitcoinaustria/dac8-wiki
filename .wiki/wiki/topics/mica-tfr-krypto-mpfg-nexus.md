@@ -2,6 +2,8 @@
 title: "MiCA, TFR, and the Krypto-MPfG Nexus"
 category: topic
 sources:
+  - raw/articles/2026-08-29-oecd-carf-2022.md
+  - raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md
   - raw/articles/2026-08-27-eu-mica-regulation-2023-1114.md
   - raw/articles/2026-08-27-eu-tfr-regulation-2023-1113.md
   - raw/articles/2026-08-27-austria-mica-vvg-bgbl-111-2024.md
@@ -14,7 +16,7 @@ sources:
   - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
   - raw/articles/2026-08-27-krypto-mpfg-section-20-retention.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-29
 tags: [mica, tfr, krypto-mpfg, casp, passporting, purpose-limitation, gold-plating]
 aliases: [MiCA DAC8 overlap, CASP regulatory baseline]
 confidence: high
@@ -36,6 +38,8 @@ summary: "MiCA and TFR create extensive CASP records and controls, but they do n
 | DAC8/Krypto-MPfG | tax transparency and automatic exchange | tax identity, residence, and annual reportable transaction aggregates | national implementation and Directive safeguards |
 
 The same underlying transaction may touch all three systems. That operational overlap is not legal identity. Purpose limitation, data minimisation, access, storage, security, and deletion must be justified for each processing purpose.
+
+CARF and DAC8 form a separate OECD tax-transparency lineage from FATF and TFR. Reliance on AML-derived customer information does not convert DAC8 due diligence or reporting into AML law.
 
 ## MiCA baseline
 
@@ -118,6 +122,7 @@ The claimant must answer with a field-by-field and costed counterfactual, eviden
 
 ## See Also
 
+- [[international-aml-cdd-crypto-genealogy|International AML, CDD and Crypto-Regime Genealogy]] ([International AML, CDD and Crypto-Regime Genealogy](../references/international-aml-cdd-crypto-genealogy.md))
 - [[austrian-dac8-implementation|Austrian DAC8 Implementation]] ([Austrian DAC8 Implementation](austrian-dac8-implementation.md))
 - [[dac8-charter-proportionality|DAC8 Charter Proportionality]] ([DAC8 Charter Proportionality](dac8-charter-proportionality.md))
 - [[vfgh-to-cjeu-dac8-route|VfGH-to-CJEU DAC8 Route]] ([VfGH-to-CJEU DAC8 Route](../theses/vfgh-to-cjeu-dac8-route.md))
@@ -126,6 +131,8 @@ The claimant must answer with a field-by-field and costed counterfactual, eviden
 
 ## Sources
 
+- [OECD CARF source record](../../raw/articles/2026-08-29-oecd-carf-2022.md)
+- [DAC8 source record](../../raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md)
 - [MiCA full official text](../../../legal-docs/supporting/eu-mica-pe-cons-54-2022-rev1-full.pdf)
 - [TFR full official text](../../../legal-docs/supporting/eu-tfr-pe-cons-53-2022-rev1-full.pdf)
 - [MiCA-VVG, BGBl. I No. 111/2024](../../../legal-docs/supporting/at-bgbl-i-111-2024-mica-vvg.pdf)

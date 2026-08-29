@@ -2,6 +2,9 @@
 title: "AML Financial Intelligence and Fundamental Rights"
 category: topic
 sources:
+  - raw/papers/2026-08-29-nazzari-reuter-aml-system-2025.md
+  - raw/papers/2026-08-29-fatf-state-of-effectiveness-2022.md
+  - raw/papers/2026-08-29-eba-de-risking-opinion-2022.md
   - raw/articles/2026-08-27-eu-edpb-aml-data-protection-record.md
   - raw/articles/2026-08-27-cjeu-c37-c601-20-aml-register.md
   - raw/articles/2026-08-27-cjeu-c562-20-rodl-partner-aml-risk.md
@@ -13,7 +16,7 @@ sources:
   - raw/articles/2026-08-27-vfgh-g62-2025-wiereg-information.md
   - raw/articles/2026-08-27-vfgh-e2189-2025-wiereg-internal-data.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-29
 tags: [aml, fundamental-rights, charter, data-protection, profiling, access, retention, remedies]
 aliases: [AML privacy case law, AML fundamental rights]
 confidence: high
@@ -80,6 +83,12 @@ The State will rely on the strength of the tax-transparency and AML objectives, 
 
 Directive 2011/16 Article 16 also permits defined reuse of exchanged tax information for AML/CFT. The campaign should therefore challenge unlawful or disproportionate linkage, not state categorically that AML reuse is forbidden.
 
+## Evidence discipline
+
+Technical compliance, report volume, investigative use, confiscation and aggregate crime reduction are separate outcomes. AML information is demonstrably used in investigations, but current reviews do not establish a comparably strong causal reduction in total laundering or predicate crime. False-positive, cost and de-risking claims likewise require a defined stage, denominator and counterfactual.
+
+This uncertainty does not disprove the legitimate public interest. Without more, implementation or output metrics cannot substitute for evidence that a particular data field, access path, retention period or customer category is necessary and proportionate. See [[aml-kyc-effectiveness-evidence|AML and KYC Effectiveness Evidence]] ([article](../references/aml-kyc-effectiveness-evidence.md)).
+
 ## Future AML implementation review
 
 When Austria implements Directive 2024/1640 and AMLR, test the enacted system against a minimum safeguard checklist:
@@ -116,6 +125,8 @@ The EDPB and EDPS record is especially useful for profiling and information-shar
 
 ## See Also
 
+- [[aml-kyc-effectiveness-evidence|AML and KYC Effectiveness Evidence]] ([AML and KYC Effectiveness Evidence](../references/aml-kyc-effectiveness-evidence.md))
+- [[crypto-crime-measurement-and-aml-evidence|Crypto-Crime Measurement and AML Evidence]] ([Crypto-Crime Measurement and AML Evidence](../references/crypto-crime-measurement-and-aml-evidence.md))
 - [[eu-aml-crypto-regulatory-stack|EU AML Crypto Regulatory Stack]] ([EU AML Crypto Regulatory Stack](eu-aml-crypto-regulatory-stack.md))
 - [[austrian-aml-crypto-implementation|Austrian AML Crypto Implementation]] ([Austrian AML Crypto Implementation](austrian-aml-crypto-implementation.md))
 - [[dac8-fundamental-rights-and-public-risks|DAC8 Fundamental Rights and Public Risks]] ([DAC8 Fundamental Rights and Public Risks](dac8-fundamental-rights-and-public-risks.md))
@@ -124,6 +135,9 @@ The EDPB and EDPS record is especially useful for profiling and information-shar
 
 ## Sources
 
+- [Nazzari and Reuter](../../raw/papers/2026-08-29-nazzari-reuter-aml-system-2025.md)
+- [FATF state of effectiveness](../../raw/papers/2026-08-29-fatf-state-of-effectiveness-2022.md)
+- [EBA de-risking opinion](../../raw/papers/2026-08-29-eba-de-risking-opinion-2022.md)
 - [EDPB and EDPS AML/CFT safeguards](../../raw/articles/2026-08-27-eu-edpb-aml-data-protection-record.md)
 - [CJEU C-37/20 and C-601/20](../../raw/articles/2026-08-27-cjeu-c37-c601-20-aml-register.md)
 - [CJEU C-562/20](../../raw/articles/2026-08-27-cjeu-c562-20-rodl-partner-aml-risk.md)

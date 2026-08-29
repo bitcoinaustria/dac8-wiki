@@ -8,11 +8,12 @@ sources:
   - raw/articles/2026-08-27-austria-kontregg-current.md
   - raw/articles/2026-08-27-austria-wiereg-2027-ministerial-draft.md
   - raw/papers/2026-08-27-austria-nra-fatf-2026.md
+  - raw/articles/2026-08-29-fatf-austria-mutual-evaluation-2026.md
   - raw/articles/2026-08-27-fma-mica-transition-2026.md
   - raw/articles/2026-08-27-fma-tfr-guidance.md
   - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-29
 tags: [austria, aml, fm-gwg, casp, wiereg, kontregg, fma, fiu]
 aliases: [Austria crypto AML law, Austrian AML implementation]
 confidence: high
@@ -64,6 +65,8 @@ The explanatory materials expressly contemplate full implementation of FATF Reco
 
 The Austrian National Risk Assessment and FATF evaluation support the public-interest case for effective AML controls. They also report uneven operational effectiveness and resource constraints. More collection therefore cannot be treated as a substitute for a demonstrated enforcement need, accurate analysis, targeted access, and adequate resourcing.
 
+The current evidence base does not permit formal compliance, STR volume or FATF ratings to be treated as a causal measure of reduced laundering. It also does not support a categorical claim that the system has no investigative value. See [[aml-kyc-effectiveness-evidence|AML and KYC Effectiveness Evidence]] ([article](../references/aml-kyc-effectiveness-evidence.md)).
+
 ## Litigation and communications consequences
 
 ### Current Krypto-MPfG Individualantrag
@@ -88,6 +91,7 @@ Review the enacted implementation provision by provision: account and ownership 
 
 ## See Also
 
+- [[aml-kyc-effectiveness-evidence|AML and KYC Effectiveness Evidence]] ([AML and KYC Effectiveness Evidence](../references/aml-kyc-effectiveness-evidence.md))
 - [[eu-aml-crypto-regulatory-stack|EU AML Crypto Regulatory Stack]] ([EU AML Crypto Regulatory Stack](eu-aml-crypto-regulatory-stack.md))
 - [[aml-financial-intelligence-and-fundamental-rights|AML Financial Intelligence and Fundamental Rights]] ([AML Financial Intelligence and Fundamental Rights](aml-financial-intelligence-and-fundamental-rights.md))
 - [[mica-tfr-krypto-mpfg-nexus|MiCA, TFR, and the Krypto-MPfG Nexus]] ([MiCA, TFR, and the Krypto-MPfG Nexus](mica-tfr-krypto-mpfg-nexus.md))
@@ -102,6 +106,7 @@ Review the enacted implementation provision by provision: account and ownership 
 - [Current KontRegG](../../raw/articles/2026-08-27-austria-kontregg-current.md)
 - [WiEReG 2027 ministerial draft](../../raw/articles/2026-08-27-austria-wiereg-2027-ministerial-draft.md)
 - [Austria NRA and FATF evaluation](../../raw/papers/2026-08-27-austria-nra-fatf-2026.md)
+- [FATF Austria Mutual Evaluation correction record](../../raw/articles/2026-08-29-fatf-austria-mutual-evaluation-2026.md)
 - [FMA MiCA transition](../../raw/articles/2026-08-27-fma-mica-transition-2026.md)
 - [FMA TFR guidance](../../raw/articles/2026-08-27-fma-tfr-guidance.md)
 - [Krypto-MPfG official publication](../../raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md)

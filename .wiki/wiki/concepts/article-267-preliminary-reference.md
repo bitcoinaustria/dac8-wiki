@@ -8,14 +8,16 @@ sources:
   - raw/articles/2026-08-27-cjeu-foto-frost-c-314-85.md
   - raw/articles/2026-08-27-cjeu-recommendations-article-267.md
   - raw/articles/2026-08-27-vfgh-data-retention-reference-g-47-12.md
+  - raw/articles/2026-08-27-cjeu-digital-rights-ireland.md
+  - raw/articles/2026-08-27-vfgh-data-retention-final-decision-full-de.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-29
 tags: [article-267-tfeu, cjeu, vfgh, preliminary-reference, eu-act-validity]
 aliases: [Vorabentscheidung, EuGH Vorlage, CJEU reference]
 confidence: high
 volatility: cold
-verified: 2026-08-27
-summary: "Article 267 lets the VfGH refer a necessary DAC8 interpretation or validity question to the CJEU; the individual proposes but cannot compel the reference."
+verified: 2026-08-29
+summary: "Article 267 lets a national court refer a necessary DAC8 interpretation or validity question to the CJEU; the reference remains an intermediate step in a live national case."
 ---
 
 # Article 267 Preliminary Reference
@@ -44,9 +46,16 @@ Under Foto-Frost, the VfGH may reject an invalidity argument but cannot itself i
 
 The VfGH retains power to repeal Austrian implementing provisions. The analysis must identify whether the defect is mandated by DAC8 or is an Austrian choice.
 
+## Return to the national proceeding
+
+A preliminary ruling does not replace the national court's disposition of the underlying case. In the Austrian data-retention litigation, the VfGH stayed its proceedings in 2012, the CJEU declared Directive 2006/24/EC invalid in April 2014, and the VfGH then resumed the cases and annulled the Austrian core provisions in June 2014.
+
+For DAC8 analysis, three questions therefore remain separate: what the CJEU decides about EU law, how the competent national court disposes of the pending case, and when any resulting relief becomes effective. Obtaining a reference is a procedural milestone, not by itself a final national remedy.
+
 ## See Also
 
 - [[individualantrag-article-140|Individualantrag under Article 140 B-VG]] ([Individualantrag under Article 140 B-VG](individualantrag-article-140.md)) — admissible national case required first.
+- [[epicenter-vorratsdatenspeicherung-precedent|Epicenter/AKVorrat Data-Retention Precedent]] ([Epicenter/AKVorrat Data-Retention Precedent](../references/epicenter-vorratsdatenspeicherung-precedent.md)) — concrete sequence from reference to EU invalidity and national annulment.
 - [[dac8-charter-proportionality|DAC8 Charter Proportionality]] ([DAC8 Charter Proportionality](../topics/dac8-charter-proportionality.md)) — candidate merits questions.
 - [[vfgh-to-cjeu-dac8-route|VfGH-to-CJEU DAC8 Route]] ([VfGH-to-CJEU DAC8 Route](../theses/vfgh-to-cjeu-dac8-route.md)) — combined route.
 
@@ -58,3 +67,5 @@ The VfGH retains power to repeal Austrian implementing provisions. The analysis 
 - [Foto-Frost C-314/85](../../raw/articles/2026-08-27-cjeu-foto-frost-c-314-85.md)
 - [CJEU procedural recommendations](../../raw/articles/2026-08-27-cjeu-recommendations-article-267.md)
 - [VfGH data-retention reference](../../raw/articles/2026-08-27-vfgh-data-retention-reference-g-47-12.md)
+- [CJEU Digital Rights Ireland and Seitlinger](../../raw/articles/2026-08-27-cjeu-digital-rights-ireland.md)
+- [VfGH final data-retention judgment](../../raw/articles/2026-08-27-vfgh-data-retention-final-decision-full-de.md)

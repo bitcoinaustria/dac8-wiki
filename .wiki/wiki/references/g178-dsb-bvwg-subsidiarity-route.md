@@ -16,13 +16,14 @@ sources:
   - raw/articles/2026-08-27-cjeu-c414-24-parallel-gdpr-remedies.md
   - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
   - raw/articles/2026-08-28-austrian-bao-243-bescheidbeschwerde.md
+  - raw/articles/2026-08-29-vfgh-g216-2024-awg-direct-application.md
 created: 2026-08-27
-updated: 2026-08-28
+updated: 2026-08-29
 tags: [dac8, austria, vfgh, individualantrag, dsb, bvwg, subsidiarity, article-267]
 aliases: [G 178 DAC8 route, DSB BVwG citizen route]
 confidence: high
 volatility: hot
-verified: 2026-08-28
+verified: 2026-08-29
 summary: "G 178/2024 makes a direct citizen Article 140 application against DAC8 processing highly vulnerable and shifts the primary route to a concrete DSB complaint, BVwG review, and judicial Article 267 or Article 140 escalation."
 ---
 
@@ -35,6 +36,12 @@ summary: "G 178/2024 makes a direct citizen Article 140 application against DAC8
 This article uses the Krypto-MPfG terms precisely. A **Kryptowert-Nutzer** under section 7(1) is a natural person or entity that is the customer of a reporting crypto-asset service provider and for whom reportable transactions are carried out. A **meldepflichtiger Nutzer** under section 7(4) is such a user who is a reportable person resident in a participating jurisdiction. A **non-reportable user** is only a working description for a user who does not meet section 7(4) for the relevant reporting period; it is not a separate statutory term. Citizenship alone does not decide this status, and self-custody alone does not create it.
 
 “CASP” is used as readable shorthand. In a concrete proceeding, the entity's status as a reporting provider under sections 5 and 15 Krypto-MPfG, the relevant GDPR controller, and the correct respondent must be established separately.
+
+## Gate zero: Austrian provider nexus
+
+The user's Austrian residence does not by itself make a foreign crypto provider subject to the Austrian Krypto-MPfG. Section 15 attaches the reporting and due-diligence duties to the provider through its Austrian MiCA authorization or notification, or through the statute's alternative residence, organization, management, branch, or regular-place tests. Sections 16 and 17 can also displace Austrian reporting where the required duties are fulfilled elsewhere.
+
+A private-person case therefore needs the exact contracting and processing entity, the applicable section 15 limb, and any section 16 or 17 position before it can attribute a processing act to the Austrian provisions. Without that nexus the application may target the wrong law. With an identified Austrian reporting provider and actual processing, however, the DSB route becomes correspondingly concrete.
 
 ## What G 178/2024 decided
 
@@ -80,7 +87,17 @@ The DAC2 litigation removes any suggestion that this is only a theoretical route
 | The user does not know which authority will receive the data | Weak for section 20(1) source processing because the CASP is known. It may matter for later access and onward-transfer evidence, not for the availability of the first complaint. |
 | The process will be slow and expensive | Weak. G 17/2024 requires special, extraordinary circumstances; ordinary time, cost, and process risk do not suffice. |
 | Data-security and physical-security harm could occur before judgment | Relevant to the merits and to a request for timely protection, but normally insufficient by itself to erase the statutory review chain. The risk must be claimant-specific, technically supported, and linked to the actual dataset and recipients. |
-| The user can rely on the exceptional retention-case route | Usually weak. DAC8 users normally know their CASP, records have a long horizon, and the ordinary route has already operated in DAC2. |
+| The user can rely on the exceptional retention-case route | Usually weak. DAC8 users normally know their CASP, no comparable short deletion cycle has been identified for the disputed processing, and the ordinary route has already operated in DAC2. |
+| A regulated company could use a direct application rather than provoke a penalty proceeding | Not transferable without more. G 216/2024 concerned companies that were themselves addressees of penalized duties. A private user is not required to breach the CASP's duty and still has the data-subject routes identified in G 178/2024. |
+
+## The private-person admissibility double bind
+
+The current private-person theory has a structural tension:
+
+- Without an identified section 15 provider and proven post-1 January 2026 processing, current and direct effect may remain only potential.
+- Once those facts are proved, the same controller and processing act normally supply the concrete subject matter for a section 24 DSG complaint and later BVwG review.
+
+This does not make a direct application logically impossible. It means that the application would need claimant-specific, exceptional facts showing why the ordinary route cannot provide effective protection before the precise injury occurs. The data-retention exception in G 47/2012 involved numerous partly unknowable providers, continuously renewed storage, and a short deletion cycle capable of defeating constitutional review. A known CASP, the absence of a comparable short statutory deletion cycle for the disputed Krypto-MPfG processing, and the statutory lead time before the first report point in the opposite direction unless the evidence shows otherwise.
 
 ## Boundaries of the alternative-route analysis
 

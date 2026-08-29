@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-08-28
+Last updated: 2026-08-29
 
 ## Statistics
 
-- Sources: 180 raw source records
-- Articles: 22 compiled wiki articles
+- Sources: 215 raw source records
+- Articles: 25 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
-- Outputs: 7 reports and 1 PDF export
-- Last compiled: 2026-08-28
-- Last lint: 2026-08-28
+- Outputs: 9 reports and 1 PDF export
+- Last compiled: 2026-08-29
+- Last lint: 2026-08-29
 
 ## Quick Navigation
 
@@ -25,6 +25,8 @@ Last updated: 2026-08-28
 
 ## Recent Changes
 
+- 2026-08-29: Added the international AML/CDD genealogy, an effectiveness evidence review, and a crypto-crime measurement audit with separate legal, official, academic, and commercial evidence classes.
+- 2026-08-29: Separated the Austrian data-retention litigation's Article 267 reference, CJEU invalidity ruling, and final VfGH annulment as distinct legal events.
 - 2026-08-28: Colocated the VfGH subsidiarity report and PDF in an output project and added a reusable plain legal-research-note template under `docs/templates/`.
 - 2026-08-28: Narrowed the private-person Individualantrag report to the subsidiarity risk; clarified C-414/24, the G 178/2024 publication boundary, and the absence of an identified pre-report BAO/BFG user route.
 - 2026-08-27: Rechecked the private-person Individualantrag thesis and added CJEU C-414/24 on concurrent Article 77 and Article 79 GDPR remedies.
