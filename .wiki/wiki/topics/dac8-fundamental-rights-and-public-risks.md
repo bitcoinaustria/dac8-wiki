@@ -67,7 +67,7 @@ The strongest provider theory is a costed, technically workable reportable-user-
 
 Article 7 B-VG and the equality principle can address unjustified differences between comparable businesses or users. “Austrian providers are worse off” is not enough: the comparison group, home-state/passporting position, actual additional duty, cost, and absence of a rational justification must be proved.
 
-Precision and foreseeability become important where section 20(1) mandates storage but the deletion rule for never-transmitted complete profiles is unclear. The claim must present the actual provider interpretation, retention schedule, and deletion response rather than assert two incompatible readings as fact.
+Precision and foreseeability become important where section 20(1) mandates storage but the deletion rule for never-transmitted section 18 aggregate profiles is unclear. The claim must present the actual provider interpretation, retention schedule, and deletion response rather than assert two incompatible readings as fact.
 
 ### Effective remedy
 

@@ -130,7 +130,7 @@ Do not combine the user and CASP into one undifferentiated application. They rel
 
 For the Austrian excess, the strongest interpretation question is:
 
-> Do Article 8ad and Annex VI Sections II and III of Directive 2011/16/EU, as amended by Directive (EU) 2023/2226, read with Directive Article 25 and GDPR Articles 5(1)(b), (c), and (e), 6(3), and 23, permit or require national law to make a provider determine, collect, store, and process the complete reportable transaction dataset for every transaction and crypto-asset of every customer regardless of reportable-user status?
+> Do Article 8ad and Annex VI Sections II and III of Directive 2011/16/EU, as amended by Directive (EU) 2023/2226, read with Directive Article 25 and GDPR Articles 5(1)(b), (c), and (e), 6(3), and 23, permit or require national law to make a provider determine, collect, store, and process, for every customer regardless of reportable-user status, the transaction-derived inputs and annual aggregate information described in section 18 Krypto-MPfG?
 
 This question targets section 20(1), not DAC8 as a whole. Universal self-certification can be separated from universal transaction-profile creation.
 

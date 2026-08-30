@@ -12,8 +12,12 @@ sources:
   - raw/articles/2026-08-27-netherlands-dac8-implementation-act.md
   - raw/articles/2026-08-27-vfgh-g105-2025-data-monitoring.md
   - raw/articles/2026-08-27-vfgh-g606-2015-registrierkasse.md
+  - raw/articles/2026-08-30-austria-krypto-mpfg-section-39-records.md
+  - raw/articles/2026-08-30-vfgh-g7-2012-retention-maximum.md
+  - raw/articles/2026-08-30-vfgh-b1187-2013-financial-data-retention.md
+  - raw/articles/2026-08-30-vfgh-e3249-2016-retention-necessity.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-30
 tags: [dac8, austria, gold-plating, krypto-mpfg, claimant, standing, proportionality]
 aliases: [Krypto-MPfG overimplementation audit, DAC8 claimant matrix]
 confidence: high
@@ -30,12 +34,13 @@ summary: "Primary-text audit identifying section 20(1) as the real Austrian exce
 
 | Point | Primary-text result | Litigation assessment |
 |---|---|---|
-| Section 20(1), full section 18 processing for every customer, transaction, and asset | Clear Austrian addition. DAC8 requires universal due diligence to identify status but structures transaction reporting around reportable users. | Strongest national issue; medium merits until necessity, safeguards, and a less intrusive counterfactual are proved. |
-| Never-transmitted non-reportable-user data | Section 20(1) mandates storage and processing, but the Act has no express deletion deadline for the complete raw dataset. Section 39's enacted wording covers compliance documents; the materials say documents and information. | Strong legal-certainty/storage-limitation issue. Stronger with an actual retention schedule and deletion refusal. GDPR Article 5(1)(e) is the main State answer. |
-| Section 20(4), ten years | Applies only to information transmitted under the Act. DAC8 permits a five-to-ten-year corridor for relevant records. | A ten-year proportionality argument remains possible for transmitted data; the claim that section 20(4) retains never-reported profiles for ten years is wrong. |
+| Section 20(1), section 18 information derived from every customer's transactions and assets | Clear Austrian all-customer processing language. DAC8 requires universal due diligence to identify status but structures transaction reporting around reportable users. The provision does not itself prove itemised reporting or retention of every raw ledger field. | Strongest national issue; medium merits until the actual processing scope, necessity, safeguards, and a less intrusive counterfactual are proved. |
+| Section 39, ten-year compliance records | The enacted text omits Annex VI Section V.B.1's final reportability phrase, but Annex VI covers both reporting and due-diligence records and the phrase's scope is ambiguous. | Unresolved interpretation issue, not an established national excess. It matters only with a completed non-reportable determination and proved covered records. |
+| Never-transmitted non-reportable-user data | Section 20(1) mandates storage and processing of the reportable information derived from all transactions, but the Act has no express deletion deadline for a never-transmitted section 18 aggregate profile outside records covered by section 39. The existence and content of that profile require provider evidence. | Storage-limitation issue requiring the actual provider dataset, legal basis, schedule and deletion response. GDPR Article 5(1)(e) is the main State answer. |
+| Section 20(4), ten-year deletion date | Applies only to information transmitted under the Act. VfGH G 7/2012 supports construing a statutory deletion date as an outer limit with earlier necessity-based deletion. | A facial claim that section 20(4) mandates ten years of active storage is weak. Challenge an actual refusal or absence of necessity review instead. |
 | Section 22(2), annual re-arising registration duty | Austrian enforcement device not stated verbatim in DAC8. It concerns non-MiCA operators, not an ordinary Article 60/63 CASP. | Weak facial claim because DAC8 leaves effective, proportionate, dissuasive enforcement to Member States. Reassess only after actual cumulative sanctions. |
 | Section 15(1)(1), Article 60 nexus | Best read conformingly as Austrian home-state allocation; MiCA Article 65 governs ordinary passporting. | No present defect without an Austrian authority applying it to a foreign-home passported provider and creating duplicate reporting. Obtain a written authority position first. |
-| Krypto-MPfG-DV | Technical transmission format implementing the statutory mandate. | Do not challenge without identifying a concrete requirement outside its statutory authorisation. |
+| Krypto-MPfG-DV | Requires transmission of the section 18 information through the FinanzOnline portal webservice and refers to separate BMF XML/WSDL specifications. | Do not challenge without obtaining the operative specification and identifying a concrete requirement outside statutory authorisation. |
 
 ## Why section 20(1) is the real excess
 
@@ -58,23 +63,24 @@ The State will rely on changing tax residence, corrections, auditability, provid
 
 Section 20(4) says transmitted information must be deleted ten years after the reporting period. It is not the source of a ten-year mandate for a user whose transaction information is never reported.
 
-Two alternative cases remain:
+Three distinct cases remain:
 
-1. Under the narrow enacted wording of section 39, full transaction profiles of non-reportable users have no clear Krypto-MPfG retention and deletion period. The issue is foreseeability and storage limitation, subject to the State's answer that directly applicable GDPR supplies the limit.
-2. If the authority or provider reads section 39 broadly to include all underlying transaction information, the concrete ten-year retention of never-reportable data can be challenged for strict necessity.
+1. Section 39 requires ten-year retention of covered compliance records and omits DAC8 Annex VI's final reportability phrase. Because Annex VI also covers due-diligence records, determine the phrase's correct scope and which records the provider treats as covered before alleging an excess.
+2. A never-transmitted section 18 aggregate profile outside section 39 has no clear Krypto-MPfG deletion period. Whether the provider creates that profile, and which transaction inputs it retains for this tax purpose, are factual questions. The issue is storage limitation, subject to the State's answer that directly applicable GDPR supplies the limit.
+3. Section 20(4)'s ten-year deletion date for transmitted information can plausibly operate as a ceiling. The stronger case is an actual refusal to delete when necessity ends, not automatic facial invalidity.
 
-Do not plead both factual readings as simultaneously established. Obtain the CASP's retention schedule, backups/deletion logic, Article 15 answer, and written legal basis.
+VfGH B 1187/2013 upheld necessary automated retention and required destruction only for separate paper records; E 3249/2016 concerned an intimate paper file. They support an effective decision and current-necessity assessment only by analogy for routine electronic DAC8 data. Do not plead the different datasets and legal periods as one undifferentiated ten-year store. Obtain the CASP and authority retention schedules, backups/deletion logic, Article 15 answers and written legal bases.
 
 ## Claimant and route matrix
 
 | Claimant | Best issue | Best route | Main weakness |
 |---|---|---|---|
 | Austria-home CASP | Section 20(1) incremental pipeline, storage, security, and compliance burden | Direct Article 140 application if section 15 status is undisputed and no ordinary determination route is available | Overall WFA costs do not isolate the Austrian excess; tax-compliance merits precedents are deferential. |
-| Genuinely non-reportable user processed under section 20 | Universal creation/storage despite a final non-reportable status | Article 15/17/18 request → section 24 DSG complaint → BVwG → request Articles 267/140 review | Must prove current non-reportable status and actual processing/retention; direct Article 140 is likely blocked by this route. |
+| Genuinely non-reportable user processed under section 20 | Universal creation/storage after the provider completed a non-reportable determination | Article 15/17/18 request → section 24 DSG complaint → BVwG → request Articles 267/140 review | Must prove the completed determination and actual processing/retention; direct Article 140 is likely blocked by this route. |
 | Reportable Austrian user | DAC8's mandatory EU reporting and Charter validity | Same DSB/BVwG route | Closest DAC2 precedent is strongly adverse; cannot isolate the national non-reportable-user excess. |
 | Foreign-home Article 60 entity passporting into Austria | Possible duplicate host-state reporting | Written BMF/FAG position first; litigate only if Austria asserts the duty | Conforming home-state interpretation likely eliminates the issue. |
 
-Citizenship is irrelevant. A non-reportable user needs sole tax residence in a state that is not participating at the relevant date, no participating-state dual residence, a real Austrian statutory nexus, and post-1 January 2026 processing. An Austrian tax resident is normally reportable.
+Citizenship is irrelevant. A non-reportable user must have no tax residence in any participating state, together with a real Austrian statutory nexus and post-1 January 2026 processing. For existing users, section 28(3) permits self-certification acquisition until 1 January 2027 and section 33(2) permits due-diligence completion by the end of the reporting period. Treat status as final only after the provider has actually completed that determination. An Austrian tax resident is normally reportable.
 
 The strongest overall design is coordinated but separate proceedings: a CASP Article 140 application on its own rights and costs, a non-reportable-user DSB case against the national excess, and, if desired, a reportable-user DSB case on DAC8 validity. A blended joint application risks mismatched standing, provisions, and routes.
 
@@ -93,11 +99,13 @@ The official WFA estimates EUR 500,000 implementation and EUR 425,000 annual cos
 
 The WFA establishes materiality, not the incremental constitutional violation.
 
+For downstream use, access and authority-side retention, see [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md)).
+
 ## Candidate Article 267 interpretation question
 
-> Do Article 8ad and Annex VI Sections II and III of Directive 2011/16/EU, as amended by Directive (EU) 2023/2226, read with Article 25 of that Directive and GDPR Articles 5(1)(b), (c), and (e), 6(3), and 23, permit or require national law to make a reporting crypto-asset service provider determine, collect, store, and process all transaction information corresponding to section 18 Krypto-MPfG for all transactions and crypto-assets of every customer regardless of whether that customer is a reportable user?
+> Do Article 8ad and Annex VI Sections II and III of Directive 2011/16/EU, as amended by Directive (EU) 2023/2226, read with Article 25 of that Directive, GDPR Articles 5(1)(b), (c), and (e), 6(3), and 23, and Charter Articles 7, 8 and 52, preclude national law from requiring a reporting crypto-asset service provider to determine, collect, store and process, for every customer regardless of reportable-user status, the transaction-derived inputs and annual aggregate information described in section 18 Krypto-MPfG?
 
-This narrow interpretation question is more decision-relevant to the Austrian excess than a directive-wide surveillance question. If the CJEU answers that DAC8 neither requires nor authorises that extra processing, the national court can address section 20(1) without first invalidating DAC8.
+This narrow interpretation question is more decision-relevant to the Austrian excess than a directive-wide surveillance question. The absence of an EU mandate or express authorisation would not itself invalidate Austria's Article 6(3) legal basis; the question is whether the combined EU data-protection rules preclude that additional processing.
 
 ## Sources
 

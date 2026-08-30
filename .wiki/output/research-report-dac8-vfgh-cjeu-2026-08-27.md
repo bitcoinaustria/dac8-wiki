@@ -148,7 +148,7 @@ Die jährlich neu entstehende Registrierungspflicht betrifft registrierungspflic
 
 ### Krypto-MPfG-DV
 
-Die Durchführungsverordnung regelt das technische Übermittlungsformat. Ohne konkrete Anforderung außerhalb der gesetzlichen Ermächtigung oder des EU-Formats ist ein Verordnungsprüfungsantrag nicht sinnvoll. Die bloße Existenz einer technischen Durchführungsvorschrift ist kein eigener Angriffspunkt.
+Die Durchführungsverordnung ordnet die Übermittlung der in § 18 Krypto-MPfG genannten Informationen über das FinanzOnline-Portal-Webservice an und verweist für XML/WSDL auf gesonderte BMF-Spezifikationen. Ohne die operative Spezifikation und eine konkrete Anforderung außerhalb der gesetzlichen Ermächtigung ist ein Verordnungsprüfungsantrag nicht sinnvoll. Die bloße Existenz der technischen Durchführungsvorschrift ist kein eigener Angriffspunkt.
 
 ### Erwerbsfreiheit, Gleichheit und Erwägungsgrund 12
 

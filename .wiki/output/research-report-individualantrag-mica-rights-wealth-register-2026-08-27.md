@@ -55,7 +55,7 @@ Existing MiCA or TFR data can reduce the CASP's marginal cost. They do not autom
 
 MiCA Articles 60 and 65 also require home-state precision. Article 60 is the notification route for specified regulated entities in their home state; Article 65 governs passported cross-border services. An Austria-home provider is the cleanest section 15 claimant. A foreign-home provider needs an actual Austrian duplicate demand after sections 16 and 17 are considered.
 
-Section 20(4) must not be misstated. Its ten-year deletion rule is worded for information transmitted under the Act. Section 39 concerns compliance documentation. The period for complete section 20(1) profiles that are never transmitted remains an interpretation, precision, and storage-limitation issue to prove from the actual provider system; it is not a confirmed universal ten-year raw-data rule.
+Section 20(4) must not be misstated. Its ten-year deletion rule is worded for information transmitted under the Act. Section 39 concerns compliance documentation. The period for section 20(1) tax profiles that are never transmitted remains an interpretation, precision, and storage-limitation issue to prove from the actual provider system; it is not a confirmed universal ten-year raw-data rule.
 
 ## Fundamental-rights case
 

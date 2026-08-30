@@ -8,7 +8,7 @@ sources:
   - raw/articles/2026-08-27-dac8-com-unproven-effectiveness.md
   - raw/articles/2026-08-27-bull-bitcoin-conseil-etat-action.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-08-30
 tags: [dac8-com, bull-bitcoin, source-audit, proportionality, factual-claims]
 aliases: [Bull Bitcoin DAC8 arguments]
 confidence: high
@@ -26,7 +26,7 @@ summary: "Primary-source audit separating Bull Bitcoin's legally useful DAC8 arg
 - Reporting is systematic and does not depend on individualized tax suspicion or a de minimis customer threshold.
 - Reported identity fields include name, address, tax residence, TIN, and—for individuals—date and place of birth where applicable.
 - Reporting begins for the 2026 period, with the first inter-authority exchange due in 2027.
-- The annual report contains per-asset and per-category values, units, and transaction counts, including aggregate outward transfers to DLT addresses not known to be associated with a qualifying intermediary.
+- The annual report contains per-asset category aggregates. Most activity categories include value, units and count; the separate outward-transfer field contains value and units for DLT addresses not known by the provider to be associated with a VASP or financial institution, but no address or transaction count.
 - Linking civil identity/home-address information to a crypto activity profile creates a plausible privacy and physical-security risk. A court filing still needs evidence of threat probability, access paths, and actual correlation capability.
 
 ## Requires qualification
@@ -48,6 +48,8 @@ summary: "Primary-source audit separating Bull Bitcoin's legally useful DAC8 arg
 
 The durable argument is not “DAC8 reports every wallet transaction.” It is that suspicionless identity-linked annual profiling across crypto-asset categories may be disproportionate when exact fields, pre-report processing, retention, access, security, remedies, and less intrusive alternatives are assessed together. The merits comparison must include the adverse Austrian DAC2 decisions and CJEU C-623/22, not only Digital Rights Ireland.
 
+For the exact field and inference boundaries, see [[dac8-field-necessity-and-alternatives|DAC8 Field Necessity and Less-Intrusive Alternatives]] ([DAC8 Field Necessity and Less-Intrusive Alternatives](dac8-field-necessity-and-alternatives.md)) and [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md)).
+
 ## Sources
 
 - [DAC8](../../../legal-docs/core/eu-dac8-directive-2023-2226.pdf)
@@ -55,4 +57,3 @@ The durable argument is not “DAC8 reports every wallet transaction.” It is t
 - [Austrian Krypto-MPfG](../../../legal-docs/core/at-bgbl-i-96-2025-krypto-mpfg.pdf)
 - [Commission 2025 DAC evaluation](../../../legal-docs/supporting/eu-com-2025-695-dac-evaluation.pdf)
 - [ECA Special Report 03/2021](../../../legal-docs/supporting/eu-eca-special-report-03-2021.pdf)
-

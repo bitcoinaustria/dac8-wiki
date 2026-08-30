@@ -38,15 +38,15 @@ Providers generally report the preceding calendar year by 31 July. Tax authoriti
 
 Section 18 requires identifying information and annual transaction aggregates by crypto-asset and category. The exact fields matter: the statute does not justify describing every reported record as a full raw transaction history.
 
-Section 20 is broader at the provider-processing layer. It requires determination, collection, storage, and processing of the section 18 information for all customers, transactions, and crypto-assets regardless of final reportability. It also requires user notice before the first report. Section 20(4)'s ten-year deletion horizon applies only to information transmitted under the Act, not expressly to a never-reported customer's complete raw profile.
+Section 20 is broader at the provider-processing layer. It requires determination, collection, storage, and processing of the section 18 information for all customers with respect to all transactions and crypto-assets, regardless of final reportability. It also requires user notice before the first report. Section 20(4)'s ten-year deletion horizon applies only to information transmitted under the Act, not expressly to a never-reported customer's transaction-derived tax profile. The provision does not itself prove retention of every raw ledger field.
 
-Section 39 separately retains documents evidencing reporting and due-diligence steps for ten years. Its enacted wording refers to documents; the explanatory materials speak of documents and information. The Act therefore leaves a significant interpretation and legal-certainty question about the retention and deletion rule for complete section 20(1) data that is never transmitted.
+Section 39 separately retains documents evidencing reporting and due-diligence steps for ten years. Its enacted wording refers to documents; the explanatory materials speak of documents and information. The Act therefore leaves a significant interpretation and legal-certainty question about the retention and deletion rule for section 20(1) information that is never transmitted.
 
 Sections 36 and 38 structure user self-certification and eventual transaction blocking where required information remains missing after statutory requests and reminders.
 
 ## Gold-plating seam
 
-DAC8 Annex VI Section III requires due diligence and self-certification to identify reportable users. Section II frames transaction reporting around reportable users. Austria nevertheless expressly requires full section 18 processing for every customer and transaction. Germany and the Netherlands demonstrate that universal self-certification can coexist with reportable-user-specific transaction aggregation.
+DAC8 Annex VI Section III requires due diligence and self-certification to identify reportable users. Section II frames transaction reporting around reportable users. Austria nevertheless expressly requires section 18 information to be processed for every customer with respect to every transaction. Germany and the Netherlands demonstrate that universal self-certification can coexist with reportable-user-specific transaction aggregation. The actual Austrian XML/WSDL or a submission example remains necessary to establish how the domestic portal segments the aggregate fields.
 
 The textual excess is clear; illegality is not automatic because DAC8 contains no obvious maximum-harmonisation rule. The constitutional and EU-law question is whether the additional processing is strictly necessary, sufficiently precise, time-limited, and safeguarded under GDPR data minimisation and storage limitation, Charter Articles 7, 8, and 52(1), and section 1 DSG.
 

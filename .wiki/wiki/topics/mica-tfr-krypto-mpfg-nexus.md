@@ -89,7 +89,7 @@ Future AMLR generally applies from 10 July 2027. Its five-year retention baselin
 
 ## Krypto-MPfG delta
 
-The strongest distinct Austrian provision remains section 20(1): it requires the section 18 information to be determined, collected, stored, and processed for every customer, every transaction, and every crypto-asset irrespective of reportable-user status.
+The strongest distinct Austrian provision remains section 20(1): it requires the section 18 information to be determined, collected, stored, and processed for every customer with respect to every transaction and crypto-asset, irrespective of reportable-user status. This is the transaction-input and tax-processing layer. Section 18 still defines the routine report as annual asset-and-category aggregates; section 20(1) does not by itself establish transaction-by-transaction transmission or retention of every possible raw ledger field.
 
 The best counterfactual is not “no regulation.” It is:
 
@@ -100,7 +100,7 @@ The best counterfactual is not “no regulation.” It is:
 
 That counterfactual isolates the disputed increment and makes necessity testable.
 
-Section 20(4) should not be overstated: its ten-year deletion rule is worded for information transmitted under the Act. Section 39 more clearly retains documentation of reporting and due-diligence steps for ten years. The retention rule for complete section 20(1) profiles that are never transmitted remains an interpretation, precision, and storage-limitation problem—not a proven universal ten-year raw-record command.
+Section 20(4) should not be overstated: its ten-year deletion rule is worded for information transmitted under the Act. Section 39 more clearly retains documentation of reporting and due-diligence steps for ten years. The retention rule for section 20(1) tax profiles that are never transmitted remains an interpretation, precision, and storage-limitation problem—not a proven universal ten-year raw-record command.
 
 ## Claimant and evidence consequences
 

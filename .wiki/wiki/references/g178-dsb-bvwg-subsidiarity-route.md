@@ -182,7 +182,7 @@ The claimant should also assess the separate VwGH route. It is not automatic: ad
 
 ### Non-reportable user: national excess
 
-The factual proposition is that the CASP creates and stores the full section 18 transaction dataset for a user finally classified as non-reportable. The legal questions are whether section 20(1) is compatible with section 1 DSG and Articles 7, 8, and 52(1) Charter, and whether DAC8 read with the GDPR permits or requires that national expansion.
+The factual proposition to prove is that the CASP creates and stores a section 18 annual aggregate profile, derived from the covered transactions, for a user finally classified as non-reportable. The legal questions are whether section 20(1) is compatible with section 1 DSG and Articles 7, 8, and 52(1) Charter, and whether DAC8 read with the GDPR permits or requires that national expansion.
 
 The less intrusive counterfactual must be operational: obtain universal self-certification and retain the evidence needed to determine residence, but create the annual reportable transaction profile only for a reportable user, with a defined reclassification process for changed circumstances.
 

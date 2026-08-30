@@ -242,3 +242,71 @@
 ## [2026-08-29] verify | Checked all local Markdown targets, public source URL reachability including Europol through the web fetcher, confidential mandate-language exclusions, source counts and clean diff whitespace
 
 ## [2026-08-29] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] research | Rechecked Austrian constitutional rights, EU Charter standards and ECtHR financial-data remedies against the claimant and procedural facts of a DAC8 challenge
+
+## [2026-08-30] ingest | Added official primary-source records for section 1 DSG, VfGH U 466/11, the EU Charter rights framework and the Article 18 B-VG boundary
+
+## [2026-08-30] compile | Added a rights-by-task matrix and clarified that the narrow Austrian excess requires a genuinely non-reportable user with proved full-profile processing
+
+## [2026-08-30] review | Separated EU-baseline fields from reviewable Austrian retention and safeguard choices, widened the timing of the possible section 20 excess, and assigned remedies to the competent forum
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] verify | Verified official source URLs, local judgment links, claimant-status wording, confidential-context exclusions, clean diff whitespace and two clean lint passes
+
+## [2026-08-30] research | Compared DAC2 and DAC8 field by field against VfGH E 2097/2021, the Commission impact assessment and the Austrian retention rules
+
+## [2026-08-30] compile | Added a ranked DAC8-versus-DAC2 argument matrix with State responses, evidence gates, weak theories and procedural fit
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] review | Corrected the retention distinction between exchanged information and provider records and kept all inference and blockchain-linkage claims evidence-gated
+
+## [2026-08-30] verify | Checked source records, cited local documents, confidential-context exclusions, diff whitespace and the clean local lint result
+
+## [2026-08-30] research | Ran six specialist and adversarial reviews across EU necessity doctrine, Austrian constitutional law, claimant fit, data lifecycle, effectiveness evidence and technical inference limits
+
+## [2026-08-30] ingest | Added sixteen official source records covering the DAC8 impact assessment and EDPS opinion, 2025-2026 CJEU authority, Austrian downstream-use and reporting rules, and Austrian access, purpose and retention case law
+
+## [2026-08-30] compile | Added field-necessity, inference-linkage-error and data-lifecycle references and connected them to the DAC2 distinction, Charter, gold-plating and precedent analyses
+
+## [2026-08-30] review | Red-teamed every new theory against C-623/22, C-484/24, the final DAC text and claimant facts; separated facial from as-applied claims and removed automatic wealth-register, field-proof and fixed-retention assumptions
+
+## [2026-08-30] review | Applied final EU, Austrian and technical audits: corrected controlling-person inferences, schema subtypes, DAC2 account identifiers, central-directory timing, copy-specific retention, section 39 ambiguity and the Article 267 preclusion question
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] verify | Verified official source reachability, exact DAC8 field semantics, local links, claimant-status and retention wording, confidential-context exclusions, clean diff whitespace and a clean final lint pass
+
+## [2026-08-30] research | Reconciled the all-transaction scope in Krypto-MPfG sections 6 and 20 with the annual aggregate payload in section 18, DAC8, the EU implementing XSD and the OECD CARF XML guide
+
+## [2026-08-30] ingest | Added official EU and OECD XML-granularity records distinguishing transaction inputs, asset-and-category aggregates, message references and absent item-level fields
+
+## [2026-08-30] compile | Added a four-layer transaction-granularity reference covering provider processing, Austrian reporting, automatic exchange, residual single-event detail and the unverified Austrian portal specification
+
+## [2026-08-30] review | Removed unsupported raw-ledger and complete-transaction-dataset wording from route, gold-plating, implementation and report artifacts while preserving the section 20 all-customer processing issue
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] verify | Checked the current OECD schema version, EU and Austrian field maps, local source links, public BMF specification search, aggregate-versus-input wording, confidential-context exclusions and clean diff whitespace
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed

@@ -40,17 +40,41 @@ sources:
   - raw/articles/2026-08-27-article-263-tfeu-individual-direct-action.md
   - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
   - raw/articles/2026-08-28-austrian-bao-243-bescheidbeschwerde.md
+  - raw/articles/2026-08-30-austria-dsg-section-1-fundamental-right.md
+  - raw/articles/2026-08-30-eu-charter-rights-review-framework.md
+  - raw/articles/2026-08-30-vfgh-article-18-legality-boundary.md
+  - raw/articles/2026-08-30-vfgh-u466-2011-charter-review-standard.md
+  - raw/articles/2026-08-30-cjeu-c394-23-mousse-data-minimisation.md
+  - raw/articles/2026-08-30-cjeu-c484-24-nth-haustechnik.md
+  - raw/articles/2026-08-30-cjeu-c57-23-policejni-retention-review.md
+  - raw/articles/2026-08-30-vfgh-g2-2013-purpose-limitation.md
+  - raw/articles/2026-08-30-vfgh-g7-2012-retention-maximum.md
+  - raw/articles/2026-08-30-vfgh-b1187-2013-financial-data-retention.md
+  - raw/articles/2026-08-30-vfgh-e3249-2016-retention-necessity.md
+  - raw/articles/2026-08-30-vwgh-ro2020-04-0015-access-recipients.md
+  - raw/articles/2026-08-30-vwgh-ro2021-04-0030-recipient-identity.md
+  - raw/articles/2026-08-30-bvwg-w137-2314413-access-restriction.md
 created: 2026-08-27
-updated: 2026-08-28
+updated: 2026-08-30
 tags: [dac8, austria, eu, precedent, standing, proportionality, article-267]
 aliases: [DAC8 case matrix, Austrian EU privacy precedents]
 confidence: high
 volatility: warm
-verified: 2026-08-28
+verified: 2026-08-30
 summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR authorities support, limit, or contradict a citizen DAC8 challenge."
 ---
 
 # Austria and EU Precedent Matrix for a DAC8 Challenge
+
+## Rights and standards by legal task
+
+| Legal task | Primary standard | Practical effect |
+|---|---|---|
+| Challenge the Austrian section 20(1) excess | Section 1 DSG and Article 8 ECHR | The State must justify the least intrusive effective design and adequate safeguards. The point is strongest for a genuinely non-reportable user whose provider creates or stores the full section 18 annual aggregate tax profile, particularly once status is settled; earlier profile creation still requires proof that status could be determined with less data. An ordinary Austrian tax resident is normally reportable and cannot isolate this injury. |
+| Review national implementation within EU-law scope | Charter Articles 7, 8 and 52 | U 466/11 permits sufficiently rights-like Charter guarantees to serve as an Austrian review standard. GDPR Articles 5 and 6 separately govern processing and inform interpretation and data-protection remedies. Neither source creates standing or lets the VfGH invalidate DAC8; a genuine EU-act validity issue belongs to the CJEU through Article 267. |
+| Require an effective remedy | Charter Article 47; Articles 8 and 13 ECHR | Review must be timely, independent, binding and practically effective. These guarantees do not automatically require a pre-transfer stop or direct Article 140 action; the DSB and BVwG route is therefore a central part of the merits and admissibility analysis. |
+| Test legal certainty | Article 18 B-VG; Charter Article 52(1) | Article 18 is a supporting legality standard, not a freestanding individual right. Section 20(1) is itself clear; the narrower uncertainty concerns the purpose and deletion point for a never-transmitted section 18 aggregate profile and may be answered by a GDPR-conforming interpretation. |
+| Add equality, expression or association claims | Claimant-specific equality and affected-rights analysis | These are secondary unless concrete differential treatment, chilled conduct or revealing associations are proved. A generic crypto-versus-cash comparison does not establish the claim. |
 
 ## Austrian route and standing
 
@@ -75,6 +99,8 @@ summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR
 | BVwG W258 2224229-1, PNR | DSB and BVwG can supply an effective domestic vehicle informed by later CJEU authority. | Positive procedural analogue. |
 | VfGH E 2097/2021; VwGH Ro 2023/04/0021 | DAC2 reporting survived privacy, threshold, security, and non-referral attacks. | Closest and strongest adverse merits authority. |
 | VfGH G 72-74/2019 ua | Suspicionless, broad data processing and intrusive surveillance can fail proportionality. | Helpful merits method, but it was legislator-initiated abstract review. |
+| VfGH G 2/2013; VwGH Ro 2020/04/0015; Ro 2021/04/0030; BVwG W137 2314413-1 | Secondary use needs bounded legal authority; access restrictions need concrete justification; actual recipients and transmitted data enable effective correction and judicial rights. | Strong as-applied authority after an actual BMF use or refusal, not automatic facial invalidity. |
+| VfGH G 7/2012; B 1187/2013; E 3249/2016 | A statutory deletion date can be a maximum; continued authority retention needs a current, individualised necessity assessment and an effective decision. | Weakens a categorical attack on section 20(4) but supports deletion after necessity ends and scrutiny of section 39's affirmative ten-year duty. |
 
 ## EU procedural law
 
@@ -97,15 +123,18 @@ summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR
 | Weight | Authorities | Relevance and limit |
 |---|---|---|
 | Helpful, distinguishable | Digital Rights Ireland; Tele2/Watson; La Quadrature C-511/18 ua; Commissioner of An Garda Síochána; SpaceNet | Strong strict-necessity, targeting, retention, and access-review principles, but the cases concern confidential traffic/location data and law enforcement. |
-| Mixed | Ligue des droits humains, C-817/19; Opinion 1/15; Valsts ieņēmumu dienests, C-175/20 | Rigorous review of systematic processing, automated criteria, purpose limitation, minimization, time limits, and independent review; often preserves the scheme by strict interpretation. |
-| Tax-cooperation adverse | Belgian Association of Tax Lawyers, C-623/22; G.S.B. v Switzerland; Othymia Investments | DAC6 reporting and targeted tax-information transmissions can be lawful when fields, purpose, access, safeguards and remedies are bounded. G.S.B. and Othymia did not decide periodic automatic exchange. |
+| Mixed | Ligue des droits humains, C-817/19; Opinion 1/15; Valsts ieņēmumu dienests, C-175/20; Mousse, C-394/23 | Rigorous review of systematic processing, automated criteria, purpose limitation, objective indispensability, less intrusive alternatives, time limits and independent review; often preserves the scheme by strict interpretation. Mousse is a consumer-contract analogy, not a tax holding. |
+| New limiting authorities | NTH Haustechnik, C-484/24; Policejní prezidium, C-57/23 | The legislative legal basis must satisfy strict necessity, but every later operation need not repeat the full Charter balance; a fixed retention maximum is not invariably required where meaningful periodic review exists. |
+| Tax-cooperation adverse | Belgian Association of Tax Lawyers, C-623/22; G.S.B. v Switzerland; Othymia Investments | DAC6 reporting and targeted tax-information transmissions can be lawful when fields, purpose, access, safeguards and remedies are bounded. DAC6's hallmarked early-and-targeted design is distinguishable from recurring DAC8 reporting but C-623/22 remains the closest EU validity authority. G.S.B. and Othymia did not decide periodic automatic exchange. |
 | Effective-remedy mixed | Ferrieri and Bonassisa v Italy; M.N. and Others v San Marino; Tretter and Others v Austria | Review must be timely, binding and real; merely theoretical or years-late routes fail. Tretter separately defeats abstract victim status where no personal risk is shown and available mechanisms are unused. |
 | Narrow invalidity analogies | Schecke, C-92/09 and C-93/09; Luxembourg Business Registers, C-37/20 and C-601/20 | Indiscriminate public disclosure failed proportionality. DAC8 exchange is not public, so the analogy is limited. |
 | Remedy/security support | Schrems I, C-362/14; Berlioz, C-682/15 | Effective independent control and review remain material when personal data cross borders or support tax enforcement. |
 
 ## Bottom line
 
-No identified precedent automatically invalidates DAC8. For the Austrian excess, the best case is narrower: section 20(1) creates and stores the full section 18 dataset for a person already shown not to be reportable, without a clear statutory deletion rule for never-transmitted raw data. For DAC8 validity, the best comparison remains the identity and home-address layer combined with per-asset annual categories, values, units, counts, transfer aggregates, long retention, onward authority access, and any proved public-ledger linkage. Both cases must confront DAC2, DAC6, and tax-exchange counterauthority rather than rely only on communications-retention cases.
+The rights framework sharpens the claim but does not reverse the present risk assessment. For DAC8-mandated reporting fields, an ordinary Austrian reportable user must challenge the EU baseline and confront the strongly adverse DAC2 and DAC6 authorities; separate Austrian choices such as retention duration or safeguards remain reviewable. The narrower all-customer case requires a genuinely non-reportable user, an identifiable provider, and proof that the provider creates or retains the full section 18 annual aggregate profile solely because of section 20(1). Without those facts, neither case is filing-ready. No identified precedent automatically invalidates DAC8.
+
+For the substantive field, inference and lifecycle analyses, see [[dac8-field-necessity-and-alternatives|DAC8 Field Necessity and Less-Intrusive Alternatives]] ([DAC8 Field Necessity and Less-Intrusive Alternatives](dac8-field-necessity-and-alternatives.md)), [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md)), and [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md)).
 
 ## Full-text collection
 
