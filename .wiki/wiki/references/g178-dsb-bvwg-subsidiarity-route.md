@@ -17,13 +17,21 @@ sources:
   - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
   - raw/articles/2026-08-28-austrian-bao-243-bescheidbeschwerde.md
   - raw/articles/2026-08-29-vfgh-g216-2024-awg-direct-application.md
+  - raw/articles/2026-09-04-cjeu-c378-17-administrative-disapplication.md
+  - raw/articles/2026-09-04-cjeu-c573-17-poplawski-horizontal-limit.md
+  - raw/articles/2026-09-04-cjeu-c26-c64-22-schufa-full-review.md
+  - raw/articles/2026-09-04-cjeu-c683-21-controller-identification.md
+  - raw/articles/2026-09-04-cjeu-c645-19-facebook-one-stop-shop.md
+  - raw/articles/2026-09-04-cjeu-c33-22-austrian-dsb-competence.md
+  - raw/articles/2026-09-04-austria-dsb-bvwg-procedure-interim-effect.md
+  - raw/articles/2026-09-04-ecthr-ferrieri-bonassisa-tax-bank-data-review.md
 created: 2026-08-27
-updated: 2026-08-29
+updated: 2026-09-04
 tags: [dac8, austria, vfgh, individualantrag, dsb, bvwg, subsidiarity, article-267]
 aliases: [G 178 DAC8 route, DSB BVwG citizen route]
 confidence: high
 volatility: hot
-verified: 2026-08-29
+verified: 2026-09-04
 summary: "G 178/2024 makes a direct citizen Article 140 application against DAC8 processing highly vulnerable and shifts the primary route to a concrete DSB complaint, BVwG review, and judicial Article 267 or Article 140 escalation."
 ---
 
@@ -109,9 +117,17 @@ CJEU C-414/24 itself restates that the Article 77 supervisory route and Article 
 
 Section 2(2) Krypto-MPfG applies the BAO mutatis mutandis, and section 19(2) treats the reporting provider's annual report as an `Abgabenerklärung`. Section 243 BAO, however, provides a complaint against a tax-authority **Bescheid**. No individual pre-report Krypto-MPfG Bescheid addressed to the private user has been identified. A BFG route must therefore not be treated as an established user remedy unless a concrete appealable act and party status are shown. A later tax assessment is a separate route and need not prevent the earlier provider processing or report.
 
+The final 2026 ECtHR judgment in *Ferrieri and Bonassisa v Italy* strengthens that distinction. In a tax-bank-data case, the Court held that review dependent on a later tax assessment was uncertain and potentially too delayed, while a non-binding guarantor did not provide effective review. It expressly accepted that ex-post control can suffice and that tax efficiency can justify no ex-ante court order. Austria's DSB and BVwG route is therefore a substantial answer, not an absent safeguard. The question is whether that route is actually available, independent, binding and timely for the identified Krypto-MPfG processing, not whether a future assessment could someday be challenged.
+
 ### DSB competence
 
 No Krypto-MPfG provision equivalent to the former section 9 DSG media-privilege exclusion has been identified. Section 20(2) and (3) instead require pre-report information that expressly engages GDPR duties and data-subject rights. This supports examining the DSB route, but does not resolve the concrete controller, jurisdiction, processing act, or relief.
+
+C-33/22 supports DSB competence for processing within GDPR scope. C-378/17 also makes the route substantively relevant: within its data-protection competence, the DSB must give effect to directly applicable EU law and may disapply a conflicting national rule in the concrete case. It cannot annul the Krypto-MPfG generally or invalidate DAC8. C-573/17 adds the private-party limit: the requested disapplication against a CASP should rest on directly applicable GDPR or primary law, not on DAC8 alone.
+
+Where the controller has its main establishment outside Austria, Articles 56 and 60 and C-645/19 may move binding decision-making to the lead supervisory authority. The complaint must therefore establish the exact contracting entity, controller, Krypto-MPfG reporting provider and main establishment before treating the Austrian DSB as the decision-maker.
+
+Section 22(4) DSG supplies a real urgent mechanism, but only for a concrete substantial immediate danger and danger in delay. A non-monetary mandate prohibition is not ordinarily suspended by an objection under section 57(2) AVG, whereas an ordinary DSB order may be suspended by a timely BVwG complaint unless section 13(2) VwGVG is separately satisfied. An appeal against a refusal does not itself stop processing.
 
 The best possible direct-application distinction is therefore not predicted failure. It is proof that the alternative route cannot provide effective protection before a concrete, irreversible injury. On the present statutory timeline, that is difficult: processing began on 1 January 2026, the first provider report for 2026 is due by 31 July 2027, and the BMF exchange follows within nine months after the reporting year.
 
@@ -144,6 +160,8 @@ Use Article 17 or 18 only where its conditions are actually pleaded. Article 21 
 
 The controller normally has one month to respond under Article 12(3), with a possible reasoned extension. Preserve the request, delivery proof, answer, privacy notice, terms, account evidence, transactions, tax-residence self-certification, and all follow-up correspondence.
 
+The data subject's access right is not the ceiling of the evidence available in the DSB proceeding. The DSB can obtain processing records, a DPIA if applicable, controller arrangements and security evidence under its investigative powers. Section 17 AVG may then support party file access, subject to third-party interests, trade secrets and authority needs. C-203/22 prevents confidentiality from excluding DSB and court review but does not guarantee unfiltered delivery of every internal document to the complainant.
+
 ### 3. File the section 24 DSG complaint
 
 The complaint should target the claimant's concrete processing, not ask the DSB for abstract review of DAC8. It should identify:
@@ -164,6 +182,8 @@ The DSB proceeding is formally adversarial. The respondent can cure some violati
 ### 4. Move the live case to the BVwG
 
 A DSB merits decision is challenged within four weeks of service under section 7(4) VwGVG. The appeal must identify the decision and authority, grounds, requested result, and timeliness. Section 27 DSG provides a three-member BVwG senate with specialist lay judges.
+
+C-26/22 and C-64/22 require full and effective judicial review of law and fact under Article 78 GDPR while preserving review of the limits of the authority's remedial discretion. The BVwG complaint should therefore contain the complete factual case, legal grounds, relief and evidence motions; the route is not confined to the DSB's factual record.
 
 The BVwG pleading should separate two judicial requests:
 
@@ -218,11 +238,14 @@ The recommended architecture is:
 
 ## See Also
 
+- [[non-eu-tax-resident-claimant-advantage|Drittstaaten-Steueransässigkeit als Klägerprofil]] ([Drittstaaten-Steueransässigkeit als Klägerprofil](../theses/non-eu-tax-resident-claimant-advantage.md))
 - [[vfgh-to-cjeu-dac8-route|VfGH-to-CJEU DAC8 Route]] ([VfGH-to-CJEU DAC8 Route](../theses/vfgh-to-cjeu-dac8-route.md))
 - [[individualantrag-article-140|Individualantrag under Article 140 B-VG]] ([Individualantrag under Article 140 B-VG](../concepts/individualantrag-article-140.md))
 - [[dac2-crs-austrian-litigation|Austrian DAC2/CRS Litigation]] ([Austrian DAC2/CRS Litigation](../topics/dac2-crs-austrian-litigation.md))
 - [[austrian-gold-plating-and-claimant-audit|Austrian DAC8 Gold-Plating and Claimant Audit]] ([Austrian DAC8 Gold-Plating and Claimant Audit](austrian-gold-plating-and-claimant-audit.md))
 - [[epicenter-vorratsdatenspeicherung-precedent|Epicenter/AKVorrat Data-Retention Precedent]] ([Epicenter/AKVorrat Data-Retention Precedent](epicenter-vorratsdatenspeicherung-precedent.md))
+- [[dsb-bvwg-evidence-and-interim-toolkit|DSB and BVwG Evidence and Interim-Protection Toolkit]] ([DSB and BVwG Evidence and Interim-Protection Toolkit](dsb-bvwg-evidence-and-interim-toolkit.md))
+- [[dac8-remedy-and-outcome-matrix|DAC8 Remedy and Outcome Matrix]] ([DAC8 Remedy and Outcome Matrix](dac8-remedy-and-outcome-matrix.md))
 
 ## Sources
 
@@ -237,3 +260,9 @@ The recommended architecture is:
 - [Austrian DAC2 BVwG judgment](../../../legal-docs/core/at-bvwg-w211-2232955-1-7e.pdf)
 - [Foto-Frost](../../../legal-docs/core/eu-cjeu-c314-85-foto-frost.pdf)
 - [KUBERA](../../../legal-docs/core/eu-cjeu-c144-23-kubera.pdf)
+- [CJEU C-378/17](../../raw/articles/2026-09-04-cjeu-c378-17-administrative-disapplication.md)
+- [CJEU C-573/17](../../raw/articles/2026-09-04-cjeu-c573-17-poplawski-horizontal-limit.md)
+- [CJEU C-26/22 and C-64/22](../../raw/articles/2026-09-04-cjeu-c26-c64-22-schufa-full-review.md)
+- [CJEU C-645/19](../../raw/articles/2026-09-04-cjeu-c645-19-facebook-one-stop-shop.md)
+- [Austrian interim-effect procedure](../../raw/articles/2026-09-04-austria-dsb-bvwg-procedure-interim-effect.md)
+- [ECtHR Ferrieri and Bonassisa](../../raw/articles/2026-09-04-ecthr-ferrieri-bonassisa-tax-bank-data-review.md)

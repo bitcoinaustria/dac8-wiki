@@ -97,7 +97,7 @@ Für einen gewöhnlichen Nutzer spricht die aktuelle und nahezu deckungsgleiche 
 
 Die derzeit belastbarste Strategie ist deshalb keine Ein-Weg-These, sondern eine **anspruchsteller- und zielabhängige Kombination**:
 
-1. Nutzer: konkrete Verarbeitung seit 1. Jänner 2026 dokumentieren und den DSB/BVwG-Anlassfall aufbauen;
+1. Nutzer: konkrete Verarbeitung seit 1. Jänner 2026 dokumentieren und den DSB/BVwG-Weg zu einer gerichtlichen Normprüfung aufbauen;
 2. bei tragfähiger Anspruchsgrundlage parallel Art. 79 DSGVO und zivilen Eilrechtsschutz prüfen;
 3. unionsrechtliche Auslegungs- oder Gültigkeitsfragen bereits dem BVwG oder Zivilgericht zur Vorlage nach Art. 267 AEUV unterbreiten;
 4. einen direkten Art.-140-Antrag getrennt für einen in Österreich nach § 15 Krypto-MPfG unmittelbar meldepflichtigen Anbieter von Krypto-Dienstleistungen (hier kurz: **Austria-Home-CASP**) mit belegtem gegenwärtigem Implementierungsaufwand prüfen;
@@ -123,7 +123,7 @@ Geprüft wurden vier verschiedene Fragen, die nicht vermischt werden dürfen:
 - **Zwischenprotektion:** Kann Verarbeitung oder Übermittlung bis zur Sachentscheidung vorläufig gestoppt werden?
 - **Sache:** Sind Krypto-MPfG oder DAC8 tatsächlich verfassungs- oder unionsrechtswidrig?
 
-Ein zulässiger Verfahrensweg ist noch kein materieller Erfolg. Umgekehrt macht die fehlende Aufhebungsbefugnis der DSB den DSB-Weg nicht nutzlos, weil erst ihr Bescheid den gerichtlichen Anlassfall schafft.
+Ein zulässiger Verfahrensweg ist noch kein materieller Erfolg. Umgekehrt macht die fehlende Aufhebungsbefugnis der DSB den DSB-Weg nicht nutzlos, weil ihr Bescheid den anfechtbaren konkreten Fall schafft. Ein Anlassfall der Normprüfung entsteht erst, wenn das BVwG einen Antrag nach Art. 139 oder 140 B-VG stellt oder der VfGH aus einer späteren Art.-144-Beschwerde ein Normprüfungsverfahren einleitet.
 
 Die Belegarten werden im Bericht getrennt:
 
@@ -190,7 +190,7 @@ Die erwartete geringe Erfolgsaussicht vor der DSB war nach dem VfGH unerheblich.
 
 Für DAC8 ist die Übereinstimmung eng: gesetzlich angeordnete personenbezogene Verarbeitung, private Grundrechts- und DSGVO-Rügen, eingeschränkte Löschungs- oder Widerspruchsmöglichkeiten und ein identifizierbarer Verantwortlicher. Die längere Zeit bis zur ersten Übermittlung schwächt eher das Argument, der DSB/BVwG-Weg sei von vornherein unzumutbar.
 
-### 2. G 287/2022 ua beweist die Funktionsfähigkeit des DSB-Anlassfalls
+### 2. G 287/2022 ua belegt den DSB/BVwG-Weg zu einer gerichtlichen Normprüfung
 
 Individuen erhoben Beschwerden bei der DSB, bekämpften deren Entscheidungen beim BVwG und regten dort Art.-140- und Art.-267-Verfahren an. Das BVwG stellte Art.-140-Anträge; der VfGH ließ sie zu und hob § 9 Abs. 1 DSG auf.
 

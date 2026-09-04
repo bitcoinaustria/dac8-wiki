@@ -310,3 +310,238 @@
 ## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
 ## [2026-08-30] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-01] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-09-01] research | Tested the non-EU tax-resident claimant thesis through Austrian procedure, EU-law and adversarial claimant-fit reviews using current public primary sources
+
+## [2026-09-01] compile | Added the third-country tax-residence claimant thesis and connected it bidirectionally to the route, gold-plating, Charter and G 178 analyses
+
+## [2026-09-01] output | Added the German claimant-profile research report; no confidential mandate material or personal identity was recorded
+
+## [2026-09-01] verify | Local links, frontmatter, cross-links, official-source URLs, confidential-language boundaries, duplicate purpose narrative and diff whitespace checked; current third-country participation and provider facts remain claimant-specific
+
+## [2026-09-01] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] research | Rechecked the private-person DSB, BVwG, VfGH and Article 267 route through independent procedural, constitutional-merits and provider-route reviews
+
+## [2026-09-04] review | Confirmed G 178/2024 as the controlling subsidiarity risk, treated erasure as an optional targeted step, rejected equality as a dependable bypass and separated sections 20(1), 20(4) and 39 by claimant and timing
+
+## [2026-09-04] output | Added a plain source-linked Markdown and PDF procedural note; no confidential mandate communication, personal identity or prompt-only facts were recorded
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] verify | Checked official source reachability, embedded PDF links, five rendered pages, extracted PDF text, claimant-status wording, confidential-language exclusions and diff whitespace
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] output | Added a counsel-facing DSB/BVwG working note that separates reportable-user DAC8 validity issues from the possible section 20(1) non-reportable-user excess; no mandate communication, identity or prompt-only fact was recorded
+
+## [2026-09-04] review | Applied independent Austrian procedure, constitutional-law and statutory-fit reviews; narrowed the Article 267 questions, corrected Foto-Frost, and removed duplicated or didactic route language
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] verify | Checked all nineteen embedded URLs, PDF annotations and extracted text, visually reviewed all four rendered pages, and confirmed that no mandate communication, identity or prompt-only fact entered the artifact
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] output | Added a source-linked merits argumentation note for the planned Krypto-MPfG and DAC8 challenge, separating Union validity, Austrian implementation and concrete processing claims
+
+## [2026-09-04] review | Applied independent field-necessity, constitutional and DSB-route reviews; split the validity questions, narrowed EStG and retention claims, preserved adverse DAC2 and DAC6 authority, and added the current DLT-address reference defect without confidential context
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] verify | Verified 31 embedded URLs, including current RIS and EUR-Lex texts and the EDPS source; checked PDF annotations and extracted text, visually reviewed all six pages, corrected the C-57/23 case name, and confirmed that no mandate communication, identity or prompt-only facts entered the artifact
+## 2026-09-04 — DLT linkage and breach-evidence research started
+
+- Opened a multi-path public-source research session covering blockchain forensics, DAC8/TFR/MiCA data layers, Austrian retention, breach evidence, proportionality, and less-intrusive alternatives.
+- Confidential mandate material is excluded. No commit or publication is authorised by this research start.
+
+## [2026-09-04] research | Completed ten-track review of DLT linkage, provider-held MiCA and TFR records, DAC8 reporting boundaries, Austrian retention, security law, official breach incidents, physical-risk causation, alternatives and adverse authority
+
+## [2026-09-04] ingest | Added fourteen public-source records: binding EU and Austrian materials, CJEU and ECtHR authority, official French and SEC incident records, CNIL statistics and peer-reviewed blockchain-forensics and coercion research
+
+## [2026-09-04] compile | Added provider-record architecture, identity-to-public-ledger linkage and financial-data security references; updated the MiCA/TFR nexus, DAC8 inference, lifecycle, DAC2 distinction, field-necessity, granularity and fundamental-rights analyses
+
+## [2026-09-04] review | Preserved the address-free annual DAC8 field map; separated provider possession, authority access and lawful fusion; excluded deterministic clustering, unique annual-aggregate matching and breach-to-physical-harm claims not supported by the evidence
+
+## [2026-09-04] output | Updated the counsel-facing argumentation note and plain linked PDF with the MiCA Table 3/Table 4 linkage seam, EDPB persistence analysis, C-340/21 security test, incident limits and targeted evidence requests
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 3 auto-fixed
+
+## [2026-09-04] ingest | Added twelve public primary-source records on bulk-data proportionality, Austrian legislative reasons and silence, constitutional temporal effects, BVwG merits decisions, DSB corrective powers, recipient propagation and regulation consultation
+
+## [2026-09-04] compile | Added an adverse-authority-first bulk-data transfer matrix and strengthened field necessity, Austrian overimplementation, DPIA and remedy analysis without treating surveillance labels, public silence or missing field studies as proof of invalidity
+
+## [2026-09-04] review | Corrected the Austrian case theory to separate compelled universal status screening from unproved full-profile creation for finally non-reportable users; recorded the Annex VI V.B attribution problem and the GMSG 5/7 versus Krypto-MPfG 10/10 comparison with both State answers
+
+## [2026-09-04] correction | The preceding ingest entry covers fourteen new public primary-source records, not twelve
+
+## [2026-09-04] ingest | Added the Austrian GMSG five-year privacy rationale and current seven-year compliance-record rule as a separate immutable comparator source
+
+## [2026-09-04] compile | Expanded the equality and DAC2 comparison from a five-versus-ten shorthand to the actor- and record-specific GMSG 5/7 versus Krypto-MPfG 10/10 structure
+
+## [2026-09-04] ingest | Added Schecke and Eifert plus Schrems I and II as bounded authorities on legislative alternatives, safeguards effective in practice, independent review and binding redress
+
+## [2026-09-04] compile | Extended the bulk-data matrix with public-disclosure and third-country-transfer authorities while preserving their material limits for intra-EU tax reporting
+
+## [2026-09-04] output | Expanded the counsel-facing argumentation note with the Austrian legislative-attribution gap, GMSG 5/7 versus Krypto-MPfG 10/10 comparator, adverse bulk-data authorities, DPIA and consultation limits, and forum-specific temporal and operational remedies
+
+## [2026-09-04] fix | Corrected two pre-existing equality-reference source paths identified by local lint
+
+## [2026-09-04] research | Completed the second deepening wave with sixty-two public source records and nine new synthesis references; remaining gaps require provider, authority, claimant or expert evidence rather than additional public-source searching
+
+## [2026-09-04] lint | local fix and final lint passes: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] verify | Verified local wiki links, changed-file whitespace, confidential-term exclusions, bounded mass-data and blockchain claims, PDF text extraction, 47 unique embedded PDF targets and all ten rendered pages; no commit or push performed
+
+## [2026-09-04] ingest | Added Austrian and EU equality authorities covering substantive rationality, permissible legislative typing, concrete comparability, Charter Articles 20 and 21, complex-system discretion and the GMSG five-year provider-retention comparator
+
+## [2026-09-04] compile | Added a claim-level DAC8 equality and technology-neutrality matrix; ranked the ten-versus-five-year comparison, preserved the GMSG all-customer and broad-legislative-discretion counterarguments, and rejected status-based or regime-wide claims without evidence
+
+## [2026-09-04] ingest | Added CJEU and VfGH authorities on supervisory erasure powers, recipient propagation, EU severability, cross-court invalidity effects, delayed invalidity, Austrian challenge scope and the distinct effects of DSB, Article 144 and constitutional norm remedies
+
+## [2026-09-04] compile | Added a forum-by-forum remedy and outcome matrix separating evidence, individual corrective relief, concrete non-application, limiting interpretation, national annulment, EU invalidity and operational system effect
+
+## [2026-09-04] ingest | Added the GDPR Article 35 and 36 trigger architecture, the public Austrian WFA and consultation record, and MiCA-DORA authorisation, continuity and control documents as provider-side evidence sources
+
+## [2026-09-04] compile | Added an adverse-authority-first DPIA, accountability and security evidence map; preserved Article 35(10), DSFA-A17 and C-60/22/C-61/22 limits while identifying concrete provider and authority records for Article 5, 25, 32 and DAC security claims
+
+## [2026-09-04] ingest | Added the final ECtHR judgment in Ferrieri and Bonassisa v Italy on tax-authority access to banking data, quality of law and sufficiently certain, timely, independent and binding review
+
+## [2026-09-04] compile | Integrated Ferrieri as a review-timing authority that weakens reliance on a hypothetical later tax assessment while preserving prior-notice, taxation-margin, targeted-access and Austrian DSB/BVwG distinctions
+
+## [2026-09-04] ingest | Added ECtHR Kurt v Austria as the controlling claimant-specific real-and-immediate-risk limit for an Article 2 operational protection theory
+
+## [2026-09-04] compile | Added a physical-risk causal-chain reference that preserves the documented coercion threat while excluding unproved DAC8 breach-to-attack causation and treating generalized risk as a proportionality and security severity factor
+
+## [2026-09-04] ingest | Added the binding DAC security and breach-response architecture, MiCA-DORA provider baseline, Austrian EU-AHG suspension rule and the Court of Audit's BMF security findings with their historical and scope limits
+
+## [2026-09-04] compile | Added a layered DAC8 security and audit-evidence reference and updated the breach and MiCA-TFR analyses to treat existing safeguards as adverse authority while preserving concrete implementation questions
+
+## [2026-09-04] ingest | Added CJEU C-817/19 on purpose-bounded databases and an Austrian controller and authority-retention text comparison with explicit analogy and claim limits
+
+## [2026-09-04] review | Corrected the lifecycle attribution of Krypto-MPfG section 20(4): it governs provider deletion, not the BMF originating copy; the authority-copy basis remains an identified legal and evidentiary question
+
+## [2026-09-04] review | Corrected the CJEU C-61/22 date, ECLI and paragraph range to the Grand Chamber judgment of 21 March 2024, ECLI:EU:C:2024:251, paragraphs 64 to 68
+
+## [2026-09-04] ingest | Added ENFSI and NIST methodological records for balanced evaluative reporting, evidence preservation, reproducibility and explicit limitations
+
+## [2026-09-04] compile | Added a falsifiable DAC8 blockchain-linkage expert protocol separating the annual tuple, provider-held anchors, clustering, entity attribution and person attribution through ground truth, ablation, negative controls, metrics and stop rules
+
+## [2026-09-04] ingest | Added six public-source records on German, Irish, Dutch, French and Finnish implementation choices and the EU correction/deletion exchange format
+
+## [2026-09-04] compile | Added a feature-specific Member-State comparator separating enacted narrower safeguards from unsupported claims of uniformly lower data collection
+
+## [2026-09-04] ingest | Added CJEU C-77/21 and C-268/21 as binding boundaries for purpose compatibility, storage limitation and proportionate reuse of tax records
+
+## [2026-09-04] ingest | Added nine CJEU procedural authorities and an Austrian DSB/BVwG procedure record covering respondent identity, primacy, horizontal limits, investigation, review, secrecy and interim effect
+
+## [2026-09-04] ingest | Added the Austrian DPIA required and exempt lists, including the customer-accounting and public-tax-administration counterarguments
+
+## [2026-09-04] compile | Added a DSB and BVwG evidence and interim-protection toolkit separating controller identity, authority access, party access, primacy, remedial discretion and temporal effect
+
+## [2026-09-04] compile | Strengthened the Austrian excess and field-necessity analyses with enacted retention, pre-filing, correction and adverse national-extension comparators
+
+## [2026-09-04] compile | Added a five-gate purpose-join test, enacted pre-filing comparison, typed correction propagation and shorter-retention comparators to the lifecycle analysis
+
+## [2026-09-04] compile | Deepened the G 178 route with concrete DSB disapplication, horizontal limits, lead-authority risk, investigative access, full BVwG review and the different interim effects of urgent and ordinary orders
+
+## [2026-09-04] compile | Updated the route thesis to distinguish concrete DSB non-application, general annulment, EU invalidity and the practical effect of urgent versus ordinary orders before July 2027
+
+## [2026-09-04] compile | Expanded the implementation map with Ireland and Finland and linked status tracking to the field-specific comparative safeguards analysis
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] verify | Checked local provenance and indexes, current official source reachability, confidentiality exclusions, diff whitespace, 36 unique PDF link targets, extracted PDF text and all eight rendered pages; no commit or push performed
+
+## [2026-09-04] research | Started a second ten-track public-source review focused on process effectiveness, evidence access, concrete security architecture, purpose boundaries, comparative alternatives, expert proof and legally precise success outcomes
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 3 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 4 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+## [2026-09-04] research | Third-wave effectiveness calibration added six public primary/peer-reviewed source records and one synthesis reference; general AEOI utility separated from DAC8-specific field necessity, Austrian implementation and rights costs
+
+## [2026-09-04] ingest | Added VfGH authorities on mandatory consultation defects and the publication boundary between technical standards and generally binding external rules
+
+## [2026-09-04] compile | Added a fact-gated Krypto-MPfG-DV formality analysis covering the section 21 DSG consultation record, XML/XSD/WSDL content, Article 139 reach and the exact evidence request
+
+## [2026-09-04] ingest | Added the residence-gated DAC8 routing, intra-EU purpose and onward-transfer rules, and the distinct CARF third-country confidentiality regime
+
+## [2026-09-04] compile | Expanded the lifecycle with copy-specific routing, purpose-code and third-country activation questions while rejecting an unlimited-worldwide-distribution description
+
+## [2026-09-04] output | Added the consultation and external-specification evidence gates, residence-based routing and EU-versus-CARF purpose separation to the counsel-facing argumentation note
+
+## [2026-09-04] correction | Distinguished the direct individual application, which has no automatic Anlassfall effect, from a BVwG court application or incidental Article 144 norm review that gives the originating case privileged effect
+
+## [2026-09-04] output | Clarified that an erasure request is not a universal prerequisite, future processing alone is insufficient, interim prohibition has a claimant-specific urgency threshold and statutory reporting dates are outer limits rather than fixed filing days
+
+## [2026-09-04] compile | Added a provision-level challenge-scope and residual-duty map covering parallel EU field bases, the section 20(1) national-excess candidate, provider-versus-authority copies and retention-ceiling traps
+
+## [2026-09-04] review | Hostile merits and procedure review elevated G 178/2024 on page one, narrowed the transfer-field claim, required a merits-bearing DSB dispute after access, added nexus and severability gates, and corrected the existing-user self-certification reference from section 28(3) to section 28(2)
+
+## [2026-09-04] research | Completed the third deepening wave with ten new public source records, three new synthesis references and six independent agent reviews plus the empirical root lane
+
+## [2026-09-04] output | Regenerated the plain linked counsel PDF with the direct-route warning, AEOI evidence calibration, formality and routing questions, correct Anlassfall effects, timing limits and residual-duty traps
+
+## [2026-09-04] lint | Third-wave local fix and final lint passes completed with 0 critical, 0 warnings, 0 suggestions and 0 remaining auto-fixes
+
+## [2026-09-04] verify | Rechecked official links added in the third wave, local provenance, diff whitespace, confidential-term exclusions, 50 unique PDF link targets, extracted PDF text and all eleven rendered pages; no commit or push performed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 3 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] audit | Three independent reviews and direct primary-source checks of the current argumentation report; substantive corrections and four broken primary-source links recorded in .audit/doublecheck-2026-09-04.md; knowledge articles and existing report/PDF unchanged, no commit or push
+
+## [2026-09-04] correction | Implemented the audit's report corrections: Article 55(2) competence, section 24(5) enumerated relief, interim and temporal effects, transaction-date terminology, qualified evidence methods and separate retention triggers; repaired four primary-source URLs and added direct procedural and consultation authorities
+
+## [2026-09-04] compile | Clarified section 39 residual duties and the distinction between lawful official linkage and linkage following a breach; preserved original source records and unverified implementation facts
+
+## [2026-09-04] correction | Calibrated SWD effectiveness scenarios and Cong evidence, separated enacted Identification Service minimisation from the recast proposal, and distinguished provider-retention categories, commencement dates and authority copies
+
+## [2026-09-04] ingest | Added ten source or correction records for Article 55(2), section 24 relief, accelerated references, section 21 location, Cong evidence scope, CARF activation, treaty confidentiality, Article 139 and VfGG sections 85 and 87; original raw records unchanged
+
+## [2026-09-04] review | Corrected transaction-date wording in three further articles, made historical negative-search cutoffs explicit, repaired article provenance and project navigation, and refreshed local corpus counts
+
+## [2026-09-04] publication-scope | Earlier log entries record local creation, not publication: the September 4 Arbeitsvermerk and Pruefvermerk pairs are superseded working drafts and are not proposed for the repository package. The maintained deliverable is the Argumentationsvermerk pair; audit/librarian files and a derived legal-text extraction are also excluded from the proposed package
+
+## [2026-09-04] correction | Removed reliance on the original section 24 general-restoration extraction and the unverified Cong flow assertion; category indexes explicitly mark both originals superseded and direct readers to corrective records. Original raw bytes remain unchanged. Preserve these correction annotations when regenerating indexes
+
+## [2026-09-04] output | Replaced drafted referral questions with a compact norm-perimeter map; added direct adverse authorities for future-processing complaints, interim relief and section 20a VfGG, and regenerated the plain linked PDF
+
+## [2026-09-04] compile | Added a source-verification correction map so superseded immutable extracts remain explicitly rejected rather than re-entering synthesis through automated coverage; restored the unrelated coverage article after lint regenerated it
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-04] review-complete | Independent standards/spec review and final corrections complete; plain PDF has eleven pages and 62 matching link targets; 140 changed/new Markdown files have no missing local links, source references or targeted confidential markers; 131 legal-document checksums match
+
+## [2026-09-04] log-correction | The earlier free-form September 4 DLT research-start entry records the same public-source research subsequently described in canonical research entries; preserved unchanged as historical log content
+
+## [2026-09-04] handoff | Public-source content recommended subject to documented package exclusions and publication-index recount; no staging, commit, merge or push
+
+## [2026-09-04] output-review | Shortened counsel report, removed repeated explanations and duplicate source appendix; retained adverse authority and claim-specific evidence limits. Independent legal and evidence reviews found one inherited interim-relief threshold error; corrected report and three wiki syntheses, added a corrective source and preserved original raw provenance. No staging, commit or publication.
+
+## [2026-09-04] audit | Independent post-correction check passed; current plain report is five pages with 50 matching link targets. Local source and privacy checks passed; publication manifest updated without staging or publication. Current artifact hashes and review scope recorded in .audit/shortening-review-2026-09-04.md.
+
+## [2026-09-04] publication-preparation | Selected public-source research, corrections and current Markdown/PDF report for publication. Superseded report drafts retained locally outside the output tree; operational review and session files excluded. Output index now counts ten reports and two PDF exports.
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed

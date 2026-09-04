@@ -22,8 +22,12 @@ sources:
   - raw/articles/2026-08-30-austria-eu-ahg-sections-15-19.md
   - raw/articles/2026-08-27-cjeu-etat-luxembourgeois-tax-information-remedy.md
   - raw/articles/2026-08-27-cjeu-la-quadrature-c-470-21.md
+  - raw/articles/2026-09-04-cjeu-la-quadrature-bulk-data-categories.md
+  - raw/articles/2026-09-04-cjeu-ligue-bulk-profiling-safeguards.md
+  - raw/articles/2026-09-04-ecthr-big-brother-watch-end-to-end-safeguards.md
+  - raw/articles/2026-09-04-ecthr-s-marper-data-lifecycle-effectiveness.md
 created: 2026-08-27
-updated: 2026-08-30
+updated: 2026-09-04
 tags: [dac8, charter-articles-7-8, proportionality, data-protection, tax-information-exchange]
 aliases: [DAC8 fundamental rights, DAC8 privacy challenge]
 confidence: medium
@@ -61,6 +65,8 @@ A narrower national case is strongest for a genuinely non-reportable user whose 
 
 ## Counterauthority that must be answered
 
+The legal intensity does not follow from calling DAC8 surveillance, bulk processing or a wealth register. The governing factors are the precise data categories, their demonstrated inference and linkage capacity, the purposes, access and onward use, duration, safeguards and effective review. The routine report is not a current-holdings register and contains no wallet address, transaction hash, transaction timestamp or counterparty.
+
 - VfGH E 2097/2021 and VwGH Ro 2023/04/0021 upheld DAC2/CRS reporting and rejected no-threshold, all-customer processing, security-risk, and reference arguments.
 - CJEU C-623/22 broadly upheld DAC6's precision and proportionality; C-694/20 is limited to lawyer-client confidentiality.
 - C-623/22 treated DAC6 as early and targeted information about hallmarked potential-risk arrangements, which distinguishes but does not neutralise it. C-484/24 places the complete balance at the legislative-basis level; by analogy, its court-specific holding does not support a fresh full balance for every later CASP or authority operation.
@@ -93,6 +99,7 @@ In a DSB/BVwG or GDPR judicial route, section 1 DSG, the GDPR and Charter Articl
 
 ## See Also
 
+- [[non-eu-tax-resident-claimant-advantage|Drittstaaten-Steueransässigkeit als Klägerprofil]] ([Drittstaaten-Steueransässigkeit als Klägerprofil](../theses/non-eu-tax-resident-claimant-advantage.md))
 - [[dac8-vs-dac2-distinguishing-arguments|DAC8 versus DAC2: Distinguishing Arguments]] ([DAC8 versus DAC2: Distinguishing Arguments](../references/dac8-vs-dac2-distinguishing-arguments.md))
 - [[dac2-crs-austrian-litigation|Austrian DAC2/CRS Litigation]] ([Austrian DAC2/CRS Litigation](dac2-crs-austrian-litigation.md))
 - [[dac8-com-argument-audit|DAC8.com and Bull Bitcoin Argument Audit]] ([DAC8.com and Bull Bitcoin Argument Audit](../references/dac8-com-argument-audit.md))
@@ -102,6 +109,7 @@ In a DSB/BVwG or GDPR judicial route, section 1 DSG, the GDPR and Charter Articl
 - [[dac8-field-necessity-and-alternatives|DAC8 Field Necessity and Less-Intrusive Alternatives]] ([DAC8 Field Necessity and Less-Intrusive Alternatives](../references/dac8-field-necessity-and-alternatives.md))
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](../references/dac8-inference-linkage-and-error-evidence.md))
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](../references/dac8-data-lifecycle-access-retention-remedies.md))
+- [[dac8-bulk-data-case-transfer-matrix|DAC8 Bulk-Data Case Transfer Matrix]] ([DAC8 Bulk-Data Case Transfer Matrix](../references/dac8-bulk-data-case-transfer-matrix.md))
 
 ## Sources
 

@@ -12,13 +12,18 @@ sources:
   - raw/articles/2026-08-28-cjeu-c487-21-access-copy.md
   - raw/articles/2026-08-27-eu-tfr-regulation-2023-1113.md
   - raw/articles/2026-08-27-eu-mica-regulation-2023-1114.md
+  - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
+  - raw/papers/2026-09-04-goldfeder-cookie-blockchain-popets-2018.md
+  - raw/papers/2026-09-04-kappos-bitcoin-cluster-validation-usenix-2022.md
+  - raw/papers/2026-09-04-moeser-narayanan-bitcoin-clustering-fc-2022.md
+  - raw/papers/2026-09-04-ghost-clusters-usenix-2025.md
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-04
 tags: [dac8, inference, linkage, valuation, classification, data-quality, evidence]
 aliases: [DAC8 inference matrix, DAC8 technical evidence]
 confidence: high
 volatility: hot
-verified: 2026-08-30
+verified: 2026-09-04
 summary: "Technical truth table for what DAC8 annual fields reveal directly, what requires other datasets, and which valuation, classification and correction facts need proof."
 ---
 
@@ -58,6 +63,10 @@ summary: "Technical truth table for what DAC8 annual fields reveal directly, wha
 | TFR or AML records | Originator, beneficiary or self-hosted-address evidence in covered transfers | Separate purpose, competence, access and proportionality rules apply. |
 | Address or transaction ID plus public ledger | Hypothetical paths and heuristic address clusters | Requires separate technical evidence; internal provider ledgers remain invisible and attribution or clustering can be wrong. |
 
+Delegated Regulation (EU) 2025/1140 supplies a specific provider-side join that must not be confused with the DAC8 payload. For covered MiCA records, identified buyer/seller data in Table 3 can be linked through the firm's transaction-record number to Table 4 on-chain fields, including hashes and wallet addresses. Whether those records exist for the claimant's transaction, who can join them and whether any tax authority can lawfully obtain them are separate factual and legal questions.
+
+The technical evidence supports four separate stages: transaction matching, address clustering, entity attribution and natural-person attribution. Exact amounts combined with short time windows can sometimes identify a blockchain transaction. Validated clustering can expand a known seed on some chains. Neither result establishes that annual DAC8 aggregates alone identify a transaction or person. Published clustering studies also document chain-specific assumptions, variable coverage and potentially large error propagation.
+
 Article 16(1) DAC permits exchanged information to be used for covered taxes, VAT and other indirect taxes, customs, AML/CFT, recovery, compulsory social-security contributions and tax-law penalty proceedings. Article 16(2) separately governs other purposes, including its approval and communicated-list mechanisms. Neither provision establishes the reverse proposition that every AML, TFR or MiCA record is automatically available for every tax use.
 
 ## Valuation and classification error paths
@@ -87,6 +96,8 @@ The implementing schema permits corrections. That proves correction is technical
 - DAC8 alone performs exact cross-provider reconciliation.
 - Different valuations are necessarily inaccurate.
 - Provider retention under another regime proves routine tax-authority access.
+- A category with one transaction is uniquely identifiable on-chain from the annual DAC8 tuple.
+- Blockchain clustering is deterministic or transfers unchanged between chains and custodial ledgers.
 
 ## See Also
 
@@ -94,6 +105,8 @@ The implementing schema permits corrections. That proves correction is technical
 - [[dac8-field-necessity-and-alternatives|DAC8 Field Necessity and Less-Intrusive Alternatives]] ([DAC8 Field Necessity and Less-Intrusive Alternatives](dac8-field-necessity-and-alternatives.md))
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))
 - [[dac8-vs-dac2-distinguishing-arguments|DAC8 versus DAC2: Distinguishing Arguments]] ([DAC8 versus DAC2: Distinguishing Arguments](dac8-vs-dac2-distinguishing-arguments.md))
+- [[identity-to-public-ledger-linkage-evidence|Identity-to-Public-Ledger Linkage Evidence]] ([Identity-to-Public-Ledger Linkage Evidence](identity-to-public-ledger-linkage-evidence.md))
+- [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](krypto-mpfg-provider-record-architecture.md))
 
 ## Sources
 
@@ -103,3 +116,8 @@ The implementing schema permits corrections. That proves correction is technical
 - [OECD CARF XML Schema User Guide, July 2025](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/07/crypto-asset-reporting-framework-xml-schema-july-2025_d1f81247/6e60235b-en.pdf)
 - [Transfer of Funds Regulation (EU) 2023/1113](https://eur-lex.europa.eu/eli/reg/2023/1113/oj)
 - [MiCA Regulation (EU) 2023/1114](https://eur-lex.europa.eu/eli/reg/2023/1114/oj)
+- [Commission Delegated Regulation (EU) 2025/1140](https://eur-lex.europa.eu/eli/reg_del/2025/1140/oj/eng)
+- [Goldfeder et al., When the Cookie Meets the Blockchain](https://petsymposium.org/popets/2018/popets-2018-0038.php)
+- [Kappos et al., How to Peel a Million](https://www.usenix.org/conference/usenixsecurity22/presentation/kappos)
+- [Möser and Narayanan, Resurrecting Address Clustering](https://arxiv.org/abs/2107.05749)
+- [Lubbertsen et al., Ghost Clusters](https://www.usenix.org/system/files/usenixsecurity25-lubbertsen.pdf)

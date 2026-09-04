@@ -12,13 +12,17 @@ sources:
   - raw/articles/2026-08-30-oecd-carf-xml-schema-2025.md
   - raw/articles/2026-08-27-cjeu-c175-20-sia-ss-tax-data.md
   - raw/articles/2026-08-27-cjeu-c-623-22-dac6.md
+  - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
+  - raw/articles/2026-09-04-cjeu-c340-21-tax-authority-breach-security.md
+  - raw/articles/2026-09-04-austria-gmsg-section-5-processing-retention.md
+  - raw/articles/2026-09-04-austria-gmsg-retention-rationale-and-records.md
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-04
 tags: [dac8, dac2, crs, proportionality, data-minimisation, litigation-strategy]
 aliases: [DAC8 DAC2 comparison, DAC8 distinguishing case]
 confidence: high
 volatility: warm
-verified: 2026-08-30
+verified: 2026-09-04
 summary: "Field-level comparison showing which DAC8 features materially distinguish the adverse Austrian DAC2 precedent, with counterarguments and evidence gates."
 ---
 
@@ -38,11 +42,15 @@ summary: "Field-level comparison showing which DAC8 features materially distingu
 | External-address signal | None | Aggregate value and units sent to DLT addresses not known by the provider to be associated with a VASP or financial institution | Records the provider's knowledge state and outward movement; it does not reveal the address or prove that no intermediary exists. |
 | Time resolution | Annual reporting | Annual reporting | DAC8 does not supply transaction dates or a daily chronology. |
 | Transaction identifiers and counterparties | Not part of the DAC2 comparison | Not reported by DAC8 | Blockchain linkage and relationship mapping cannot be presumed from the DAC8 report alone. |
+| Adjacent provider records | The VfGH addressed the reported DAC2 data and an abstract claim of hacker access | MiCA Delegated Regulation 2025/1140 can require covered provider records that link identified buyer/seller data to on-chain hashes and wallet addresses | A new factual linkage environment is relevant only if the particular records, join and legal access path are proved; it does not change the DAC8 payload. |
 | Austrian deletion rule for transmitted information | Five years under the GMSG provision quoted in E 2097/2021 | Ten years under section 20(4) Krypto-MPfG | A separate national proportionality issue; it is not necessary to invalidate DAC8 to challenge this choice. |
+| Provider compliance records | Seven years under current section 7a GMSG | Ten years under section 39 Krypto-MPfG | Austria chose 10/10 rather than GMSG's 5/7 structure. Different data and audit needs may justify this, but the Krypto-MPfG materials do not address the divergence. |
 
 The Commission's impact assessment confirms that this difference was deliberate. It rejected balance-only reporting as insufficient for frequently traded crypto-assets, selected a transaction-derived annual category-aggregate model for more precise risk assessment, and expected that model to have a stronger deterrent and tax-collection effect than balance reporting. Those statements explain the legislative objective; they are not independent proof that every adopted field is strictly necessary.
 
 “Transaction-based” must not be confused with itemised transmission. Every in-scope exchange and transfer feeds the report and the provider's processing duty, while the routine section 18 payload contains annual asset-and-category totals, units and counts rather than one record per underlying transaction.
+
+VfGH E 2097/2021 rejected an abstract security argument. CJEU C-340/21 does not overrule that result; it is a GDPR security-and-damages judgment. It does, however, supply a disciplined factual method: assess the nature, implementation and practical effects of the actual controls against the concrete processing risks, while recognising that a breach alone proves neither inadequacy nor invalidity. Combined with the enacted MiCA Table 3/Table 4 join, this supports targeted evidence requests rather than a generic assertion that crypto data are inherently insecure.
 
 ## Ranked arguments
 
@@ -84,6 +92,9 @@ These points were rejected in the Austrian DAC2 litigation, are factually inaccu
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md))
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))
 - [[dac8-transaction-granularity-and-reporting-layers|DAC8 Transaction Granularity and Reporting Layers]] ([DAC8 Transaction Granularity and Reporting Layers](dac8-transaction-granularity-and-reporting-layers.md))
+- [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](krypto-mpfg-provider-record-architecture.md))
+- [[financial-data-breach-and-security-authorities|Financial-Data Breach and Security Authorities]] ([Financial-Data Breach and Security Authorities](financial-data-breach-and-security-authorities.md))
+- [[dac8-equality-and-technology-neutrality|DAC8 Equality and Technology-Neutrality Arguments]] ([DAC8 Equality and Technology-Neutrality Arguments](dac8-equality-and-technology-neutrality.md))
 
 ## Sources
 
@@ -94,3 +105,7 @@ These points were rejected in the Austrian DAC2 litigation, are factually inaccu
 - [Krypto-MPfG, BGBl I 96/2025](../../../legal-docs/core/at-bgbl-i-96-2025-krypto-mpfg.pdf)
 - [CJEU C-175/20, Valsts ieņēmumu dienests](../../../legal-docs/supporting/eu-cjeu-c175-20-valsts-ienemumu-dienests.pdf)
 - [CJEU C-623/22, Belgian Association of Tax Lawyers](../../../legal-docs/core/eu-cjeu-c623-22-belgian-tax-lawyers.pdf)
+- [Commission Delegated Regulation (EU) 2025/1140](https://eur-lex.europa.eu/eli/reg_del/2025/1140/oj/eng)
+- [CJEU C-340/21, Natsionalna agentsia za prihodite](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0340)
+- [GMSG section 5](../../raw/articles/2026-09-04-austria-gmsg-section-5-processing-retention.md)
+- [GMSG retention rationale and section 7a](../../raw/articles/2026-09-04-austria-gmsg-retention-rationale-and-records.md)

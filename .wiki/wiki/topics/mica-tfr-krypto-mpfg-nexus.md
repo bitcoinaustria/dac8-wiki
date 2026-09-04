@@ -15,13 +15,15 @@ sources:
   - raw/articles/2026-08-27-eu-amlr-regulation-2024-1624.md
   - raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md
   - raw/articles/2026-08-27-krypto-mpfg-section-20-retention.md
+  - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
+  - raw/articles/2026-09-04-mica-dora-casp-security-baseline.md
 created: 2026-08-27
-updated: 2026-08-29
+updated: 2026-09-04
 tags: [mica, tfr, krypto-mpfg, casp, passporting, purpose-limitation, gold-plating]
 aliases: [MiCA DAC8 overlap, CASP regulatory baseline]
 confidence: high
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-04
 summary: "MiCA and TFR create extensive CASP records and controls, but they do not erase the purpose, scope, and retention differences of Austria's all-customer Krypto-MPfG tax processing."
 ---
 
@@ -55,6 +57,10 @@ For Krypto-MPfG scope this means:
 MiCA Article 68(9) is the State's strongest overlap argument. It requires broad records that can already include the transaction material a tax pipeline needs. Article 73 also keeps the CASP responsible for outsourced functions and requires EU data-protection compliance. Article 94 gives authorities extensive information and enforcement powers.
 
 The response is not that MiCA data do not exist. It is that Article 68(9) specifies supervisory, enforcement, client-protection, and market-integrity purposes; it does not automatically establish tax aggregation, all-customer tax classification, or tax-authority exchange as compatible secondary purposes.
+
+Commission Delegated Regulation (EU) 2025/1140 makes the provider-side linkage concrete. Annex Table 3 can identify natural-person buyers and sellers and may contain a transaction hash or other DLT identifier where relevant. Table 4 specifies on-chain records including transaction hash, wallet addresses, timestamp and `To` and `From` fields. The same internal transaction-record number links Tables 3 and 4. This is a potentially durable identity-to-ledger seam, but only for transactions and services covered by those MiCA record rules. It does not add wallet addresses or transaction hashes to the DAC8 report, and MiCA supervisory access does not establish tax-authority receipt.
+
+MiCA Article 68(7) and (8) also imports DORA's ICT-security baseline for authorised CASPs. DORA requires continuous monitoring, protection of data at rest, in use and in transit, network segmentation, anomalous-activity detection, tested controls and incident response. This is material adverse authority to a generic provider-insecurity claim. The live question is whether the distinct DAC8 pipeline is covered by an effective field-level implementation and whether separate MiCA, TFR and tax records are joined only where authorised and necessary.
 
 ## TFR baseline
 
@@ -128,12 +134,16 @@ The claimant must answer with a field-by-field and costed counterfactual, eviden
 - [[vfgh-to-cjeu-dac8-route|VfGH-to-CJEU DAC8 Route]] ([VfGH-to-CJEU DAC8 Route](../theses/vfgh-to-cjeu-dac8-route.md))
 - [[eu-aml-crypto-regulatory-stack|EU AML Crypto Regulatory Stack]] ([EU AML Crypto Regulatory Stack](eu-aml-crypto-regulatory-stack.md))
 - [[austrian-aml-crypto-implementation|Austrian AML Crypto Implementation]] ([Austrian AML Crypto Implementation](austrian-aml-crypto-implementation.md))
+- [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](../references/krypto-mpfg-provider-record-architecture.md))
+- [[identity-to-public-ledger-linkage-evidence|Identity-to-Public-Ledger Linkage Evidence]] ([Identity-to-Public-Ledger Linkage Evidence](../references/identity-to-public-ledger-linkage-evidence.md))
+- [[dac8-security-architecture-and-audit-evidence|DAC8 Security Architecture and Audit Evidence]] ([DAC8 Security Architecture and Audit Evidence](../references/dac8-security-architecture-and-audit-evidence.md))
 
 ## Sources
 
 - [OECD CARF source record](../../raw/articles/2026-08-29-oecd-carf-2022.md)
 - [DAC8 source record](../../raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md)
 - [MiCA full official text](../../../legal-docs/supporting/eu-mica-pe-cons-54-2022-rev1-full.pdf)
+- [Commission Delegated Regulation (EU) 2025/1140](https://eur-lex.europa.eu/eli/reg_del/2025/1140/oj/eng)
 - [TFR full official text](../../../legal-docs/supporting/eu-tfr-pe-cons-53-2022-rev1-full.pdf)
 - [MiCA-VVG, BGBl. I No. 111/2024](../../../legal-docs/supporting/at-bgbl-i-111-2024-mica-vvg.pdf)
 - [MiCA-VVG 2026 amendment](../../../legal-docs/supporting/at-bgbl-i-5-2026-mica-vvg-amendment.pdf)

@@ -208,7 +208,7 @@ Art. 77 DSGVO und § 24 Abs. 1 DSG eröffnen der betroffenen Person die Beschwer
 
 DSB 2023-0.632.875 begrenzt § 24 DSG gegenüber einer bloß künftig möglichen Verarbeitung. Die Hauptbeschwerde muss deshalb an bereits erfolgte oder laufende Vorgänge anknüpfen: Steueransässigkeitsklassifikation, Erstellung der konkreten Transaktionsfelder oder Aggregate, Speicherung, Auskunftsverweigerung oder einen anderen nachgewiesenen Schritt. Eine nur mögliche Meldung im Jahr 2027 trägt keine freistehende pro-futuro-Beschwerde; sie gehört in die Folgen- und gegebenenfalls Eilbegründung.
 
-Die DSB kann ein Gesetz nicht aufheben und ist kein Gericht für Art. 267 AEUV. Sie muss aber die gesetzliche Grundlage auf den konkreten Verarbeitungsvorgang anwenden. Ihr Bescheid schafft den anfechtbaren Anlassfall. Gegen den DSB-Bescheid läuft grundsätzlich eine vierwöchige Beschwerdefrist zum BVwG. Dort können präzise angeregt werden:
+Die DSB kann ein Gesetz nicht aufheben und ist kein Gericht für Art. 267 AEUV. Sie muss aber die gesetzliche Grundlage auf den konkreten Verarbeitungsvorgang anwenden. Ihr Bescheid schafft den anfechtbaren konkreten Fall. Ein Anlassfall der Normprüfung entsteht erst, wenn das BVwG einen Antrag nach Art. 139 oder 140 B-VG stellt oder der VfGH aus einer späteren Art.-144-Beschwerde ein Normprüfungsverfahren einleitet. Gegen den DSB-Bescheid läuft grundsätzlich eine vierwöchige Beschwerdefrist zum BVwG. Dort können präzise angeregt werden:
 
 1. ein Gerichtsantrag nach Art. 140 Abs. 1 Z 1 lit. a B-VG gegen die präjudiziellen nationalen Normen;
 2. eine Vorabentscheidung nach Art. 267 AEUV zur Auslegung oder Gültigkeit der DAC8-Bestimmungen.

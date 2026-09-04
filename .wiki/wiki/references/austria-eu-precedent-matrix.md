@@ -2,6 +2,7 @@
 title: "Austria and EU Precedent Matrix for a DAC8 Challenge"
 category: reference
 sources:
+  - raw/articles/2026-09-04-dsb-urgent-threshold-correction.md
   - raw/articles/2026-08-27-vfgh-g178-2024-eimpfpass.md
   - raw/articles/2026-08-27-vfgh-g385-2018-elga.md
   - raw/articles/2026-08-27-vfgh-v532-2020-smart-meter.md
@@ -55,12 +56,13 @@ sources:
   - raw/articles/2026-08-30-vwgh-ro2021-04-0030-recipient-identity.md
   - raw/articles/2026-08-30-bvwg-w137-2314413-access-restriction.md
 created: 2026-08-27
-updated: 2026-08-30
+updated: 2026-09-04
 tags: [dac8, austria, eu, precedent, standing, proportionality, article-267]
 aliases: [DAC8 case matrix, Austrian EU privacy precedents]
 confidence: high
 volatility: warm
-verified: 2026-08-30
+verified: 2026-09-04
+verification_scope: "September 4: urgent-protection threshold corrected against DSB D.1; other entries retain their earlier source verification dates."
 summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR authorities support, limit, or contradict a citizen DAC8 challenge."
 ---
 
@@ -88,7 +90,7 @@ summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR
 | VfGH G 37-38/2024 | Civil proceedings are generally reasonable and may lead to court-initiated review or a party application after a first-instance merits judgment. | Independent alternative; ordinary cost and poor prospects do not restore direct standing. |
 | Krypto-MPfG sections 2(2) and 19(2); BAO section 243 | The BAO applies mutatis mutandis and the provider report is an `Abgabenerklärung`, but a BAO complaint under section 243 requires a tax-authority Bescheid. | No ordinary pre-report BFG route for the private user has been identified; do not assume one without a concrete user-facing Bescheid and party status. |
 | VfGH G 34/2022; G 231/2021 ua | Section 20a VfGG gives no applicant right to interim relief; an EO interim proceeding cannot itself support a party application. | Direct filing has no unique interim advantage; urgent and merits routes must be separated. |
-| VwGH Ro 2023/04/0028; Ra 2023/04/0076; DSB 2024-0.215.259 | The one-year knowledge-based DSB limit is effective; immediate mandate prohibitions exist but require concrete weighty illegality and claimant-specific imminent danger. | File early; urgent relief is real, fact-heavy and revisable. General future fears do not suffice. |
+| VwGH Ro 2023/04/0028; Ra 2023/04/0076; DSB 2024-0.215.259 | The one-year knowledge-based DSB limit is effective; immediate mandate prohibitions exist but require grounded suspicion of unlawful processing and claimant-specific substantial immediate danger. | File early; urgent relief is real, fact-heavy and revisable. General future fears do not suffice. |
 | VwGH 2010/07/0171; Ro 2025/04/0021 | An unprovided declaratory order must be necessary and suitable to protect a subjective right prospectively; changed law and concrete punishment risk supported a separate interest in 2013. | No established user route, but potentially important counterauthority for a sanctioned CASP that proves competence, an unresolved duty and current risk. |
 | VfGH V 532/2020 | Ordinary/civil/data-protection routes displace direct review absent retention-style extraordinary circumstances. | Adverse. |
 | VfGH G 105/2025 | Material pre-deadline electronic and administrative preparations for a penalised data-supply duty establish current/direct business effect; the broad monitoring system nevertheless survived on the merits. | Strong CASP standing analogue and strong merits warning. |
@@ -141,3 +143,7 @@ For the substantive field, inference and lifecycle analyses, see [[dac8-field-ne
 All cited judgments retained locally are listed in the [legal corpus manifest](../../../legal-docs/_index.md), with checksums in [SHA256SUMS](../../../legal-docs/SHA256SUMS).
 
 For the procedure-checked successful-case matrix and filing anatomy, see [[successful-individualantrag-patterns|Successful Austrian Individualantrag Patterns]] ([Successful Austrian Individualantrag Patterns](successful-individualantrag-patterns.md)).
+
+## Source correction
+
+- [DSB urgent-threshold correction](../../raw/articles/2026-09-04-dsb-urgent-threshold-correction.md)

@@ -2,6 +2,7 @@
 title: "VfGH-to-CJEU DAC8 Route"
 type: thesis
 sources:
+  - raw/articles/2026-09-04-dsb-urgent-threshold-correction.md
   - raw/articles/2026-08-27-vfgh-g178-2024-eimpfpass.md
   - raw/articles/2026-08-27-vfgh-g-17-2024-admissibility.md
   - raw/articles/2026-08-27-austria-dsg-24-27-remedy-chain.md
@@ -45,13 +46,18 @@ sources:
   - raw/articles/2026-08-27-ecthr-tretter-victim-status.md
   - raw/articles/2026-08-27-ecthr-admissibility-victim-exhaustion-four-month.md
   - raw/articles/2026-08-27-article-263-tfeu-individual-direct-action.md
+  - raw/articles/2026-09-04-cjeu-c378-17-administrative-disapplication.md
+  - raw/articles/2026-09-04-cjeu-c573-17-poplawski-horizontal-limit.md
+  - raw/articles/2026-09-04-cjeu-c26-c64-22-schufa-full-review.md
+  - raw/articles/2026-09-04-austria-dsb-bvwg-procedure-interim-effect.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-04
 tags: [dac8, austria, vfgh, cjeu, dsb, bvwg, article-267, litigation-strategy]
 aliases: [VfGH EuGH DAC8 route, Austrian DAC8 constitutional challenge]
 confidence: medium
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-04
+verification_scope: "Updated procedural and remedy analysis; the negative search for post-C-655/23 OGH decisions retains its stated August 27 cutoff."
 summary: "A DAC8 user should normally proceed through DSB and BVwG and may separately assess an Article 79 GDPR action, while an evidence-backed Austria-home CASP may bring a direct Article 140 case against a precise national excess."
 ---
 
@@ -86,6 +92,10 @@ A provider-specific administrative declaratory route must also be checked rather
 
 This is not theoretical. The Austrian DAC2 claimant used this chain through DSB, BVwG, VfGH, and VwGH. Austrian PNR litigation likewise shows a DSB/BVwG vehicle applying later CJEU authority. G 287/2022 ua supplies even more direct institutional proof: individual DSB complaints reached the BVwG, the BVwG filed Article 140 applications, and the VfGH admitted them and annulled section 9(1) DSG.
 
+The DSB can itself provide concrete EU-law relief before judicial escalation. C-378/17 requires a national administrative body applying EU law to disapply conflicting national law within its competence. Against a private provider, C-573/17 means that the operative conflict should rest on directly applicable GDPR or primary law, not DAC8 alone. The result is non-application in the case, not general annulment of the Krypto-MPfG and not invalidation of DAC8.
+
+C-26/22 and C-64/22 require diligent supervisory investigation and full judicial review of law and fact. This makes the DSB/BVwG route an evidence-producing merits path rather than only a procedural bridge to the VfGH or CJEU.
+
 Nor is Article 267 reserved to constitutional courts. ABNA shows ordinary courts referring directive-validity questions and obtaining partial invalidation. CJEU C-56/25, Petlichev, confirms that a specialist court retains its Article 267 powers and EU-law duties despite available or parallel constitutional review and need not await constitutional annulment before disapplying conflicting national law. The indispensable gate is an admissible, decision-ready underlying case, not prior access to the VfGH.
 
 The route can start before the first report. Section 20 processing has operated since 1 January 2026; the first provider report for 2026 is due by 31 July 2027. Before transmission, the CASP is normally the concrete respondent. Later BMF receipt, onward exchange, and foreign-authority processing are separate acts and may require separate cases.
@@ -102,7 +112,9 @@ VfGH G 231/2021 ua adds a procedural separation: an enforcement-order interim pr
 
 A direct Article 140 application does not automatically suspend the challenged processing. Section 20a VfGG permits EU-law-required interim protection in a pending VfGH case, but G 34/2022 holds that the provision creates no applicant right; any such order is made ex officio.
 
-The DSB route has its own urgent mechanism. Under section 25(1) DSG, a complainant who credibly shows a substantial impairment of protected confidentiality interests can trigger section 22(4), which permits an immediate section 57 AVG mandate decision prohibiting all or part of processing where a substantial immediate danger and danger in delay are present. DSB 2024-0.215.259 requires a rationally grounded suspicion of a weighty violation and a claimant-specific substantial immediate danger; general worries and hypothetical future events do not suffice. VwGH Ra 2023/04/0076 confirms real use of such a mandate prohibition, while also showing that it may be lifted after investigation. Civil interim relief may also be available under Austrian law. None of these measures is automatic, and any attempt to suspend the effect of an EU act faces the strict Unibet/Zuckerfabrik/Atlanta conditions. Direct VfGH review has no unique interim-protection advantage.
+The DSB route has its own urgent mechanism. Under section 25(1) DSG, a complainant who credibly shows a substantial impairment of protected confidentiality interests can trigger section 22(4), which permits an immediate section 57 AVG mandate decision prohibiting all or part of processing where a substantial immediate danger and danger in delay are present. DSB 2024-0.215.259 requires a rationally grounded suspicion of unlawful processing and a claimant-specific substantial immediate danger; general worries and hypothetical future events do not suffice. VwGH Ra 2023/04/0076 confirms real use of such a mandate prohibition, while also showing that it may be lifted after investigation. Civil interim relief may also be available under Austrian law. None of these measures is automatic, and any attempt to suspend the effect of an EU act faces the strict Unibet/Zuckerfabrik/Atlanta conditions. Direct VfGH review has no unique interim-protection advantage.
+
+The procedural effect must be pleaded separately. An objection to a non-monetary section 57 mandate prohibition generally does not suspend it. An ordinary DSB prohibition can be suspended by a timely BVwG complaint unless suspensive effect is separately excluded under section 13(2) VwGVG. A complaint against refusal of an urgent measure does not itself create a stop. No ordinary route guarantees a final VfGH or CJEU decision before the first provider report on 31 July 2027.
 
 ## ECHR effective-remedy check
 
@@ -176,6 +188,7 @@ Each question must be necessary to decide its concrete proceeding. Austria's sec
 
 ## See Also
 
+- [[non-eu-tax-resident-claimant-advantage|Drittstaaten-Steueransässigkeit als Klägerprofil]] ([Drittstaaten-Steueransässigkeit als Klägerprofil](non-eu-tax-resident-claimant-advantage.md))
 - [[individualantrag-article-140|Individualantrag under Article 140 B-VG]] ([Individualantrag under Article 140 B-VG](../concepts/individualantrag-article-140.md))
 - [[dac2-crs-austrian-litigation|Austrian DAC2/CRS Litigation]] ([Austrian DAC2/CRS Litigation](../topics/dac2-crs-austrian-litigation.md))
 - [[austria-eu-precedent-matrix|Austria and EU Precedent Matrix]] ([Austria and EU Precedent Matrix](../references/austria-eu-precedent-matrix.md))
@@ -185,8 +198,11 @@ Each question must be necessary to decide its concrete proceeding. Austria's sec
 - [[g178-dsb-bvwg-subsidiarity-route|G 178/2024 and the DAC8 Citizen Remedy Chain]] ([G 178/2024 and the DAC8 Citizen Remedy Chain](../references/g178-dsb-bvwg-subsidiarity-route.md))
 - [[mica-tfr-krypto-mpfg-nexus|MiCA, TFR, and the Krypto-MPfG Nexus]] ([MiCA, TFR, and the Krypto-MPfG Nexus](../topics/mica-tfr-krypto-mpfg-nexus.md))
 - [[member-state-challenge-and-communications-playbook|Member-State Challenge and Communications Playbook]] ([Member-State Challenge and Communications Playbook](../references/member-state-challenge-and-communications-playbook.md))
+- [[dsb-bvwg-evidence-and-interim-toolkit|DSB and BVwG Evidence and Interim-Protection Toolkit]] ([DSB and BVwG Evidence and Interim-Protection Toolkit](../references/dsb-bvwg-evidence-and-interim-toolkit.md))
 
 ## Sources
+
+- [DSB urgent-threshold correction](../../raw/articles/2026-09-04-dsb-urgent-threshold-correction.md)
 
 - [VfGH G 178/2024](../../../legal-docs/supporting/at-vfgh-g178-2024.pdf)
 - [DSG consolidated snapshot](../../../legal-docs/core/at-dsg-consolidated-2026.html)
@@ -217,3 +233,7 @@ Each question must be necessary to decide its concrete proceeding. Austria's sec
 - [Commission complaint rules](../../raw/articles/2026-08-27-eu-commission-complaint-procedure-2017-c18-02.md)
 - [ECtHR G.S.B. full judgment](../../raw/articles/2026-08-27-ecthr-gsb-v-switzerland-full-judgment.md)
 - [ECtHR Tretter victim-status holding](../../raw/articles/2026-08-27-ecthr-tretter-victim-status.md)
+- [CJEU C-378/17](../../raw/articles/2026-09-04-cjeu-c378-17-administrative-disapplication.md)
+- [CJEU C-573/17](../../raw/articles/2026-09-04-cjeu-c573-17-poplawski-horizontal-limit.md)
+- [CJEU C-26/22 and C-64/22](../../raw/articles/2026-09-04-cjeu-c26-c64-22-schufa-full-review.md)
+- [Austrian interim-effect procedure](../../raw/articles/2026-09-04-austria-dsb-bvwg-procedure-interim-effect.md)

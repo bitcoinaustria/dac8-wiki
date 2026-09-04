@@ -18,13 +18,22 @@ sources:
   - raw/articles/2026-08-27-vfgh-g265-2023-wiereg-public-access.md
   - raw/articles/2026-08-27-vfgh-g62-2025-wiereg-information.md
   - raw/articles/2026-08-27-vfgh-e2189-2025-wiereg-internal-data.md
+  - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
+  - raw/articles/2026-09-04-cjeu-c340-21-tax-authority-breach-security.md
+  - raw/articles/2026-09-04-ecthr-i-v-finland-database-security.md
+  - raw/articles/2026-09-04-france-dgfip-tax-data-breach.md
+  - raw/articles/2026-09-04-france-ficoba-account-register-breach.md
+  - raw/articles/2026-09-04-coinbase-2025-data-theft-8k.md
+  - raw/articles/2026-09-04-cnil-2025-breach-report-detailed-extraction.md
+  - raw/papers/2026-09-04-ordekian-wrench-attacks-aft-2024.md
+  - raw/articles/2026-09-04-ecthr-kurt-austria-physical-risk-threshold.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-04
 tags: [dac8, fundamental-rights, privacy, data-protection, security, communications]
 aliases: [DAC8 dangers, DAC8 rights narrative, financial privacy risks]
 confidence: medium
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-04
 summary: "A litigation-and-communications framework separating established privacy interferences from evidence-dependent security, chilling, exclusion, and function-creep risks."
 ---
 
@@ -104,11 +113,20 @@ The usable principle is differentiated access and lifecycle safeguards. The unus
 
 ### Breach and physical-security consequences
 
-Identity, address, crypto holdings, and transfer information can be valuable targeting material. Official breach statistics establish a persistent general threat environment; crypto-sector incident research records real home invasions, kidnappings, and proxy/family targeting.
+Identity, home-address and financial-activity data can be valuable targeting material. The located evidence makes several attack paths concrete without proving a DAC8-specific breach:
 
-The evidence does not establish that DAC8 caused those attacks. Waltio's disclosure confirms that a crypto-tax dataset can be breached while also showing why precision matters: the provider said the incident exposed emails and financial summaries, not wallet addresses, transaction histories, postal addresses, or identity documents.
+- in August 2026 the French tax authority reported credential-based extraction of identity, contact, tax and cadastral data concerning 678,000 persons and businesses;
+- in February 2026 stolen government credentials exposed identity, postal-address and IBAN information for about 1.2 million French account records;
+- Coinbase reported that paid support workers or contractors obtained identity data, balance snapshots and transaction history; and
+- CNIL recorded 6,167 breach notifications in 2025 and identified account compromise as a recurring access path.
 
-Safe message: a new identity-linked financial dataset adds an attack surface and can magnify harm if joined with other data. Unsafe message: DAC8 automatically gives criminals every wallet and home address or has already caused kidnappings.
+The DLT-specific issue is narrower. A verified wallet address or transaction hash can create a persistent entry point into a public ledger whose past and future context may become more informative as labels and transactions accumulate. MiCA Delegated Regulation 2025/1140 establishes that covered provider records can link identified buyer/seller data to on-chain hashes and wallet addresses through an internal transaction-record number. DAC8 does not transmit those anchors. Any claim of added harm must prove the provider record, legal access path and actual join.
+
+Research on physical attacks against cryptocurrency holders confirms a real coercion threat, but the located sample identifies public exposure, acquaintances, investigation and peer-to-peer encounters as targeting routes. It does not establish tax-reporting or government-database leakage as a cause. Nor does the current evidence support a categorical statement that a DAC8 dataset is more dangerous than every conventional asset list. Risk depends on the fields, accuracy, home-address content, custody, chain, address reuse, access controls and retention.
+
+The Grand Chamber's *Kurt v Austria* test confines an Article 2 operational protection duty to a real and immediate risk to an identified person known or knowable to authorities. General sector risk does not meet that standard. Physical harm should therefore ordinarily operate as a severity, security and urgency factor within the privacy and data-protection case, unless the claimant has a documented specific threat.
+
+CJEU C-340/21 supports a concrete assessment of the nature, implementation and practical effects of security measures. It also holds that a breach or third-party access does not by itself prove inadequate safeguards. The evidence should therefore be used to test compartmentalisation, least-privilege access, bulk export, monitoring, logging and response, not as an automatic invalidity argument.
 
 ### Chilling and self-censorship
 
@@ -178,6 +196,10 @@ This frame is reusable across Member States and avoids making the project depend
 - [[dac8-and-the-wealth-register-risk|DAC8 and the Wealth-Register Risk]] ([DAC8 and the Wealth-Register Risk](dac8-and-the-wealth-register-risk.md))
 - [[aml-financial-intelligence-and-fundamental-rights|AML Financial Intelligence and Fundamental Rights]] ([AML Financial Intelligence and Fundamental Rights](aml-financial-intelligence-and-fundamental-rights.md))
 - [[austrian-aml-crypto-implementation|Austrian AML Crypto Implementation]] ([Austrian AML Crypto Implementation](austrian-aml-crypto-implementation.md))
+- [[identity-to-public-ledger-linkage-evidence|Identity-to-Public-Ledger Linkage Evidence]] ([Identity-to-Public-Ledger Linkage Evidence](../references/identity-to-public-ledger-linkage-evidence.md))
+- [[financial-data-breach-and-security-authorities|Financial-Data Breach and Security Authorities]] ([Financial-Data Breach and Security Authorities](../references/financial-data-breach-and-security-authorities.md))
+- [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](../references/krypto-mpfg-provider-record-architecture.md))
+- [[dac8-physical-risk-causation|DAC8 Physical-Risk Causation and Evidence]] ([DAC8 Physical-Risk Causation and Evidence](../references/dac8-physical-risk-causation.md))
 
 ## Sources
 

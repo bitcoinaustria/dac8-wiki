@@ -9,19 +9,22 @@ sources:
   - raw/articles/2026-08-27-netherlands-dac8-implementation-act.md
   - raw/articles/2026-08-27-belgium-dac8-implementation.md
   - raw/articles/2026-08-27-luxembourg-dac8-implementation.md
+  - raw/articles/2026-09-04-ireland-dac8-si-584-2025-retention-copy.md
+  - raw/articles/2026-09-04-finland-dac8-national-capital-gains-extension.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-04
 tags: [dac8, member-states, implementation-map, litigation, comparative-law]
 aliases: [European DAC8 implementations, DAC8 litigation map]
 confidence: medium
 volatility: hot
-verified: 2026-08-27
-summary: "Comparative snapshot of enacted DAC8 measures in Austria, France, Germany, the Netherlands, Belgium, and Luxembourg, with the only located challenge still claimant-reported."
+verified: 2026-09-04
+verification_scope: "September 4 implementation additions; the litigation search retains its stated August 27 cutoff."
+summary: "Comparative snapshot of enacted DAC8 measures and located litigation, linked to a separate field-by-field safeguards and alternatives analysis."
 ---
 
 # DAC8 Member-State Implementation and Litigation Map
 
-> Implementation is widespread, but no verified national judgment or CJEU DAC8 reference was located as of 27 August 2026.
+> Implementation is widespread. The litigation search located no verified national judgment or CJEU DAC8 reference as of 27 August 2026; it was not comprehensively repeated for the September 4 implementation additions.
 
 ## Snapshot
 
@@ -33,6 +36,8 @@ summary: "Comparative snapshot of enacted DAC8 measures in Austria, France, Germ
 | Netherlands | Staatsblad 2026, 79 | Published Apr 2026; retroactive to 1 Jan | None located |
 | Belgium | Law of 16 Mar 2026 | Published 1 Apr 2026 | None located |
 | Luxembourg | Law of 27 Mar 2026, Mémorial A 144 | First report due 30 Jun 2027 | None located |
+| Ireland | SI 584/2025, section 891M TCA | 2026 first year; six-year provider records | None located |
+| Finland | Act 1043/2025 and related 2026 rules | 2026 first year; express additional domestic gains-and-losses information | None located |
 
 ## France
 
@@ -46,11 +51,14 @@ Germany provides a timely statute with a financial-court route for authority mea
 
 Every Article 267 path still needs a live national case and a decision-relevant EU-law question. Procedural routes differ by jurisdiction and should not be transplanted to Austria without local authority.
 
+Retention, reportable-user drafting, pre-filing information and correction mechanisms differ in ways that are useful for necessity analysis. Those features and their limits are maintained in the separate [[dac8-member-state-implementation-comparators|DAC8 Member-State Implementation Comparators]] reference rather than treating this status table as proof of a uniformly more privacy-protective national system.
+
 ## See Also
 
 - [[austrian-dac8-implementation|Austrian DAC8 Implementation]] ([Austrian DAC8 Implementation](../topics/austrian-dac8-implementation.md)) — principal jurisdiction.
 - [[article-267-preliminary-reference|Article 267 Preliminary Reference]] ([Article 267 Preliminary Reference](../concepts/article-267-preliminary-reference.md)) — common EU court mechanism.
 - [[vfgh-to-cjeu-dac8-route|VfGH-to-CJEU DAC8 Route]] ([VfGH-to-CJEU DAC8 Route](../theses/vfgh-to-cjeu-dac8-route.md)) — Austrian thesis.
+- [[dac8-member-state-implementation-comparators|DAC8 Member-State Implementation Comparators]] ([DAC8 Member-State Implementation Comparators](dac8-member-state-implementation-comparators.md)) — enacted alternatives and limits.
 
 ## Sources
 
@@ -61,4 +69,5 @@ Every Article 267 path still needs a live national case and a decision-relevant 
 - [Netherlands](../../raw/articles/2026-08-27-netherlands-dac8-implementation-act.md)
 - [Belgium](../../raw/articles/2026-08-27-belgium-dac8-implementation.md)
 - [Luxembourg](../../raw/articles/2026-08-27-luxembourg-dac8-implementation.md)
-
+- [Ireland](../../raw/articles/2026-09-04-ireland-dac8-si-584-2025-retention-copy.md)
+- [Finland](../../raw/articles/2026-09-04-finland-dac8-national-capital-gains-extension.md)

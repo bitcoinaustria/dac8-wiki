@@ -13,13 +13,15 @@ sources:
   - raw/articles/2026-08-29-oecd-carf-2022.md
   - raw/articles/2026-08-30-oecd-carf-xml-schema-2025.md
   - raw/articles/2026-08-30-dac8-impact-assessment-evidence-and-options.md
+  - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
+  - raw/articles/2026-09-04-oecd-carf-external-wallet-address-retention.md
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-04
 tags: [dac8, austria, krypto-mpfg, reporting, transaction-granularity, xml, carf]
 aliases: [DAC8 every transaction, DAC8 transaction reporting]
 confidence: high
 volatility: hot
-verified: 2026-08-30
+verified: 2026-09-04
 summary: "Separates the all-transaction scope and provider processing duty from the annual asset-and-category aggregates routinely reported to tax authorities."
 ---
 
@@ -62,6 +64,12 @@ The statutory wording therefore supports annual aggregate transmission. A differ
 
 Aggregation does not make every report coarse. If a user has only one transaction in an asset-and-category group, a count of one together with its amount and units effectively reveals those quantitative facts for that transaction, although not its date, identifier, counterparty or address. Rare assets, narrow transfer types and correction records can also increase inferential detail. These are consequences of the enacted aggregate fields, not evidence that a full itemised ledger is routinely transmitted.
 
+## Separate provider records
+
+The absence of addresses and hashes from the DAC8 report does not mean they are absent from the provider. For covered MiCA services and transactions, Delegated Regulation (EU) 2025/1140 can link identified buyer/seller records to on-chain records containing hashes, wallet addresses and timestamps through the provider's transaction-record number. TFR separately requires identity and address-related records for covered transfers. OECD CARF commentary expects external wallet addresses to be retained for follow-up requests, but DAC8 does not reproduce that exact commentary clause as a reported field or express Austrian retention rule.
+
+These layers make provider discovery important. They do not establish routine transmission, tax-authority access or lawful fusion. Each address-bearing record needs its own binding basis, purpose, period, controller and access path.
+
 ## Litigation consequence
 
 The accurate privacy premise is broader than the transmitted XML but narrower than a claim of routine itemised reporting:
@@ -78,6 +86,7 @@ The strongest proportionality analysis should therefore examine both mandatory a
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md))
 - [[dac8-vs-dac2-distinguishing-arguments|DAC8 versus DAC2: Distinguishing Arguments]] ([DAC8 versus DAC2: Distinguishing Arguments](dac8-vs-dac2-distinguishing-arguments.md))
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))
+- [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](krypto-mpfg-provider-record-architecture.md))
 
 ## Sources
 
@@ -89,3 +98,4 @@ The strongest proportionality analysis should therefore examine both mandatory a
 - [Commission Implementing Regulation (EU) 2025/2263](../../../legal-docs/supporting/eu-implementing-regulation-2025-2263.pdf)
 - [OECD CARF XML Schema User Guide, July 2025](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/07/crypto-asset-reporting-framework-xml-schema-july-2025_d1f81247/6e60235b-en.pdf)
 - [Commission impact assessment SWD(2022) 401](../../../legal-docs/supporting/eu-swd-2022-401-dac8-impact-assessment.pdf)
+- [Commission Delegated Regulation (EU) 2025/1140](https://eur-lex.europa.eu/eli/reg_del/2025/1140/oj/eng)

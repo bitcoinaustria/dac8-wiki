@@ -1,0 +1,99 @@
+---
+title: "Identity-to-Public-Ledger Linkage Evidence"
+category: reference
+sources:
+  - raw/articles/2026-08-27-edpb-blockchain-guidelines-02-2025-final.md
+  - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
+  - raw/papers/2026-09-04-goldfeder-cookie-blockchain-popets-2018.md
+  - raw/papers/2026-09-04-kappos-bitcoin-cluster-validation-usenix-2022.md
+  - raw/papers/2026-09-04-moeser-narayanan-bitcoin-clustering-fc-2022.md
+  - raw/papers/2026-09-04-ghost-clusters-usenix-2025.md
+created: 2026-09-04
+updated: 2026-09-04
+tags: [blockchain, linkage, amount-matching, clustering, attribution, false-positive, expert-evidence]
+aliases: [DLT linkage evidence, blockchain breach amplification]
+confidence: high
+volatility: warm
+verified: 2026-09-04
+summary: "Evidence map for transaction matching, cluster expansion and identity attribution, including the unproved status of DAC8 annual-aggregate matching."
+---
+
+# Identity-to-Public-Ledger Linkage Evidence
+
+> A verified address, transaction identifier or precise amount-plus-time observation can create a durable entry point into a transparent public ledger. The DAC8 annual report provides none of those direct anchors. Whether its annual aggregates materially reduce the candidate set remains an open empirical question.
+
+## Four separate steps
+
+| Step | Required input | What the evidence supports | Failure mode |
+|---|---|---|---|
+| Transaction match | address or transaction ID, or exact amount plus a short time window | direct lookup or a candidate set; Goldfeder shows frequent unique matches in a web-payment setting | annual window, batching, fees, rounding, internal ledger entries and duplicate amounts |
+| Address or wallet cluster | matched public transaction and chain-specific heuristics | practical cluster expansion on Bitcoin under validated conditions | CoinJoin, PayJoin, wallet changes, wrong change output and transitive cluster collapse |
+| Entity attribution | provider label, controlled interaction, seizure data or another verified source | attribution for some services; Ghost Clusters reports low false positives but widely varying coverage in three seized-service cases | incomplete or stale labels, service-specific results, multiple users and custodial omnibus wallets |
+| Natural-person conclusion | independent evidence connecting the entity or address to the person | a person-level conclusion only if separately corroborated | address control, legal ownership and beneficial ownership are not equivalent |
+
+No later step follows automatically from an earlier one. A unique transaction candidate is not proof of who controlled the keys or economically owned the assets.
+
+## DAC8-only boundary
+
+The routine report supplies calendar year, provider, identity, crypto-asset, transaction category and aggregate value or fair-market value, aggregate units and usually transaction count. It does not supply the day, transaction hash, address or counterparty. The external-address category has no count.
+
+No located peer-reviewed study tests whether `year + asset + category + value + units + count = 1` regularly identifies a public-ledger transaction. Existing high match rates use minutes or hours, exact amounts and often an API, known service or address seed. The Singleton argument is therefore a testable hypothesis, not a litigation fact.
+
+## Why a direct ledger anchor is different
+
+The final EDPB blockchain guidance provides the institutional basis for the distinct harm mechanism:
+
+- paragraph 26 treats public keys or identifiers as personal data when reasonably likely means, including information exposed in a breach, can link them to a person;
+- paragraph 50 notes that directly identifying data written on-chain may be practically impossible to delete or modify;
+- paragraph 61 describes append-only ledgers as potentially persistent and widely replicated;
+- paragraphs 63–64 emphasise storage limitation and preventing future linkage of existing and future transactions.
+
+The better formulation is not that DLT data are absolutely immutable or that every address reveals a wallet. It is that a verified identity-to-ledger anchor may remain publicly queryable, may expose historical context and may become more informative when later labels or transactions appear.
+
+## Chain-specific limits
+
+| Model | Publicly visible | Necessary caution |
+|---|---|---|
+| Bitcoin and similar UTXO chains | transactions, inputs and outputs; graph structure | multi-input and change heuristics are probabilistic; batching and CoinJoin matter |
+| Ethereum and account-based chains | addresses, calls, logs and token transfers | contract calls, internal operations, bridges, wrappers and token decimals require different methods |
+| Privacy-enhanced chains | visibility depends on protocol version and transaction type | historical Zcash or pre-RingCT Monero findings cannot be generalised to current shielded activity |
+| Custodial provider ledger | customer trades and internal transfers | many customer events never map one-to-one to a public transaction; omnibus wallets break naive matching |
+
+## Retrospective expansion and error propagation
+
+Later transactions and new labels can make past public activity easier to interpret. Möser and Narayanan also show the adverse side: one wrong change-output inference can merge unrelated clusters, and small local error rates can propagate through transitive clustering. Kappos and co-authors caution that investigator output is not definitive evidence. The 2025 Ghost Clusters study reinforces both propositions: attribution can be strong for particular seeded services, yet coverage differs substantially between services and providers and changes over time.
+
+## Expert test for DAC8 matching
+
+1. Freeze the asset, chain, provider, transaction category and calendar year.
+2. Test the actual DAC8 tuple first, without addresses, transaction IDs or hidden provider timestamps.
+3. Measure candidate-set size `k`, unique-match rate, precision, recall, false-discovery rate and top-k recall.
+4. Add auxiliary data one layer at a time: provider cluster, short time window, TFR or MiCA record, then address or transaction ID as a positive control.
+5. Include negative controls: internal trades, batch withdrawals, equal values, round values, fees, wrong year and wrong category.
+6. Keep transaction matching, address clustering, entity attribution and person attribution as separate reported endpoints.
+7. Pre-register rules before unblinding and preserve chain snapshot, block height, code hash and parameters.
+8. Report results by provider, wallet software, chain and time period; do not rely only on pooled accuracy.
+
+## Claims to exclude
+
+- DAC8 annual aggregates uniquely identify an on-chain transaction.
+- A `count` of one identifies a transaction; the external-address field does not contain a count at all.
+- Bitcoin clustering metrics transfer to Ethereum, Monero, Zcash or provider-internal ledgers.
+- A matched address proves current control, current wealth or beneficial ownership.
+- Cluster analysis is deterministic or court-ready without ground truth and error analysis.
+- A public-ledger link necessarily exposes the complete portfolio or every future transaction.
+
+## See Also
+
+- [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md))
+- [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](krypto-mpfg-provider-record-architecture.md))
+- [[financial-data-breach-and-security-authorities|Financial-Data Breach and Security Authorities]] ([Financial-Data Breach and Security Authorities](financial-data-breach-and-security-authorities.md))
+- [[dac8-blockchain-linkage-expert-evidence-protocol|DAC8 Blockchain-Linkage Expert-Evidence Protocol]] ([DAC8 Blockchain-Linkage Expert-Evidence Protocol](dac8-blockchain-linkage-expert-evidence-protocol.md))
+
+## Sources
+
+- [Final EDPB blockchain guidance](../../../legal-docs/supporting/eu-edpb-guidelines-02-2025-blockchain-v2.pdf)
+- [When the Cookie Meets the Blockchain](https://petsymposium.org/popets/2018/popets-2018-0038.php)
+- [How to Peel a Million](https://www.usenix.org/conference/usenixsecurity22/presentation/kappos)
+- [Resurrecting Address Clustering in Bitcoin](https://arxiv.org/abs/2107.05749)
+- [Ghost Clusters](https://www.usenix.org/system/files/usenixsecurity25-lubbertsen.pdf)
