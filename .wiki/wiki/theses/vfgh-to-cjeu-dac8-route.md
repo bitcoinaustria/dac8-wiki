@@ -51,12 +51,12 @@ sources:
   - raw/articles/2026-09-04-cjeu-c26-c64-22-schufa-full-review.md
   - raw/articles/2026-09-04-austria-dsb-bvwg-procedure-interim-effect.md
 created: 2026-08-27
-updated: 2026-09-04
+updated: 2026-09-10
 tags: [dac8, austria, vfgh, cjeu, dsb, bvwg, article-267, litigation-strategy]
 aliases: [VfGH EuGH DAC8 route, Austrian DAC8 constitutional challenge]
 confidence: medium
 volatility: hot
-verified: 2026-09-04
+verified: 2026-09-10
 verification_scope: "Updated procedural and remedy analysis; the negative search for post-C-655/23 OGH decisions retains its stated August 27 cutoff."
 summary: "A DAC8 user should normally proceed through DSB and BVwG and may separately assess an Article 79 GDPR action, while an evidence-backed Austria-home CASP may bring a direct Article 140 case against a precise national excess."
 ---
@@ -84,10 +84,10 @@ A provider-specific administrative declaratory route must also be checked rather
 ### Track B: user
 
 1. Select an actual user of an Austrian-covered CASP with post-1 January 2026 processing.
-2. Use a genuinely non-reportable user for the section 20(1) national-excess case, or a reportable Austrian user for a broader DAC8 validity case.
+2. Use a genuinely non-reportable user for the section 20(1) national-excess case, or a reportable Austrian user for a broader DAC8 validity case. As at 10 September 2026 the OECD activation table shows Austria with only eleven activated third-country CARF relationships — Guernsey, Iceland, Indonesia, Japan, Jersey, Korea, Liechtenstein, New Zealand, Norway, South Africa and the United Kingdom — so residence outside those states is the operative test for non-reportability, not the CARF signatory list. See [[non-eu-tax-resident-claimant-advantage|Drittstaaten-Steueransässigkeit als Klägerprofil]].
 3. Make legally matched Article 15 and, where applicable, Article 17 or 18 requests to establish fields, purposes, recipients, retention, deletion, and any refusal. Do not invoke Article 21 mechanically where the CASP relies on a legal obligation under Article 6(1)(c).
 4. File a precise section 24 DSG complaint against concrete processing by the identified controller, not a generalized policy objection. Observe the one-year knowledge and three-year long-stop periods. VwGH Ro 2023/04/0028 confirms that the one-year subjective limit is compatible with the GDPR; do not assume that continuing storage restarts it.
-5. Appeal a DSB decision to the BVwG within four weeks. The BVwG—not only the VfGH—is already able to make an Article 267 reference and can apply to the VfGH under Article 140 where it has constitutional concerns about a prejudicial national provision.
+5. Appeal a DSB decision to the BVwG within four weeks. The BVwG—not only the VfGH—is already able to make an Article 267 reference and can apply to the VfGH under Article 140 where it has constitutional concerns about a prejudicial national provision. The Article 140 branch depends on the provision being national rather than unionsrechtlich determiniert. For section 20(1) that is now evidenced rather than inferred: DAC8 Annex VI Section V(A) to (F) contains no all-customers processing duty, the explanatory materials assign section 20 to Article 25 DAC and cite no directive source for Abs. 1 while citing one for Abs. 3 and Abs. 4, and Germany transposed the same annex without an equivalent clause.
 6. Continue through Article 144 VfGH review within six weeks of the BVwG decision and separately assess VwGH review.
 
 This is not theoretical. The Austrian DAC2 claimant used this chain through DSB, BVwG, VfGH, and VwGH. Austrian PNR litigation likewise shows a DSB/BVwG vehicle applying later CJEU authority. G 287/2022 ua supplies even more direct institutional proof: individual DSB complaints reached the BVwG, the BVwG filed Article 140 applications, and the VfGH admitted them and annulled section 9(1) DSG.

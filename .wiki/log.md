@@ -545,3 +545,23 @@
 ## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
 ## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-10] research | thesis "Nicht-EU-Steueransässigkeit als Vorteil im Individualantrag" (gap round, 5 agents) → Kurzvermerk + PDF in output/
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] research | gap round 2 (5 agents) → 14 raw sources ingested, thesis "Drittstaaten-Steueransässigkeit" rewritten, Track B annotated, Kurzvermerk corrected
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] output | Kurzvermerk "Publikation der technischen Spezifikationen nach der Krypto-MPfG-DV" + PDF
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] research | round 2 closed: GMSG § 5 litigation history, DSB third-country practice, literature gap → 4 further raw sources, thesis corrected (berechtigt/verpflichtet), thesis PDF exported
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] research | Art. 25 DAC verified from local consolidated text; FATCA consent contrast and GMSG § 5a/§ 108a added; German FKAustG § 6 caveat recorded
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
