@@ -2,7 +2,7 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-09-04
+Last updated: 2026-09-16
 
 ## Statistics
 
@@ -10,9 +10,9 @@ Last updated: 2026-09-04
 - Articles: 47 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
-- Outputs: 10 reports and 2 PDF exports
+- Outputs: 12 reports and 3 PDF exports
 - Last compiled: 2026-09-04
-- Last lint: 2026-09-04
+- Last lint: 2026-09-16
 
 ## Quick Navigation
 
@@ -25,6 +25,9 @@ Last updated: 2026-09-04
 
 ## Recent Changes
 
+- 2026-09-16: Clarified proof questions, own-wallet consultation history and NTH Haustechnik in the five-page argumentation note; retained its original verification date and softened the proposed expert-test wording.
+- 2026-09-14: Added a source-linked research supplement on own-wallet legislative history, evidence access and additional tax processing of non-reportable users; remaining factual and documentary gaps are explicit.
+- 2026-09-14: Added a two-page claimant-profile comparison, distinguishing EU residence and participating or non-participating third states, with source-linked advantages and limits for Austrian processing challenges and DAC8 review.
 - 2026-09-04: Expanded the argumentation report, procedural remedies, provider-record architecture, linkage evidence, comparative safeguards and effectiveness evidence; corrected identified legal and source-link errors after independent review.
 - 2026-08-29: Added the international AML/CDD genealogy, an effectiveness evidence review, and a crypto-crime measurement audit with separate legal, official, academic, and commercial evidence classes.
 - 2026-08-29: Separated the Austrian data-retention litigation's Article 267 reference, CJEU invalidity ruling, and final VfGH annulment as distinct legal events.

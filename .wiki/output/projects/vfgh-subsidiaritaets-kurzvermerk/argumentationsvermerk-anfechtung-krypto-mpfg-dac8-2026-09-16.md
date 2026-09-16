@@ -20,13 +20,15 @@ sources:
   - wiki/references/krypto-mpfg-dv-formality-and-technical-specifications.md
   - wiki/references/dac8-challenge-scope-and-residual-duties.md
   - wiki/references/dsb-bvwg-evidence-and-interim-toolkit.md
+  - output/projects/vfgh-subsidiaritaets-kurzvermerk/research-eigenwallet-beweislast-mehrverarbeitung-2026-09-14.md
 generated: 2026-09-04
 verified: 2026-09-04
+updated: 2026-09-16
 ---
 
 # Argumentationsvermerk zur Anfechtung von Krypto-MPfG und DAC8
 
-**Stand: 4. September 2026. Mit [LLM Wiki](https://github.com/bitcoinaustria/dac8-wiki) erstellt. Rechercheunterlage, keine Rechtsberatung.**
+**Fassung vom 16. September 2026. Mit [LLM Wiki](https://github.com/bitcoinaustria/dac8-wiki) erstellt. Rechercheunterlage, keine Rechtsberatung.**
 
 ## Kurzbefund
 
@@ -49,11 +51,11 @@ Die parallelen EU-Vorgaben stehen in Art. 8ad Abs. 3 lit. c und Anhang VI Abschn
 
 ### Maßstab, Gegenposition und verbleibender Angriff
 
-Maßstab für die EU-Vorgaben sind Art. 7, 8 und 52 Abs. 1 [GRC](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:12016P/TXT). [EuGH C-175/20, Rn. 63 bis 84](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62020CJ0175) verlangt bestimmte Zwecke und objektive, zeitliche und sachliche Grenzen einer steuerbehördlichen Datenanforderung. Der Fall prüft kein automatisches EU-Meldesystem. [C-394/23, Mousse, Rn. 22 bis 29 und 36 bis 43](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62023CJ0394) konkretisiert die Datenminimierung außerhalb des Steuerrechts. [C-484/24, NTH Haustechnik, Rn. 70 bis 73, 91 bis 103 und 116](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0484) unterwirft auch gesetzlich vorgeschriebene Verarbeitung der Erforderlichkeits- und Verhältnismäßigkeitsprüfung.
+Maßstab für die EU-Vorgaben sind Art. 7, 8 und 52 Abs. 1 [GRC](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:12016P/TXT). [EuGH C-175/20, Rn. 63 bis 84](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62020CJ0175) verlangt bestimmte Zwecke und objektive, zeitliche und sachliche Grenzen einer steuerbehördlichen Datenanforderung. Der Fall prüft kein automatisches EU-Meldesystem. [C-394/23, Mousse, Rn. 22 bis 29 und 36 bis 43](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62023CJ0394) konkretisiert die Datenminimierung außerhalb des Steuerrechts. [C-484/24, NTH Haustechnik, Rn. 99 bis 103 und 116](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0484) verortet die vollständige Verhältnismäßigkeitsabwägung bei der gesetzlichen Grundlage. Für die dortige gerichtliche Beweisverarbeitung ist keine erneute vollständige Grundrechtsabwägung je Verarbeitungsschritt erforderlich; die Datenminimierung bleibt zu beachten.
 
-Die [Folgenabschätzung SWD(2022) 401](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD:2022:401:FIN) verglich Salden-, Aggregat- und Einzeltransaktionsmodelle und wählte bewusst ein hybrides Aggregatmodell. Transferdaten sollen unter anderem Cold-Wallet-Abflüsse sichtbar machen und den Abgleich mehrerer Anbieter ermöglichen. Eine Eigenwallet-Ausnahme wurde erwogen, aber nicht allgemein übernommen. Die Behauptung, mildere Modelle seien überhaupt nicht geprüft worden, wäre falsch.
+Die [Folgenabschätzung SWD(2022) 401](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=SWD:2022:401:FIN) verglich Salden-, Aggregat- und Einzeltransaktionsmodelle und wählte ein hybrides Aggregatmodell. Transferdaten sollen Cold-Wallet-Abflüsse sichtbar machen und den Abgleich mehrerer Anbieter ermöglichen. Eine Eigenwallet-Ausnahme wurde in der Mitgliedstaatenkonsultation befürwortet (Anhang 2, IV.2.1, S. 55), aber nicht allgemein übernommen. Das belegt weder eine beschlossene Ausnahme noch deren spätere Streichung im Rat. Die konkrete Abwägung einer verifizierten Eigenwallet-Ausnahme bleibt offen; mildere Meldemodelle wurden grundsätzlich geprüft.
 
-Offen bleibt der zusätzliche Nutzen jedes Feldes gegenüber einem engeren Modell. Als Alternativen kommen Wertmeldungen ohne Einheiten oder Anzahl, gesonderte Behandlung nachgewiesener Eigenwallet-Transfers und Detailnachforderungen bei objektiven Diskrepanzen in Betracht. Ihre gleichwertige Wirksamkeit ist zu belegen, nicht vorauszusetzen. Ein Vergleich sollte Detektionsleistung, Fehlalarme und Umgehungsmöglichkeiten erfassen.
+Offen bleibt der Zusatznutzen einzelner Felder gegenüber Wertmeldungen ohne Einheiten oder Anzahl, gesondert behandelten Eigenwallet-Transfers oder Detailnachforderungen bei objektiven Diskrepanzen. Gleichwertige Wirksamkeit ist zu prüfen, nicht vorauszusetzen. Daraus folgt keine pauschale Pflicht des Klägers zu eigenen Studien. C-175/20, Rn. 77 bis 81 weist der Steuerbehörde den Nachweis der Datenminimierung und des notwendigen Erhebungszeitraums zu. Diese operative Rechenschaft ist von der Prüfung nationaler Zusatzpflichten und der EU-Gültigkeit zu trennen.
 
 Die [TFR, Art. 14 Abs. 5 und Art. 16 Abs. 2](https://eur-lex.europa.eu/eli/reg/2023/1113/oj), verlangt bei erfassten Transfers über 1.000 Euro zu oder von selbst gehosteten Adressen Maßnahmen zur Prüfung von Eigentum oder Kontrolle. Solche Nachweise können die technische Machbarkeit einer Differenzierung stützen. Ihre AML/CFT-Zweckbindung erlaubt keine automatische steuerliche Wiederverwendung; eine festgestellte Eigenwallet beseitigt die DAC8-Meldepflicht nicht.
 
@@ -75,7 +77,7 @@ Bei einer erfolgreichen Verbindung von Identität und öffentlicher Blockchain k
 
 Zusätzliche Verknüpfungsdaten können beim Anbieter bestehen: Die [Delegierte Verordnung (EU) 2025/1140](https://eur-lex.europa.eu/eli/reg_del/2025/1140/oj/eng) sieht für erfasste MiCA-Dienstleistungen in Tabelle 3 identifizierte Käufer-/Verkäuferdaten und gegebenenfalls einen Transaktionshash, in Tabelle 4 unter anderem Hash, Wallet-Adressen und Zeitstempel vor. Die interne Transaktionsdatensatznummer verbindet die Tabellen. Diese Aufzeichnungen sind nicht Teil des regulären DAC8-Berichts. Ihr Vorhandensein beweist weder Steuerbehördenzugriff noch eine zulässige Sekundärnutzung.
 
-**Nachweisbedarf:** Ein Sachverständigentest sollte zunächst nur die DAC8-Jahresaggregate verwenden und zusätzliche Adress-, Hash-, Zeit- oder Providerdaten getrennt hinzufügen. Zu dokumentieren sind Voraussetzungen, Treffer, Fehlzuordnungen und verbleibende Unsicherheit. Rechtmäßiger behördlicher Abgleich und illegale Verknüpfung nach einem Datenleck sind getrennte Szenarien. Für Letzteres ist keine rechtliche Zugriffsbefugnis vorauszusetzen.
+**Möglicher Nachweis:** Ein Sachverständigentest könnte die Verknüpfbarkeit allein anhand der DAC8-Jahresaggregate mit jener unter Hinzunahme von Adress-, Hash-, Zeit- oder Providerdaten vergleichen. Aussagekräftig wären dokumentierte Voraussetzungen, Treffer, Fehlzuordnungen und verbleibende Unsicherheit. Rechtmäßiger behördlicher Abgleich und illegale Verknüpfung nach einem Datenleck sind getrennte Szenarien. Für Letzteres ist keine rechtliche Zugriffsbefugnis vorauszusetzen.
 
 [EuGH C-340/21, Rn. 39 und 42 bis 52](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0340) verlangt eine konkrete Prüfung der Sicherheitsmaßnahmen und ihrer praktischen Wirksamkeit; ein Datenleck allein beweist deren Unzulänglichkeit nicht. Die amtlich bestätigten Vorfälle bei [DGFiP](https://presse.economie.gouv.fr/acces-illegitime-au-systeme-dinformation-de-la-direction-generale-des-finances-publiques/) und [FICOBA](https://www.impots.gouv.fr/actualite/acces-illegitimes-au-fichier-national-des-comptes-bancaires-ficoba) belegen reale Angriffswege auf französische Steuer- und Kontendaten, keine österreichischen oder DAC8-spezifischen Mängel. Entscheidend sind beim betroffenen System insbesondere Datentrennung, Zugriffs- und Exportrechte, Protokollierung und Reaktion auf Vorfälle.
 

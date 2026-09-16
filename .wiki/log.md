@@ -545,3 +545,27 @@
 ## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
 ## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-14] audit | Rechecked the third-country claimant thesis against public primary sources with two independent reviews; conditional national-processing advantage supported, categorical rankings weakened, and Article 55(2), transmitted-data retention and separate documentation clarified. Findings retained in a local audit note; no source ingestion, knowledge/output rewrite, commit or push.
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-14] output | Created a plain two-page Markdown/PDF comparison of four tax-residence profiles from the rechecked public-source findings. Separates conditional advantages, remaining documentation duties and limits of DAC8 decision relevance; linked the output from project navigation. No private correspondence, identities or engagement terms included; no commit or push.
+
+## [2026-09-14] research-start | Investigating own-wallet legislative history, proof and document-access routes, and incremental processing for non-reportable users. Public-primary-source work only, two delegated research paths and local integration; no source ingestion or publication. Draft findings kept in a standalone output, not promoted into existing wiki articles.
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-14] research-completed | Added the standalone own-wallet, evidence-access and incremental-processing supplement with 19 public-primary-source links and six existing local dependencies. Two independent research and final-review passes; corrected the consultation locator and qualified the draft address-reporting scope. Source paths, confidentiality markers, whitespace and diff checked; both local lint passes clean. Provider facts, unpublished consultation records and alternative-model performance remain unverified. No raw-source ingestion, existing article rewrite, external request, commit or push.
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-16] output | Clarified four passages in the argumentation note: evidentiary responsibilities, own-wallet consultation history, the limited NTH Haustechnik holding and optional expert evidence. Linked the reviewed research supplement in provenance; original verification date retained with a separate clarification date. Re-exported five-page PDF, visually checked every page, confirmed all 50 existing URL targets retained and local source paths resolved. Claimant-profile files unchanged. No private correspondence or engagement terms added; no commit or push. Fresh EUR-Lex requests met a JavaScript challenge, so this edit relies on the previously verified source findings and does not claim a fresh full-law review.
+
+## [2026-09-16] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-16] publication-preparation | Simplified the argumentation-note edition date to 16 September 2026 and renamed its Markdown/PDF pair accordingly, retaining the distinct verification date in metadata. Selected only the argumentation note, claimant-profile pair, public-source research supplement, navigation and append-only log for publication. Confidential communications, identifying case facts, engagement terms, operational audit/session files and temporary source extracts are excluded.
+
+## [2026-09-16] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
