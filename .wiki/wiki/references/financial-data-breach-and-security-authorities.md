@@ -13,13 +13,21 @@ sources:
   - raw/articles/2026-09-04-cnil-2025-breach-report-detailed-extraction.md
   - raw/articles/2026-08-27-waltio-security-incident.md
   - raw/articles/2026-08-27-vfgh-e-2097-2021-dac2.md
+  - raw/articles/2026-09-19-gendarmerie-waltio-target-selection.md
+  - raw/articles/2026-09-19-bobigny-tax-insider-le-parisien.md
+  - raw/articles/2026-09-19-bobigny-tax-insider-protos.md
+  - raw/articles/2026-09-19-coinbase-insider-social-engineering-disclosure.md
+  - raw/articles/2026-09-19-saavedra-plea-location-abuse.md
+  - raw/articles/2026-09-19-doj-iza-saavedra-location-attack.md
+  - raw/articles/2026-09-19-doj-saavedra-plea-status.md
+  - raw/articles/2026-09-19-france-dgfip-wallet-risk-debate.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-19
 tags: [data-breach, tax-authority, casp, security, article-32, evidence, adverse-authority]
 aliases: [DAC8 breach evidence, financial database security]
 confidence: high
 volatility: hot
-verified: 2026-09-04
+verified: 2026-09-19
 summary: "Incident and case-law matrix showing what real financial-data breaches establish, what concrete security review requires, and why abstract hacking risk remains insufficient."
 ---
 
@@ -29,17 +37,29 @@ summary: "Incident and case-law matrix showing what real financial-data breaches
 
 ## Incident evidence by layer
 
-| Source | Layer and access path | Confirmed data | What it proves | What it does not prove |
+The 19 September update concerns Waltio, Coinbase, Bobigny, Saavedra/Iza and the French parliamentary debate. Other incident and legal-authority entries retain their 4 September verification scope. Confidence varies by row; the Bobigny account is reported allegation, not an official factual finding.
+
+| Source | Layer and access path | Data described by source | Evidentiary contribution | What it does not prove |
 |---|---|---|---|---|
 | French DGFiP, August 2026 | tax-authority systems; impersonated employee and authorised-third-party credentials | identity/contact, tax and cadastral address/surface data; 678,000 individuals and businesses | authority systems can suffer credential-based bulk extraction and delayed exfiltration detection | no crypto data, Austrian likelihood, misuse or security-law finding |
 | French FICOBA, February 2026 | state account register; stolen inter-ministerial official credentials | identity, postal address and IBAN/RIB for about 1.2 million account records | a restricted financial register is exposed through a legitimate-access channel | no balances, transactions, crypto data or proven fraud |
-| Coinbase Form 8-K, May 2025 | provider support systems; paid employees or contractors | name, address, ID images, masked identifiers, balance snapshots and transaction history | a concrete insider path to a rich provider account record | no private keys, wallet addresses, direct fund access or physical harm |
-| Waltio disclosure, 2026 | crypto-tax provider | email, annual gain/loss and year-end asset balances | even a summary crypto-tax dataset can support more credible phishing | no identity documents, postal address, wallet data or transaction history; no established physical-harm link |
+| Coinbase Form 8-K and company disclosure, May 2025 | provider support systems; paid employees or contractors | name, address, ID images, masked identifiers, balance snapshots and transaction history | insider path plus acknowledged downstream impersonation losses | company excludes stolen keys and direct fund access; no physical harm established; public-address exposure not determined |
+| Waltio disclosure and September 2026 Gendarmerie account | private crypto-tax service, not tax authority | provider identifies email, annual gain/loss and year-end asset balances | police expressly attribute criminal target selection to the leak | provider excludes identity documents, postal addresses, wallet addresses and transaction history; police account is not case-level causal adjudication |
+| Bobigny, January 2026 reporting | alleged misuse of tax-employee access | new residential address according to derivative reporting | reported insider-to-violence sequence, distinct from external hacking | no inspected judgment, verified final outcome or established attack on a crypto investor from these searches |
+| Saavedra/Iza, plea factual basis and DOJ accounts | abused police powers; fraudulent GPS warrant and separate database misuse | phone location used to locate a targeted person | admitted official-access misuse; DOJ connects the location to an armed home-invasion attempt | no tax-reporting data, no proof a static database supplied this address; no Austrian-system inference |
 | CNIL annual report 2025 | general notification baseline | 6,167 notifications; sector and access-control observations | breaches and credential failures are a persistent institutional concern | no DAC8-specific rate, unique-person count, causation or Austrian finding |
 
-The French incidents are especially useful because they concern the authority-copy side rather than only commercial providers. Their limits are equally important: both official accounts distinguish affected from unaffected fields, and neither is an adjudication that the underlying reporting or register law was disproportionate.
+DGFiP and FICOBA concern authority-held records rather than commercial-provider records. Both official accounts distinguish affected from unaffected fields; neither is an adjudication that the underlying reporting or register law was disproportionate.
+
+Bobigny is a separate press-reported allegation; Waltio is a private provider. The [Bobigny original-report digest](../../raw/articles/2026-09-19-bobigny-tax-insider-le-parisien.md) records the subscription access limit, and the [derivative digest](../../raw/articles/2026-09-19-bobigny-tax-insider-protos.md) separates reported payment to attackers from an unverified data-sale price. The [Waltio police attribution](../../raw/articles/2026-09-19-gendarmerie-waltio-target-selection.md) and [Coinbase fraud disclosure](../../raw/articles/2026-09-19-coinbase-insider-social-engineering-disclosure.md) supersede the earlier blanket absence-of-harm wording.
 
 ## Governing authorities
+
+The [[european-data-misuse-and-physical-risk|European evidence supplement]] ([European evidence supplement](european-data-misuse-and-physical-risk.md)) adds source-checked Dutch insider cases and EU risk-assessment materials. It also records the Garante's current interim-suspension notice, preventing an outdated Intesa sanction account from being treated as a final finding.
+
+The [Saavedra filing](../../raw/articles/2026-09-19-saavedra-plea-location-abuse.md), [DOJ attack account](../../raw/articles/2026-09-19-doj-iza-saavedra-location-attack.md) and [plea-status update](../../raw/articles/2026-09-19-doj-saavedra-plea-status.md) are a factual insider-risk comparison, not governing security-law authority.
+
+The [French parliamentary debate](../../raw/articles/2026-09-19-france-dgfip-wallet-risk-debate.md) provides a separate risk-assessment lead: an MP quoted a DGFiP warning about sensitive data concentration, but the warning concerned an additional wallet-declaration proposal. The underlying email was not independently inspected, and the minister expressly supported DAC8. It cannot be cited as an official conclusion that DAC8 is unsafe or unlawful.
 
 | Authority | Usable proposition | Adverse or limiting proposition |
 |---|---|---|
@@ -83,11 +103,13 @@ A stronger case requires an identified controller and one of the following:
 - financial databases are inevitably breached;
 - a breach proves the controller's Article 32 measures were inadequate;
 - the DGFiP or FICOBA incidents involved crypto, DAC8 or Austrian systems;
-- any located incident establishes a causal chain to kidnapping or physical coercion;
+- police attribution or press allegations are equivalent to a judicially established DAC8 leak-to-attack chain;
 - CNIL notification counts measure DAC8 or crypto breach probability;
-- private keys or wallet addresses were exposed in the Waltio or Coinbase incidents described here.
+- private keys were exposed in the described incidents, Waltio exposed wallet addresses, or the Coinbase field list conclusively resolves public-wallet-address exposure.
 
 ## See Also
+
+- [[data-risk-prevention-and-damages-thresholds|Data-Risk Prevention and Damages Thresholds]] ([Data-Risk Prevention and Damages Thresholds](data-risk-prevention-and-damages-thresholds.md)) — distinguishes preventive obligations from compensation and operational protection.
 
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))
 - [[identity-to-public-ledger-linkage-evidence|Identity-to-Public-Ledger Linkage Evidence]] ([Identity-to-Public-Ledger Linkage Evidence](identity-to-public-ledger-linkage-evidence.md))

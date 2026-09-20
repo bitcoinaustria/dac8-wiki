@@ -29,7 +29,7 @@ sources:
   - raw/articles/2026-09-04-gdpr-articles-19-58-correction-propagation.md
   - raw/articles/2026-09-04-cjeu-2024-recommendations-accelerated-procedure.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-19
 tags: [austria, dsb, bvwg, krypto-mpfg, evidence, interim-relief, article-267, article-140]
 aliases: [DAC8 DSB evidence toolkit, Krypto-MPfG interim protection]
 confidence: high
@@ -176,6 +176,8 @@ There is no reliable ordinary-path guarantee of a final VfGH or CJEU ruling befo
 The referring court may request expedited CJEU treatment under Article 105 of the Rules of Procedure. Exceptionally, the President of the Court may order it ex officio. The number of affected persons, general economic importance or a desire for speed is not enough by itself.
 
 ## See Also
+
+- [[austrian-security-evidence-access|Austrian Security-Evidence Access]] ([Austrian Security-Evidence Access](austrian-security-evidence-access.md)) — separates IFG partial access, own consultation data and supervisory inspection.
 
 - [[g178-dsb-bvwg-subsidiarity-route|G 178/2024 and the DAC8 Citizen Remedy Chain]] ([G 178/2024 and the DAC8 Citizen Remedy Chain](g178-dsb-bvwg-subsidiarity-route.md))
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))

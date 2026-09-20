@@ -8,8 +8,10 @@ sources:
   - raw/papers/2026-09-04-kappos-bitcoin-cluster-validation-usenix-2022.md
   - raw/papers/2026-09-04-moeser-narayanan-bitcoin-clustering-fc-2022.md
   - raw/papers/2026-09-04-ghost-clusters-usenix-2025.md
+  - raw/articles/2026-09-19-cjeu-c413-23p-identifiability.md
+  - raw/articles/2026-09-19-edpb-anonymisation-consultation.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-20
 tags: [blockchain, linkage, amount-matching, clustering, attribution, false-positive, expert-evidence]
 aliases: [DLT linkage evidence, blockchain breach amplification]
 confidence: high
@@ -50,6 +52,14 @@ The final EDPB blockchain guidance provides the institutional basis for the dist
 
 The better formulation is not that DLT data are absolutely immutable or that every address reveals a wallet. It is that a verified identity-to-ledger anchor may remain publicly queryable, may expose historical context and may become more informative when later labels or transactions appear.
 
+## Identifiability is not the same as additional ledger inference
+
+[C-413/23 P, EDPS v SRB](../../raw/articles/2026-09-19-cjeu-c413-23p-identifiability.md), paragraphs 73–87, requires a contextual assessment of a pseudonymised recipient's reasonably likely identification means. Effective controls can matter. Paragraphs 110–115 nevertheless preserve the controller's collection-stage information duty, assessed from its own perspective. The judgment applies Regulation 2018/1725, not DAC8.
+
+An identified DAC8 report is already personal data. The separate evidentiary issue is how much additional public-ledger information its particular fields expose. Neither generic pseudonymity nor generic re-identification research answers that question.
+
+The [EDPB's July 2026 anonymisation consultation draft](../../raw/articles/2026-09-19-edpb-anonymisation-consultation.md), paragraphs 29–31 and 88–90, adds a useful proposed method: identify realistically relevant actors, auxiliary information, access and changing capabilities; give effective controls weight. It expressly contemplates rogue employees and malicious actors where relevant. It is not final guidance and does not establish successful DAC8 aggregate matching. An expert test should state which extra data each actor can actually obtain.
+
 ## Chain-specific limits
 
 | Model | Publicly visible | Necessary caution |
@@ -84,6 +94,10 @@ Later transactions and new labels can make past public activity easier to interp
 - A public-ledger link necessarily exposes the complete portfolio or every future transaction.
 
 ## See Also
+
+- [[bitcoin-payment-profile-retention|Bitcoin payment profiles and retention]] ([Bitcoin payment profiles and retention](../theses/bitcoin-payment-profile-retention.md)) — payment use, named recipients, sensitive inference and deletion are distinct evidentiary stages.
+
+- [[breach-harm-and-linkage-empirics|Breach Harm and Linkage Empirics]] ([Breach Harm and Linkage Empirics](breach-harm-and-linkage-empirics.md)) — precise auxiliary-data requirements and non-representative victim research.
 
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md))
 - [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](krypto-mpfg-provider-record-architecture.md))

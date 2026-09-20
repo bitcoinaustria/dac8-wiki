@@ -2,7 +2,7 @@
 
 > Synthesized, source-backed articles.
 
-Last updated: 2026-08-27
+Last updated: 2026-09-20
 
 ## Contents
 
@@ -18,5 +18,8 @@ Last updated: 2026-08-27
 
 ## Recent Changes
 
-- 2026-08-27: Initialized article directories.
+- 2026-09-20: Added the [Bitcoin payment-profile thesis](theses/bitcoin-payment-profile-retention.md), updated the provider-record architecture and connected the existing linkage evidence.
 
+- 2026-09-19: Six focused references added for Austrian protection, exchange safeguards, insider controls, access to evidence, legal thresholds and empirical findings. Existing linkage reference updated; see the [reference index](references/_index.md).
+
+- 2026-08-27: Initialized article directories.

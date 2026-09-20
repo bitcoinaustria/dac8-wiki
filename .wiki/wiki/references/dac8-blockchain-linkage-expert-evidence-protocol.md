@@ -9,7 +9,7 @@ sources:
   - raw/papers/2026-09-04-moeser-narayanan-bitcoin-clustering-fc-2022.md
   - raw/papers/2026-09-04-ghost-clusters-usenix-2025.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-19
 tags: [dac8, blockchain, expert-evidence, reproducibility, false-positive, ground-truth, protocol]
 aliases: [DAC8 linkage test, blockchain expert protocol]
 confidence: high
@@ -119,6 +119,8 @@ The protocol can be used in the DSB/BVwG fact-finding route to frame requests fo
 It does not establish that the DSB or court must accept a particular methodology, that an expert result alone invalidates DAC8, or that a provider must disclose protected third-party or security material directly to the complainant.
 
 ## See Also
+
+- [[breach-harm-and-linkage-empirics|Breach Harm and Linkage Empirics]] ([Breach Harm and Linkage Empirics](breach-harm-and-linkage-empirics.md)) — additional empirical endpoints and their input requirements.
 
 - [[identity-to-public-ledger-linkage-evidence|Identity-to-Public-Ledger Linkage Evidence]] ([Identity-to-Public-Ledger Linkage Evidence](identity-to-public-ledger-linkage-evidence.md))
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md))

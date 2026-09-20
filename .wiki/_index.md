@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-09-16
+Last updated: 2026-09-20
 
 ## Statistics
 
-- Sources: 334 raw source records
-- Articles: 47 compiled wiki articles
+- Sources: 385 raw source records
+- Articles: 55 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
-- Outputs: 12 reports and 3 PDF exports
-- Last compiled: 2026-09-04
-- Last lint: 2026-09-16
+- Outputs: 16 reports and 3 PDF exports
+- Last compiled: 2026-09-20
+- Last lint: 2026-09-20
 
 ## Quick Navigation
 
@@ -25,6 +25,14 @@ Last updated: 2026-09-16
 
 ## Recent Changes
 
+- 2026-09-20: Added four source records and a [Bitcoin payment-profile thesis](wiki/theses/bitcoin-payment-profile-retention.md), with a [short German research note](output/research-report-bitcoin-zahlungsprofile-2026-09-20.md). Distinguished provider records from annual reports, bounded payment inferences and added the independent Austrian AML retention basis. Existing PDFs unchanged.
+
+- 2026-09-19: Added 24 source records, including one terminology correction, and six focused references on individual protection, exchange safeguards, insider controls, evidence access, legal thresholds and empirical limits. [Compact German overview](output/research-report-schutz-und-beweis-2026-09-19.md). Existing PDFs unchanged.
+
+- 2026-09-19: Added eleven European source records and a [European data-misuse supplement](output/research-report-europa-datenmissbrauch-2026-09-19.md), distinguishing insider convictions, EU risk guidance, pending C-609/26 and limits on transfer to DAC8.
+
+- 2026-09-19: Added four sources on admitted police-location abuse, a subsequent armed attack and the French self-hosted-wallet risk debate; expanded the physical-risk note with explicit limits on transfer to DAC8.
+- 2026-09-19: Added eight source digests and a [physical-risk research note](output/research-report-kryptodaten-physische-angriffe-2026-09-19.md); updated two evidence references with Waltio police attribution, insider misuse and Bobigny reporting limits.
 - 2026-09-16: Clarified proof questions, own-wallet consultation history and NTH Haustechnik in the five-page argumentation note; retained its original verification date and softened the proposed expert-test wording.
 - 2026-09-14: Added a source-linked research supplement on own-wallet legislative history, evidence access and additional tax processing of non-reportable users; remaining factual and documentary gaps are explicit.
 - 2026-09-14: Added a two-page claimant-profile comparison, distinguishing EU residence and participating or non-participating third states, with source-linked advantages and limits for Austrian processing challenges and DAC8 review.
