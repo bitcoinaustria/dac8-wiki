@@ -15,7 +15,7 @@ sources:
   - raw/articles/2026-09-04-austria-dsg-section-21-consultation-duty.md
   - raw/articles/2026-09-04-dsg-21-consultation-source-locator-correction.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-19
 tags: [dac8, krypto-mpfg, gdpr, dpia, accountability, security, evidence]
 aliases: [DAC8 DPIA, Krypto-MPfG security evidence]
 confidence: high
@@ -94,6 +94,8 @@ Article 15 gives the person an intelligible copy of personal data, purposes, cat
 | Correction or deletion cannot be traced across copies | Accountability, accuracy and remedy-propagation challenge | Technical message capability creates a substantive erasure right |
 
 ## See Also
+
+- [[austrian-security-evidence-access|Austrian Security-Evidence Access]] ([Austrian Security-Evidence Access](austrian-security-evidence-access.md)) — current IFG/DSG access mechanisms and limits.
 
 - [[dsb-bvwg-evidence-and-interim-toolkit|DSB and BVwG Evidence and Interim-Protection Toolkit]] ([DSB and BVwG Evidence and Interim-Protection Toolkit](dsb-bvwg-evidence-and-interim-toolkit.md))
 - [[dac8-security-architecture-and-audit-evidence|DAC8 Security Architecture and Audit Evidence]] ([DAC8 Security Architecture and Audit Evidence](dac8-security-architecture-and-audit-evidence.md))

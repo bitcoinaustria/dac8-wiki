@@ -565,3 +565,102 @@
 ## [2026-09-10] research | Art. 25 DAC verified from local consolidated text; FATCA consent contrast and GMSG § 5a/§ 108a added; German FKAustG § 6 caveat recorded
 
 ## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+## [2026-09-14] audit | Rechecked the third-country claimant thesis against public primary sources with two independent reviews; conditional national-processing advantage supported, categorical rankings weakened, and Article 55(2), transmitted-data retention and separate documentation clarified. Findings retained in a local audit note; no source ingestion, knowledge/output rewrite, commit or push.
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-14] output | Created a plain two-page Markdown/PDF comparison of four tax-residence profiles from the rechecked public-source findings. Separates conditional advantages, remaining documentation duties and limits of DAC8 decision relevance; linked the output from project navigation. No private correspondence, identities or engagement terms included; no commit or push.
+
+## [2026-09-14] research-start | Investigating own-wallet legislative history, proof and document-access routes, and incremental processing for non-reportable users. Public-primary-source work only, two delegated research paths and local integration; no source ingestion or publication. Draft findings kept in a standalone output, not promoted into existing wiki articles.
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-14] research-completed | Added the standalone own-wallet, evidence-access and incremental-processing supplement with 19 public-primary-source links and six existing local dependencies. Two independent research and final-review passes; corrected the consultation locator and qualified the draft address-reporting scope. Source paths, confidentiality markers, whitespace and diff checked; both local lint passes clean. Provider facts, unpublished consultation records and alternative-model performance remain unverified. No raw-source ingestion, existing article rewrite, external request, commit or push.
+
+## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-16] output | Clarified four passages in the argumentation note: evidentiary responsibilities, own-wallet consultation history, the limited NTH Haustechnik holding and optional expert evidence. Linked the reviewed research supplement in provenance; original verification date retained with a separate clarification date. Re-exported five-page PDF, visually checked every page, confirmed all 50 existing URL targets retained and local source paths resolved. Claimant-profile files unchanged. No private correspondence or engagement terms added; no commit or push. Fresh EUR-Lex requests met a JavaScript challenge, so this edit relies on the previously verified source findings and does not claim a fresh full-law review.
+
+## [2026-09-16] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-16] publication-preparation | Simplified the argumentation-note edition date to 16 September 2026 and renamed its Markdown/PDF pair accordingly, retaining the distinct verification date in metadata. Selected only the argumentation note, claimant-profile pair, public-source research supplement, navigation and append-only log for publication. Confidential communications, identifying case facts, engagement terms, operational audit/session files and temporary source extracts are excluded.
+
+## [2026-09-16] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-19] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-20] research-ingest | Started a bounded three-agent examination of identity-linked Bitcoin payment records, behavioural inference and deletion challenges. Added an official C-184/20 source digest on indirect sensitive inference after a no-match adapter route. Public-source research only; existing private context, prior raw records and PDFs unchanged. No staging, commit or push.
+
+## [2026-09-20] research-ingest | Added Meiklejohn IMC 2013 counterparty-flow evidence, Kappos Lightning observation limits and a Ferrieri paragraph-58 adverse-authority supplement. All three adapter routes returned no-match; primary full texts checked by a research agent and the integrating agent. Existing raw sources remain immutable; no claimant data or publication.
+
+## [2026-09-20] compile-output | Created Bitcoin payment-profile thesis and a concise German research report from four new records and existing primary evidence. Added reciprocal links and clarified the provider-record map's independent Austrian FM-GwG ten-year retention. Preserved adversarial financial-data authority, Lightning and attribution limits, unresolved concrete datasets and the distinction between technical capability and legal invalidity. No existing PDF changes, private material, staging, commit or push; independent review pending.
+
+## [2026-09-19] research-complete | Seven research agents across bounded waves, followed by three cross-reviewers and four review passes. Added 24 source records (including one DORA terminology correction), six references and one compact German overview; corpus now 381 sources, 54 articles, 15 reports and three unchanged PDFs. Applied precise access-right update wording and narrowed two report sentences to the applicable violence-protection threshold and inspected-source coverage. Original raw records preserved. Restored supersession annotations after index regeneration. Verified 336 local links/source paths across 64 substantive changed artifacts, including preserved prior work, with no missing targets or targeted private markers. Public PDF extracts independently spot-checked after download; earlier ingestion-time access limitations remain historical provenance. Lint fix and non-fix passes passed. No staging, commit or push.
+
+## [2026-09-19] audit | French DAC8 implementation and dac8.com claims independently checked against legislation, DGFiP XML specification, official decisions and public security/effectiveness evidence. Three research agents and three scoped final reviews; 58-claim report and machine-readable matrix under .audit/. Identified stale French litigation status in the older campaign audit. Unverified statistics and production security facts remain marked open. Local dependencies and confidentiality scan passed; no knowledge-article rewrite, raw ingestion, commit or push.
+
+## [2026-09-19] ingest | Added eight public-source digests on physical attacks, insider misuse, police attribution of Waltio-based targeting and downstream fraud. Bobigny original access is explicitly partial; derivative reporting is not counted as independent corroboration. Existing raw records preserved. No private case facts, correspondence or engagement terms ingested; no commit or push.
+
+## [2026-09-19] compile | Updated two existing security-evidence references. Narrowed the obsolete absence-of-tax-data-harm statement in light of the September Gendarmerie attribution; preserved the distinction between private tax services, state systems and DAC8. Added Bobigny allegation limits and corrected an unsupported categorical exclusion of Coinbase public-wallet-address exposure. Prior legal verification dates remain explicitly scoped.
+
+## [2026-09-19] output | Created a German source-linked research note on physical attacks and concrete misuse mechanisms, with a separate Bobigny section and explicit evidentiary gaps. Public-source research only; original court documents and Austrian production controls remain unverified. Existing PDFs were not changed. No commit or push.
+
+## [2026-09-19] review | Checked eleven new/updated substantive artifacts and 66 local source/link references, with no missing targets or targeted confidential markers. Reviewed the diff and restored three pre-existing supersession warnings overwritten by index regeneration; existing raw records remain immutable. Bobigny court materials and individual Waltio causal chains remain unavailable. No independent-agent review was performed in this research pass.
+
+## [2026-09-19] navigation | Recounted 342 source records, 47 compiled articles, 13 reports and three unchanged PDF exports; updated master/raw navigation and the two reference dates. Saved operational completion provenance separately from public knowledge. No staging, commit or push.
+
+## [2026-09-19] lint | local command: 0 critical, 0 warnings, 0 suggestions, 3 auto-fixed
+
+## [2026-09-19] ingest | Added four public-source digests: Saavedra's plea factual basis, the DOJ's location-to-attack account, a later plea-status confirmation, and the French parliamentary quotation of a DGFiP self-hosted-wallet risk warning. Court PDF downloaded temporarily, hashed, text-extracted and visually checked at the key location-abuse page. Distinguishes admitted location abuse from the DOJ attack account, and additional wallet declarations from DAC8. No private material, commit or push.
+
+## [2026-09-19] compile-output | Integrated the four sources into two existing references and the German physical-risk research note. Bobigny remains unverified beyond accessible reporting; recent wrong-address attack reports were not promoted because direct-source access and data-origin proof remain insufficient. No claim of DAC8 causation, Austrian system weakness or a French administrative rejection of DAC8. Existing legal analyses and PDFs unchanged.
+
+## [2026-09-19] review | Reviewed the continuation diff and seven substantive artifacts, checked local source/link targets and targeted confidentiality markers, and confirmed 346 raw records. Lint fix and non-fix passes passed. Restored two existing supersession warnings overwritten by index regeneration without modifying raw records. Four new external source URLs were retrieved; the court PDF's page 28 was visually checked. No independent-agent review, staging, commit or push.
+
+## [2026-09-19] research-start | Expanded physical-risk research to European official incidents, EU institutional assessments and risk-sensitive access law. Three bounded read-only research agents plus local source verification. Existing uncommitted work preserved; public sources only, no publication authorised.
+
+## [2026-09-19] ingest-compile | Added eleven public-source records and one European evidence reference: Dutch insider cases and prosecution limits, Finnish extortion and finality, EDPB guidance, Europol threat analysis, Commission access-control observations, AMLD6 access exceptions, pending C-609/26 and an Italian suspension notice. Selected digests preserve source classes, dates and causal limits. EU PDFs checked directly; Europol local download failed DNS resolution, with official-PDF web extraction used instead. No private material, commit or push.
+
+## [2026-09-19] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-19] lint | local command: 0 critical, 0 warnings, 0 suggestions, 4 auto-fixed
+
+## [2026-09-19] output-navigation | Created the concise German European-risk supplement and linked it from the two existing evidence references. Recounted 357 raw records, 48 compiled articles, 14 reports and three unchanged PDFs. Restored pre-existing supersession and project-summary annotations overwritten by index regeneration; raw source history remains unchanged. Independent legal and incident reviews requested. No staging, commit or push.
+
+## [2026-09-19] independent-review | Two read-only agents checked the new reference and report against primary legal and incident sources. Applied both limited findings: identify only the Dutch cases as insider examples, and use the exceptional-circumstances threshold in the German Article 15 description. Verified 124 local links/source paths across 28 substantive new or updated artifacts, with no missing targets or targeted confidential markers. This count includes preserved work from the earlier physical-risk passes. Lint fix and non-fix passes passed; diff whitespace check passed. Original PDFs unchanged, no staging, commit or push. Saved completion checkpoint separately from topic knowledge.
+
+## [2026-09-19] research-start | Started a further multi-wave public-source research expansion at the user's request. First parallel lanes: Austrian protective access exceptions, new European insider incidents and international tax-exchange safeguards. Additional lanes and independent reviews will be selected by evidence gaps. Baseline 357 sources and 48 articles. Existing uncommitted work preserved; no publication authorised.
+
+## [2026-09-19] ingest-and-compile | Added seven public-source digests and two references on exchange confidentiality/suspension and insider controls. Preserved restored Bulgarian reciprocity, existing safeguards, EDPB's non-high-risk example and the qualitative limits of Brå research. No private communications or publication.
+
+## [2026-09-19] ingest-and-compile | Added C-413/23 P and EDPB 02/2026 consultation digests; expanded the existing ledger-linkage reference rather than duplicating it. Kept identity-linked reporting, recipient-relative identifiability and additional ledger inference separate; draft status explicit.
+
+## [2026-09-19] cross-link | Connected new focused references to the existing European, physical-risk, ledger-linkage and security articles. Historical verification dates retained where only navigation changed; final link validation follows completion of parallel integration.
+
+## [2026-09-19] ingest-compile | Added four public-source digests on BMF WiEReG protection statistics, the 2025 Erlass and FAQ, and current MeldeG address-access restrictions. Compiled Austrian Risk-Based Register-Access Protection and linked it from the European reference. Preserved unknown statistical units, retained authority access, adverse E 2189/2025 and the distinction between existing safeguards and unverified full Article 15 transposition. Direct WiEReG consolidation retrieval failed; current BMF guidance and the existing judgment support the scoped mechanism account. All four adapter routes returned no-match. No private material, index edits, commit or push; integrated lint remains with the primary agent.
+
+## [2026-09-19] ingest-compile | Added four official-judgment digests and Data-Risk Prevention and Damages Thresholds: C-687/21, C-590/22, Podchasov and Volodina (no. 2). Preserved the distinction between proven non-reading and uncertain knowledge, Article 82 damage proof and preventive duties, communications-surveillance architecture and tax aggregates, and individual recurrent-risk protection. HUDOC full text and finality retrieved directly after web-reader failure. All four adapter routes returned no-match. No existing source edits, index edits, private material, commit or push; primary agent handles backlinks and integrated lint.
+
+## [2026-09-19] ingest-compile | Added three empirical source digests and Breach Harm and Blockchain-Linkage Empirics: an immutable full-text supplement to the Ledger abstract, Wang's controlled RPC-linkage study, and the Mikhed/Vogan US tax-breach credit study. Kept inspected prepublication versions distinct from final journal/conference publication, experimental rates distinct from representative incidence, threats distinct from assaults, and network-assisted linkage distinct from untested DAC8 annual aggregates. Three adapter routes returned no-match; remote PDF extraction used, no local binary hashes available. No existing article/index/PDF edits, private material, commit or push; primary agent handles backlinks, independent review and integrated lint.
+
+## [2026-09-19] ingest-compile | Added three official-source digests on IFG access to existing records, LVwG Niederösterreich document-specific partial-access reasoning, and revised section 22 DSG powers/secrecy. Compiled Austrian Security-Evidence Access, distinguishing own consultation data, authority records and protected DSB evidence. Preserved remittal posture, redaction limits, special access regimes and the absence of private discovery or a proved DAC8 disclosure entitlement. Four adapter routes returned no-match; no WP248 record found and no additional source ingested. No existing source/article/index/PDF edits, private material, commit or push; primary agent handles backlinks and integrated lint.
+
+## [2026-09-19] lint | local command: 0 critical, 0 warnings, 0 suggestions, 4 auto-fixed
+
+## [2026-09-19] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-20] lint | local command: 0 critical, 0 warnings, 0 suggestions, 4 auto-fixed
+
+## [2026-09-20] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-20] research-ingest-compile-review | Three research agents and three final scoped review passes examined Bitcoin payment profiles, provider retention and legal counterarguments. Added four public-source digests, one thesis and one concise German report; updated two references. Distinguished verified identity anchors, counterparty labels, sensitive inference and Lightning observation limits. Rechecked independent FM-GwG section 21 ten-year retention, MiCA scope and Krypto-MPfG period starts. Preserved adverse DAC2 and Ferrieri authority and the absence of a customer-specific reconstruction. Eight substantive artifacts passed 58 local source/link checks and targeted privacy scanning; lint passed with zero findings. Restored pre-existing index supersession annotations after regeneration. No private mandate material, staging, commit, push or PDF changes.
+
+## [2026-09-20] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-21] reconcile-pr-1 | Reconciled the third-country claimant research with current main in an isolated checkout. Preserved the twenty original PR source records, retained the newer research baseline and consolidated output into the existing claimant-profile note. Added a separate correction layer for overbroad historical interpretations, negative-search claims and undated exchange-status evidence. Removed two superseded standalone notes and their three PDF exports from the proposed tree; prior versions remain recoverable in PR history. Publication authorised, final review and validation pending.
+
+## [2026-09-21] lint | local command: 0 critical, 0 warnings, 0 suggestions, 4 auto-fixed
+
+## [2026-09-21] integrated-review | Two independent final reviews found no remaining material issue in the integrated analysis or two-page PDF. Restored both pre-existing DSB source-supersession warnings and removed a duplicate incorrect index row. All twenty PR raw records are byte-identical to the original head; their index entries now point to controlling qualifications. Verified 706 local links/source paths across 36 changed Markdown files and all thirteen PDF hyperlink targets; PDF text, metadata and both rendered pages checked. Targeted confidentiality scan found no private mandate, identity or fee material. Lint fix and final read-only pass, counts and diff whitespace checks passed. External retrieval checked twenty-six linked URLs: eighteen returned content directly, seven EUR-Lex links required a browser fallback (three retrieved there, four remained behind bot checks), and the unchanged private-repository link requires authorised access. No full refresh of historical activation, provider-practice or negative-search findings is claimed.

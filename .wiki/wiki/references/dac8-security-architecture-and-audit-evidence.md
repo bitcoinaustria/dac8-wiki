@@ -8,7 +8,7 @@ sources:
   - raw/articles/2026-09-04-austria-rechnungshof-bmf-it-security-audit.md
   - raw/articles/2026-09-04-cjeu-c340-21-tax-authority-breach-security.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-19
 tags: [dac8, security, audit, bmf, brz, ccn, dora, evidence, adverse-authority]
 aliases: [DAC8 security safeguards, BMF security evidence]
 confidence: high
@@ -77,6 +77,10 @@ CJEU C-340/21 supplies the discipline: the assessment concerns the nature, conte
 - an unverified terminology or implementation gap establishes a breach-notification violation.
 
 ## See Also
+
+- [[tax-exchange-confidentiality-and-suspension|Tax-Exchange Confidentiality, Review and Suspension]] ([Tax-Exchange Confidentiality, Review and Suspension](tax-exchange-confidentiality-and-suspension.md)) — actual suspension, restored exchange and current review benchmarks.
+- [[insider-risk-controls-and-proof|Insider-Risk Controls and Proof]] ([Insider-Risk Controls and Proof](insider-risk-controls-and-proof.md)) — detailed DORA duties and their evidentiary limits.
+- [[austrian-security-evidence-access|Austrian Security-Evidence Access]] ([Austrian Security-Evidence Access](austrian-security-evidence-access.md)) — public information, own data and supervisory evidence channels.
 
 - [[dac8-dpia-accountability-and-security-evidence|DAC8 DPIA, Accountability and Security Evidence]] ([DAC8 DPIA, Accountability and Security Evidence](dac8-dpia-accountability-and-security-evidence.md))
 

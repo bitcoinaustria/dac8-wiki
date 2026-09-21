@@ -10,14 +10,15 @@ sources:
   - raw/articles/2026-08-27-eu-tfr-regulation-2023-1113.md
   - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
   - raw/articles/2026-09-04-austria-dac8-controller-and-authority-retention-precision.md
+  - raw/articles/2026-08-27-austria-fm-gwg-current-crypto.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-20
 tags: [krypto-mpfg, dac8, mica, tfr, records, wallet-address, transaction-hash, retention]
 aliases: [Krypto-MPfG record layers, CASP address records]
 confidence: high
 volatility: hot
 verified: 2026-09-04
-summary: "Separates the address-free DAC8 report from the inputs and separate MiCA, TFR and CARF record layers that may contain linkable wallet and transaction data."
+summary: "Separates the DAC8 report without wallet addresses from provider inputs and independent MiCA, TFR, AML and CARF record layers that may contain linkable wallet and transaction data."
 ---
 
 # Krypto-MPfG Provider Record Architecture
@@ -33,9 +34,12 @@ summary: "Separates the address-free DAC8 report from the inputs and separate Mi
 | Krypto-MPfG section 39 documentation | Provider documents steps taken under Chapters 3–7 and retains those documents for ten years after the end of the relevant reporting period | The provision does not expressly name wallet addresses or raw transaction records | Whether an address or attribution record forms part of the documented step is unresolved and provider-specific |
 | OECD CARF commentary | Standard expects external-wallet addresses to be retained for follow-up requests | Yes, as provider-held records; not in the routine report | Soft-law standard, not by itself an Austrian storage power |
 | TFR Articles 14–16 and 26 | Covered CASP transfers carry originator, beneficiary and account or DLT-address information | Yes, for covered transfers | AML/CFT purpose; normally five years; no automatic tax-purpose fusion |
+| Austrian FM-GwG section 21(1) | Necessary CDD documents/information and transaction evidence/records | May preserve an identity-to-transaction anchor independently of DAC8; actual necessary fields must be identified | Ten years after termination of the business relationship or an occasional transaction; not simply ten years after each transaction during an ongoing relationship |
 | MiCA Article 68(9) and Delegated Regulation 2025/1140 | Covered service, order and transaction records identify buyer and seller; where relevant, a transaction hash appears in the off-chain record | Annex Table 4 contains hash, wallet addresses, timestamp and other on-chain fields, linked to the off-chain transaction record by the firm's transaction-record number | MiCA supervisory record. Scope depends on the service and transaction; competent-authority access under MiCA is not tax-authority receipt under DAC8 |
 
 ## The important linkage seam
+
+The Austrian AML row was rechecked against the current [FM-GwG section 21](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20009769) on 20 September 2026. MiCA Article 68(9) separately sets five years, up to seven on a timely competent-authority request. These are different legal bases, not alternative descriptions of a universal DAC8 ten-year rule. Regulation 2025/1140 Article 1 defines its transaction scope through acquisition/disposal; a pure own-wallet withdrawal must not automatically be assigned every field in Tables 3 and 4.
 
 Delegated Regulation 2025/1140 supplies the clearest enacted identity-to-ledger seam located in this research. Table 3 can hold a natural-person buyer or seller identifier, name and birth date and, where relevant, a transaction hash. Table 4 separately specifies wallet addresses and other on-chain data and uses the same transaction-record number to link the on-chain and off-chain records.
 
@@ -79,6 +83,8 @@ Section 20(4) is also actor-specific. It orders the reporting provider to delete
 - TFR's AML/CFT purpose limitation disappears because the same provider performs DAC8 reporting.
 
 ## See Also
+
+- [[bitcoin-payment-profile-retention|Bitcoin payment profiles and retention]] ([Bitcoin payment profiles and retention](../theses/bitcoin-payment-profile-retention.md)) — tests personal-life inferences and independent grounds for refusing deletion.
 
 - [[dac8-transaction-granularity-and-reporting-layers|DAC8 Transaction Granularity and Reporting Layers]] ([DAC8 Transaction Granularity and Reporting Layers](dac8-transaction-granularity-and-reporting-layers.md))
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))

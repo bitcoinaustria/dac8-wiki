@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-09-10
+Last updated: 2026-09-21
 
 ## Statistics
 
-- Sources: 354 raw source records
-- Articles: 47 compiled wiki articles
+- Sources: 406 raw source records
+- Articles: 56 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
-- Outputs: 12 reports and 5 PDF exports
-- Last compiled: 2026-09-10
-- Last lint: 2026-09-10
+- Outputs: 16 reports and 3 PDF exports
+- Last compiled: 2026-09-21
+- Last lint: 2026-09-21
 
 ## Quick Navigation
 
@@ -25,7 +25,18 @@ Last updated: 2026-09-10
 
 ## Recent Changes
 
-- 2026-09-10: Second gap round on the third-country claimant profile. Established Austria's eleven activated CARF partners, documented the § 20 Abs. 1 gold-plating from the directive text and the materials, added VfSlg 11.479/1987 on foreign residence and subsidiarity, and corrected the Belgian FATCA decision and CJEU reference.
+- 2026-09-21: Integrated twenty historical claimant-research records with an explicit [evidence-boundary and correction map](wiki/references/claimant-selection-evidence-boundaries.md). Updated the existing two-page claimant-profile note; consolidated superseded PR outputs instead of adding duplicate reports. Preserved newer provider-record and payment-profile research.
+- 2026-09-20: Added four source records and a [Bitcoin payment-profile thesis](wiki/theses/bitcoin-payment-profile-retention.md), with a [short German research note](output/research-report-bitcoin-zahlungsprofile-2026-09-20.md). Distinguished provider records from annual reports, bounded payment inferences and added the independent Austrian AML retention basis. Existing PDFs unchanged.
+
+- 2026-09-19: Added 24 source records, including one terminology correction, and six focused references on individual protection, exchange safeguards, insider controls, evidence access, legal thresholds and empirical limits. [Compact German overview](output/research-report-schutz-und-beweis-2026-09-19.md). Existing PDFs unchanged.
+
+- 2026-09-19: Added eleven European source records and a [European data-misuse supplement](output/research-report-europa-datenmissbrauch-2026-09-19.md), distinguishing insider convictions, EU risk guidance, pending C-609/26 and limits on transfer to DAC8.
+
+- 2026-09-19: Added four sources on admitted police-location abuse, a subsequent armed attack and the French self-hosted-wallet risk debate; expanded the physical-risk note with explicit limits on transfer to DAC8.
+- 2026-09-19: Added eight source digests and a [physical-risk research note](output/research-report-kryptodaten-physische-angriffe-2026-09-19.md); updated two evidence references with Waltio police attribution, insider misuse and Bobigny reporting limits.
+- 2026-09-16: Clarified proof questions, own-wallet consultation history and NTH Haustechnik in the five-page argumentation note; retained its original verification date and softened the proposed expert-test wording.
+- 2026-09-14: Added a source-linked research supplement on own-wallet legislative history, evidence access and additional tax processing of non-reportable users; remaining factual and documentary gaps are explicit.
+- 2026-09-14: Added a two-page claimant-profile comparison, distinguishing EU residence and participating or non-participating third states, with source-linked advantages and limits for Austrian processing challenges and DAC8 review.
 - 2026-09-04: Expanded the argumentation report, procedural remedies, provider-record architecture, linkage evidence, comparative safeguards and effectiveness evidence; corrected identified legal and source-link errors after independent review.
 - 2026-08-29: Added the international AML/CDD genealogy, an effectiveness evidence review, and a crypto-crime measurement audit with separate legal, official, academic, and commercial evidence classes.
 - 2026-08-29: Separated the Austrian data-retention litigation's Article 267 reference, CJEU invalidity ruling, and final VfGH annulment as distinct legal events.
