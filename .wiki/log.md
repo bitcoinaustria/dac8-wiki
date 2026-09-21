@@ -546,6 +546,25 @@
 
 ## [2026-09-04] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
 
+## [2026-09-10] research | thesis "Nicht-EU-Steueransässigkeit als Vorteil im Individualantrag" (gap round, 5 agents) → Kurzvermerk + PDF in output/
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] research | gap round 2 (5 agents) → 14 raw sources ingested, thesis "Drittstaaten-Steueransässigkeit" rewritten, Track B annotated, Kurzvermerk corrected
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] output | Kurzvermerk "Publikation der technischen Spezifikationen nach der Krypto-MPfG-DV" + PDF
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] research | round 2 closed: GMSG § 5 litigation history, DSB third-country practice, literature gap → 4 further raw sources, thesis corrected (berechtigt/verpflichtet), thesis PDF exported
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-09-10] research | Art. 25 DAC verified from local consolidated text; FATCA consent contrast and GMSG § 5a/§ 108a added; German FKAustG § 6 caveat recorded
+
+## [2026-09-10] lint | local command: 0 critical, 0 warnings, 0 suggestions, 1 auto-fixed
 ## [2026-09-14] audit | Rechecked the third-country claimant thesis against public primary sources with two independent reviews; conditional national-processing advantage supported, categorical rankings weakened, and Article 55(2), transmitted-data retention and separate documentation clarified. Findings retained in a local audit note; no source ingestion, knowledge/output rewrite, commit or push.
 
 ## [2026-09-14] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
@@ -639,3 +658,9 @@
 ## [2026-09-20] research-ingest-compile-review | Three research agents and three final scoped review passes examined Bitcoin payment profiles, provider retention and legal counterarguments. Added four public-source digests, one thesis and one concise German report; updated two references. Distinguished verified identity anchors, counterparty labels, sensitive inference and Lightning observation limits. Rechecked independent FM-GwG section 21 ten-year retention, MiCA scope and Krypto-MPfG period starts. Preserved adverse DAC2 and Ferrieri authority and the absence of a customer-specific reconstruction. Eight substantive artifacts passed 58 local source/link checks and targeted privacy scanning; lint passed with zero findings. Restored pre-existing index supersession annotations after regeneration. No private mandate material, staging, commit, push or PDF changes.
 
 ## [2026-09-20] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-09-21] reconcile-pr-1 | Reconciled the third-country claimant research with current main in an isolated checkout. Preserved the twenty original PR source records, retained the newer research baseline and consolidated output into the existing claimant-profile note. Added a separate correction layer for overbroad historical interpretations, negative-search claims and undated exchange-status evidence. Removed two superseded standalone notes and their three PDF exports from the proposed tree; prior versions remain recoverable in PR history. Publication authorised, final review and validation pending.
+
+## [2026-09-21] lint | local command: 0 critical, 0 warnings, 0 suggestions, 4 auto-fixed
+
+## [2026-09-21] integrated-review | Two independent final reviews found no remaining material issue in the integrated analysis or two-page PDF. Restored both pre-existing DSB source-supersession warnings and removed a duplicate incorrect index row. All twenty PR raw records are byte-identical to the original head; their index entries now point to controlling qualifications. Verified 706 local links/source paths across 36 changed Markdown files and all thirteen PDF hyperlink targets; PDF text, metadata and both rendered pages checked. Targeted confidentiality scan found no private mandate, identity or fee material. Lint fix and final read-only pass, counts and diff whitespace checks passed. External retrieval checked twenty-six linked URLs: eighteen returned content directly, seven EUR-Lex links required a browser fallback (three retrieved there, four remained behind bot checks), and the unchanged private-repository link requires authorised access. No full refresh of historical activation, provider-practice or negative-search findings is claimed.

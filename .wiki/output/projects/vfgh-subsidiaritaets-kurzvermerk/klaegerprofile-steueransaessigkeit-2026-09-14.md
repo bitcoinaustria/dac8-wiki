@@ -7,13 +7,16 @@ sources:
   - wiki/references/dac8-remedy-and-outcome-matrix.md
   - raw/articles/2026-08-27-cjeu-c175-20-sia-ss-tax-data.md
   - raw/articles/2026-09-04-edpb-document-5-2021-article-55-2-complaints.md
-generated: 2026-09-14
-verified: 2026-09-14
+  - wiki/references/claimant-selection-evidence-boundaries.md
+  - wiki/references/krypto-mpfg-provider-record-architecture.md
+generated: 2026-09-21
+verified: 2026-09-21
+verification_scope: "Ergänzungen zu Austauschstatus, eigenständiger AML-Aufbewahrung und VfSlg 11.479/1987 geprüft; übrige Grundlagen Stand 14.09.2026. Keine individuelle Staaten- oder Anbieterprüfung."
 ---
 
 # Klägerprofile: Steueransässigkeit und Anfechtung von Krypto-MPfG und DAC8
 
-Stand: 14. September 2026. Mit [LLM Wiki](https://github.com/bitcoinaustria/dac8-wiki) erstellt. Rechercheunterlage, keine Rechtsberatung.
+Stand: 21. September 2026. Mit [LLM Wiki](https://github.com/bitcoinaustria/dac8-wiki) erstellt. Rechercheunterlage, keine Rechtsberatung. Ergänzungsprüfung zu Austauschstatus, AML-Aufbewahrung und Auslandswohnsitz; übrige Grundlagen Stand 14. September 2026.
 
 ## Kurzfazit
 
@@ -32,7 +35,7 @@ Entscheidend sind Meldestatus, tatsächlich verarbeitete Daten und angegriffene 
 
 Die Zuordnung folgt aus [§§ 7, 14, 18 bis 21 Krypto-MPfG](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20013064&FassungVom=2026-09-14) und [DAC8, Anhang VI Abschnitte II bis IV](https://eur-lex.europa.eu/eli/dir/2023/2226/oj/eng). Die Vorteile sind strategische Einordnungen, keine gerichtlichen Feststellungen zu diesen Klägerprofilen.
 
-**Teilnahme ist zeitbezogen.** Nicht jeder Drittstaat ist ein teilnehmender Staat nach § 14. Eine bloße CARF-Unterzeichnung genügt nicht; maßgeblich sind die wirksamen Austauschregelungen. Eine zusätzliche EU-Steueransässigkeit beseitigt den Nicht-Meldepflicht-Ansatz. Ansässigkeit ist nicht Staatsangehörigkeit.
+**Teilnahme ist zeitbezogen.** Weder eine CARF-Unterzeichnung noch das Fehlen eines Staats in einer undatierten Aktivierungsliste entscheidet den Meldestatus. Maßgeblich sind sämtliche Ansässigkeiten und die nach § 14 für den streitigen Zeitraum wirksamen Austauschregelungen. Eine zusätzliche EU-Steueransässigkeit beseitigt den Nicht-Meldepflicht-Ansatz. Ansässigkeit ist nicht Staatsangehörigkeit.
 
 <!-- pagebreak -->
 
@@ -46,7 +49,7 @@ Ein zusätzlicher Gesichtspunkt kann die fehlende österreichische Besteuerung s
 
 ## Was trotzdem bestehen kann
 
-Die Ansässigkeitsprüfung und ihre Dokumentation bleiben erforderlich. Änderungen können eine neue Prüfung auslösen. Eigenständige Vertrags-, MiCA- oder Geldwäschepflichten rechtfertigen möglicherweise weitere Aufzeichnungen. Anzugreifen ist daher eine bestimmte zusätzliche Verarbeitung oder Verwendung, nicht unterschiedslos der gesamte Datenbestand.
+Die Ansässigkeitsprüfung und ihre Dokumentation bleiben erforderlich. Änderungen können eine neue Prüfung auslösen. Eigenständige Vertrags-, MiCA- oder Geldwäschepflichten können weitere Aufzeichnungen rechtfertigen. Insbesondere verlangt [§ 21 FM-GwG](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20009769&Paragraf=21&FassungVom=2026-09-21) für erfasste Sorgfaltsunterlagen und Transaktionsbelege zehn Jahre Aufbewahrung nach Ende der Geschäftsbeziehung oder der gelegentlichen Transaktion. Das rechtfertigt nicht automatisch jede zusätzliche steuerliche Auswertung.
 
 **Die Speicherregeln unterscheiden sich:** § 20 Abs. 4 betrifft bereits übermittelte Informationen. [§ 39 Krypto-MPfG](https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40273838/NOR40273838.html) betrifft dagegen die Dokumentation der Melde- und Sorgfaltsschritte. Ein nicht gemeldeter Nutzer ist nicht automatisch von derselben Zehnjahresregel betroffen wie ein gemeldeter Nutzer.
 
@@ -54,7 +57,9 @@ Die Ansässigkeitsprüfung und ihre Dokumentation bleiben erforderlich. Änderun
 
 Der Weg über DSB und BVwG, gegebenenfalls weiter zum VfGH, bleibt grundsätzlich geeignet. [VfGH G 178/2024, Abschnitt IV.1.3](https://www.ris.bka.gv.at/Dokumente/Vfgh/JFT_20260428_24G00178_00/JFT_20260428_24G00178_00.pdf) bestätigt diesen Weg bei gesetzlich vorgegebener Verarbeitung. Nicht-EU-Steueransässigkeit entzieht eine Verarbeitung im Kontext einer EU-Niederlassung nicht dem DSGVO-Schutz. Bei gesetzlich verpflichteter privater Verarbeitung ist die besondere Zuständigkeit nach Art. 55 Abs. 2 zu beachten, nicht schematisch Art. 56. [DSGVO, Art. 3, 55 und 77](https://eur-lex.europa.eu/eli/reg/2016/679/oj), [EDPB-Dokument 5/2021](https://www.edpb.europa.eu/system/files/2022-07/internaledpb_document_202105_complaints_against_public_bodies_en.pdf).
 
-Eine [EuGH-Vorlage nach Art. 267 AEUV](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:12016E267) bleibt auch zur Auslegung der DSGVO möglich. Sie setzt eine entscheidungserhebliche Frage voraus. Ein Erfolg gegen österreichische Mehrverarbeitung könnte deren Begrenzung oder Beseitigung bewirken; daraus folgt nicht automatisch ein Ende der gesamten DAC8-Meldearchitektur. Die Wirkung über den konkreten Fall hinaus hängt von der Entscheidung ab.
+Auch [VfSlg 11.479/1987, G 81/87 u. a., S. 1](https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_10128995_87G00081_01/JFR_10128995_87G00081_01.pdf) ließ den Auslandswohnsitz allein nicht genügen, um einen verfügbaren Rechtsweg zu umgehen. Das betraf die Wählerevidenz, nicht DAC8 oder Steueransässigkeit.
+
+Eine [EuGH-Vorlage nach Art. 267 AEUV](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:12016E267) setzt eine entscheidungserhebliche Frage voraus, auch zur DSGVO. Ein Erfolg gegen österreichische Mehrverarbeitung bedeutet nicht automatisch ein Ende der DAC8-Meldearchitektur. Die Reichweite hängt von der Entscheidung ab.
 
 ## Für die Auswahl ausschlaggebend
 

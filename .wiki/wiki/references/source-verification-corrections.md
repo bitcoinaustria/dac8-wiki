@@ -10,8 +10,9 @@ sources:
   - raw/papers/2026-09-04-cong-tax-transparency-evidence-correction.md
   - raw/articles/2026-09-04-austria-dsg-section-21-consultation-duty.md
   - raw/articles/2026-09-04-dsg-21-consultation-source-locator-correction.md
+  - raw/notes/2026-09-21-claimant-evidence-corrections.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-21
 verified: 2026-09-04
 tags: [source-correction, provenance, dsg, empirical-evidence]
 confidence: high
@@ -32,5 +33,6 @@ The following corrections govern reuse of the listed immutable raw records. Thei
 
 ## See Also
 
+- [September 10 claimant records: controlling evidence boundaries](claimant-selection-evidence-boundaries.md). This separate map qualifies all twenty preserved records, including activation snapshots, negative searches, retention, adequacy and the Belgian FATCA reference.
 - [[dac8-remedy-and-outcome-matrix|DAC8 Remedy and Outcome Matrix]] ([article](dac8-remedy-and-outcome-matrix.md))
 - [[dac8-aeoi-effectiveness-and-evidence-limits|DAC8 AEOI Effectiveness and Evidence Limits]] ([article](dac8-aeoi-effectiveness-and-evidence-limits.md))

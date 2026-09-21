@@ -7,7 +7,7 @@
 | [AML, Crypto, DAC8, and Fundamental-Rights Research Report](research-report-aml-crypto-dac8-rights-2026-08-27.md) | report |  |
 | [Bitcoin als Zahlungsmittel: Identitätszuordnung und Zahlungsprofile](research-report-bitcoin-zahlungsprofile-2026-09-20.md) | report | 2026-09-20 |
 | [DAC8 VfGH-to-CJEU Research Report](research-report-dac8-vfgh-cjeu-2026-08-27.md) | report |  |
-| [Prüfung: Drittstaaten-Steueransässigkeit als Klägerprofil gegen Krypto-MPfG und DAC8](research-report-drittstaaten-klaegerprofil-2026-09-01.md) | report |  |
+| [Prüfung: Drittstaaten-Steueransässigkeit als Klägerprofil gegen Krypto-MPfG und DAC8](research-report-drittstaaten-klaegerprofil-2026-09-01.md) | report | 2026-09-21 |
 | [Europäische Belege zu Datenmissbrauch und Gefährdungsrisiken](research-report-europa-datenmissbrauch-2026-09-19.md) | report |  |
 | [G 178/2024, DSB, BVwG und der DAC8-Bürgerweg](research-report-g178-dsb-bvwg-individualantrag-2026-08-27.md) | report |  |
 | [DAC8 Individualantrag, MiCA, Fundamental Rights, and Wealth-Register Report](research-report-individualantrag-mica-rights-wealth-register-2026-08-27.md) | report |  |

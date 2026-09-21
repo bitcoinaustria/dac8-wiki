@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-09-20
+Last updated: 2026-09-21
 
 ## Statistics
 
-- Sources: 385 raw source records
-- Articles: 55 compiled wiki articles
+- Sources: 406 raw source records
+- Articles: 56 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
 - Outputs: 16 reports and 3 PDF exports
-- Last compiled: 2026-09-20
-- Last lint: 2026-09-20
+- Last compiled: 2026-09-21
+- Last lint: 2026-09-21
 
 ## Quick Navigation
 
@@ -25,6 +25,7 @@ Last updated: 2026-09-20
 
 ## Recent Changes
 
+- 2026-09-21: Integrated twenty historical claimant-research records with an explicit [evidence-boundary and correction map](wiki/references/claimant-selection-evidence-boundaries.md). Updated the existing two-page claimant-profile note; consolidated superseded PR outputs instead of adding duplicate reports. Preserved newer provider-record and payment-profile research.
 - 2026-09-20: Added four source records and a [Bitcoin payment-profile thesis](wiki/theses/bitcoin-payment-profile-retention.md), with a [short German research note](output/research-report-bitcoin-zahlungsprofile-2026-09-20.md). Distinguished provider records from annual reports, bounded payment inferences and added the independent Austrian AML retention basis. Existing PDFs unchanged.
 
 - 2026-09-19: Added 24 source records, including one terminology correction, and six focused references on individual protection, exchange safeguards, insider controls, evidence access, legal thresholds and empirical limits. [Compact German overview](output/research-report-schutz-und-beweis-2026-09-19.md). Existing PDFs unchanged.

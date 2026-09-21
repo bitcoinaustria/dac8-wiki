@@ -7,12 +7,16 @@ sources:
   - wiki/references/austrian-gold-plating-and-claimant-audit.md
   - wiki/references/g178-dsb-bvwg-subsidiarity-route.md
   - wiki/topics/dac8-charter-proportionality.md
+  - wiki/references/claimant-selection-evidence-boundaries.md
 generated: 2026-09-01
+updated: 2026-09-21
 ---
 
 # Prüfung: Drittstaaten-Steueransässigkeit als Klägerprofil gegen Krypto-MPfG und DAC8
 
 Rechtsstand und Primärquellenprüfung: **1. September 2026**. Dies ist eine quellenbelegte Forschungsbewertung, keine einbringungsfertige Prozessschrift und keine individuelle Rechtsberatung.
+
+**Ergänzung vom 21. September 2026:** „Endgültig nicht meldepflichtig“ bezeichnet hier nur eine abgeschlossene Einstufung für den streitigen Zeitraum, nicht einen dauerhaften Status. Weder eine CARF-Unterschrift noch das Fehlen in einer undatierten Aktivierungsliste genügt dafür. Eigenständige AML-/MiCA-Aufzeichnungen und Sorgfaltsnachweise können auch ohne Steuermeldung fortbestehen. Der [aktualisierte Kurzvergleich](projects/vfgh-subsidiaritaets-kurzvermerk/klaegerprofile-steueransaessigkeit-2026-09-14.md) und die [Beweisgrenzen](../wiki/references/claimant-selection-evidence-boundaries.md) ergänzen diese historische Bewertung; keine neue vollständige Rechtsstandsprüfung.
 
 ## Ergebnis
 
@@ -22,7 +26,7 @@ Die These ist **in ihrer allgemeinen Form invalidiert**:
 
 Eine engere These ist dagegen **teilweise bestätigt**:
 
-> Eine ausschließlich in einem **nicht teilnehmenden Drittstaat steuerlich ansässige**, endgültig **nicht meldepflichtige** Person kann der beste Nutzer-Kläger gegen die österreichische Alle-Kunden-Verarbeitung nach § 20 Abs. 1 Krypto-MPfG sein. Für einen Angriff auf DAC8 selbst ist sie regelmäßig schlechter geeignet als ein tatsächlich meldepflichtiger AT-/EU-Nutzer.
+> Eine ausschließlich in einem **nicht teilnehmenden Drittstaat steuerlich ansässige**, für den streitigen Zeitraum **nicht meldepflichtige** Person kann die zusätzliche Verarbeitung nach § 20 Abs. 1 Krypto-MPfG gezielter angreifen. Für einen Angriff auf die DAC8-Transaktionsmeldung ist sie regelmäßig schlechter geeignet als ein tatsächlich meldepflichtiger AT-/EU-Nutzer.
 
 Der strategische Fehler wäre daher, einen österreichischen Kläger pauschal durch einen Drittstaaten-Kläger zu ersetzen. Die Angriffslinien brauchen unterschiedliche Klägerprofile.
 
@@ -42,7 +46,7 @@ Deshalb kann ein außerhalb der EU Ansässiger je nach Staat und Zeitraum entwed
 
 | Profil | Vorteil | Nachteil | Geeigneter Streitgegenstand |
 |---|---|---|---|
-| Österreich-only steueransässig | klare persönliche Betroffenheit von DAC8/Krypto-MPfG-Pflichtprofil | kann den Zusatz für nie meldepflichtige Nutzer nicht isolieren; ungünstige DAC2-Judikatur | DAC8-Gültigkeit, § 18/19, konkrete nationale Speicher-/Abhilfeelemente |
+| Österreich-only steueransässig | klare persönliche Betroffenheit von DAC8/Krypto-MPfG-Pflichtprofil | kann den Zusatz für im streitigen Zeitraum nicht meldepflichtige Nutzer nicht isolieren; ungünstige DAC2-Judikatur | DAC8-Gültigkeit, § 18/19, konkrete nationale Speicher-/Abhilfeelemente |
 | anderer EU-Mitgliedstaat | tatsächlicher unionsinterner Austausch an den Ansässigkeitsstaat | braucht österreichischen Anbieter-Nexus; kein §-20-Nichtmeldepflicht-Vorteil | DAC8-Meldung und Austausch |
 | teilnehmender Drittstaat | möglicher tatsächlicher Drittstaatentransfer | weiterhin meldepflichtig; Rechtsgrundlage zusätzlich CARF/MCAA, DAC8-Gültigkeit womöglich unerheblich | gesonderter CARF-/Drittstaatentransfer-Fall |
 | nicht teilnehmender Drittstaat, keine Doppelansässigkeit | isoliert die Verarbeitung trotz endgültig fehlender Meldung | keine Beschwer durch Meldung/Austausch; geringere Eildringlichkeit; DAC8-Gültigkeit meist hypothetisch | § 20 Abs. 1, Datenminimierung, Zweck- und Speicherbegrenzung |
@@ -71,7 +75,7 @@ Die bloße Erhebung der Steueransässigkeits-Selbstauskunft genügt nicht für d
 
 Die Drittstaatenansässigkeit ist hier weitgehend neutral. § 24 DSG gibt jeder betroffenen Person ein Beschwerderecht. Verarbeitet ein österreichischer oder anderer EU-niedergelassener Verantwortlicher die Daten im Kontext dieser Niederlassung, gilt die DSGVO nach Art. 3 Abs. 1 unabhängig davon, wo sich die betroffene Person aufhält.
 
-Der Fall muss an einer bereits erfolgten oder laufenden Verarbeitung anknüpfen. Der Verantwortliche, die Niederlassung, der Ort des behaupteten Verstoßes und allfällige Zusammenarbeit nach Art. 55/56 DSGVO sind konkret festzulegen. Gegen einen DSB-Bescheid führt der Weg zum BVwG; dort können eine Art.-140-Antragstellung und eine Art.-267-Vorlage angeregt werden.
+Der Fall muss an einer bereits erfolgten oder laufenden Verarbeitung anknüpfen. Verantwortlicher, Niederlassung und Ort des behaupteten Verstoßes sind konkret festzulegen. Bei gesetzlich verpflichteter privater Verarbeitung ist Art. 55 Abs. 2 DSGVO zu beachten, nicht schematisch der One-Stop-Shop nach Art. 56. Gegen einen DSB-Bescheid führt der Weg zum BVwG; dort können eine Art.-140-Antragstellung und eine Art.-267-Vorlage angeregt werden.
 
 Der enge materielle Vorteil bleibt: Nach endgültiger Nicht-Meldepflicht kann der Kläger plausibel bestreiten, dass eine vollständige transaktionsbezogene Steuerprofil-Verarbeitung weiterhin erforderlich ist. Ohne geplante Meldung ist dagegen ein Eilantrag regelmäßig schwieriger zu begründen.
 

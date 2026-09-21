@@ -50,14 +50,15 @@ sources:
   - raw/articles/2026-09-04-cjeu-c573-17-poplawski-horizontal-limit.md
   - raw/articles/2026-09-04-cjeu-c26-c64-22-schufa-full-review.md
   - raw/articles/2026-09-04-austria-dsb-bvwg-procedure-interim-effect.md
+  - raw/articles/2026-09-10-vfslg-11479-1987-foreign-residence-subsidiarity.md
 created: 2026-08-27
-updated: 2026-09-04
+updated: 2026-09-21
 tags: [dac8, austria, vfgh, cjeu, dsb, bvwg, article-267, litigation-strategy]
 aliases: [VfGH EuGH DAC8 route, Austrian DAC8 constitutional challenge]
 confidence: medium
 volatility: hot
-verified: 2026-09-04
-verification_scope: "Updated procedural and remedy analysis; the negative search for post-C-655/23 OGH decisions retains its stated August 27 cutoff."
+verified: 2026-09-21
+verification_scope: "September 21 update verifies the foreign-residence precedent and clarifies period-specific claimant evidence; the remaining procedural analysis retains its September 4 verification scope, and the negative search for post-C-655/23 OGH decisions retains its August 27 cutoff."
 summary: "A DAC8 user should normally proceed through DSB and BVwG and may separately assess an Article 79 GDPR action, while an evidence-backed Austria-home CASP may bring a direct Article 140 case against a precise national excess."
 ---
 
@@ -84,7 +85,7 @@ A provider-specific administrative declaratory route must also be checked rather
 ### Track B: user
 
 1. Select an actual user of an Austrian-covered CASP with post-1 January 2026 processing.
-2. Use a genuinely non-reportable user for the section 20(1) national-excess case, or a reportable Austrian user for a broader DAC8 validity case.
+2. Use a user proved non-reportable for the disputed period for the section 20(1) national-excess case, or a reportable Austrian user for a broader DAC8 validity case. Check all tax residences and the section 14 conditions and effective exchange relationship for that period; neither a CARF signature nor an undated activation-table entry settles that inquiry.
 3. Make legally matched Article 15 and, where applicable, Article 17 or 18 requests to establish fields, purposes, recipients, retention, deletion, and any refusal. Do not invoke Article 21 mechanically where the CASP relies on a legal obligation under Article 6(1)(c).
 4. File a precise section 24 DSG complaint against concrete processing by the identified controller, not a generalized policy objection. Observe the one-year knowledge and three-year long-stop periods. VwGH Ro 2023/04/0028 confirms that the one-year subjective limit is compatible with the GDPR; do not assume that continuing storage restarts it.
 5. Appeal a DSB decision to the BVwG within four weeks. The BVwG—not only the VfGH—is already able to make an Article 267 reference and can apply to the VfGH under Article 140 where it has constitutional concerns about a prejudicial national provision.
@@ -134,6 +135,8 @@ Article 263 direct review was also checked. The publication periods for DAC8 and
 
 The retention litigation proves a direct filing can lead to an Article 267 validity reference. But its admissibility depended on unknown/distributed providers, communication partners' providers, continuously regenerated records, and a six-month deletion horizon. In G 178/2024 the VfGH held that DSB → BVwG → Article 144 was reasonable for mandatory health-data processing even if first-instance success looked poor. The Court did not decide challenge perimeter, adequate pleading of the concerns, or whether the GDPR's direct applicability created another admissibility problem.
 
+[VfSlg 11.479/1987, G 81/87 ua](https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_10128995_87G00081_01/JFR_10128995_87G00081_01.pdf) supplies a limited analogy: an Austrian citizen's foreign residence did not make an electoral-register objection unreasonable where that remedy remained open to every citizen. It does not decide tax-residence effects or DSB jurisdiction, but cautions against treating residence abroad as an automatic exception to subsidiarity.
+
 For a DAC8 user, a direct application should therefore be fallback only when concrete facts establish retention-style exceptional circumstances and show that DSB/BVwG protection cannot prevent a specific irreversible injury. Predicted DSB defeat, normal delay, ordinary cost, several known CASPs, or the DSB's inability to invalidate an EU act are insufficient. Every claimant and every challenged provision must be pleaded separately. The 11,129 rejected AKVorrat co-applicants show the cost of generic mass pleading.
 
 Do not combine the user and CASP into one undifferentiated application. They rely on different rights, factual injuries, alternative routes, and challenge perimeters. Coordinated separate proceedings preserve each case's strongest standing theory.
@@ -155,7 +158,7 @@ Each question must be necessary to decide its concrete proceeding. Austria's sec
 ## Claimant fit
 
 - **Austria-home CASP:** strongest direct Article 140 candidate, but needs a provider-specific costed counterfactual.
-- **Non-reportable user:** strongest national section 20(1) privacy claimant; citizenship is irrelevant, and non-reportability must be proved against the participating-state rules at the filing date.
+- **Non-reportable user:** strongest national section 20(1) privacy claimant; citizenship does not determine reportability. Prove non-reportability for the disputed period using all tax residences and the applicable participating-state and effective-exchange rules, and refresh that evidence before filing.
 - **Reportable Austrian user:** strongest vehicle for challenging mandatory DAC8 reporting itself, but faces the adverse DAC2 trilogy.
 - **Foreign-home passported provider:** use only if Austria actually asserts duplicate reporting; MiCA Articles 60 and 65 otherwise support home-state allocation.
 
@@ -188,6 +191,7 @@ Each question must be necessary to decide its concrete proceeding. Austria's sec
 
 ## See Also
 
+- [[claimant-selection-evidence-boundaries|Claimant Selection: Evidence Boundaries]] ([Claimant Selection: Evidence Boundaries](../references/claimant-selection-evidence-boundaries.md))
 - [[non-eu-tax-resident-claimant-advantage|Drittstaaten-Steueransässigkeit als Klägerprofil]] ([Drittstaaten-Steueransässigkeit als Klägerprofil](non-eu-tax-resident-claimant-advantage.md))
 - [[individualantrag-article-140|Individualantrag under Article 140 B-VG]] ([Individualantrag under Article 140 B-VG](../concepts/individualantrag-article-140.md))
 - [[dac2-crs-austrian-litigation|Austrian DAC2/CRS Litigation]] ([Austrian DAC2/CRS Litigation](../topics/dac2-crs-austrian-litigation.md))
@@ -202,6 +206,7 @@ Each question must be necessary to decide its concrete proceeding. Austria's sec
 
 ## Sources
 
+- [VfSlg 11.479/1987: foreign residence and subsidiarity](../../raw/articles/2026-09-10-vfslg-11479-1987-foreign-residence-subsidiarity.md) — limited electoral-remedy analogy as stated above.
 - [DSB urgent-threshold correction](../../raw/articles/2026-09-04-dsb-urgent-threshold-correction.md)
 
 - [VfGH G 178/2024](../../../legal-docs/supporting/at-vfgh-g178-2024.pdf)

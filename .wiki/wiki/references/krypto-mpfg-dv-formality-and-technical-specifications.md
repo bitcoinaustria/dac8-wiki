@@ -7,8 +7,9 @@ sources:
   - raw/articles/2026-09-04-dsg-21-consultation-source-locator-correction.md
   - raw/articles/2026-09-04-vfgh-mandatory-consultation-formal-invalidity.md
   - raw/articles/2026-09-04-vfgh-external-technical-rules-publication.md
+  - raw/articles/2026-09-10-bmf-carf-specification-publication-gap.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-21
 tags: [krypto-mpfg, regulation, article-139, consultation, publication, xml, wsdl]
 aliases: [Krypto-MPfG implementing regulation challenge, Krypto-MPfG-DV consultation]
 confidence: medium
@@ -40,6 +41,8 @@ No public DSB statement was located. That is not evidence that consultation was 
 ## 2. External XML, XSD and WSDL specifications
 
 Section 4 Krypto-MPfG-DV states that the organisational and technical specifications are available on the BMF website and in the provider portal. The regulation rests on express delegations in sections 17(4), 19(2) and 22(4) Krypto-MPfG and sections 86a and 97(3) BAO. A general claim that the regulation lacks any statutory authority is therefore weak.
+
+The [10 September 2026 search record](../../raw/articles/2026-09-10-bmf-carf-specification-publication-gap.md) did not locate the CARF specifications on the inspected public BMF pages. It did not inspect the provider portal or establish that the specifications were unavailable there. This is a dated discovery gap, not proof of non-publication or invalidity. Obtain the applicable version, publication history and actual access conditions before drawing either conclusion. The archived search has not been repeated here.
 
 The content of the external specifications controls the stronger question:
 

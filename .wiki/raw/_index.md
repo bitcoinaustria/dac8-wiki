@@ -2,11 +2,11 @@
 
 > Immutable source material and provenance.
 
-Last updated: 2026-09-20
+Last updated: 2026-09-21
 
 ## Contents
 
-385 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below.
+406 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
 
 ## Categories
 
@@ -18,6 +18,7 @@ Last updated: 2026-09-20
 
 ## Recent Changes
 
+- 2026-09-21: Preserved twenty September 10 claimant-research records and added one authored review-provenance note. Corrections reside in the separate synthesis; original raw text remains unchanged.
 - 2026-09-20: Added two technical papers on Bitcoin counterparties and Lightning observation limits, C-184/20 on indirectly revealed sensitive data, and a Ferrieri counterauthority supplement.
 
 - 2026-09-19: Added 24 public-source records, including a DORA wording clarification, covering Austrian protective/access rules, European judgments, exchange safeguards and bounded empirical evidence.
