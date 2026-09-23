@@ -201,6 +201,7 @@ Do not make a hypothetical future comprehensive register the sole ground for ann
 
 ## See Also
 
+- [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md))
 - [[dac8-fundamental-rights-and-public-risks|DAC8 Fundamental Rights and Public Risks]] ([DAC8 Fundamental Rights and Public Risks](dac8-fundamental-rights-and-public-risks.md))
 - [[mica-tfr-krypto-mpfg-nexus|MiCA, TFR, and the Krypto-MPfG Nexus]] ([MiCA, TFR, and the Krypto-MPfG Nexus](mica-tfr-krypto-mpfg-nexus.md))
 - [[member-state-challenge-and-communications-playbook|Member-State Challenge and Communications Playbook]] ([Member-State Challenge and Communications Playbook](../references/member-state-challenge-and-communications-playbook.md))
