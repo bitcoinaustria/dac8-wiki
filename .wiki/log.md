@@ -672,3 +672,7 @@
 ## [2026-09-23] lint | local command: 0 critical, 0 warnings, 0 suggestions, 3 auto-fixed
 
 ## [2026-09-23] index-restore | Lint regeneration had dropped the pre-existing SUPERSEDED and QUALIFIED HISTORICAL RECORD annotations from the raw article and paper indexes. Restored the committed indexes and inserted only the twenty new source rows and the new thesis row. Updated master and raw index counts (426 sources, 57 articles).
+
+## [2026-09-23] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-09-23] research-gaps | Closed two thesis gaps with four source records. CFPB Section 1033: only the August 2025 ANPR (90 FR 40986) has followed; the rule is stayed and its enforcement enjoined in Forcht Bank v. CFPB (E.D. Ky. 5:24-cv-00304, 29 Oct 2025), not vacated; Sixth Circuit appeals pending. The ANPR wording on transaction data revealing "financial abundance that could make them the target of criminal activity" was verified against the Federal Register full text. Independent accuracy: FinRegLab 2019 and Hair/Howell et al. 2025 evaluate default prediction only (modest cash-flow lift); Baker/Kueng 2021 on incomplete account coverage. No independent error rate for transaction-based income estimates found. Thesis updated; verdict unchanged. Index regeneration again dropped supersession annotations; restored with only the new rows added.

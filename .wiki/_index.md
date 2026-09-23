@@ -6,7 +6,7 @@ Last updated: 2026-09-23
 
 ## Statistics
 
-- Sources: 426 raw source records
+- Sources: 430 raw source records
 - Articles: 57 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
@@ -25,7 +25,7 @@ Last updated: 2026-09-23
 
 ## Recent Changes
 
-- 2026-09-23: Added twenty source records and a [thesis on wealth inference from transaction data](wiki/theses/transaction-data-wealth-inference.md) as an analogue for DAC8. Strong evidence covers item-level data; annual aggregates support group-share and ranking estimates only, with large individual error.
+- 2026-09-23: Added twenty-four source records and a [thesis on wealth inference from transaction data](wiki/theses/transaction-data-wealth-inference.md) as an analogue for DAC8. Strong evidence covers item-level data; annual aggregates support group-share and ranking estimates only, with large individual error. A 2025 CFPB notice expressly names transaction data revealing wealth as a criminal-targeting risk; no independent error rate for transaction-based income estimates was found.
 - 2026-09-21: Integrated twenty historical claimant-research records with an explicit [evidence-boundary and correction map](wiki/references/claimant-selection-evidence-boundaries.md). Updated the existing two-page claimant-profile note; consolidated superseded PR outputs instead of adding duplicate reports. Preserved newer provider-record and payment-profile research.
 - 2026-09-20: Added four source records and a [Bitcoin payment-profile thesis](wiki/theses/bitcoin-payment-profile-retention.md), with a [short German research note](output/research-report-bitcoin-zahlungsprofile-2026-09-20.md). Distinguished provider records from annual reports, bounded payment inferences and added the independent Austrian AML retention basis. Existing PDFs unchanged.
 
