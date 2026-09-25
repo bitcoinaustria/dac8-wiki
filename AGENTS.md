@@ -22,6 +22,8 @@ This file contains the repository-specific rules for agents. Read [README.md](RE
 ## Wiki workflow
 
 - Use the installed LLM Wiki workflow for ingest, compilation, output changes, and linting.
+- The workflow is the `wiki` plugin from the upstream `nvk/llm-wiki` marketplace (Claude Code: `wiki@llm-wiki`; Codex: `wiki@llm-wiki`). Install and update it as described in [docs/llm-wiki-quickstart.md](docs/llm-wiki-quickstart.md); do not use stale forks or local copies. If plugin commands or the `llm-wiki` CLI are missing, report it instead of hand-editing indexes or skipping lint.
+- Route work through the plugin's commands: `/wiki:query` (Codex: `$wiki-query`) before new research, then `/wiki:ingest`, `/wiki:research`, `/wiki:compile`, `/wiki:output` and `/wiki:lint` (Codex: `@wiki`) as needed.
 - Read `.wiki/_index.md` and the relevant category index before broader searches. Indexes are derived navigation; source files and frontmatter remain authoritative.
 - Do not modify `.wiki/raw/` during normal compilation. Add source-backed synthesis to `.wiki/wiki/` and generated reports to `.wiki/output/`.
 - Append `.wiki/log.md` for every wiki write; never rewrite previous log entries.
