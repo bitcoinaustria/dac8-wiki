@@ -1,0 +1,21 @@
+---
+title: "Balestra, Oehler (OECD/Eurostat): Joint income-consumption-wealth estimates show partial correlation and large wealth imputation gaps"
+source: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/01/measuring-the-joint-distribution-of-household-income-consumption-and-wealth-at-the-micro-level_345b0a9d/f9d85db6-en.pdf"
+type: papers
+ingested: 2026-09-23
+fetched: 2026-09-23
+content_format: pdf
+extraction_tool: web-fetch
+tags: [adverse-evidence, statistical-matching, wealth-imputation, joint-distribution, official-statistics, flows-vs-stocks]
+summary: "When official statisticians impute wealth onto income/consumption records via statistical matching, even the marginal wealth distribution is distorted by up to 20-100% at some percentiles, and the three dimensions are only partially correlated, especially around the middle."
+---
+
+# Measuring the Joint Distribution of Household Income, Consumption and Wealth at the Micro Level: Methodological Issues and Experimental Results
+
+Carlotta Balestra (OECD), Friderike Oehler (Eurostat). OECD Papers on Well-being and Inequalities, Working Paper No. 11, WISE(2023)1. doi:10.1787/f9d85db6-en; Eurostat doi:10.2785/489635. This is the output of the Eurostat-OECD Expert Group on the Joint Distribution of Income, Consumption and Wealth (EG ICW). I inspected the full PDF text: the abstract and key findings (pp. 6-7), Section 3.2 (matching methodology) and Section 3.3.1 with Tables 3.2 and 3.3 (pp. 29-33).
+
+Data and method: most countries lack a single source that observes income, consumption and wealth for the same household. The EG therefore used statistical matching (random hot-deck imputation) to transfer consumption (from Household Budget Surveys) and wealth (from the HFCS) onto EU-SILC income records. Matching variables were socio-demographics, tenure and income or food-consumption quintiles. For income-wealth, Eurostat used household type, tenure status and food-consumption quintile. The method rests on the conditional independence assumption (CIA), i.e. that all correlation between the target variables runs through the matching variables (p. 29). Countries with register linkage or integrated surveys (Australia, Japan, Netherlands, Norway) were rated high quality.
+
+Figures: matching variables explain consumption with R² from 0.26 (Belgium) to 0.76 (Austria) (p. 30, Table A.4). Consumption's marginal distribution is reproduced within about 3% for most countries (Table 3.2). For **net wealth** (Table 3.3), gaps between the original HFCS and the matched file are large. At the median: Germany +19.3%, Portugal +18.8%, Austria +17.8%, France +16.1%. At the 20th percentile: Latvia +102%, Portugal +87%, Germany +51%, Belgium -34%, Cyprus -37%. At the 80th percentile: Spain +24.9%, Latvia +21.5%, Portugal +20.7%, Germany +13.7%. The authors state that "wealth is often significantly overestimated in the joint distribution ... even for the upper parts of the distribution" (p. 33). Key findings (pp. 6-7): "income, consumption and wealth are partially correlated, with the association being stronger in the tails ... than around its middle". Consumption-income is more closely linked than consumption-wealth, and income-wealth lies in between. One in three households spends more than it earns. The paper "calls for further efforts to improve the robustness of the results".
+
+Limits for the thesis: when professional statistical offices model wealth from income and consumption information, even the *aggregate* marginal distribution is visibly distorted, let alone individual values. The weak middle-of-distribution association means flow-based imputation carries little individual information for most households. Imputed individual values are draws from a conditional distribution (the paper reports 95% bands across hot-deck repetitions), not estimates of a specific household's wealth. The paper does NOT show that imputation fails for group-level or tail analysis. It also uses deliberately coarse matching variables (quintiles, household type), not rich transaction features, so a richer model could do better. Integrated or register-linked sources avoid the problem entirely by observing wealth directly.
