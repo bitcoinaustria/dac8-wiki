@@ -33,19 +33,19 @@ sources:
   - raw/papers/2026-09-23-twi-hair-howell-fico-to-cash-flow.md
   - raw/papers/2026-09-23-twi-baker-kueng-transaction-data-limits.md
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-09-25
 tags: [dac8, inference, wealth-estimation, profiling, credit-scoring, open-banking, adverse-evidence]
 aliases: [Vermögensschätzung aus Transaktionen, wealth inference from transaction data, Sortierbar nach Vermögen]
 volatility: warm
 verified: 2026-09-23
-summary: "Aus Einzeltransaktionen werden Einkommen, Kontostände und Kreditrisiko routinemäßig geschätzt; für Jahressummen ist nur die Gruppen- und Rangschätzung belegt, individuelle Vermögenswerte bleiben ungenau."
+summary: "Einzeltransaktionen können finanzielle Merkmale erschließen. DAC8-Jahresaggregate zeigen Aktivitätsumfang; ihre Eignung für individuelle Vermögensschätzungen ist nicht validiert. Kapitalertragsmethoden liefern nur eine begrenzte Analogie."
 ---
 
 # Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8
 
 ## Ergebnis
 
-**Teilweise gestützt, mittlere Sicherheit.** Dass Transaktionsdaten die finanzielle Lage einer Person offenlegen, ist wissenschaftlich, kommerziell und behördlich gut belegt. Belegt ist das aber fast durchweg für **Einzelposten** mit Datum, Betrag und oft Gegenpartei. Für **jährliche, identitätsbezogene Summen** ist die engste Analogie die Kapitalisierungsmethode aus Steuerdaten. Sie trägt Aussagen über Gruppenanteile und Ränge, liefert aber für Einzelpersonen erhebliche Fehler. Eine Studie, die aus DAC8-artigen Brutto-Jahresflüssen (Summe, Stückzahl, Anzahl) individuelles Vermögen schätzt und validiert, wurde nicht gefunden.
+**Teilweise gestützt, mittlere Sicherheit.** Dass Transaktionsdaten finanzielle Merkmale einer Person erschließen können, ist wissenschaftlich, kommerziell und behördlich gut belegt. Belegt ist das aber fast durchweg für **Einzelposten** mit Datum, Betrag und oft Gegenpartei. Für **jährliche, identitätsbezogene Summen** ist eine begrenzte Analogie die Kapitalisierungsmethode aus Steuerdaten. Sie stützt Verteilungsschätzungen aus Kapitaleinkünften; passende Gruppenanteile beweisen aber keine korrekte Vermögensrangfolge einzelner Personen. Eine Studie, die aus DAC8-artigen Brutto-Jahresflüssen (Summe, Stückzahl, Anzahl) individuelles Vermögen schätzt und validiert, wurde nicht gefunden.
 
 Für die DAC8-Argumentation folgt daraus eine Trennung:
 
@@ -88,9 +88,9 @@ Für ein Auswahlrisiko nach einem Datenleck genügt die erste Stufe. Ein Täter 
 
 ## Einschränkungen
 
-- **Granularität entscheidet.** Die stärksten Genauigkeitswerte stammen aus Einzelposten mit Zeit, Ort oder Gegenpartei. Der DAC8-Jahresbericht enthält keine dieser Angaben ([[dac8-transaction-granularity-and-reporting-layers|DAC8 Transaction Granularity and Reporting Layers]] ([DAC8 Transaction Granularity and Reporting Layers](../references/dac8-transaction-granularity-and-reporting-layers.md))). Die Anbieteraufzeichnungen nach § 20 Krypto-MPfG und dem FM-GwG enthalten sie dagegen. Für ein Leck beim Anbieter sind die Einzelposten-Befunde deshalb die passendere Analogie.
+- **Granularität entscheidet.** Die stärksten Genauigkeitswerte stammen aus Einzelposten mit Zeit, Ort oder Gegenpartei. Der DAC8-Jahresbericht enthält keine entsprechenden transaktionsbezogenen Detailfelder ([[dac8-transaction-granularity-and-reporting-layers|DAC8 Transaction Granularity and Reporting Layers]] ([DAC8 Transaction Granularity and Reporting Layers](../references/dac8-transaction-granularity-and-reporting-layers.md))). Anbieter können insbesondere nach MiCA, TFR und FM-GwG detailliertere Aufzeichnungen halten. Welche Zeit-, Adress- oder Gegenparteidaten tatsächlich vorhanden sind, ist dienstleistungs- und datensatzbezogen zu prüfen; Zahlungsort oder wirtschaftlicher Empfänger sind nicht pauschal bekannt ([[krypto-mpfg-provider-record-architecture|Provider-Aufzeichnungen]] ([Provider-Aufzeichnungen](../references/krypto-mpfg-provider-record-architecture.md))). Nur für entsprechend detaillierte Anbieterbestände sind die Einzelposten-Befunde die passendere Analogie.
 - **EDPB-Formulierung.** „The sum of financial transactions“ in Rn. 52 bezeichnet die Gesamtheit der Transaktionen eines Kontos, nicht eine arithmetische Jahressumme. Die Stelle darf nicht als Aussage über Aggregatmeldungen zitiert werden.
-- **Brutto- statt Ertragsgrößen.** Die Kapitalisierungsmethode rechnet aus Erträgen auf Bestände hoch. DAC8 meldet Brutto-Kauf- und Verkaufsvolumina. Kumulierte Käufe über mehrere Jahre sind eher eine grobe Untergrenze investierter Mittel als ein Vermögensschätzer. Selbstverwahrung, andere Anbieter und Kursänderungen fehlen.
+- **Brutto- statt Ertragsgrößen.** Die Kapitalisierungsmethode rechnet aus Erträgen auf Bestände hoch. DAC8 meldet Brutto-Kauf- und Verkaufsvolumina. Kumulierte Käufe sind weder Vermögensbestand noch Untergrenze neu eingesetzter Mittel: Wiederholtes Kaufen, Verkaufen und Wiederanlegen zählt dasselbe Kapital mehrfach. Selbstverwahrung, andere Anbieter, Verbindlichkeiten und Kursänderungen erschweren die Bestimmung des Gesamtvermögens zusätzlich.
 - **Herstellerangaben.** Plaid, Tink, Prism und Equifax veröffentlichen keine unabhängig geprüften Fehlerraten für Einkommen oder Vermögen. Sie belegen die Praxis, nicht die Genauigkeit. Die gefundenen unabhängigen Auswertungen (FinRegLab 2019, Hair/Howell et al. 2025) messen nur die Vorhersage von Kreditausfällen, nicht die Genauigkeit von Einkommens- oder Vermögensschätzungen. Eine veröffentlichte Auswertung von FCA, Bank of England oder BIS mit Fehlerraten wurde nicht gefunden.
 - **Gegenargument des Staates.** Die Behörde erhält die Aggregate zu Steuerzwecken, darf sie nicht beliebig weiterverwenden und unterliegt Vertraulichkeitsregeln. Das Auswahlrisiko setzt ein Leck oder einen Missbrauch voraus.
 
@@ -99,7 +99,7 @@ Für ein Auswahlrisiko nach einem Datenleck genügt die erste Stufe. Ein Täter 
 **Status:** Teilweise gestützt
 **Confidence:** Mittel
 
-**Zusammenfassung:** Transaktionsdaten legen die finanzielle Lage offen. Das bestätigen Forschung, Marktpraxis und Datenschutzbehörden, belegt ist es aber vor allem für Einzelposten. Für jährliche Summen ist nur die Schätzung von Gruppenanteilen und Rängen belegt; individuelle Vermögenswerte bleiben ungenau. Die DAC8-Aussage „sortierbar nach Aktivitätsumfang“ ist ohne Statistik ableitbar; die Aussage „das Vermögen einer Person lässt sich genau bestimmen“ wäre überzogen.
+**Zusammenfassung:** Transaktionsdaten können die finanzielle Lage erschließen. Forschung, Marktpraxis und Datenschutzbehörden belegen dies vor allem für Einzelposten. Die Evidenz aus jährlichen Kapitalerträgen betrifft andere Größen als DAC8-Bruttoflüsse und validiert keine individuelle DAC8-Vermögensschätzung. Die Aussage „sortierbar nach Aktivitätsumfang“ ist ohne Statistik ableitbar; die Aussage „das Vermögen einer Person lässt sich genau bestimmen“ wäre überzogen.
 
 **Stärkste stützende Evidenz:** Blumenstock et al. 2015; Saez/Zucman 2016 (Aggregate, Gruppenebene); EDPB 06/2020 Rn. 52 und Abschnitt 6.5; CFPB-ANPR 2025 zur Offenlegung von „financial abundance“ als Ziel krimineller Handlungen; dokumentierte Marktprodukte.
 

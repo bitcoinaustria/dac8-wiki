@@ -676,3 +676,7 @@
 ## [2026-09-23] lint | local command: 0 critical, 0 warnings, 0 suggestions, 2 auto-fixed
 
 ## [2026-09-23] research-gaps | Closed two thesis gaps with four source records. CFPB Section 1033: only the August 2025 ANPR (90 FR 40986) has followed; the rule is stayed and its enforcement enjoined in Forcht Bank v. CFPB (E.D. Ky. 5:24-cv-00304, 29 Oct 2025), not vacated; Sixth Circuit appeals pending. The ANPR wording on transaction data revealing "financial abundance that could make them the target of criminal activity" was verified against the Federal Register full text. Independent accuracy: FinRegLab 2019 and Hair/Howell et al. 2025 evaluate default prediction only (modest cash-flow lift); Baker/Kueng 2021 on incomplete account coverage. No independent error rate for transaction-based income estimates found. Thesis updated; verdict unchanged. Index regeneration again dropped supersession annotations; restored with only the new rows added.
+
+## [2026-09-25] premerge-review | Two independent reviews identified and corrected two overclaims in the transaction-wealth thesis: cumulative purchases are not a lower bound on contributed capital, and provider records do not universally contain payment location or economic counterparties. Clarified the capital-income versus gross-flow boundary in the summary. Original source records preserved; no comprehensive refresh of inherited findings claimed. Open PR merges authorised separately from the ensuing research.
+
+## [2026-09-25] lint | local command: 0 critical, 0 warnings, 0 suggestions, 0 auto-fixed
