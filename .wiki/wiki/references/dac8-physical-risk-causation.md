@@ -23,8 +23,15 @@ sources:
   - raw/articles/2026-09-19-doj-iza-saavedra-location-attack.md
   - raw/articles/2026-09-19-doj-saavedra-plea-status.md
   - raw/articles/2026-09-19-france-dgfip-wallet-risk-debate.md
+  - raw/articles/2026-09-29-bearer-kroll-claimant-data-breach.md
+  - raw/articles/2026-09-29-bearer-fractal-id-kyc-breach.md
+  - raw/articles/2026-09-29-bearer-ledger-2020-leak-ceo-disclosure.md
+  - raw/articles/2026-09-29-bearer-france-an-crypto-violence-answers.md
+  - raw/articles/2026-09-29-bearer-france-decree-2025-840-rcs-address.md
+  - raw/articles/2026-09-29-bearer-france-interior-crypto-guidance.md
+  - raw/articles/2026-09-29-bearer-psd2-mica-loss-allocation.md
 created: 2026-09-04
-updated: 2026-09-19
+updated: 2026-09-29
 tags: [dac8, krypto-mpfg, physical-security, causation, blockchain, evidence]
 aliases: [DAC8 wrench-attack risk, crypto tax data physical risk]
 confidence: medium
@@ -51,6 +58,9 @@ A provider may separately hold identity-to-ledger anchors under MiCA or TFR. Tho
 |---|---|---|
 | Crypto holders and relatives face physical coercion | AFT 2024 study and official DOJ accounts of convictions | No DAC8 inference follows from threat existence alone |
 | Leaked crypto-service data aid criminal target selection | Express Gendarmerie attribution concerning Waltio, September 2026 | Case-level provenance and extent remain unpublished; private tax service is not a tax authority |
+| KYC and claims intermediaries have leaked identity and address joined with crypto status, balances or wallet addresses | Company disclosures for Ledger (2020, status only), Kroll (2023, balances) and Fractal ID (2024, wallet addresses) | No source attributes a physical attack to these leaks; none involves tax data |
+| A Member State treats public address exposure of crypto-exposed persons as a safety risk | French Interior and Economy Ministry answers in the Journal officiel (2026) and Decree 2025-840 on masking directors' home addresses | Government positions on a public register, not findings on confidential tax data |
+| Self-custodied assets lack a refund backstop | PSD2 Articles 73–74 give bank-payment victims a refund; MiCA Article 75(8) covers only provider-attributable custodial losses; self-custody has neither | Coerced bank payments may also be "authorised"; recovery by tracing and freezing remains possible |
 | Misused official location access can facilitate an armed crypto-targeted attack | Saavedra plea factual basis establishes location abuse; DOJ separately describes the subsequent attempted home invasion | Police powers and fraudulently procured GPS access, not a tax-database leak |
 | DAC8 identity, address and activity fields could aid target selection | Security inference, strengthened but not proved by adjacent incidents | Exact report, address meaning, activity-to-wealth uncertainty and competing information |
 | Provider-held ledger anchors increase persistence of disclosure | Institutionally supported by EDPB persistence and future-linkage analysis | Actual MiCA/TFR record, join path, access authority and expert test |
@@ -68,6 +78,8 @@ Ordekian and co-authors identified public exposure, personal proximity, investig
 - **Bobigny:** original reporting concerns alleged tax-insider assistance to an attack on a prison officer. The derivative account adds the wife's involvement. Searches about crypto investors are not proof of attacks on those investors. Neither guilt nor a final disposition was verified. [Original-report limits](../../raw/articles/2026-09-19-bobigny-tax-insider-le-parisien.md), [derivative account](../../raw/articles/2026-09-19-bobigny-tax-insider-protos.md).
 - **Saavedra/Iza:** the [plea factual basis](../../raw/articles/2026-09-19-saavedra-plea-location-abuse.md), Exhibit A paragraphs 21–27, admits fraudulent GPS access and locating the victim. The [DOJ announcement](../../raw/articles/2026-09-19-doj-iza-saavedra-location-attack.md) describes the subsequent armed attempt. A [September update](../../raw/articles/2026-09-19-doj-saavedra-plea-status.md) confirms Saavedra's February 2025 guilty plea. This is stronger insider evidence than the accessible Bobigny reporting, but no tax-data or DAC8 incident. General police-database misuse and the GPS-derived address must remain distinct.
 - **Coinbase:** its disclosure acknowledges impersonation losses despite no stolen private keys. This supports indirect harm, not physical-attack causation. [Source](../../raw/articles/2026-09-19-coinbase-insider-social-engineering-disclosure.md).
+- **Ledger, Kroll and Fractal ID:** company disclosures show leaks joining identity and postal address with hardware-wallet customer status (Ledger), coin holdings and balances (Kroll) or wallet addresses (Fractal). Ledger and Kroll acknowledge follow-on phishing; Ledger says the list could not be correlated with funds. No physical attack is attributed to any of them. See [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)).
+- **French official position:** the Interior Ministry states that private individuals "censés en détenir" (believed to hold crypto) are targeted, calls the crimes a variant of established organised-crime methods, and advises against showing holdings. Media-reported ministerial figures give 45 cases in 2025 and 77 in the first half of 2026. [Journal officiel answers](../../raw/articles/2026-09-29-bearer-france-an-crypto-violence-answers.md), [ministry guidance](../../raw/articles/2026-09-29-bearer-france-interior-crypto-guidance.md).
 - **Victim research:** a 104-person USENIX survey includes two reported physical threats and 30 respondents with moderate-to-extreme physical-safety concerns. The [full-text supplement](../../raw/papers/2026-09-19-abramova-breach-fulltext.md) establishes neither verified assaults nor a representative attack probability; the earlier [abstract extraction](../../raw/papers/2026-09-19-abramova-boehme-wallet-breach-aftermath.md) remains provenance.
 
 Target selection and locating a victim do not require an exposed wallet address or private key. A later coerced transfer is a separate attack stage. Linking identity to public-ledger history, by contrast, requires an additional verified anchor; annual DAC8 aggregates alone do not establish it. Fraudulent impersonation, burglary and coercion should not be collapsed into one causal claim.
@@ -114,6 +126,7 @@ Article 2 ECHR should not be presented as a standalone facial-invalidity theory 
 
 ## See Also
 
+- [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)) — loss allocation, leak typology by data content and French official recognition.
 - [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md)) — why ranking by apparent activity needs no accurate wealth estimate.
 - [[data-risk-prevention-and-damages-thresholds|Data-Risk Prevention and Damages Thresholds]] ([Data-Risk Prevention and Damages Thresholds](data-risk-prevention-and-damages-thresholds.md))
 - [[breach-harm-and-linkage-empirics|Breach Harm and Linkage Empirics]] ([Breach Harm and Linkage Empirics](breach-harm-and-linkage-empirics.md)) — full-text victim research and adverse economic evidence.
@@ -130,3 +143,10 @@ Article 2 ECHR should not be presented as a standalone facial-invalidity theory 
 - [CJEU C-340/21](../../raw/articles/2026-09-04-cjeu-c340-21-tax-authority-breach-security.md)
 - [EDPB blockchain guidance](../../../legal-docs/supporting/eu-edpb-guidelines-02-2025-blockchain-v2.pdf)
 - [MiCA provider records](../../raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md)
+- [Kroll claimant breach](../../raw/articles/2026-09-29-bearer-kroll-claimant-data-breach.md)
+- [Fractal ID breach](../../raw/articles/2026-09-29-bearer-fractal-id-kyc-breach.md)
+- [Ledger 2020 leak](../../raw/articles/2026-09-29-bearer-ledger-2020-leak-ceo-disclosure.md)
+- [French written-question answers](../../raw/articles/2026-09-29-bearer-france-an-crypto-violence-answers.md)
+- [French Decree 2025-840](../../raw/articles/2026-09-29-bearer-france-decree-2025-840-rcs-address.md)
+- [French Interior Ministry guidance](../../raw/articles/2026-09-29-bearer-france-interior-crypto-guidance.md)
+- [PSD2 and MiCA loss allocation](../../raw/articles/2026-09-29-bearer-psd2-mica-loss-allocation.md)

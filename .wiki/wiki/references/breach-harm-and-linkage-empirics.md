@@ -41,6 +41,7 @@ These studies provide no representative crypto-attack incidence, verified breach
 
 ## See Also
 
+- [[account-model-linkage-exposure|Account-Model Chains and Exposure After an Identity Link]] ([Account-Model Chains and Exposure After an Identity Link](../theses/account-model-linkage-exposure.md)) — how much one identity link exposes on Ethereum-style chains.
 - [[identity-to-public-ledger-linkage-evidence|Identity-to-Public-Ledger Linkage Evidence]] ([Linkage evidence](identity-to-public-ledger-linkage-evidence.md))
 - [[dac8-physical-risk-causation|DAC8 Physical-Risk Causation and Evidence]] ([Physical-risk evidence](dac8-physical-risk-causation.md))
 - [[dac8-blockchain-linkage-expert-evidence-protocol|DAC8 Blockchain-Linkage Expert-Evidence Protocol]] ([Expert-evidence protocol](dac8-blockchain-linkage-expert-evidence-protocol.md))

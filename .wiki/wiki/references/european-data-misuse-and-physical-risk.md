@@ -16,8 +16,11 @@ sources:
   - raw/articles/2026-08-27-cjeu-c37-c601-20-aml-register.md
   - raw/articles/2026-08-27-echr-lb-hungary-tax-publication.md
   - raw/articles/2026-09-04-cjeu-c340-21-tax-authority-breach-security.md
+  - raw/articles/2026-09-29-bearer-france-an-crypto-violence-answers.md
+  - raw/articles/2026-09-29-bearer-france-decree-2025-840-rcs-address.md
+  - raw/articles/2026-09-29-bearer-fractal-id-kyc-breach.md
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-29
 verified: 2026-09-19
 volatility: hot
 confidence: medium
@@ -42,6 +45,8 @@ The [Dutch prosecutor](../../raw/articles/2026-09-19-nl-insider-prosecution-limi
 The two Dutch cases are stronger EU insider examples than the accessible Bobigny press allegations. They do not validate those allegations or establish a rate of harm among reported crypto users.
 
 ## Institutional risk assessment
+
+France has responded to crypto-related abductions with address minimisation in a public register. Decree 2025-840 of 22 August 2025 lets company directors mask their home address in the RCS while listed authorities and certain creditors keep access; the Economy Ministry's Journal officiel answer calls it a rapid response to an emergency endangering personal safety. The Interior Ministry states that private individuals believed to hold crypto are targeted. These are government positions on public data, not findings on confidential tax processing. In Germany, the Berlin KYC provider Fractal ID reported a 2024 breach of records that can join identity, home address and wallet address. See [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)).
 
 - [EDPB Guidelines 9/2022](../../raw/articles/2026-09-19-edpb-breach-risk-guidance.md), paragraphs 103–115: prospective assessment includes hypothetical breaches, combined data, identifiability, physical harm and lasting effects. Probability and severity remain separate. This guides risk analysis, not an automatic obligation to perform a separate controller-level DPIA in every statutory scheme.
 - [Europol IOCTA 2025](../../raw/papers/2026-09-19-europol-iocta-insider-access.md), pages 11 and 14: insiders, credential sales and repeated targeting are recognised mechanisms. No financial-data-to-violence conclusion follows from that report.
@@ -81,6 +86,7 @@ No new admissibility conclusion follows from these incidents. A concrete Austria
 
 ## See Also
 
+- [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)) — French address-masking measures and KYC-intermediary leaks.
 - [[tax-exchange-confidentiality-and-suspension|Tax-Exchange Confidentiality, Review and Suspension]] ([Tax-Exchange Confidentiality, Review and Suspension](tax-exchange-confidentiality-and-suspension.md))
 - [[insider-risk-controls-and-proof|Insider-Risk Controls and Proof]] ([Insider-Risk Controls and Proof](insider-risk-controls-and-proof.md))
 

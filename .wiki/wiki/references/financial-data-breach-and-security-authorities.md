@@ -21,8 +21,11 @@ sources:
   - raw/articles/2026-09-19-doj-iza-saavedra-location-attack.md
   - raw/articles/2026-09-19-doj-saavedra-plea-status.md
   - raw/articles/2026-09-19-france-dgfip-wallet-risk-debate.md
+  - raw/articles/2026-09-29-bearer-kroll-claimant-data-breach.md
+  - raw/articles/2026-09-29-bearer-fractal-id-kyc-breach.md
+  - raw/articles/2026-09-29-bearer-au10tix-credential-exposure.md
 created: 2026-09-04
-updated: 2026-09-19
+updated: 2026-09-29
 tags: [data-breach, tax-authority, casp, security, article-32, evidence, adverse-authority]
 aliases: [DAC8 breach evidence, financial database security]
 confidence: high
@@ -47,6 +50,9 @@ The 19 September update concerns Waltio, Coinbase, Bobigny, Saavedra/Iza and the
 | Waltio disclosure and September 2026 Gendarmerie account | private crypto-tax service, not tax authority | provider identifies email, annual gain/loss and year-end asset balances | police expressly attribute criminal target selection to the leak | provider excludes identity documents, postal addresses, wallet addresses and transaction history; police account is not case-level causal adjudication |
 | Bobigny, January 2026 reporting | alleged misuse of tax-employee access | new residential address according to derivative reporting | reported insider-to-violence sequence, distinct from external hacking | no inspected judgment, verified final outcome or established attack on a crypto investor from these searches |
 | Saavedra/Iza, plea factual basis and DOJ accounts | abused police powers; fraudulent GPS warrant and separate database misuse | phone location used to locate a targeted person | admitted official-access misuse; DOJ connects the location to an armed home-invasion attempt | no tax-reporting data, no proof a static database supplied this address; no Austrian-system inference |
+| Kroll breach notices, August 2023 (In re FTX, Bankr. D. Del.) | claims agent; SIM swap of one employee's phone number | name, address, email, phone, claim amount, account ID, coin holdings and balances | outsourced intermediary leaked identity joined with crypto balances through one weak authentication factor | no FTX systems or keys affected; balance-tailored phishing is secondary reporting; no physical harm attributed |
+| Fractal ID post-mortem, July–August 2024 | KYC provider; one admin account with reused credentials | names, contact data, ID images, physical addresses and wallet addresses for about 6,300 users | a KYC intermediary can join identity, home address and ledger anchor in one record; externally confirmed scope | no documented misuse against individuals; private vendor, not a CASP DAC8 file |
+| AU10TIX, June 2024 reporting | ID-verification vendor; infostealer-harvested admin credentials valid for over a year | ID document data and images; clients reportedly included Coinbase | vendor concentration of identity documents across regulated firms | journalism plus company statement; no holdings data; no evidence of exploitation |
 | CNIL annual report 2025 | general notification baseline | 6,167 notifications; sector and access-control observations | breaches and credential failures are a persistent institutional concern | no DAC8-specific rate, unique-person count, causation or Austrian finding |
 
 DGFiP and FICOBA concern authority-held records rather than commercial-provider records. Both official accounts distinguish affected from unaffected fields; neither is an adjudication that the underlying reporting or register law was disproportionate.
@@ -109,6 +115,7 @@ A stronger case requires an identified controller and one of the following:
 
 ## See Also
 
+- [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)) — leak typology by data content and bearer-asset loss allocation.
 - [[data-risk-prevention-and-damages-thresholds|Data-Risk Prevention and Damages Thresholds]] ([Data-Risk Prevention and Damages Thresholds](data-risk-prevention-and-damages-thresholds.md)) — distinguishes preventive obligations from compensation and operational protection.
 
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))
@@ -118,6 +125,9 @@ A stronger case requires an identified controller and one of the following:
 
 ## Sources
 
+- [Kroll claimant breach](../../raw/articles/2026-09-29-bearer-kroll-claimant-data-breach.md)
+- [Fractal ID breach](../../raw/articles/2026-09-29-bearer-fractal-id-kyc-breach.md)
+- [AU10TIX credential exposure](../../raw/articles/2026-09-29-bearer-au10tix-credential-exposure.md)
 - [CJEU C-340/21](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0340)
 - [ECtHR I v Finland](https://hudoc.echr.coe.int/eng?i=001-87510)
 - [French DGFiP incident](https://presse.economie.gouv.fr/acces-illegitime-au-systeme-dinformation-de-la-direction-generale-des-finances-publiques/)

@@ -11,8 +11,13 @@ sources:
   - raw/articles/2026-08-29-chainalysis-crypto-crime-2026.md
   - raw/articles/2026-08-29-trm-crypto-crime-2026.md
   - raw/articles/2026-08-29-fatf-austria-mutual-evaluation-2026.md
+  - raw/papers/2026-09-29-amlfail-a-fiu-lagebericht-geldwaesche-2024.md
+  - raw/papers/2026-09-29-amlfail-fincen-deepfake-alert-2024.md
+  - raw/papers/2026-09-29-amlfail-nca-sars-annual-report-2025.md
+  - raw/articles/2026-09-29-amlfail-eurojust-audia6-kyc-mule-accounts-2026.md
+  - raw/articles/2026-09-29-amlfail-404media-onlyfake-kyc-bypass-2024.md
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-29
 tags: [crypto-assets, crime, money-laundering, kyc, travel-rule, measurement, blockchain-analysis]
 aliases: [Crypto crime statistics, Travel Rule effectiveness, illicit crypto measurement]
 confidence: medium
@@ -67,9 +72,14 @@ The apparent conflict between Foley and Makarov/Schoar largely reflects time, at
 
 - Evidence exists separately for the first three stages, but the causal linkage from a particular KYC or Travel Rule field through that chain is generally not established. The evidence remains predominantly operational and case-based rather than causal.
 - KYC can connect a customer record to on-chain activity and support attribution, but stolen identities, mules, nested accounts and weak verification limit reliability.
+  - Eurojust (June 2026) describes a suspected EUR 336 million laundering service using thousands of exchange accounts opened with stolen or purchased identities and over 6,000 KYC records linked to mule accounts. These are investigative-stage allegations; the exchanges are not named.
+  - FinCEN's 2024 alert reports generative-AI and synthetic identities passing identification and CDD checks, with rapid movement toward digital-asset exchanges among its red flags. The A-FIU 2024 report documents forged-passport accounts verified through Austrian remote identification. A 2024 journalistic test passed one exchange's document check with a USD 15 fake image.
+  - None of these sources measures how often verified CASP accounts are held under false identities.
 - The Travel Rule adds originator and beneficiary data only when covered intermediaries participate and implement interoperable, accurate systems.
 - Centralised exchanges, banks and stablecoin issuers can provide identity, conversion, redemption, freeze and seizure points.
 - Evidence that these controls cause a reduction in aggregate laundering or predicate crime remains limited.
+
+Crypto providers file a small share of suspicious reports: 1,228 of 11,111 Austrian STRs in 2024 and 1.67 percent of UK SARs in 2024-25. Neither FIU reports what share of those reports reached an enforcement outcome.
 
 Travel Rule legislation is therefore an implementation measure, not an outcome. FATF's 2026 adoption percentage must not be presented as a success rate.
 
@@ -121,3 +131,8 @@ The correct comparison isolates what FM-GwG, TFR and MiCA already require before
 - [Chainalysis 2026](../../raw/articles/2026-08-29-chainalysis-crypto-crime-2026.md)
 - [TRM 2026](../../raw/articles/2026-08-29-trm-crypto-crime-2026.md)
 - [FATF Austria Mutual Evaluation](../../raw/articles/2026-08-29-fatf-austria-mutual-evaluation-2026.md)
+- [A-FIU Lagebericht Geldwäsche 2024](../../raw/papers/2026-09-29-amlfail-a-fiu-lagebericht-geldwaesche-2024.md)
+- [FinCEN deepfake alert 2024](../../raw/papers/2026-09-29-amlfail-fincen-deepfake-alert-2024.md)
+- [UKFIU SARs Annual Report 2024-25](../../raw/papers/2026-09-29-amlfail-nca-sars-annual-report-2025.md)
+- [Eurojust AudiA6](../../raw/articles/2026-09-29-amlfail-eurojust-audia6-kyc-mule-accounts-2026.md)
+- [404 Media OnlyFake](../../raw/articles/2026-09-29-amlfail-404media-onlyfake-kyc-bypass-2024.md)
