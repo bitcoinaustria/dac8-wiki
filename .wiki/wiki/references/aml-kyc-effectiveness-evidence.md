@@ -27,6 +27,16 @@ sources:
   - raw/articles/2026-09-29-amlfail-lexisnexis-true-cost-compliance-2023-2024.md
   - raw/articles/2026-09-29-amlfail-eurojust-audia6-kyc-mule-accounts-2026.md
   - raw/articles/2026-09-29-amlfail-404media-onlyfake-kyc-bypass-2024.md
+  - raw/articles/2026-09-29-atkyc-fm-gwg-remote-identification-reliance.md
+  - raw/articles/2026-09-29-atkyc-online-idv-current.md
+  - raw/papers/2026-09-29-atkyc-fma-rundschreiben-sorgfaltspflichten-ferngeschaeft.md
+  - raw/papers/2026-09-29-atkyc-eba-gl-2022-15-remote-onboarding.md
+  - raw/papers/2026-09-29-atkyc-fma-identifizierung-ferngeschaeft-2024.md
+  - raw/papers/2026-09-29-atkyc-fma-geldwaeschebericht-2024.md
+  - raw/papers/2026-09-29-atkyc-fma-jahresbericht-2025-aml-casp.md
+  - raw/articles/2026-09-29-atkyc-fma-aml-sanctions-2025-2026.md
+  - raw/papers/2026-09-29-atkyc-nra-2025-forged-documents-remote-id.md
+  - raw/articles/2026-09-29-atkyc-vienna-forged-id-bank-accounts-2026.md
 created: 2026-08-29
 updated: 2026-09-29
 tags: [aml, kyc, cdd, effectiveness, asset-recovery, suspicious-reporting, costs, de-risking, austria, identity-fraud, control-failure]
@@ -123,6 +133,18 @@ KYC-verified accounts can also sit on stolen or synthetic identities:
 - **United States:** FinCEN reports accounts opened with generative-AI or synthetic identity documents that passed identification and CDD checks, often detected only on later re-review. It gives no counts.
 - **Crypto exchanges:** Eurojust describes a laundering service suspected of moving more than EUR 336 million through thousands of exchange accounts opened with stolen or purchased identities, with over 6,000 KYC records linked to mule accounts. These are allegations at the investigative stage. A 2024 journalistic test passed one exchange's document check with a USD 15 fake-ID image; this shows feasibility, not prevalence.
 
+### Austrian remote-identification chain
+
+- **Law.** FM-GwG § 6(4) lists the permitted remote substitutes for in-person identification: video or biometric identification, electronic ID, qualified electronic signature (QES) or registered mail, and a first payment from an account in the customer's name. Only video and biometric identification is regulated in detail, by the FMA Online-Identifikationsverordnung (chip-signed ID, liveness check, mandatory abort on doubt; responsibility not outsourceable). With QES, no ID copy is needed if the contract itself is signed by QES. The reference-payment route relies on an earlier bank's identification. The FMA circular 01/2022 reads the list as closed and does not treat any listed route as triggering enhanced due diligence by itself (Rz 247).
+- **Official findings of failure.**
+  - The BMF's National Risk Assessment 2025 (p. 18) calls forged documents "besonders häufig" (particularly frequent) in online account opening via video identification or QES. It says these routes are open to AI-faked video, that quality depends on the identification provider, and that one falsely identified account can seed further accounts at other banks through one-cent verification transfers.
+  - The FMA (December 2024) says forged IDs are "keine Seltenheit" (no rarity) despite technical safeguards. It cites an A-FIU notice of March 2024 on a sharp rise in fully forged IDs in online identification.
+  - The NRA (p. 63) records regular use of money mules with crypto exchanges.
+  - In-person identification also failed: Vienna police reported more than 200 accounts opened in branches with forged Austrian ID cards between November 2024 and summer 2025 and sold as "bank drops" (media relaying police information).
+- **Scale limit.** Document offences appear in about 2 percent of ML investigations and about 4 percent of 2023 STRs (NRA 2025). No prevalence figure for fraudulent onboarding exists.
+- **Supervisory response.** In 2024 the FMA conducted 20 AML on-site inspections (four at VASPs) and issued 13 penalty decisions (three against VASPs), with about EUR 4.33 million in fines. Ten published FM-GwG fines from May 2025 to August 2026 (EUR 40,000 to 127,500) include the crypto providers Coinfinity and Kurant. All concern procedures, monitoring, source of funds or ownership structure; none concerns remote-identification or forged-ID onboarding.
+- **CASP accounts.** The FMA's 2025 annual report (p. 37) counts 6.7 million registered users at Austrian-licensed CASPs, of whom 3.0 million (45 percent) had fully completed KYC and about 1.0 million were active.
+
 A KYC record therefore establishes whose identity was presented, not necessarily who controls the account. The same records also served as investigative material in the Eurojust case.
 
 ## Cost measurement
@@ -158,7 +180,7 @@ General AML evidence can inform the public-interest and suitability analysis but
 - That utility does not prove the incremental need for every field, customer category, retention period or onward transfer.
 - DAC8 primarily serves tax transparency. AML asset-recovery or STR evidence is not an outcome measure for DAC8.
 - Weak asset-recovery ratios likewise do not prove that DAC8 or crypto KYC is invalid or useless.
-- The A-FIU finding on outsourced remote identification bears on the reliability of provider-held identity data that DAC8 reports reuse. It shows that such data can be wrong in documented cases; it does not measure an error rate in DAC8 or CASP records.
+- The A-FIU, NRA and FMA findings on remote identification bear on the reliability of provider-held identity data that DAC8 reports reuse. It shows that such data can be wrong in documented cases; it does not measure an error rate in DAC8 or CASP records.
 - VASPs filed 1,228 of 11,111 Austrian STRs in 2024 and 1.67 percent of UK SARs; these volumes do not show what share of crypto-related reports leads to an outcome.
 
 ## Claims to avoid
@@ -182,6 +204,16 @@ General AML evidence can inform the public-interest and suitability analysis but
 
 ## Sources
 
+- [FM-GwG remote identification and reliance](../../raw/articles/2026-09-29-atkyc-fm-gwg-remote-identification-reliance.md)
+- [FMA Online-Identifikationsverordnung](../../raw/articles/2026-09-29-atkyc-online-idv-current.md)
+- [FMA circular on due diligence, remote business](../../raw/papers/2026-09-29-atkyc-fma-rundschreiben-sorgfaltspflichten-ferngeschaeft.md)
+- [EBA/GL/2022/15 remote onboarding](../../raw/papers/2026-09-29-atkyc-eba-gl-2022-15-remote-onboarding.md)
+- [FMA on remote identification, December 2024](../../raw/papers/2026-09-29-atkyc-fma-identifizierung-ferngeschaeft-2024.md)
+- [FMA AML report 2024](../../raw/papers/2026-09-29-atkyc-fma-geldwaeschebericht-2024.md)
+- [FMA annual report 2025](../../raw/papers/2026-09-29-atkyc-fma-jahresbericht-2025-aml-casp.md)
+- [FMA AML sanctions 2025–2026](../../raw/articles/2026-09-29-atkyc-fma-aml-sanctions-2025-2026.md)
+- [National Risk Assessment 2025](../../raw/papers/2026-09-29-atkyc-nra-2025-forged-documents-remote-id.md)
+- [Vienna forged-ID bank accounts](../../raw/articles/2026-09-29-atkyc-vienna-forged-id-bank-accounts-2026.md)
 - [IMF 1998 speech](../../raw/articles/2026-08-29-imf-2-5-percent-origin-1998.md)
 - [UNODC 2011](../../raw/papers/2026-08-29-unodc-illicit-financial-flows-2011.md)
 - [Europol 2016](../../raw/papers/2026-08-29-europol-criminal-asset-recovery-2016.md)

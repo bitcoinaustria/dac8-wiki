@@ -24,6 +24,7 @@ sources:
   - raw/papers/2026-09-04-moeser-narayanan-bitcoin-clustering-fc-2022.md
   - raw/papers/2026-09-19-wang-rpc-linkage-ccs2025.md
   - raw/articles/2026-08-27-eu-amlr-regulation-2024-1624.md
+  - raw/articles/2026-09-29-payrisk-us-v-storm-docket-status.md
 created: 2026-09-29
 updated: 2026-09-29
 tags: [ethereum, account-model, utxo, linkage, address-reuse, privacy-tools, stablecoins, dac8]
@@ -81,7 +82,7 @@ Béres et al. argue that the account model "relies on address-reuse on the proto
 - **Privacy depends on behaviour and tooling.** Wang et al. show that advertised anonymity sets overstate privacy and that careless use (address reuse, fee payment from the deposit address, direct transfers) collapses it. Béres et al. show a dust-amount balance fingerprint is feasible because 98.1 percent of transactions leave the last nine digits of a balance unchanged.
 - **Tools are partial.** Stealth addresses hide the recipient, not the transfer. Funding a fresh stealth address with gas from a main wallet recreates the link; ERC-5564 lists funding as a known privacy issue.
 - **Network metadata is separate.** RPC and network-layer leakage (Wang et al., CCS 2025, already in the wiki) is an additional route that the 2025 roadmap addresses separately.
-- **Legal hazard of tools.** The US designated Tornado Cash in 2022. The Fifth Circuit held in *Van Loon* (26 November 2024) that immutable smart contracts are not blockable "property" under IEEPA, and Treasury delisted it on 21 March 2025. Roman Storm was convicted in August 2025 of conspiracy to operate an unlicensed money-transmitting business; further status from secondary reporting was not verified against the docket. In the EU, AMLR Article 79 prohibits obliged entities, from 10 July 2027, from keeping anonymous crypto-asset accounts or accounts enabling anonymisation or obfuscation; it is not a ban on personal self-custody. Its exact scope was not re-read against the Official Journal text for this thesis. None of this is Austrian or CJEU authority.
+- **Legal hazard of tools.** The US designated Tornado Cash in 2022. The Fifth Circuit held in *Van Loon* (26 November 2024) that immutable smart contracts are not blockable "property" under IEEPA, and Treasury delisted it on 21 March 2025. Roman Storm was convicted in August 2025 of conspiracy to operate an unlicensed money-transmitting business. The docket shows a Rule 29 acquittal motion still pending after argument on 9 April 2026, retrial of the open counts set for 26 April 2027, and a Speedy Trial Act dismissal motion denied on 10 September 2026. In the EU, AMLR Article 79 prohibits obliged entities, from 10 July 2027, from keeping anonymous crypto-asset accounts or accounts enabling anonymisation or obfuscation; it is not a ban on personal self-custody. Its exact scope was not re-read against the Official Journal text for this thesis. None of this is Austrian or CJEU authority.
 - **Evidence age.** Most empirical work covers 2019–2022. No post-2022 peer-reviewed measurement of Railgun, Privacy Pools or stealth-address adoption was found.
 
 ## DAC8 transfer
@@ -116,6 +117,7 @@ Béres et al. argue that the account model "relies on address-reuse on the proto
 
 ## Sources
 
+- [US v. Storm docket status](../../raw/articles/2026-09-29-payrisk-us-v-storm-docket-status.md)
 - [ethereum.org accounts and transactions](../../raw/articles/2026-09-29-acctmodel-ethereum-org-accounts-transactions.md)
 - [Bitcoin whitepaper, section 10](../../raw/articles/2026-09-29-acctmodel-bitcoin-whitepaper-privacy.md)
 - [Victor, FC 2020](../../raw/papers/2026-09-29-acctmodel-victor-ethereum-clustering-fc2020.md)

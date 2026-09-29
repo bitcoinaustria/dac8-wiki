@@ -1,0 +1,21 @@
+---
+title: "OGH Rechtssätze RS0095301, RS0114637 and RS0114317: unauthorised database queries as Missbrauch der Amtsgewalt (§ 302 StGB)"
+source: "https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_20010130_OGH0002_0140OS00114_0000000_001/JJR_20010130_OGH0002_0140OS00114_0000000_001.html"
+type: articles
+ingested: 2026-09-29
+fetched: 2026-09-29
+content_format: html
+confidence: high
+tags: [austria, ogh, amtsmissbrauch, stgb-302, ekis, zmr, database-query, insider-threat, holdings, adverse-authority]
+summary: "Settled OGH case law treats a query without official justification in EKIS, ZMR, court, social-insurance or PAD systems as an abuse of official authority where intent to harm the data-protection right is found; generally accessible data fall outside that protection."
+---
+
+# OGH Rechtssätze RS0095301, RS0114637 and RS0114317: unauthorised database queries as Missbrauch der Amtsgewalt (§ 302 StGB)
+
+These are three Austrian Supreme Court (OGH) Rechtssätze (headnote chains) in RIS Justiz, read on 29 September 2026. [RS0095301](https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_19960418_OGH0002_0120OS00183_9500000_001/JJR_19960418_OGH0002_0120OS00183_9500000_001.html) (12 Os 183/95 to 14 Os 26/24s, last linked 8 October 2024) holds that "EKIS-Anfragen" are "typische Amtsgeschäfte im Rahmen der zur Hoheitsverwaltung gehörenden Tätigkeit der Sicherheitsbehörden" (typical official acts of sovereign administration), not mere internal acts. Its T1 Beisatz (12 Os 2/09z) adds: "Bereits das Ermitteln personenbezogener Daten (und nicht erst deren Weitergabe) stellt ein Amtsgeschäft ... dar" (collecting personal data is itself an official act, before any disclosure). T2 extends this to social-insurance data (17 Os 17/13y); T3 extends it to the police PAD system (14 Os 140/20z).
+
+[RS0114637](https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_20010130_OGH0002_0140OS00114_0000000_001/JJR_20010130_OGH0002_0140OS00114_0000000_001.html) (14 Os 114/00 to 17 Os 9/17b) states that the legal power to override the § 1 DSG data-protection right exists only for official purposes. An official who uses it "ohne dienstliche Rechtfertigung" (without official justification) misuses it (T2, 12 Os 2/09z, an EKIS query); with Schädigungsvorsatz (intent to harm), this gives liability under § 302(1) StGB. In 11 Os 105/11t, involving ZMR queries by a Finanzamt employee, Beisätze T4 and T5 hold that the harm already lies in the data-protection violation through a targeted unauthorised query. Such a query "indiziert in der Regel auch den Vorsatz" (normally indicates intent). Later entries apply the rule to private court-register (VJ) queries (T8), Exekutionsregister queries (T9, 17 Os 20/12p: economic interest does not justify them), social-insurance data (T10) and private PAD queries (T11).
+
+[RS0114317](https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_20001114_OGH0002_0140OS00128_0000000_002/JJR_20001114_OGH0002_0140OS00128_0000000_002.html) (14 Os 128/00 to 17 Os 10/15x) is the principal limit. An unauthorised EKIS query fulfils § 302 only with intent to harm someone's rights; "Die missbräuchliche Datenbeschaffung als solche genügt dafür nicht" (misuse alone is insufficient). For generally accessible data, including ZMR data that are public under § 16(1) MeldeG (now § 18), intent to harm another concrete right is required (T2, T4). In 17 Os 1/12v that meant no punishable harm where intent covered only public data. The 12 Os 2/09z full text confirms a final Vienna conviction: a police officer ran an "EKIS/SIS" licence-plate query at a third party's request "ohne dienstliche Notwendigkeit" (without official necessity), and the OGH rejected the nullity appeal.
+
+Evidence class: supreme-court holdings (enacted-law interpretation). They show that Austrian criminal law reaches authorised insiders who query for private purposes, including across police, register, court and social-insurance systems. They do not give frequencies, do not concern the BMF DAC8 dataset, and show a doctrinal escape route: acquittal or annulment where the queried data were public or already known, or where specific intent findings are missing. This supports treating insider misuse as a recognised, recurring legal category in Austria. It does not show that DAC8 data will be misused or that controls are inadequate.

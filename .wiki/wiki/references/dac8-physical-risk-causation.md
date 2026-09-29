@@ -30,6 +30,9 @@ sources:
   - raw/articles/2026-09-29-bearer-france-decree-2025-840-rcs-address.md
   - raw/articles/2026-09-29-bearer-france-interior-crypto-guidance.md
   - raw/articles/2026-09-29-bearer-psd2-mica-loss-allocation.md
+  - raw/articles/2026-09-29-atcrypto-wels-2018-home-invasion-verdicts.md
+  - raw/articles/2026-09-29-atcrypto-vienna-2025-kuzmin-homicide.md
+  - raw/articles/2026-09-29-atcrypto-watchlist-finanzonline-crypto-phishing.md
 created: 2026-09-04
 updated: 2026-09-29
 tags: [dac8, krypto-mpfg, physical-security, causation, blockchain, evidence]
@@ -62,6 +65,8 @@ A provider may separately hold identity-to-ledger anchors under MiCA or TFR. Tho
 | A Member State treats public address exposure of crypto-exposed persons as a safety risk | French Interior and Economy Ministry answers in the Journal officiel (2026) and Decree 2025-840 on masking directors' home addresses | Government positions on a public register, not findings on confidential tax data |
 | Self-custodied assets lack a refund backstop | PSD2 Articles 73–74 give bank-payment victims a refund; MiCA Article 75(8) covers only provider-attributable custodial losses; self-custody has neither | Coerced bank payments may also be "authorised"; recovery by tracing and freezing remains possible |
 | Misused official location access can facilitate an armed crypto-targeted attack | Saavedra plea factual basis establishes location abuse; DOJ separately describes the subsequent attempted home invasion | Police powers and fraudulently procured GPS access, not a tax-database leak |
+| Crypto-motivated coercion occurs in Austria | Wels 2018 home invasion with final convictions; Vienna 2025 homicide with suspects held in Ukraine; victims selected through relationships or self-disclosure | No Austrian case attributes selection to leaked provider, register or tax data |
+| Reporting obligations create a fraud pretext | Watchlist Internet documents fake FinanzOnline campaigns citing new crypto tax rules to harvest holdings and wallet access (2025–2026) | Mass phishing without official data; shows pretext risk, not a leak |
 | DAC8 identity, address and activity fields could aid target selection | Security inference, strengthened but not proved by adjacent incidents | Exact report, address meaning, activity-to-wealth uncertainty and competing information |
 | Provider-held ledger anchors increase persistence of disclosure | Institutionally supported by EDPB persistence and future-linkage analysis | Actual MiCA/TFR record, join path, access authority and expert test |
 | Tax or provider systems can be breached | Supported as a general incident path | Concrete Austrian or relevant-controller architecture and control effectiveness |
@@ -126,6 +131,7 @@ Article 2 ECHR should not be presented as a standalone facial-invalidity theory 
 
 ## See Also
 
+- [[austrian-crypto-crime-and-targeting-evidence|Austrian Crypto-Crime and Targeting Evidence]] ([Austrian Crypto-Crime and Targeting Evidence](austrian-crypto-crime-and-targeting-evidence.md)) — Austrian cases, selection routes and the FinanzOnline phishing pretext.
 - [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)) — loss allocation, leak typology by data content and French official recognition.
 - [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md)) — why ranking by apparent activity needs no accurate wealth estimate.
 - [[data-risk-prevention-and-damages-thresholds|Data-Risk Prevention and Damages Thresholds]] ([Data-Risk Prevention and Damages Thresholds](data-risk-prevention-and-damages-thresholds.md))

@@ -30,6 +30,8 @@ An authorised account can be used for an unauthorised purpose. Evidence about ac
 
 The EDPB example is an important limit: basic contact-data copying warranted authority notification but not high-risk notification to individuals in that specific scenario. Severity depends on the actual data and context.
 
+Austrian evidence is collected separately: private-purpose queries in police, register and AIS tax systems are prosecuted under § 302 StGB, and the anti-corruption office registers about 100 to 116 unauthorised-query cases a year. See [[austrian-insider-database-misuse|Austrian Insider Database Misuse]] ([Austrian Insider Database Misuse](austrian-insider-database-misuse.md)).
+
 ## Provider-side benchmark
 
 [DORA's CASP scope](../../raw/articles/2026-09-04-mica-dora-casp-security-baseline.md) is narrower than the universe of DAC8 reporting operators. Under the ordinary detailed framework:
@@ -49,5 +51,6 @@ The comparison is between demonstrably effective controls and a specified residu
 
 ## See Also
 
+- [[austrian-insider-database-misuse|Austrian Insider Database Misuse]] ([Austrian Insider Database Misuse](austrian-insider-database-misuse.md)) — Austrian § 302 StGB case law, AIS tax-query cases and log-review gaps.
 - [[dac8-security-architecture-and-audit-evidence|DAC8 Security Architecture and Audit Evidence]] ([DAC8 Security Architecture and Audit Evidence](dac8-security-architecture-and-audit-evidence.md))
 - [[european-data-misuse-and-physical-risk|European Data Misuse and Physical-Risk Evidence]] ([European Data Misuse and Physical-Risk Evidence](european-data-misuse-and-physical-risk.md))

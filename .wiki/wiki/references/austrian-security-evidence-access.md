@@ -49,6 +49,8 @@ No identified decision establishes disclosure of an Austrian DAC8 DPIA or audit.
 
 ## See Also
 
+- [[austrian-insider-database-misuse|Austrian Insider Database Misuse]] ([Austrian Insider Database Misuse](austrian-insider-database-misuse.md)) — access-review evidence worth requesting.
+- [[austrian-tax-risk-scoring-and-financial-data-use|Austrian Tax Risk Scoring and Actual Use of Financial Data]] ([Austrian Tax Risk Scoring and Actual Use of Financial Data](austrian-tax-risk-scoring-and-financial-data-use.md)) — data-source, DPIA and override evidence to request for PACC scoring.
 - [[dac8-security-architecture-and-audit-evidence|DAC8 Security Architecture and Audit Evidence]] ([DAC8 Security Architecture and Audit Evidence](dac8-security-architecture-and-audit-evidence.md))
 
 - [[dac8-dpia-accountability-and-security-evidence|DPIA and security evidence]] ([DPIA and security evidence](dac8-dpia-accountability-and-security-evidence.md))

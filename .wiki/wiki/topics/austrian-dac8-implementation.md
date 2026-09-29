@@ -12,13 +12,14 @@ sources:
   - raw/articles/2026-08-27-austria-krypto-mpfg-materials-rv306.md
   - raw/articles/2026-08-27-austria-krypto-mpfg-wfa-rv306.md
   - raw/articles/2026-08-27-commission-dac8-proposal-com-2022-707.md
+  - raw/articles/2026-09-29-refreshat-commission-dac8-infringement-status.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-29
 tags: [austria, dac8-transposition, krypto-mpfg, tax-information-exchange]
 aliases: [Krypto-MPfG, Austrian DAC8 transposition]
 confidence: high
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-29
 summary: "Austria implemented DAC8 through the Krypto-MPfG, effective 1 January 2026, with all-customer processing, annual reporting, user notice, self-certification, and enforcement rules."
 ---
 
@@ -28,7 +29,7 @@ summary: "Austria implemented DAC8 through the Krypto-MPfG, effective 1 January 
 
 ## Legal instruments and timing
 
-The core act is the Krypto-Meldepflichtgesetz in BGBl. I Nr. 96/2025. It entered into force on 1 January 2026 and is supplemented by a December 2025 implementing regulation. This met DAC8's formal transposition deadline.
+The core act is the Krypto-Meldepflichtgesetz in BGBl. I Nr. 96/2025. It entered into force on 1 January 2026 and is supplemented by a December 2025 implementing regulation. This met DAC8's formal transposition deadline. Austria was not among the twelve Member States sent letters of formal notice for DAC8 non-transposition on 30 January 2026.
 
 At EU level, Commission Implementing Regulation (EU) 2025/2263 standardises technical forms, registration, identification, and computerised exchange formats.
 
@@ -70,6 +71,7 @@ Section 22(2)'s annual re-arising registration duty concerns non-MiCA operators,
 
 ## Sources
 
+- [Commission DAC8 infringement status](../../raw/articles/2026-09-29-refreshat-commission-dac8-infringement-status.md)
 - [Council Directive (EU) 2023/2226](../../raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md)
 - [Krypto-MPfG enactment](../../raw/articles/2026-08-27-austria-krypto-mpfg-bgbl-96-2025.md)
 - [Section 18 reporting fields](../../raw/articles/2026-08-27-austria-krypto-mpfg-section-18.md)

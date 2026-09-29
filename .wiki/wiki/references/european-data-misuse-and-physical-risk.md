@@ -86,6 +86,7 @@ No new admissibility conclusion follows from these incidents. A concrete Austria
 
 ## See Also
 
+- [[austrian-insider-database-misuse|Austrian Insider Database Misuse]] ([Austrian Insider Database Misuse](austrian-insider-database-misuse.md)) — Austrian police and tax insider cases; no physical harm established.
 - [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)) — French address-masking measures and KYC-intermediary leaks.
 - [[tax-exchange-confidentiality-and-suspension|Tax-Exchange Confidentiality, Review and Suspension]] ([Tax-Exchange Confidentiality, Review and Suspension](tax-exchange-confidentiality-and-suspension.md))
 - [[insider-risk-controls-and-proof|Insider-Risk Controls and Proof]] ([Insider-Risk Controls and Proof](insider-risk-controls-and-proof.md))

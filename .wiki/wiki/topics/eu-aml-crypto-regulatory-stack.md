@@ -16,13 +16,15 @@ sources:
   - raw/articles/2026-08-27-eu-directive-2019-1153-financial-info.md
   - raw/articles/2026-08-27-eu-asset-recovery-directive-2024-1260.md
   - raw/articles/2026-08-27-eu-directive-2026-799-insolvency-baris-access.md
+  - raw/articles/2026-09-29-refresh-amla-direct-supervision-and-instruments-status.md
+  - raw/articles/2026-09-29-refresh-tfr-article-37-self-hosted-review.md
 created: 2026-08-27
-updated: 2026-08-29
+updated: 2026-09-29
 tags: [eu, aml, amlr, amla, casp, self-hosted-address, baris, crypto-assets]
 aliases: [EU AML package for crypto, AMLD6 crypto, AMLR CASPs]
 confidence: high
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-29
 summary: "The EU crypto AML stack is a staged system: current AMLD4/5 national law and TFR, future direct AMLR duties, AMLA supervision, national AMLD6 mechanisms, BARIS, and separate criminal asset-recovery powers."
 ---
 
@@ -62,6 +64,8 @@ Three limits matter:
 2. “Self-hosted address” describes an address not linked to a CASP or equivalent non-Union intermediary. It is not a legal category of prohibited wallet.
 3. Originator and beneficiary information is required for a CASP-involved self-hosted transfer regardless of value. The EUR 1,000 rule is only the additional ownership-or-control assessment trigger; it is not a travel-rule threshold, automatic suspicious report, or one mandatory technical proof method.
 
+TFR Article 37 keeps the self-hosted question open without a delegated power to restrict. Article 37(2) required a Commission report on self-hosted-address risks 18 months after application (30 June 2026, computed; publication not verified), and Article 37(3) requires a later application report evaluating measures including "limitation, control or prohibition of transfers involving self-hosted addresses". Any restriction would need a legislative amendment.
+
 Current AMLD4 Article 19a and future AMLR Article 40 add risk-based controls for self-hosted transfers. AMLR Article 79 prohibits anonymous or anonymising accounts maintained by obliged entities. It does not prohibit private self-custody.
 
 ## The 2027 AMLR baseline
@@ -84,7 +88,7 @@ Recast AMLD6 Article 18 separately requires national real-estate access points b
 
 ## AMLA is not universal direct supervision
 
-AMLA can directly supervise selected high-risk, cross-border financial entities. Selection is not automatic for every CASP. National supervisors remain responsible for non-selected entities.
+AMLA can directly supervise selected high-risk, cross-border financial entities. AMLAR Article 13(4) requires the first selection to begin by 1 July 2027 and conclude within six months; direct supervision starts six months after the list is published, so no entity is directly supervised by AMLA before 2028. The first selection is capped at 40 entities or groups, and eligibility requires operation in at least six Member States. As of 28 September 2026, AMLA's tracker shows the CDD RTS under AMLR Article 28(1) at 'consultation closed' and several RTS and ITS at final-report stage, with no Commission adoption of an AMLA standard recorded. Selection is not automatic for every CASP. National supervisors remain responsible for non-selected entities.
 
 AMLA also maintains a central database of supervisory information and supports FIU cooperation and joint analysis. Those functions increase interoperability risk, but the Regulation confines sharing to statutory tasks, need-to-know use, and confidentiality. A rights challenge needs the actual information, recipient, access, retention, and remedy path—not the word “database” alone.
 
@@ -117,6 +121,7 @@ FATF reported Travel Rule legislation in 91 of 109 responding jurisdictions in 2
 ## Claims to avoid
 
 - “The EU has banned self-hosted wallets.”
+- “The Commission can ban self-hosted transfers by delegated act under TFR Article 37.”
 - “Every P2P transaction carries identity data.”
 - “AMLR has applied in full since 2024.”
 - “BARIS is an EU database of all wallet addresses and balances.”
@@ -134,6 +139,8 @@ FATF reported Travel Rule legislation in 91 of 109 responding jurisdictions in 2
 
 ## Sources
 
+- [AMLA direct supervision and instruments status](../../raw/articles/2026-09-29-refresh-amla-direct-supervision-and-instruments-status.md)
+- [TFR Article 37 self-hosted review](../../raw/articles/2026-09-29-refresh-tfr-article-37-self-hosted-review.md)
 - [FATF institutional history](../../raw/articles/2026-08-29-fatf-history-and-mandate.md)
 - [FATF virtual-assets standard 2019](../../raw/articles/2026-08-29-fatf-virtual-assets-standard-2019.md)
 - [FATF targeted update 2026](../../raw/papers/2026-08-29-fatf-va-vasp-targeted-update-2026.md)

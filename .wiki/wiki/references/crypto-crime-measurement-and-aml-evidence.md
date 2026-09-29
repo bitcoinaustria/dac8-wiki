@@ -16,13 +16,14 @@ sources:
   - raw/papers/2026-09-29-amlfail-nca-sars-annual-report-2025.md
   - raw/articles/2026-09-29-amlfail-eurojust-audia6-kyc-mule-accounts-2026.md
   - raw/articles/2026-09-29-amlfail-404media-onlyfake-kyc-bypass-2024.md
+  - raw/papers/2026-09-29-refresh-us-treasury-nmlra-2026-digital-assets.md
 created: 2026-08-29
 updated: 2026-09-29
 tags: [crypto-assets, crime, money-laundering, kyc, travel-rule, measurement, blockchain-analysis]
 aliases: [Crypto crime statistics, Travel Rule effectiveness, illicit crypto measurement]
 confidence: medium
 volatility: hot
-verified: 2026-08-29
+verified: 2026-09-29
 summary: "Known illicit activity is a minority of attributed on-chain volume but a large absolute lower bound; estimates depend on labels, coverage and denominators, and evidence is stronger for investigative utility than aggregate crime reduction."
 ---
 
@@ -32,7 +33,7 @@ summary: "Known illicit activity is a minority of attributed on-chain volume but
 
 Neither “crypto is mostly crime” nor “crypto crime is negligible” survives a method check.
 
-Europol's 2022 EU assessment describes crypto as a limited part of the wider criminal economy, while the US Treasury's 2024 US assessment places virtual-asset laundering far below fiat and conventional methods. Neither supplies a current global percentage. Commercial on-chain series place known or attributed illicit activity around one percent of their respective denominators: below one percent for Chainalysis and 1.2 percent for TRM in their 2025 series. These are not directly comparable measures.
+Europol's 2022 EU assessment describes crypto as a limited part of the wider criminal economy, while the US Treasury's 2026 National Money Laundering Risk Assessment states that money laundering via digital assets "remains well below" laundering through fiat and non-digital methods, while noting that many illicit actors using digital assets prefer stablecoins. Neither supplies a current global percentage. Commercial on-chain series place known or attributed illicit activity around one percent of their respective denominators: below one percent for Chainalysis and 1.2 percent for TRM in their 2025 series. These are not directly comparable measures.
 
 Known-address vendor estimates are lower bounds that omit unidentified activity. Model-based estimates such as Foley have two-sided uncertainty and can over- or under-estimate. Neither type covers every internal exchange ledger, privacy system, fiat leg or offence in which crypto is only one component.
 
@@ -55,7 +56,7 @@ A falling percentage can coexist with rising illicit dollars. A small transactio
 | Evidence | Narrow finding | What it does not establish |
 |---|---|---|
 | Europol 2022 | crypto use spans crime types but remains a limited part of the wider criminal economy; measurement is difficult | a current EU crime percentage |
-| US Treasury NMLRA 2024 | virtual-asset laundering remains far below fiat and conventional methods in the US risk assessment | a global apples-to-apples transaction ratio |
+| US Treasury NMLRA 2026 (superseding 2024) | digital-asset laundering "remains well below" fiat and non-digital methods; many illicit digital-asset users prefer stablecoins | a global apples-to-apples transaction ratio |
 | FATF 2026 targeted update | 91 of 109 responding jurisdictions reported Travel Rule legislation; 55 of those 91 reported no findings, directives, enforcement or other supervisory action focused on Travel Rule compliance | data quality, interoperability, investigative use or crime reduction; responses were self-reported and the question denominator was not the entire FATF network |
 | Foley et al. 2019 | early Bitcoin through 2017: about 46 percent of transaction count, 23 percent of value and 26 percent of users associated with illegal activity | current all-crypto share; interchangeability of count, value and users |
 | Makarov and Schoar 2021 | illegal, scam and gambling activity below three percent of measured Bitcoin volume in 2020, with exchange activity dominating the denominator | peer-reviewed current all-crypto crime rate |
@@ -122,6 +123,7 @@ The correct comparison isolates what FM-GwG, TFR and MiCA already require before
 
 ## Sources
 
+- [US Treasury NMLRA 2026](../../raw/papers/2026-09-29-refresh-us-treasury-nmlra-2026-digital-assets.md)
 - [FATF VA/VASP targeted update](../../raw/papers/2026-08-29-fatf-va-vasp-targeted-update-2026.md)
 - [Europol crypto spotlight](../../raw/papers/2026-08-29-europol-crypto-criminal-finances-2022.md)
 - [US Treasury NMLRA](../../raw/papers/2026-08-29-us-treasury-nmlra-2024-virtual-assets.md)

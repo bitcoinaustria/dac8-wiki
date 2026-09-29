@@ -18,6 +18,19 @@ sources:
   - raw/articles/2026-09-19-coinbase-insider-social-engineering-disclosure.md
   - raw/articles/2026-09-19-gendarmerie-waltio-target-selection.md
   - raw/papers/2026-09-19-abramova-breach-fulltext.md
+  - raw/articles/2026-09-29-atcrypto-ogh-7ob225-25a-bitcoin-insurance.md
+  - raw/articles/2026-09-29-atcrypto-bmi-ripdeal-crypto-cases.md
+  - raw/articles/2026-09-29-payrisk-ogh-7ob95-24g-authorised-phishing.md
+  - raw/articles/2026-09-29-payrisk-ogh-5ob54-24p-refund-setoff.md
+  - raw/articles/2026-09-29-payrisk-cjeu-c70-25-ag-opinion.md
+  - raw/articles/2026-09-29-payrisk-cjeu-beobank-c351-21.md
+  - raw/articles/2026-09-29-payrisk-bgh-xi-zr-107-24-spoofing.md
+  - raw/articles/2026-09-29-payrisk-psr-final-compromise-impersonation.md
+  - raw/articles/2026-09-29-payrisk-uk-psr-app-reimbursement.md
+  - raw/articles/2026-09-29-payrisk-doj-bitfinex-recovery.md
+  - raw/articles/2026-09-29-payrisk-tether-freeze-disclosure-2026.md
+  - raw/articles/2026-09-29-payrisk-commercial-theft-recovery-figures.md
+  - raw/articles/2026-09-29-payrisk-cjeu-veracash-c665-23.md
 created: 2026-09-29
 updated: 2026-09-29
 tags: [bearer-asset, self-custody, irreversibility, data-breach, kyc, physical-security, psd2, mica, france]
@@ -36,7 +49,7 @@ Self-custodied crypto-assets behave like bearer assets: control of the private k
 
 | Holding form | Instrument | Loss allocation | Limit |
 |---|---|---|---|
-| bank or e-money account | PSD2 Articles 64, 73 and 74 | unauthorised payment refunded by the end of the next business day; payer liability capped at EUR 50 unless fraud or gross negligence; provider bears the burden of proving authentication (Article 72) | a payment made under physical coercion is arguably "authorised"; no case law on duress was checked |
+| bank or e-money account | PSD2 Articles 64, 73 and 74 | unauthorised payment refunded by the end of the next business day; payer liability capped at EUR 50 unless fraud or gross negligence; provider bears the burden of proving authentication (Article 72) | a payment the payer releases under manipulation is authorised and not refundable (OGH 7 Ob 95/24g); whether the immediate refund may be withheld for alleged gross negligence is pending (CJEU C-70/25; OGH 5 Ob 54/24p stay); a payer who knowingly delays notification loses the refund only for the affected transactions and only if the delay was intentional or grossly negligent (CJEU C-665/23 *Veracash*, press release read); no authority on physical duress found |
 | custodial crypto account | MiCA Article 75(8) | custodial CASP liable for loss of crypto-assets or means of access "as a result of an incident that is attributable to them", capped at market value | excludes incidents independent of the service, including ledger-inherent problems; no refund right for customer-authorised transfers |
 | self-custody | none | no counterparty; no refund or recall right | recovery only through tracing, freezing at a regulated intermediary or a stablecoin issuer, and seizure |
 
@@ -46,7 +59,18 @@ The ESAs' October 2025 joint warning states that "losing private keys to crypto-
 
 For credential theft, the contrast is strong: a bank-account victim usually has a refund dispute, while a self-custody victim has a final loss. For wrench attacks, the contrast narrows. A bank payment extracted under duress may also be authorised. The practical differences are then bank-side limits, delays, fraud monitoring and recall channels. The FBI IC3 2025 report shows that recall working through banks: its Recovery Asset Team froze USD 679 million of USD 1.164 billion in attempted theft (58 percent). It gives no comparable figure for self-custody.
 
-**Limiting evidence.** The French Interior Ministry describes crypto as "nativement traçable" and reports EUR 90 million in crypto seized by the asset-recovery agency AGRASC since 2014. CASPs must freeze and report under MiCA and the TFR, and stablecoin issuers reserve address-level freeze powers. "Irreversible" therefore means no refund right, not that funds can never be recovered.
+The contrast also narrows for social-engineering transfers:
+
+- **Austria.** OGH 7 Ob 95/24g (28 August 2024) concerned a telephone fraudster who induced a customer to release pre-filled transfers of EUR 27,650 with two-factor authentication. The court held the transfers authorised, so liability under §§ 67–68 ZaDiG 2018 did not apply. It found that "ein betrügerischer Zahlungsvorgang [kann] gerade auch ein autorisierter Zahlungsvorgang sein" (a fraudulent payment can also be an authorised one), and refused a CJEU reference. The bank's fraud monitoring had stopped a separate EUR 20,000 transfer.
+- **Germany.** BGH XI ZR 107/24, a comparator, treated a spoofing payment as unauthorised but let the bank refuse re-credit because of the customer's gross negligence.
+- **EU.** The Payment Services Regulation, agreed but not in the Official Journal as of September 2026, would add a refund for authorised fraud only where the fraudster impersonated the customer's own provider (compromise Article 59). It excludes e-money-token transfers between two self-hosted addresses.
+- **United Kingdom.** The UK reimburses authorised push-payment scams (88 percent of in-scope losses over 18 months, as reported by sending firms) but excludes payments to the consumer's own crypto-exchange account.
+
+The bank-side advantage for manipulated or coerced payments is therefore mechanisms (monitoring, limits, recall), not a refund right.
+
+In Austria, OGH 7 Ob 225/25a (25 March 2026) held that bitcoin lost after malware extracted the recovery phrase is not "simple theft" under the ABHP 2011 household-insurance conditions, so the holder bore the loss. The holding interprets specific standard terms and was read from the official summary.
+
+**Limiting evidence.** The French Interior Ministry describes crypto as "nativement traçable" and reports EUR 90 million in crypto seized by the asset-recovery agency AGRASC since 2014. CASPs must freeze and report under MiCA and the TFR, and stablecoin issuers reserve address-level freeze powers. Austrian police report 140 ETH from a 2023 rip-deal frozen in time at a Seychelles provider. Recovery is episodic. DOJ seized about 95,000 of 119,754 bitcoin stolen from Bitfinex six years after the hack. Tether self-reports more than USD 4.9 billion frozen, without separating theft from sanctions. Commercial data show 0.4 percent of first-quarter 2025 hack losses recovered. No official or peer-reviewed recovery rate exists, and none for self-custody theft. "Irreversible" therefore means no refund right, not that funds can never be recovered.
 
 ## Leak typology by data content
 
@@ -94,6 +118,8 @@ These are official government positions, not judicial findings or audited statis
 ## Claims to exclude
 
 - "Stolen crypto can never be recovered."
+- "Bank customers are refunded for scams they authorised."
+- "The Payment Services Regulation is in force."
 - "Bank customers are fully protected against coerced transfers."
 - "The Ledger leak revealed customers' balances" or "caused the Balland abduction."
 - "The Lopp list measures attack frequency."
@@ -102,6 +128,7 @@ These are official government positions, not judicial findings or audited statis
 
 ## See Also
 
+- [[austrian-crypto-crime-and-targeting-evidence|Austrian Crypto-Crime and Targeting Evidence]] ([Austrian Crypto-Crime and Targeting Evidence](austrian-crypto-crime-and-targeting-evidence.md)) — Austrian cases, OGH loss allocation and tracing examples.
 - [[dac8-physical-risk-causation|DAC8 Physical-Risk Causation and Evidence]] ([DAC8 Physical-Risk Causation and Evidence](dac8-physical-risk-causation.md)) — causal ladder and proof requirements.
 - [[financial-data-breach-and-security-authorities|Financial-Data Breach and Security Authorities]] ([Financial-Data Breach and Security Authorities](financial-data-breach-and-security-authorities.md)) — authority and provider breach layers.
 - [[european-data-misuse-and-physical-risk|European Data Misuse and Physical-Risk Evidence]] ([European Data Misuse and Physical-Risk Evidence](european-data-misuse-and-physical-risk.md)) — European insider and access cases.
@@ -109,7 +136,20 @@ These are official government positions, not judicial findings or audited statis
 - [[aml-kyc-effectiveness-evidence|AML and KYC Effectiveness Evidence]] ([AML and KYC Effectiveness Evidence](aml-kyc-effectiveness-evidence.md)) — KYC data collection whose concentration these leaks expose.
 
 ## Sources
+- [CJEU C-665/23 Veracash](../../raw/articles/2026-09-29-payrisk-cjeu-veracash-c665-23.md)
 
+- [OGH 7 Ob 95/24g](../../raw/articles/2026-09-29-payrisk-ogh-7ob95-24g-authorised-phishing.md)
+- [OGH 5 Ob 54/24p](../../raw/articles/2026-09-29-payrisk-ogh-5ob54-24p-refund-setoff.md)
+- [CJEU C-70/25 Advocate General opinion](../../raw/articles/2026-09-29-payrisk-cjeu-c70-25-ag-opinion.md)
+- [CJEU C-351/21 Beobank](../../raw/articles/2026-09-29-payrisk-cjeu-beobank-c351-21.md)
+- [BGH XI ZR 107/24](../../raw/articles/2026-09-29-payrisk-bgh-xi-zr-107-24-spoofing.md)
+- [PSR final compromise](../../raw/articles/2026-09-29-payrisk-psr-final-compromise-impersonation.md)
+- [UK APP reimbursement](../../raw/articles/2026-09-29-payrisk-uk-psr-app-reimbursement.md)
+- [DOJ Bitfinex recovery](../../raw/articles/2026-09-29-payrisk-doj-bitfinex-recovery.md)
+- [Tether freeze disclosure](../../raw/articles/2026-09-29-payrisk-tether-freeze-disclosure-2026.md)
+- [Commercial theft and recovery figures](../../raw/articles/2026-09-29-payrisk-commercial-theft-recovery-figures.md)
+- [OGH 7 Ob 225/25a](../../raw/articles/2026-09-29-atcrypto-ogh-7ob225-25a-bitcoin-insurance.md)
+- [BMI crypto-crime feature and rip-deal appeal](../../raw/articles/2026-09-29-atcrypto-bmi-ripdeal-crypto-cases.md)
 - [PSD2 and MiCA loss allocation](../../raw/articles/2026-09-29-bearer-psd2-mica-loss-allocation.md)
 - [ESAs joint warning, October 2025](../../raw/articles/2026-09-29-bearer-esas-crypto-warning-2025.md)
 - [FBI IC3 2025 report](../../raw/papers/2026-09-29-bearer-fbi-ic3-2025-report.md)

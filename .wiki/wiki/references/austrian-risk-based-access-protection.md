@@ -49,6 +49,7 @@ MeldeG was checked in the live RIS consolidation dated 19 September 2026. Direct
 
 ## See Also
 
+- [[austrian-crypto-crime-and-targeting-evidence|Austrian Crypto-Crime and Targeting Evidence]] ([Austrian Crypto-Crime and Targeting Evidence](austrian-crypto-crime-and-targeting-evidence.md)) — Austrian crypto-targeting cases and selection routes.
 - [[european-data-misuse-and-physical-risk|European Data Misuse and Physical-Risk Evidence]] ([European evidence](european-data-misuse-and-physical-risk.md)) — EU access rules and transferability limits.
 
 ## Sources

@@ -23,12 +23,12 @@ sources:
   - raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md
   - raw/papers/2026-08-29-imf-fatf-gray-listing-capital-flows-2021.md
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-29
 tags: [aml, cdd, kyc, fatf, un, eu, virtual-assets, tfr, carf, dac8, genealogy]
 aliases: [AML KYC origins, FATF to EU crypto chain, international AML genealogy]
 confidence: high
 volatility: hot
-verified: 2026-08-29
+verified: 2026-09-29
 summary: "AML/CFT and crypto tax reporting have separate lineages: UN, Basel and FATF standards feed EU AML and TFR law, while OECD CARF feeds DAC8; overlapping customer data does not merge their legal purposes."
 ---
 

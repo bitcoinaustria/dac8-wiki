@@ -18,13 +18,17 @@ sources:
   - raw/articles/2026-08-27-austria-kontregg-current.md
   - raw/articles/2026-08-27-cjeu-c37-c601-20-aml-register.md
   - raw/articles/2026-08-27-eu-directive-2026-799-insolvency-baris-access.md
+  - raw/articles/2026-09-29-refresh-cjeu-c684-24-across-fiduciaria.md
+  - raw/articles/2026-09-29-refresh-cjeu-c798-24-shareholder-data.md
+  - raw/articles/2026-09-29-refresh-austria-kontregg-bgbl-i-46-2026.md
+  - raw/articles/2026-09-29-atrisk-kontenregister-query-statistics-2018-2022.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-29
 tags: [dac8, wealth-register, asset-register, baris, fundamental-rights, interoperability]
 aliases: [Vermögensregister, de facto wealth register, crypto asset register]
 confidence: high
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-29
 summary: "DAC8 is not a complete wealth register, but its identity-linked crypto aggregates can become a register-like wealth-profile layer when combined with account discovery, provider records, and future EU interoperability."
 ---
 
@@ -64,7 +68,7 @@ Recast AMLD6 Article 16 requires national mechanisms for covered institution-hel
 
 BARIS will not be FIU-only. Enacted legislation also provides case-specific access for designated serious-crime authorities and a future insolvency route through designated courts or administrative authorities. These are material access paths, but each is purpose- and safeguard-bound. National Article 16(5) extra fields do not enter BARIS.
 
-The rights analysis must also separate access tiers. CJEU C-37/20 and C-601/20 and VfGH G 265/2023 invalidated unconditional public access to beneficial-ownership information. They did not invalidate controlled FIU, authority, or obliged-entity access. A future wealth-profile challenge should therefore identify the exact fields, recipient, threshold, search mode, logs, retention, linkage, and remedy rather than equate every controlled account-discovery mechanism with a public register.
+The rights analysis must also separate access tiers. CJEU C-37/20 and C-601/20 and VfGH G 265/2023 invalidated unconditional public access to beneficial-ownership information. They did not invalidate controlled FIU, authority, or obliged-entity access. The Court has since confirmed that line. In C-684/24 and C-685/24 (*Across Fiduciaria*, 21 May 2026) it found nothing affecting the validity of legitimate-interest access to trust beneficial-ownership data, held such access in principle limited to what is strictly necessary (para. 106), said that access for authorities and obliged entities alone would obstruct the transparency objective (para. 107), and required interim judicial protection where an exemption is refused. In C-798/24 (3 September 2026) it held that the GDPR, read with Charter Articles 7 and 8, precludes unconditioned, bulk-downloadable public access to all shareholders' identity and shareholding data, because such data can "enable a profile to be drawn up concerning, inter alia, the state of the wealth of the person concerned" (para. 70); AML/CFT is "as a priority a matter for the public authorities" and obliged entities (para. 79). A future wealth-profile challenge should therefore identify the exact fields, recipient, threshold, search mode, logs, retention, linkage, and remedy rather than equate every controlled account-discovery mechanism with a public register.
 
 ## The EU asset-register study
 
@@ -93,7 +97,7 @@ The Commission later confirmed in answer E-001435/2024 that the work identified 
 
 One isolated account identifier is different from a searchable cross-asset history. Combining identity, residence, beneficial ownership, account relationships, crypto activity, transfer data, and public-ledger analysis can reveal more than each dataset separately. The legal assessment must therefore consider reasonably foreseeable interoperability and access, not only one field in isolation.
 
-CJEU C-37/20 and C-601/20, *Luxembourg Business Registers*, paragraphs 41–44, recognised that identity plus ownership information can profile wealth and investment choices. Paragraphs 63–66 require strict necessity, clear rules, safeguards, and the least onerous equally effective means.
+CJEU C-37/20 and C-601/20, *Luxembourg Business Registers*, paragraphs 41–44, recognised that identity plus ownership information can profile wealth and investment choices. C-798/24 (2026) reapplies paragraph 41 to company-register shareholding data under the GDPR. Paragraphs 63–66 require strict necessity, clear rules, safeguards, and the least onerous equally effective means.
 
 The decision invalidated unconditional **public** access. DAC8 is not public, so the outcome does not transfer automatically. The profiling principle and proportionality method remain relevant; the public-access severity must be expressly distinguished.
 
@@ -114,6 +118,8 @@ Accuracy, correction propagation, provenance, valuation method, temporal meaning
 ### 4. Purpose stacking and function expansion
 
 Directive 2011/16/EU Article 16 already permits DAC information to be used for covered taxes, VAT, other indirect taxes, customs, AML/CFT, and specified restrictive-measures work. That is an explicit purpose range, not secret function creep.
+
+Austria's own Kontenregister shows the pattern. BGBl. I Nr. 46/2026 (in force 2 July 2026) added social-fraud control as a purpose, and gave the Amt für Betrugsbekämpfung register access and a Konteneinschau route in shell-company proceedings under § 8 SBBG. It extended BFG authorisation, evidence exclusion and Rechtsschutzbeauftragter log access to that route. Actual register use was about 5,500 to 7,500 queries a year in 2018–2022; see [[austrian-tax-risk-scoring-and-financial-data-use|Austrian Tax Risk Scoring and Actual Use of Financial Data]] ([Austrian Tax Risk Scoring and Actual Use of Financial Data](../references/austrian-tax-risk-scoring-and-financial-data-use.md)).
 
 The objection is that adding new recipient groups, analytics, matching keys, or asset classes can transform the system's practical power without a fresh public necessity assessment. Each new linkage should have a precise legal basis, documented purpose, access threshold, retention rule, audit trail, and independent review.
 
@@ -198,9 +204,11 @@ Do not make a hypothetical future comprehensive register the sole ground for ann
 - “DAC8 reports every wallet and current holding.”
 - “The 2024 study means the Commission decided to build a wealth register.”
 - “Luxembourg Business Registers invalidated all non-public financial registers.”
+- “Across Fiduciaria or C-798/24 condemned non-public or conditioned financial registers.”
 
 ## See Also
 
+- [[austrian-tax-risk-scoring-and-financial-data-use|Austrian Tax Risk Scoring and Actual Use of Financial Data]] ([Austrian Tax Risk Scoring and Actual Use of Financial Data](../references/austrian-tax-risk-scoring-and-financial-data-use.md)) — Kontenregister query frequency 2018–2022 and PACC scoring.
 - [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md))
 - [[dac8-fundamental-rights-and-public-risks|DAC8 Fundamental Rights and Public Risks]] ([DAC8 Fundamental Rights and Public Risks](dac8-fundamental-rights-and-public-risks.md))
 - [[mica-tfr-krypto-mpfg-nexus|MiCA, TFR, and the Krypto-MPfG Nexus]] ([MiCA, TFR, and the Krypto-MPfG Nexus](mica-tfr-krypto-mpfg-nexus.md))
@@ -211,6 +219,10 @@ Do not make a hypothetical future comprehensive register the sole ground for ann
 
 ## Sources
 
+- [CJEU C-684/24 and C-685/24 Across Fiduciaria](../../raw/articles/2026-09-29-refresh-cjeu-c684-24-across-fiduciaria.md)
+- [CJEU C-798/24](../../raw/articles/2026-09-29-refresh-cjeu-c798-24-shareholder-data.md)
+- [KontRegG amendment BGBl. I Nr. 46/2026](../../raw/articles/2026-09-29-refresh-austria-kontregg-bgbl-i-46-2026.md)
+- [Kontenregister query statistics 2018–2022](../../raw/articles/2026-09-29-atrisk-kontenregister-query-statistics-2018-2022.md)
 - [EU asset-register feasibility study](../../../legal-docs/supporting/eu-asset-registry-feasibility-study-2024.pdf)
 - [AMLD6 signed text](../../../legal-docs/supporting/eu-amld6-pe-37-2024-full.pdf)
 - [Directive 2024/1654 signed text](../../../legal-docs/supporting/eu-directive-2024-1654-pe-44-2024-full.pdf)

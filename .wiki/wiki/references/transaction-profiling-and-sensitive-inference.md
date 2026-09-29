@@ -16,6 +16,7 @@ sources:
   - raw/articles/2026-09-20-cjeu-c184-20-indirect-sensitive-data.md
   - raw/articles/2026-09-23-twi-edpb-psd2-transaction-inference.md
   - raw/papers/2026-09-29-acctmodel-beres-ethereum-deanonymization-dapps2021.md
+  - raw/articles/2026-09-29-atrisk-bmf-pacc-risk-scoring-self-description.md
 created: 2026-09-29
 updated: 2026-09-29
 tags: [profiling, inference, special-categories, article-9-gdpr, reidentification, transaction-data, cjeu, dac8]
@@ -39,7 +40,7 @@ Transaction records can reveal more than wealth. This reference collects evidenc
 | CJEU C-184/20 (already in the wiki) | indirectly revealed sensitive data can fall under Article 9 | concerned publication of declarations of interest |
 | CJEU C-252/21 *Meta Platforms v Bundeskartellamt*, Grand Chamber, 4 July 2023, paras 68–73 | Article 9(1) applies where processed data "allow" sensitive information to be revealed, whether or not the information is correct and whatever the controller's purpose; this covers data from website visits and online orders | whether particular data actually reveal sensitive information is for the national court; private controller relying on consent or contract, not a statutory tax duty |
 | C-252/21, para 89 | a dataset collected en bloc, where sensitive and non-sensitive items cannot be separated at collection, is prohibited as a whole if it contains one sensitive item and no Article 9(2) derogation applies | the derogations available to a statutory public-law obligation were not in issue |
-| CJEU C-634/21 *SCHUFA*, 7 December 2023, paras 43–50 and 73 | an automated probability score that a third party draws on "strongly" is itself an Article 22 decision and is profiling; national authorising law must respect Articles 5 and 6 (paras 65–68) | relevant to DAC8 only if a tax administration or provider actually scores reported persons in a way that strongly determines measures; not verified for Austria |
+| CJEU C-634/21 *SCHUFA*, 7 December 2023, paras 43–50 and 73 | an automated probability score that a third party draws on "strongly" is itself an Article 22 decision and is profiling; national authorising law must respect Articles 5 and 6 (paras 65–68) | relevant to DAC8 only if a tax administration or provider actually scores reported persons in a way that strongly determines measures; Austria scores about 6.6 million cases a year, but DAC8 inputs and score-determined outcomes are undocumented |
 | EDPB Guidelines 06/2020 on PSD2 (already in the wiki) | payment data can reveal special categories (donations, union fees, medical payments, sexual orientation) | concerns account-level payment data |
 | EDPB-EDPS Joint Opinion 02/2023 on the digital euro | opposes recording all online transactions "regardless of their amount" (para 23); recalls the EDPB view that central-bank access to transaction data for "enforcement of tax rules should be avoided" (para 5); centralisation increases breach scale (para 53) | advisory; concerns a CBDC proposal, not tax-information exchange |
 
@@ -72,7 +73,7 @@ Chainalysis describes its KYT product as continuous, attribution-based risk scor
 - The findings transfer to provider-held MiCA, TFR and AML records, where those contain the relevant fields. See [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](krypto-mpfg-provider-record-architecture.md)).
 - Re-identification is not the DAC8 issue: the report already names the person. The relevant point is how much the underlying provider records reveal, and whether any authority can join them to the report.
 - An Article 9 argument against the DAC8 report itself requires showing that its actual fields allow sensitive information to be revealed. No study showing sensitive inference from annual per-asset totals was found.
-- A SCHUFA argument requires evidence that DAC8 data feed automated scores that strongly determine measures against a person. That is currently an unverified fact.
+- A SCHUFA argument requires evidence that DAC8 data feed automated scores that strongly determine measures against a person. Austria's PACC does score identified taxpayers at scale under § 114(4) BAO, but no source states that DAC8 or CRS data are model inputs, and officials rather than models set tax. See [[austrian-tax-risk-scoring-and-financial-data-use|Austrian Tax Risk Scoring and Actual Use of Financial Data]] ([Austrian Tax Risk Scoring and Actual Use of Financial Data](austrian-tax-risk-scoring-and-financial-data-use.md)).
 
 ## Claims to exclude
 
@@ -85,12 +86,13 @@ Chainalysis describes its KYT product as continuous, attribution-based risk scor
 
 ## Open questions
 
-- Whether any Austrian tax risk-analysis system uses DAC8 or provider data for automated scoring.
+- Whether DAC8 or provider data are inputs to PACC scoring models, and whether audit selection is strongly determined by the score.
 - Whether the DAC8 annual fields for a concrete claimant (for example, transfers to a gambling service or a single named asset) allow sensitive information to be revealed.
 - Legislative status of the digital euro proposal in 2026 (not verified).
 
 ## See Also
 
+- [[austrian-tax-risk-scoring-and-financial-data-use|Austrian Tax Risk Scoring and Actual Use of Financial Data]] ([Austrian Tax Risk Scoring and Actual Use of Financial Data](austrian-tax-risk-scoring-and-financial-data-use.md)) — Austrian automated scoring (PACC) and the SCHUFA question.
 - [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md)) — wealth and income inference; same granularity boundary.
 - [[bitcoin-payment-profile-retention|Bitcoin payment profiles and retention]] ([Bitcoin payment profiles and retention](../theses/bitcoin-payment-profile-retention.md)) — payment inference from stored identity links and the C-184/20 point.
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md)) — linkage layers and inference truth table.
