@@ -33,7 +33,7 @@ sources:
   - raw/papers/2026-09-23-twi-hair-howell-fico-to-cash-flow.md
   - raw/papers/2026-09-23-twi-baker-kueng-transaction-data-limits.md
 created: 2026-09-23
-updated: 2026-09-25
+updated: 2026-09-29
 tags: [dac8, inference, wealth-estimation, profiling, credit-scoring, open-banking, adverse-evidence]
 aliases: [Vermögensschätzung aus Transaktionen, wealth inference from transaction data, Sortierbar nach Vermögen]
 volatility: warm
@@ -89,6 +89,7 @@ Für ein Auswahlrisiko nach einem Datenleck genügt die erste Stufe. Ein Täter 
 ## Einschränkungen
 
 - **Granularität entscheidet.** Die stärksten Genauigkeitswerte stammen aus Einzelposten mit Zeit, Ort oder Gegenpartei. Der DAC8-Jahresbericht enthält keine entsprechenden transaktionsbezogenen Detailfelder ([[dac8-transaction-granularity-and-reporting-layers|DAC8 Transaction Granularity and Reporting Layers]] ([DAC8 Transaction Granularity and Reporting Layers](../references/dac8-transaction-granularity-and-reporting-layers.md))). Anbieter können insbesondere nach MiCA, TFR und FM-GwG detailliertere Aufzeichnungen halten. Welche Zeit-, Adress- oder Gegenparteidaten tatsächlich vorhanden sind, ist dienstleistungs- und datensatzbezogen zu prüfen; Zahlungsort oder wirtschaftlicher Empfänger sind nicht pauschal bekannt ([[krypto-mpfg-provider-record-architecture|Provider-Aufzeichnungen]] ([Provider-Aufzeichnungen](../references/krypto-mpfg-provider-record-architecture.md))). Nur für entsprechend detaillierte Anbieterbestände sind die Einzelposten-Befunde die passendere Analogie.
+- **Nicht-Vermögens-Profiling.** Auch Befunde zu Persönlichkeitsmerkmalen, Glücksspiel, Gesundheitssignalen und grober Verortung beruhen durchweg auf Einzelposten mit Händler, Zeitstempel oder Artikel ([[transaction-profiling-and-sensitive-inference|Profiling and Sensitive Inference from Transaction Records]] ([Profiling and Sensitive Inference from Transaction Records](../references/transaction-profiling-and-sensitive-inference.md))). Für DAC8-Jahresaggregate gilt dieselbe Granularitätsgrenze.
 - **EDPB-Formulierung.** „The sum of financial transactions“ in Rn. 52 bezeichnet die Gesamtheit der Transaktionen eines Kontos, nicht eine arithmetische Jahressumme. Die Stelle darf nicht als Aussage über Aggregatmeldungen zitiert werden.
 - **Brutto- statt Ertragsgrößen.** Die Kapitalisierungsmethode rechnet aus Erträgen auf Bestände hoch. DAC8 meldet Brutto-Kauf- und Verkaufsvolumina. Kumulierte Käufe sind weder Vermögensbestand noch Untergrenze neu eingesetzter Mittel: Wiederholtes Kaufen, Verkaufen und Wiederanlegen zählt dasselbe Kapital mehrfach. Selbstverwahrung, andere Anbieter, Verbindlichkeiten und Kursänderungen erschweren die Bestimmung des Gesamtvermögens zusätzlich.
 - **Herstellerangaben.** Plaid, Tink, Prism und Equifax veröffentlichen keine unabhängig geprüften Fehlerraten für Einkommen oder Vermögen. Sie belegen die Praxis, nicht die Genauigkeit. Die gefundenen unabhängigen Auswertungen (FinRegLab 2019, Hair/Howell et al. 2025) messen nur die Vorhersage von Kreditausfällen, nicht die Genauigkeit von Einkommens- oder Vermögensschätzungen. Eine veröffentlichte Auswertung von FCA, Bank of England oder BIS mit Fehlerraten wurde nicht gefunden.
@@ -115,6 +116,7 @@ Für ein Auswahlrisiko nach einem Datenleck genügt die erste Stufe. Ein Täter 
 
 ## See Also
 
+- [[transaction-profiling-and-sensitive-inference|Profiling and Sensitive Inference from Transaction Records]] ([Profiling and Sensitive Inference from Transaction Records](../references/transaction-profiling-and-sensitive-inference.md)) — Profiling über Vermögen hinaus; gleiche Granularitätsgrenze.
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](../references/dac8-inference-linkage-and-error-evidence.md))
 - [[dac8-transaction-granularity-and-reporting-layers|DAC8 Transaction Granularity and Reporting Layers]] ([DAC8 Transaction Granularity and Reporting Layers](../references/dac8-transaction-granularity-and-reporting-layers.md))
 - [[dac8-and-the-wealth-register-risk|DAC8 and the Wealth-Register Risk]] ([DAC8 and the Wealth-Register Risk](../topics/dac8-and-the-wealth-register-risk.md))

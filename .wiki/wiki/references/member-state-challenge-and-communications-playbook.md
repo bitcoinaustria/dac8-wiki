@@ -15,13 +15,15 @@ sources:
   - raw/articles/2026-08-27-luxembourg-dac8-implementation.md
   - raw/articles/2026-08-27-eu-amlr-regulation-2024-1624.md
   - raw/articles/2026-08-27-eu-amld6-2024-1640-system.md
+  - raw/articles/2026-09-29-refreshat-conseil-etat-519158-dac8-suspension-refused.md
+  - raw/articles/2026-09-29-refreshat-commission-dac8-infringement-status.md
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-29
 tags: [dac8, member-states, litigation-strategy, communications, evidence, comparative-law]
 aliases: [DAC8 country playbook, European campaign framework]
 confidence: medium
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-29
 summary: "Reusable four-part country dossier for separating the EU baseline, national additions, claimant and remedy routes, evidence, and public communications."
 ---
 
@@ -52,6 +54,7 @@ For each proposition mark it as **EU required**, **EU permitted/discretionary**,
 Map the enacted text and all operative instruments:
 
 - law, regulations, decrees, circulars, guidance, technical schema, and commencement;
+- infringement status: on 30 January 2026 the Commission sent letters of formal notice for DAC8 non-transposition to BE, BG, CZ, EE, EL, ES, CY, LU, MT, NL, PL and PT; no DAC8 reasoned opinion was located in the March, June or July 2026 packages. Infringement status creates no individual remedy and does not affect DAC8's validity;
 - whether all customers undergo only status identification or full transaction aggregation;
 - data for reportable, non-reportable, and excluded users;
 - raw records versus annual aggregates;
@@ -97,6 +100,8 @@ For each country answer:
 - Which court is last instance, and what reasons must it give if it does not refer?
 
 The litigation request must match the remedy. An EU-validity argument does not turn a national court into the body that can invalidate a Directive; Foto-Frost reserves that result to the CJEU.
+
+First national court decision: on 14 September 2026 the French Conseil d'État interim-relief judge (order n° 519158; applicants Paymium, Leonod and Satoshi Portal Inc.) refused to suspend DAC8 Decree No. 2025-1276 solely for lack of urgency. The judge held that privacy interference, weighed against the public interest in preventing tax fraud, a "very low" probability of breach, and an alleged breach of EU law alone do not establish urgency. Serious doubt as to legality was not examined, and no question was referred to the CJEU. Interim relief therefore needs claimant-specific, probability-grounded harm evidence.
 
 ### 4. Evidence and remedy
 
@@ -212,6 +217,8 @@ This prevents an advocacy shortcut in one country from becoming an alleged legal
 
 ## Sources
 
+- [Conseil d'État order n° 519158](../../raw/articles/2026-09-29-refreshat-conseil-etat-519158-dac8-suspension-refused.md)
+- [Commission DAC8 infringement status](../../raw/articles/2026-09-29-refreshat-commission-dac8-infringement-status.md)
 - [Consolidated Directive 2011/16/EU](../../../legal-docs/core/eu-directive-2011-16-consolidated-2026.pdf)
 - [DAC8](../../../legal-docs/core/eu-dac8-directive-2023-2226.pdf)
 - [MiCA](../../../legal-docs/supporting/eu-mica-pe-cons-54-2022-rev1-full.pdf)

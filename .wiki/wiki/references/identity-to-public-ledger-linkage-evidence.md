@@ -10,8 +10,11 @@ sources:
   - raw/papers/2026-09-04-ghost-clusters-usenix-2025.md
   - raw/articles/2026-09-19-cjeu-c413-23p-identifiability.md
   - raw/articles/2026-09-19-edpb-anonymisation-consultation.md
+  - raw/papers/2026-09-29-acctmodel-victor-ethereum-clustering-fc2020.md
+  - raw/papers/2026-09-29-acctmodel-torres-web3-wallet-leaks-usenix2023.md
+  - raw/articles/2026-09-29-acctmodel-stablecoin-issuer-freeze-terms.md
 created: 2026-09-04
-updated: 2026-09-20
+updated: 2026-09-29
 tags: [blockchain, linkage, amount-matching, clustering, attribution, false-positive, expert-evidence]
 aliases: [DLT linkage evidence, blockchain breach amplification]
 confidence: high
@@ -29,7 +32,7 @@ summary: "Evidence map for transaction matching, cluster expansion and identity 
 | Step | Required input | What the evidence supports | Failure mode |
 |---|---|---|---|
 | Transaction match | address or transaction ID, or exact amount plus a short time window | direct lookup or a candidate set; Goldfeder shows frequent unique matches in a web-payment setting | annual window, batching, fees, rounding, internal ledger entries and duplicate amounts |
-| Address or wallet cluster | matched public transaction and chain-specific heuristics | practical cluster expansion on Bitcoin under validated conditions | CoinJoin, PayJoin, wallet changes, wrong change output and transitive cluster collapse |
+| Address or wallet cluster | matched public transaction, or a provider deposit or withdrawal address, and chain-specific heuristics | practical cluster expansion on Bitcoin under validated conditions; on Ethereum, clustering relies mainly on exchange deposit-address reuse | CoinJoin, PayJoin, wallet changes, wrong change output and transitive cluster collapse |
 | Entity attribution | provider label, controlled interaction, seizure data or another verified source | attribution for some services; Ghost Clusters reports low false positives but widely varying coverage in three seized-service cases | incomplete or stale labels, service-specific results, multiple users and custodial omnibus wallets |
 | Natural-person conclusion | independent evidence connecting the entity or address to the person | a person-level conclusion only if separately corroborated | address control, legal ownership and beneficial ownership are not equivalent |
 
@@ -65,7 +68,8 @@ The [EDPB's July 2026 anonymisation consultation draft](../../raw/articles/2026-
 | Model | Publicly visible | Necessary caution |
 |---|---|---|
 | Bitcoin and similar UTXO chains | transactions, inputs and outputs; graph structure | multi-input and change heuristics are probabilistic; batching and CoinJoin matter |
-| Ethereum and account-based chains | addresses, calls, logs and token transfers | contract calls, internal operations, bridges, wrappers and token decimals require different methods |
+| Ethereum and account-based chains | addresses, calls, logs and token transfers; one persistent balance and sequential nonce per address | contract calls, internal operations, bridges, wrappers and token decimals require different methods; no multi-input heuristic exists, and Victor's substitute heuristics (exchange deposit addresses, airdrop consolidation) clustered 17.9 percent of active accounts in 2019 without ground truth; once one address is linked, its balance and history are directly readable |
+| Issuer-controlled stablecoins on account chains | per-address token balances in the issuer's contract | issuers reserve address-level freeze powers; visibility and control differ from the native asset |
 | Privacy-enhanced chains | visibility depends on protocol version and transaction type | historical Zcash or pre-RingCT Monero findings cannot be generalised to current shielded activity |
 | Custodial provider ledger | customer trades and internal transfers | many customer events never map one-to-one to a public transaction; omnibus wallets break naive matching |
 
@@ -92,8 +96,11 @@ Later transactions and new labels can make past public activity easier to interp
 - A matched address proves current control, current wealth or beneficial ownership.
 - Cluster analysis is deterministic or court-ready without ground truth and error analysis.
 - A public-ledger link necessarily exposes the complete portfolio or every future transaction.
+- Account-based chains provide no privacy at all; see [[account-model-linkage-exposure|Account-Model Chains and Exposure After an Identity Link]] ([Account-Model Chains and Exposure After an Identity Link](../theses/account-model-linkage-exposure.md)).
 
 ## See Also
+
+- [[account-model-linkage-exposure|Account-Model Chains and Exposure After an Identity Link]] ([Account-Model Chains and Exposure After an Identity Link](../theses/account-model-linkage-exposure.md)) — why one identity link exposes more on Ethereum-style chains, and the measured limits.
 
 - [[bitcoin-payment-profile-retention|Bitcoin payment profiles and retention]] ([Bitcoin payment profiles and retention](../theses/bitcoin-payment-profile-retention.md)) — payment use, named recipients, sensitive inference and deletion are distinct evidentiary stages.
 
@@ -111,3 +118,6 @@ Later transactions and new labels can make past public activity easier to interp
 - [How to Peel a Million](https://www.usenix.org/conference/usenixsecurity22/presentation/kappos)
 - [Resurrecting Address Clustering in Bitcoin](https://arxiv.org/abs/2107.05749)
 - [Ghost Clusters](https://www.usenix.org/system/files/usenixsecurity25-lubbertsen.pdf)
+- [Victor, Ethereum clustering heuristics](../../raw/papers/2026-09-29-acctmodel-victor-ethereum-clustering-fc2020.md)
+- [Torres, Willi and Shinde, Web3 wallet leaks](../../raw/papers/2026-09-29-acctmodel-torres-web3-wallet-leaks-usenix2023.md)
+- [Circle and Tether freeze terms](../../raw/articles/2026-09-29-acctmodel-stablecoin-issuer-freeze-terms.md)

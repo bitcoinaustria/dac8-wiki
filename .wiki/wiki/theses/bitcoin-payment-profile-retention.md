@@ -17,8 +17,10 @@ sources:
   - raw/articles/2026-08-30-austria-krypto-mpfg-section-39-records.md
   - raw/articles/2026-09-04-krypto-mpfg-section-39-timing-correction.md
   - raw/articles/2026-08-27-krypto-mpfg-section-20-retention.md
+  - raw/articles/2026-09-29-profiling-cjeu-c252-21-meta-sensitive-inference.md
+  - raw/articles/2026-09-29-profiling-chainalysis-kyt-exposure-scoring.md
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-09-29
 tags: [bitcoin, payments, profiling, retention, erasure, proportionality, austria]
 aliases: [Bitcoin als Geld und Zahlungsprofil, Identitaetsanker und Loeschung]
 confidence: medium
@@ -60,7 +62,7 @@ Die [EDPB-Leitlinien 02/2025, Version 2.0](https://www.edpb.europa.eu/system/fil
 
 [Ferrieri und Bonassisa, Rn. 58 und 105–107](https://hudoc.echr.coe.int/eng?i=001-247632), wahrt für rein finanzielle Daten einen weiten staatlichen Beurteilungsspielraum. Die festgestellte Verletzung betraf Gesetzesqualität und Kontrolle, nicht ein allgemeines Verbot langfristiger Finanzdatenspeicherung.
 
-Nach [C-184/20, Rn. 119–128](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62020CJ0184) können auch mittelbar erschlossene sensible Angaben unter Art. 9 DSGVO fallen. Das macht nicht sämtliche Zahlungsdaten zu besonderen Kategorien. Eine entsprechende Inferenz und die anwendbaren Ausnahmen sind gesondert zu prüfen.
+Nach [C-184/20, Rn. 119–128](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62020CJ0184) können auch mittelbar erschlossene sensible Angaben unter Art. 9 DSGVO fallen. Das macht nicht sämtliche Zahlungsdaten zu besonderen Kategorien. Eine entsprechende Inferenz und die anwendbaren Ausnahmen sind gesondert zu prüfen. Nach [C-252/21, Rn. 68–73](../../raw/articles/2026-09-29-profiling-cjeu-c252-21-meta-sensitive-inference.md) genügt, dass die Verarbeitung sensible Angaben offenzulegen „erlaubt“, unabhängig von Richtigkeit und Zweck; nach Rn. 89 kann ein en bloc erhobener Mischdatensatz insgesamt erfasst sein. Anbieter führen zudem teils automatisierte Risikobewertungen von Gegenparteikategorien wie Glücksspieldiensten ([Herstellerbeschreibung Chainalysis KYT](../../raw/articles/2026-09-29-profiling-chainalysis-kyt-exposure-scoring.md), ohne veröffentlichte Fehlerraten).
 
 „Zahlungsprofil“ bezeichnet hier den möglichen Informationsgehalt. **Profiling nach Art. 4 Z 4 DSGVO** setzt automatisierte Bewertung persönlicher Aspekte voraus; bloße Speicherung ist nicht schon Profiling. Für den Grundrechtseingriff muss weder ein fertiges Profil noch ein Schaden entstanden sein. Für seine Intensität zählt die nachvollziehbare zusätzliche Aussagekraft.
 
@@ -91,6 +93,8 @@ Ein solcher Versuch wurde hier **nicht durchgeführt**. Die ausgewerteten Studie
 
 ## See Also
 
+- [[transaction-profiling-and-sensitive-inference|Profiling and Sensitive Inference from Transaction Records]] ([Profiling and Sensitive Inference from Transaction Records](../references/transaction-profiling-and-sensitive-inference.md)) — Art.-9-Test nach C-252/21 und empirische Profiling-Befunde nach Datengranularität.
+- [[account-model-linkage-exposure|Account-Model Chains and Exposure After an Identity Link]] ([Account-Model Chains and Exposure After an Identity Link](account-model-linkage-exposure.md)) — account-model counterpart: one linked address exposes balance and ordered history directly.
 - [[identity-to-public-ledger-linkage-evidence|Identity-to-Public-Ledger Linkage Evidence]] ([Identity-to-Public-Ledger Linkage Evidence](../references/identity-to-public-ledger-linkage-evidence.md))
 - [[krypto-mpfg-provider-record-architecture|Krypto-MPfG Provider Record Architecture]] ([Krypto-MPfG Provider Record Architecture](../references/krypto-mpfg-provider-record-architecture.md))
 

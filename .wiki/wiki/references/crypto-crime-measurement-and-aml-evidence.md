@@ -11,13 +11,19 @@ sources:
   - raw/articles/2026-08-29-chainalysis-crypto-crime-2026.md
   - raw/articles/2026-08-29-trm-crypto-crime-2026.md
   - raw/articles/2026-08-29-fatf-austria-mutual-evaluation-2026.md
+  - raw/papers/2026-09-29-amlfail-a-fiu-lagebericht-geldwaesche-2024.md
+  - raw/papers/2026-09-29-amlfail-fincen-deepfake-alert-2024.md
+  - raw/papers/2026-09-29-amlfail-nca-sars-annual-report-2025.md
+  - raw/articles/2026-09-29-amlfail-eurojust-audia6-kyc-mule-accounts-2026.md
+  - raw/articles/2026-09-29-amlfail-404media-onlyfake-kyc-bypass-2024.md
+  - raw/papers/2026-09-29-refresh-us-treasury-nmlra-2026-digital-assets.md
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-29
 tags: [crypto-assets, crime, money-laundering, kyc, travel-rule, measurement, blockchain-analysis]
 aliases: [Crypto crime statistics, Travel Rule effectiveness, illicit crypto measurement]
 confidence: medium
 volatility: hot
-verified: 2026-08-29
+verified: 2026-09-29
 summary: "Known illicit activity is a minority of attributed on-chain volume but a large absolute lower bound; estimates depend on labels, coverage and denominators, and evidence is stronger for investigative utility than aggregate crime reduction."
 ---
 
@@ -27,7 +33,7 @@ summary: "Known illicit activity is a minority of attributed on-chain volume but
 
 Neither “crypto is mostly crime” nor “crypto crime is negligible” survives a method check.
 
-Europol's 2022 EU assessment describes crypto as a limited part of the wider criminal economy, while the US Treasury's 2024 US assessment places virtual-asset laundering far below fiat and conventional methods. Neither supplies a current global percentage. Commercial on-chain series place known or attributed illicit activity around one percent of their respective denominators: below one percent for Chainalysis and 1.2 percent for TRM in their 2025 series. These are not directly comparable measures.
+Europol's 2022 EU assessment describes crypto as a limited part of the wider criminal economy, while the US Treasury's 2026 National Money Laundering Risk Assessment states that money laundering via digital assets "remains well below" laundering through fiat and non-digital methods, while noting that many illicit actors using digital assets prefer stablecoins. Neither supplies a current global percentage. Commercial on-chain series place known or attributed illicit activity around one percent of their respective denominators: below one percent for Chainalysis and 1.2 percent for TRM in their 2025 series. These are not directly comparable measures.
 
 Known-address vendor estimates are lower bounds that omit unidentified activity. Model-based estimates such as Foley have two-sided uncertainty and can over- or under-estimate. Neither type covers every internal exchange ledger, privacy system, fiat leg or offence in which crypto is only one component.
 
@@ -50,7 +56,7 @@ A falling percentage can coexist with rising illicit dollars. A small transactio
 | Evidence | Narrow finding | What it does not establish |
 |---|---|---|
 | Europol 2022 | crypto use spans crime types but remains a limited part of the wider criminal economy; measurement is difficult | a current EU crime percentage |
-| US Treasury NMLRA 2024 | virtual-asset laundering remains far below fiat and conventional methods in the US risk assessment | a global apples-to-apples transaction ratio |
+| US Treasury NMLRA 2026 (superseding 2024) | digital-asset laundering "remains well below" fiat and non-digital methods; many illicit digital-asset users prefer stablecoins | a global apples-to-apples transaction ratio |
 | FATF 2026 targeted update | 91 of 109 responding jurisdictions reported Travel Rule legislation; 55 of those 91 reported no findings, directives, enforcement or other supervisory action focused on Travel Rule compliance | data quality, interoperability, investigative use or crime reduction; responses were self-reported and the question denominator was not the entire FATF network |
 | Foley et al. 2019 | early Bitcoin through 2017: about 46 percent of transaction count, 23 percent of value and 26 percent of users associated with illegal activity | current all-crypto share; interchangeability of count, value and users |
 | Makarov and Schoar 2021 | illegal, scam and gambling activity below three percent of measured Bitcoin volume in 2020, with exchange activity dominating the denominator | peer-reviewed current all-crypto crime rate |
@@ -67,9 +73,14 @@ The apparent conflict between Foley and Makarov/Schoar largely reflects time, at
 
 - Evidence exists separately for the first three stages, but the causal linkage from a particular KYC or Travel Rule field through that chain is generally not established. The evidence remains predominantly operational and case-based rather than causal.
 - KYC can connect a customer record to on-chain activity and support attribution, but stolen identities, mules, nested accounts and weak verification limit reliability.
+  - Eurojust (June 2026) describes a suspected EUR 336 million laundering service using thousands of exchange accounts opened with stolen or purchased identities and over 6,000 KYC records linked to mule accounts. These are investigative-stage allegations; the exchanges are not named.
+  - FinCEN's 2024 alert reports generative-AI and synthetic identities passing identification and CDD checks, with rapid movement toward digital-asset exchanges among its red flags. The A-FIU 2024 report documents forged-passport accounts verified through Austrian remote identification. A 2024 journalistic test passed one exchange's document check with a USD 15 fake image.
+  - None of these sources measures how often verified CASP accounts are held under false identities.
 - The Travel Rule adds originator and beneficiary data only when covered intermediaries participate and implement interoperable, accurate systems.
 - Centralised exchanges, banks and stablecoin issuers can provide identity, conversion, redemption, freeze and seizure points.
 - Evidence that these controls cause a reduction in aggregate laundering or predicate crime remains limited.
+
+Crypto providers file a small share of suspicious reports: 1,228 of 11,111 Austrian STRs in 2024 and 1.67 percent of UK SARs in 2024-25. Neither FIU reports what share of those reports reached an enforcement outcome.
 
 Travel Rule legislation is therefore an implementation measure, not an outcome. FATF's 2026 adoption percentage must not be presented as a success rate.
 
@@ -112,6 +123,7 @@ The correct comparison isolates what FM-GwG, TFR and MiCA already require before
 
 ## Sources
 
+- [US Treasury NMLRA 2026](../../raw/papers/2026-09-29-refresh-us-treasury-nmlra-2026-digital-assets.md)
 - [FATF VA/VASP targeted update](../../raw/papers/2026-08-29-fatf-va-vasp-targeted-update-2026.md)
 - [Europol crypto spotlight](../../raw/papers/2026-08-29-europol-crypto-criminal-finances-2022.md)
 - [US Treasury NMLRA](../../raw/papers/2026-08-29-us-treasury-nmlra-2024-virtual-assets.md)
@@ -121,3 +133,8 @@ The correct comparison isolates what FM-GwG, TFR and MiCA already require before
 - [Chainalysis 2026](../../raw/articles/2026-08-29-chainalysis-crypto-crime-2026.md)
 - [TRM 2026](../../raw/articles/2026-08-29-trm-crypto-crime-2026.md)
 - [FATF Austria Mutual Evaluation](../../raw/articles/2026-08-29-fatf-austria-mutual-evaluation-2026.md)
+- [A-FIU Lagebericht Geldwäsche 2024](../../raw/papers/2026-09-29-amlfail-a-fiu-lagebericht-geldwaesche-2024.md)
+- [FinCEN deepfake alert 2024](../../raw/papers/2026-09-29-amlfail-fincen-deepfake-alert-2024.md)
+- [UKFIU SARs Annual Report 2024-25](../../raw/papers/2026-09-29-amlfail-nca-sars-annual-report-2025.md)
+- [Eurojust AudiA6](../../raw/articles/2026-09-29-amlfail-eurojust-audia6-kyc-mule-accounts-2026.md)
+- [404 Media OnlyFake](../../raw/articles/2026-09-29-amlfail-404media-onlyfake-kyc-bypass-2024.md)

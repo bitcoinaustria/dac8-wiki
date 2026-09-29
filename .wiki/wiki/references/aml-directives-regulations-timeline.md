@@ -17,13 +17,15 @@ sources:
   - raw/articles/2026-08-27-eu-amld6-2024-1640-system.md
   - raw/articles/2026-08-27-eu-directive-2019-1153-financial-info.md
   - raw/articles/2026-08-27-eu-asset-recovery-directive-2024-1260.md
+  - raw/articles/2026-09-29-refresh-amla-direct-supervision-and-instruments-status.md
+  - raw/articles/2026-09-29-refresh-tfr-article-37-self-hosted-review.md
 created: 2026-08-27
-updated: 2026-08-29
+updated: 2026-09-29
 tags: [eu, aml, timeline, amlr, amla, amld6, tfr, baris]
 aliases: [EU AML timeline, AML package dates]
 confidence: high
 volatility: hot
-verified: 2026-08-27
+verified: 2026-09-29
 summary: "Controlling dates for the current-to-future transition from AMLD4/5 to AMLR, recast AMLD6, AMLA, TFR, BARIS, and asset-recovery rules."
 ---
 
@@ -54,6 +56,8 @@ The full transmission chain and the separate OECD CARF → DAC8 tax lineage are 
 | 10 July 2025 | recast AMLD6 Article 74 deadline | post-CJEU beneficial-ownership access changes |
 | 10 July 2026 | recast AMLD6 Articles 11–13 and 15 deadline | legitimate-interest and ownership-register access stages |
 | 23 November 2026 | Asset Recovery Directive transposition deadline | national tracing/freezing/confiscation implementation due |
+| 30 June 2026 (computed) | TFR Article 37(2) Commission report on self-hosted-address risks due | review clause only; publication not verified |
+| 1 July 2027 | AMLA must begin first selection for direct supervision (AMLAR Article 13(4)) | selection within six months; direct supervision starts six months after the list, so not before 2028 |
 | 10 July 2027 | AMLR generally applies | directly applicable harmonised CDD, monitoring, STR, and retention rulebook |
 | 10 July 2027 | recast AMLD6 general transposition and AMLD4 repeal | national FIU/supervision/register framework changes over |
 | 10 July 2027 | Directive 2024/1654 general transposition | structured financial and crypto transaction-record response rules |
@@ -74,6 +78,8 @@ National law remains decisive during the transition. A future-dated EU requireme
 
 ## Sources
 
+- [AMLA direct supervision and instruments status](../../raw/articles/2026-09-29-refresh-amla-direct-supervision-and-instruments-status.md)
+- [TFR Article 37 self-hosted review](../../raw/articles/2026-09-29-refresh-tfr-article-37-self-hosted-review.md)
 - [UN Vienna Convention](../../raw/articles/2026-08-29-un-vienna-convention-money-laundering.md)
 - [Basel 1988 statement](../../raw/articles/2026-08-29-basel-statement-money-laundering-1988.md)
 - [FATF Forty Recommendations 1990](../../raw/articles/2026-08-29-fatf-forty-recommendations-1990.md)

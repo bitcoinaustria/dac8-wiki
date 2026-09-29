@@ -28,8 +28,9 @@ sources:
   - raw/articles/2026-09-04-austria-vwgvg-merits-substitution.md
   - raw/articles/2026-09-04-gdpr-articles-19-58-correction-propagation.md
   - raw/articles/2026-09-04-cjeu-2024-recommendations-accelerated-procedure.md
+  - raw/articles/2026-09-29-refreshat-conseil-etat-519158-dac8-suspension-refused.md
 created: 2026-09-04
-updated: 2026-09-19
+updated: 2026-09-29
 tags: [austria, dsb, bvwg, krypto-mpfg, evidence, interim-relief, article-267, article-140]
 aliases: [DAC8 DSB evidence toolkit, Krypto-MPfG interim protection]
 confidence: high
@@ -131,6 +132,8 @@ Article 35(10) is conditional. If the State or controller relies on a lawmaking 
 | Appeal against DSB refusal | Valid challenge to refusal | Preserves review of the refusal | Suspensive effect does not create the prohibition that was refused |
 | Article 66 GDPR provisional measure | Urgent need to act to protect rights in cross-border processing | Territorial measure for up to three months | Exceptional route; does not replace lead-authority procedure |
 | Section 85 VfGG suspensive effect | No compelling public-interest bar and a favourable balance of interests | Suspends the legal effect of the challenged BVwG judgment | Against a refusal, it does not create the refused processing prohibition |
+
+Comparative adverse authority: on 14 September 2026 the French Conseil d'État interim-relief judge refused to suspend the French DAC8 decree for lack of urgency (n° 519158). General privacy interference, a "very low" breach probability and an alleged breach of EU law alone did not suffice. This is not binding in Austria, but it shows the evidentiary gap a DSB application must close with claimant-specific, probability-grounded harm. See the [order digest](../../raw/articles/2026-09-29-refreshat-conseil-etat-519158-dac8-suspension-refused.md).
 
 The strongest interim application states the exact processing step to be paused, the date by which it will occur, why later correction cannot adequately address the claimed harm, and why a narrower restriction would not suffice.
 

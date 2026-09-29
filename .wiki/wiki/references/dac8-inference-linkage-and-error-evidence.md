@@ -17,8 +17,10 @@ sources:
   - raw/papers/2026-09-04-kappos-bitcoin-cluster-validation-usenix-2022.md
   - raw/papers/2026-09-04-moeser-narayanan-bitcoin-clustering-fc-2022.md
   - raw/papers/2026-09-04-ghost-clusters-usenix-2025.md
+  - raw/papers/2026-09-29-profiling-demontjoye-shopping-mall-reidentification.md
+  - raw/papers/2026-09-29-profiling-rocher-incomplete-datasets-reidentification.md
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-09-29
 tags: [dac8, inference, linkage, valuation, classification, data-quality, evidence]
 aliases: [DAC8 inference matrix, DAC8 technical evidence]
 confidence: high
@@ -69,6 +71,8 @@ The technical evidence supports four separate stages: transaction matching, addr
 
 Article 16(1) DAC permits exchanged information to be used for covered taxes, VAT and other indirect taxes, customs, AML/CFT, recovery, compulsory social-security contributions and tax-law penalty proceedings. Article 16(2) separately governs other purposes, including its approval and communicated-list mechanisms. Neither provision establishes the reverse proposition that every AML, TFR or MiCA record is automatically available for every tax use.
 
+Re-identification research bears on provider records, not on the named DAC8 report. De Montjoye et al. (2015) found that four shop-day points make 90 percent of card-holders unique in three months of item-level data. Sánchez et al. (2016) contest the magnitude, and Rocher et al. (2019) answer the sampling objection for demographic attributes. The consequence is that pseudonymised or sampled extracts of provider transaction logs should not be presumed anonymous. See [[transaction-profiling-and-sensitive-inference|Profiling and Sensitive Inference from Transaction Records]] ([Profiling and Sensitive Inference from Transaction Records](transaction-profiling-and-sensitive-inference.md)).
+
 ## Valuation and classification error paths
 
 Krypto-MPfG section 18 permits several valuation routes, including provider trading pairs, book values, third-party prices, the latest available value and a reasonable estimate. Different providers can therefore reach different but facially lawful values because of market, time, spread, fee, liquidity and fallback choices.
@@ -101,6 +105,7 @@ The implementing schema permits corrections. That proves correction is technical
 
 ## See Also
 
+- [[transaction-profiling-and-sensitive-inference|Profiling and Sensitive Inference from Transaction Records]] ([Profiling and Sensitive Inference from Transaction Records](transaction-profiling-and-sensitive-inference.md)) — re-identification and sensitive-inference evidence by data granularity.
 - [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md)) — analogue evidence for estimating wealth from transaction data and its limits for annual aggregates.
 - [[dac8-transaction-granularity-and-reporting-layers|DAC8 Transaction Granularity and Reporting Layers]] ([DAC8 Transaction Granularity and Reporting Layers](dac8-transaction-granularity-and-reporting-layers.md))
 - [[dac8-field-necessity-and-alternatives|DAC8 Field Necessity and Less-Intrusive Alternatives]] ([DAC8 Field Necessity and Less-Intrusive Alternatives](dac8-field-necessity-and-alternatives.md))
@@ -111,6 +116,8 @@ The implementing schema permits corrections. That proves correction is technical
 
 ## Sources
 
+- [de Montjoye et al. 2015, with comment and reply](../../raw/papers/2026-09-29-profiling-demontjoye-shopping-mall-reidentification.md)
+- [Rocher et al. 2019](../../raw/papers/2026-09-29-profiling-rocher-incomplete-datasets-reidentification.md)
 - [Directive (EU) 2023/2226 (DAC8)](../../../legal-docs/core/eu-dac8-directive-2023-2226.pdf)
 - [Krypto-MPfG consolidated text](../../../legal-docs/core/at-krypto-mpfg-consolidated-2026.html)
 - [Commission Implementing Regulation (EU) 2025/2263](https://eur-lex.europa.eu/eli/reg_impl/2025/2263/oj)

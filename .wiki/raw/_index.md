@@ -2,11 +2,11 @@
 
 > Immutable source material and provenance.
 
-Last updated: 2026-09-23
+Last updated: 2026-09-29
 
 ## Contents
 
-430 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
+540 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
 
 ## Categories
 
@@ -18,6 +18,8 @@ Last updated: 2026-09-23
 
 ## Recent Changes
 
+- 2026-09-29 (round 2): Added sixty-three public-source records on Austrian crypto crime, tax risk scoring, insider database misuse, KYC and remote identification, payment-law loss allocation, and refresh checks of nine hot articles.
+- 2026-09-29: Added forty-seven public-source records on AML/KYC outcomes, bearer-asset leaks and loss allocation, transaction profiling and account-model privacy, each with evidence class and DAC8 transfer limits.
 - 2026-09-21: Preserved twenty September 10 claimant-research records and added one authored review-provenance note. Corrections reside in the separate synthesis; original raw text remains unchanged.
 - 2026-09-20: Added two technical papers on Bitcoin counterparties and Lightning observation limits, C-184/20 on indirectly revealed sensitive data, and a Ferrieri counterauthority supplement.
 

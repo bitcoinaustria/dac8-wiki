@@ -1,0 +1,19 @@
+---
+title: "CJEU C-798/24 (Jautiva), 3 September 2026: unconditional public access to all-shareholder data precluded"
+source: "https://curia.europa.eu/juris/liste.jsf?num=C-798/24&language=en"
+type: articles
+ingested: 2026-09-29
+fetched: 2026-09-29
+content_format: html
+confidence: high
+tags: [cjeu, gdpr, charter-art-7-8, company-register, shareholders, wealth-profile, aml, legitimate-interest, public-access]
+summary: "The Court held that the GDPR, read with Charter Articles 7 and 8, precludes national law making identity, contact and shareholding data of all shareholders, including minority shareholders, publicly available for transparency, AML/CFT and sanctions purposes without conditions such as a legitimate interest. It concerns public company-register access, not controlled authority access or tax exchange."
+---
+
+# CJEU C-798/24 (Jautiva), judgment of 3 September 2026
+
+Judgment of the Court (First Chamber), 3 September 2026, *A and Others v Latvijas Republikas Saeima*, C-798/24 ("Jautiva" is a fictitious case name). The reference came from the Latvian Constitutional Court. Latvian law published the identity, contact details, class, number and nominal value of shares, and voting rights of every shareholder of public limited companies online. Unidentified users could access and bulk-download the data. The text was read in the provisional English version reproduced at ipcuria.eu (`https://ipcuria.eu/details?reference=C-798%2F24`), because curia.europa.eu returned only a script shell to automated retrieval. Paragraph numbers follow that provisional text.
+
+Holdings (operative part). (1) Article 14(d) of Directive 2017/1132 does not require disclosure of information on all shareholders, including minority shareholders. (2) GDPR Articles 5 and 6, read in the light of Charter Articles 7 and 8, preclude national legislation that makes those shareholder data available to the public for transparency, AML/CFT, proliferation-financing and sanctions purposes "where access to such data is not subject to any conditions, such as demonstrating a legitimate interest". Reasoning: the data can "enable a profile to be drawn up concerning, inter alia, the state of the wealth of the person concerned and the economic sectors and specific undertakings in which he or she has invested" (para. 70, citing *Luxembourg Business Registers*, para. 41). Unlimited internet access, retention and redistribution make defence against abuse "increasingly difficult, or even illusory" (paras 71–72). The result is a serious interference that does not affect the essence of the rights (para. 73). AML/CFT is a recognised objective (para. 77), but it is "as a priority a matter for the public authorities and for entities such as credit or financial institutions" (para. 79). Legitimate-interest access is in principle capable of limiting the interference to what is strictly necessary (para. 81, citing C-684/24 and C-685/24, para. 106). Practical difficulty in verifying legitimate interest does not make unconditional access strictly necessary (para. 83). Bulk download by unidentified users shows insufficient safeguards (para. 85).
+
+Relevance: this updates the wealth-register article's access-tier analysis (`wiki/topics/dac8-and-the-wealth-register-risk.md`, "What the AML package changes" and "Fundamental-rights objections §1"). It is a second post-2022 CJEU application of the *Luxembourg Business Registers* wealth-profiling reasoning, now to company-register shareholding data under the GDPR. Its limits cut both ways. It concerns public, unconditioned, bulk-downloadable access. It expressly accepts collection and use by authorities and obliged entities, and it does not address confidential tax exchange such as DAC8. It supports the claim that identity plus holdings data are wealth-profiling data. It does not support a claim that controlled, non-public registers are unlawful.

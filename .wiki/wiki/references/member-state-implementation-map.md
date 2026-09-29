@@ -11,8 +11,9 @@ sources:
   - raw/articles/2026-08-27-luxembourg-dac8-implementation.md
   - raw/articles/2026-09-04-ireland-dac8-si-584-2025-retention-copy.md
   - raw/articles/2026-09-04-finland-dac8-national-capital-gains-extension.md
+  - raw/articles/2026-09-29-refreshat-conseil-etat-519158-dac8-suspension-refused.md
 created: 2026-08-27
-updated: 2026-09-04
+updated: 2026-09-29
 tags: [dac8, member-states, implementation-map, litigation, comparative-law]
 aliases: [European DAC8 implementations, DAC8 litigation map]
 confidence: medium
@@ -31,7 +32,7 @@ summary: "Comparative snapshot of enacted DAC8 measures and located litigation, 
 | Jurisdiction | Measure | Timing | Located litigation |
 |---|---|---|---|
 | Austria | Krypto-MPfG, BGBl. I 96/2025 | Effective 1 Jan 2026 | None located |
-| France | Decree 2025-1276 | Effective 1 Jan 2026 | Bull Bitcoin says it filed 24 Feb 2026; no public docket or order verified |
+| France | Decree 2025-1276 | Effective 1 Jan 2026 | Conseil d'État interim-relief judge refused suspension for lack of urgency, 14 Sep 2026 (n° 519158); merits request pending |
 | Germany | KStTG, BGBl. 2025 I Nr. 352 | Enacted Dec 2025; 2026 first year | None located |
 | Netherlands | Staatsblad 2026, 79 | Published Apr 2026; retroactive to 1 Jan | None located |
 | Belgium | Law of 16 Mar 2026 | Published 1 Apr 2026 | None located |
@@ -43,7 +44,9 @@ summary: "Comparative snapshot of enacted DAC8 measures and located litigation, 
 
 France supplies the only concrete public challenge claim. Bull Bitcoin identifies a Conseil d'Etat annulment petition against Decree 2025-1276 and asserts over-transposition, procedural, and fundamental-rights grounds. Until an official court record or filed brief is obtained, the filing date, grounds, and posture remain party-reported.
 
-The French action is useful for issue spotting, not yet a precedent and not a substitute for Austrian standing analysis.
+An official order now confirms the litigation. On 14 September 2026 the Conseil d'État interim-relief judge (order n° 519158; applicants Paymium, Leonod and Satoshi Portal Inc.) refused to suspend the decree solely for lack of urgency, without examining legality or referring a question to the CJEU. The judge weighed the privacy interference against the public interest in preventing tax fraud and found a "very low" probability of breach; an alleged breach of EU law alone did not establish urgency. The merits request is pending. See the [order digest](../../raw/articles/2026-09-29-refreshat-conseil-etat-519158-dac8-suspension-refused.md).
+
+The French action is useful for issue spotting and as adverse interim-relief authority, not a merits precedent or a substitute for Austrian standing analysis.
 
 ## Comparative use
 
