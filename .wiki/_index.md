@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-09-29
+Last updated: 2026-09-30
 
 ## Statistics
 
-- Sources: 540 raw source records
-- Articles: 63 compiled wiki articles
+- Sources: 581 raw source records
+- Articles: 64 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
 - Outputs: 16 reports and 3 PDF exports
-- Last compiled: 2026-09-29
-- Last lint: 2026-09-29
+- Last compiled: 2026-09-30
+- Last lint: 2026-09-30
 
 ## Quick Navigation
 
@@ -25,6 +25,7 @@ Last updated: 2026-09-29
 
 ## Recent Changes
 
+- 2026-09-30: Added forty-one source records from three parallel paths and a [DAC history timeline](wiki/references/dac-history-timeline.md) from Directive 77/799/EEC to the pending recast COM(2026) 308, with Austrian implementing acts for each step. DAC8 extended Article 16 use of all DAC data to AML/CFT and, without the sender's permission, EU sanctions. LuxLeaks and the Panama Papers are not named in the DAC3 and DAC5 recitals. Austria's general first CRS exchange was 30 September 2018; DAC9 is implemented by BGBl I 97/2025. "DAC10" is advisers' shorthand for the recast, which keeps the DAC8 crypto fields and adds tax access to AML and pension registers.
 - 2026-09-29 (round 2): Added sixty-three source records from seven parallel paths and three Austrian references. [Austrian crypto-crime evidence](wiki/references/austrian-crypto-crime-and-targeting-evidence.md): Wels 2018 final convictions and the Vienna 2025 homicide show crypto coercion in Austria, with victims selected through relationships; fraud dominates, and phishing already uses FinanzOnline and the crypto tax-reporting reform as a pretext. [Austrian tax risk scoring](wiki/references/austrian-tax-risk-scoring-and-financial-data-use.md): PACC scores about 6.6 million cases a year under § 114(4) BAO; no source shows DAC or CRS data as model inputs; Kontenregister queries were 5,500 to 7,500 a year. [Austrian insider misuse](wiki/references/austrian-insider-database-misuse.md): § 302 StGB convictions for private AIS, EKIS and ZMR queries, about 100 to 116 BAK cases a year, mostly reactive detection. OGH 7 Ob 95/24g narrows the bank/self-custody contrast for manipulated payments. Refreshed nine hot articles: French Conseil d'État refused DAC8 suspension for lack of urgency (14 September 2026), WiEReG 2027 is now government bill 622 d.B., CJEU C-684/24 and C-798/24 added to the register analysis, US NMLRA 2026 replaces 2024.
 - 2026-09-29: Added forty-seven source records from four parallel research paths and three articles. [AML/KYC effectiveness](wiki/references/aml-kyc-effectiveness-evidence.md) now has the Austrian A-FIU 2024 suspicion-to-outcome chain, EU audit and Commission concessions, TD Bank and Danske control failures, and documented KYC circumvention with stolen or synthetic identities; adverse asset-denial and conviction figures are kept. New [bearer-asset reference](wiki/references/bearer-asset-irreversibility-and-leak-consequences.md): PSD2 refunds versus MiCA and self-custody, leaks by data content (Ledger, Kroll, Fractal ID), and French official recognition; no leak is attributed to a physical attack and none involves DAC8 data. New [profiling reference](wiki/references/transaction-profiling-and-sensitive-inference.md): C-252/21 Article 9 test and item-level inference evidence that does not transfer to DAC8 annual aggregates. New [account-model thesis](wiki/theses/account-model-linkage-exposure.md): partially supported; one identity link exposes more on Ethereum-style chains, but "no privacy at all" overstates the evidence.
 - 2026-09-23: Added twenty-four source records and a [thesis on wealth inference from transaction data](wiki/theses/transaction-data-wealth-inference.md) as an analogue for DAC8. Strong evidence covers item-level data; annual aggregates support group-share and ranking estimates only, with large individual error. A 2025 CFPB notice expressly names transaction data revealing wealth as a criminal-targeting risk; no independent error rate for transaction-based income estimates was found.
