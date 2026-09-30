@@ -2,11 +2,11 @@
 
 > Immutable source material and provenance.
 
-Last updated: 2026-09-29
+Last updated: 2026-09-30
 
 ## Contents
 
-540 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
+625 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
 
 ## Categories
 
@@ -17,6 +17,11 @@ Last updated: 2026-09-29
 - [Data](data/_index.md)
 
 ## Recent Changes
+
+- 2026-09-30: Added two primary-law verification supplements on DAC scope, court holdings, deadlines and the unresolved Austrian Article 16 implementation boundary, plus a fixed-head PR14 review/follow-up snapshot. Corrections qualify earlier shorthand without rewriting historical raw records; the later-head check is targeted, not approval.
+- 2026-09-30: Added thirty protocol/client/specification and research records covering Bitcoin UTXOs and heuristics, Ethereum execution and contracts, bridges/vaults/rollups, Lightning and privacy-ledger observers, canonical snapshots and historical proofs. Separate supplements control the Core release-date correction and the 31.0 broadcast warning; historical raw records remain unchanged.
+- 2026-09-30: Added eleven records on actual Austrian data fusion/report use, provider retention and archive alternatives, regulator-imposed controls, synthetic PET benchmarks and a separate Ghost Clusters denominator supplement. Earlier raw sources remain unchanged.
+- 2026-09-30: Added forty-one primary records for the DAC history timeline; restored the aggregate index count to actual files.
 
 - 2026-09-29 (round 2): Added sixty-three public-source records on Austrian crypto crime, tax risk scoring, insider database misuse, KYC and remote identification, payment-law loss allocation, and refresh checks of nine hot articles.
 - 2026-09-29: Added forty-seven public-source records on AML/KYC outcomes, bearer-asset leaks and loss allocation, transaction profiling and account-model privacy, each with evidence class and DAC8 transfer limits.

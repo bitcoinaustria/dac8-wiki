@@ -21,3 +21,13 @@
 | Project | Goal |
 |---------|------|
 | [VfGH Subsidiaritäts-Kurzvermerk](projects/vfgh-subsidiaritaets-kurzvermerk/WHY.md) | Source-backed notes on Austrian DAC8 judicial review, procedural barriers and substantive arguments. |
+
+### Latest project output
+
+| Output | Type | Date |
+|--------|------|------|
+| [Technischer Gutachtenentwurf zu Finanzdatenprofilen](projects/vfgh-subsidiaritaets-kurzvermerk/technischer-gutachtenentwurf-finanzdatenprofile-2026-09-30.md) | report, technical first draft, PDF, executed models | 2026-09-30 |
+| [Argumentationshilfe zu Finanzdatenprofilen und Anbieterbeständen](projects/vfgh-subsidiaritaets-kurzvermerk/argumentationshilfe-anwalt-finanzdatenprofile-2026-09-30.md) | report, detailed counsel aid, PDF | 2026-09-30 |
+| [Nachweisstand zur Argumentationshilfe](projects/vfgh-subsidiaritaets-kurzvermerk/nachweisstand-finanzdatenprofile-2026-09-30.md) | report, evidence annex | 2026-09-30 |
+| [Finanzdaten über Jahre: Vermögensprofile, Blockchain-Verknüpfung und Sicherheitsrisiken](projects/vfgh-subsidiaritaets-kurzvermerk/argumentationsvermerk-finanzdatenprofile-2026-09-30.md) | report, PDF, reproducible examples | 2026-09-30 |
+| [Technischer Gutachtenauftrag zu Finanzdatenprofilen](projects/vfgh-subsidiaritaets-kurzvermerk/gutachtenauftrag-finanzdatenprofile-2026-09-30.md) | report, neutral commission | 2026-09-30 |

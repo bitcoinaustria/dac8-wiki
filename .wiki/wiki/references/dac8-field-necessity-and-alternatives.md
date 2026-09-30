@@ -20,7 +20,7 @@ sources:
   - raw/articles/2026-09-04-ecthr-s-marper-data-lifecycle-effectiveness.md
   - raw/articles/2026-09-04-commission-dac-evaluation-2025-detail.md
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-09-30
 tags: [dac8, data-minimisation, strict-necessity, reporting-fields, alternatives, proportionality]
 aliases: [DAC8 field necessity, DAC8 less intrusive alternatives]
 confidence: high
@@ -109,6 +109,8 @@ The European Court of Auditors' 2021 report criticised data quality, use and mon
 - Frame the requested result narrowly: removal, conditioning or stricter use of a specific field can succeed without invalidating the complete DAC8 system.
 
 ## See Also
+
+- [Financial-data concentration proof and alternatives](financial-data-concentration-proof-and-alternatives.md) — actual archive/PET comparators, adverse utility findings and the remaining equality-of-benefit test.
 
 - [[dac8-inference-linkage-and-error-evidence|DAC8 Inference, Linkage and Error Evidence]] ([DAC8 Inference, Linkage and Error Evidence](dac8-inference-linkage-and-error-evidence.md))
 - [[dac8-data-lifecycle-access-retention-remedies|DAC8 Data Lifecycle: Access, Retention and Remedies]] ([DAC8 Data Lifecycle: Access, Retention and Remedies](dac8-data-lifecycle-access-retention-remedies.md))

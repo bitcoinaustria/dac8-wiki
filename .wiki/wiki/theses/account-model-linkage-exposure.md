@@ -25,8 +25,10 @@ sources:
   - raw/papers/2026-09-19-wang-rpc-linkage-ccs2025.md
   - raw/articles/2026-08-27-eu-amlr-regulation-2024-1624.md
   - raw/articles/2026-09-29-payrisk-us-v-storm-docket-status.md
+  - raw/articles/2026-09-30-p2-chain-eip7702-delegation-reverts.md
+  - raw/articles/2026-09-30-p2-chain-geth-call-state-tracers.md
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-09-30
 tags: [ethereum, account-model, utxo, linkage, address-reuse, privacy-tools, stablecoins, dac8]
 aliases: [Ethereum privacy, account-based privacy, ETH no privacy, UTXO versus account model]
 volatility: warm
@@ -54,7 +56,7 @@ DAC8's annual report contains no wallet address. The exposure described here ari
 |---|---|---|
 | where value sits | a mutable `balance` on a persistent address; token balances in token-contract storage | discrete outputs; a wallet balance is the sum of outputs across addresses |
 | change | stays at the sender account, so the next transaction reuses the address | returned to a change output, which may be a new address |
-| ordering | each sent transaction carries the account's sequential `nonce` | no per-address counter |
+| ordering | outer transactions use an account nonce; EIP-7702 authorizations can also increase the counter on implementing forks | no per-address counter |
 | design guidance | protocol developers name "one address per application" as a future default (2025) | whitepaper section 10 recommends a new key pair per transaction |
 | strongest clustering heuristic | none equivalent to multi-input; substitute heuristics rely on service patterns | multi-input and change heuristics |
 
@@ -78,6 +80,8 @@ Béres et al. argue that the account model "relies on address-reuse on the proto
 - **Privacy constructions exist.** Stealth addresses are a final Ethereum standard (ERC-5564). Privacy Pools is a peer-reviewed design for zero-knowledge selective disclosure (abstract only read). Railgun and Privacy Pools are named for wallet integration in the 2025 roadmap.
 
 ## Nuances
+
+**Technical supplement checked 30 September 2026.** An account's public state is not a complete personal balance sheet. Native balance, tokens, proxy/contract claims and economic entitlement need distinct interpretation. EIP-7702 permits delegated code in EOAs and preserves processed delegation indicators despite subsequent execution failure; classic code/nonce/gas-price features are not universal timeless user identifiers. Traces include attempted execution and do not independently prove committed transfers. See [account/contract chain-data evidence](../references/account-contract-chain-data-evidence.md) for historical state, receipt, token, vault, bridge and L2 mechanics. This supplement does not refresh the unrelated legal docket or claim new population accuracy.
 
 - **Privacy depends on behaviour and tooling.** Wang et al. show that advertised anonymity sets overstate privacy and that careless use (address reuse, fee payment from the deposit address, direct transfers) collapses it. Béres et al. show a dust-amount balance fingerprint is feasible because 98.1 percent of transactions leave the last nine digits of a balance unchanged.
 - **Tools are partial.** Stealth addresses hide the recipient, not the transfer. Funding a fresh stealth address with gas from a main wallet recreates the link; ERC-5564 lists funding as a known privacy issue.
@@ -105,7 +109,7 @@ Béres et al. argue that the account model "relies on address-reuse on the proto
 
 - No peer-reviewed measurement of how many addresses a typical Ethereum user controls.
 - No validated person-level identification rate for Ethereum users.
-- No chain-specific evidence for Tron, Solana or Ethereum layer-2 networks, although stablecoin use on Tron is significant.
+- No independently measured person-attribution accuracy for Tron, Solana or current Ethereum layer-2 deployments. New OP/ZK specification evidence explains mechanics, not empirical accuracy or complete deployment auditing.
 - Whether current wallet defaults already follow the 2025 roadmap was not verified.
 
 ## See Also

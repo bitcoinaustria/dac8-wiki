@@ -8,7 +8,7 @@ sources:
   - raw/articles/2026-08-30-cjeu-c579-21-pankki-access-logs.md
   - raw/articles/2026-09-04-gdpr-articles-35-36-dpia-conditions.md
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-30
 tags: [austria, dac8, ifg, gdpr, dsb, evidence, security, dpia]
 aliases: [IFG security evidence, Austrian DPIA access]
 confidence: high
@@ -48,6 +48,8 @@ Since 1 September 2025, section 22(3) DSG refers to necessary and proportionate 
 No identified decision establishes disclosure of an Austrian DAC8 DPIA or audit. Statutory-processing and Austrian DPIA-exemption defences still require separate assessment.
 
 ## See Also
+
+- [Financial-data concentration proof and alternatives](financial-data-concentration-proof-and-alternatives.md) — narrowed targets for copy-specific retention, actual joins and model-input evidence.
 
 - [[austrian-insider-database-misuse|Austrian Insider Database Misuse]] ([Austrian Insider Database Misuse](austrian-insider-database-misuse.md)) — access-review evidence worth requesting.
 - [[austrian-tax-risk-scoring-and-financial-data-use|Austrian Tax Risk Scoring and Actual Use of Financial Data]] ([Austrian Tax Risk Scoring and Actual Use of Financial Data](austrian-tax-risk-scoring-and-financial-data-use.md)) — data-source, DPIA and override evidence to request for PACC scoring.

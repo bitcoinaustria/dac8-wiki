@@ -13,8 +13,12 @@ sources:
   - raw/papers/2026-09-29-atrisk-abb-annual-reports-2024-2025.md
   - raw/articles/2026-09-29-atrisk-ab-1948-crypto-tax-revenue-data.md
   - raw/articles/2026-09-29-profiling-cjeu-c634-21-schufa-scoring.md
+  - raw/papers/2026-09-30-finprofile-birank-austrian-tax-graphs.md
+  - raw/articles/2026-09-30-finprofile-bfg-multiyear-account-reports.md
+  - raw/articles/2026-09-30-finprofile-bfg-gmsg-additional-data-request.md
+  - raw/articles/2026-09-30-finprofile-rh-2026-5-data-use-limits.md
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-09-30
 tags: [austria, bmf, pacc, risk-scoring, article-22-gdpr, bao, kontenregister, dac2, proportionality]
 aliases: [PACC, Predictive Analytics Competence Center, Austrian tax scoring, § 114 Abs 4 BAO]
 confidence: medium
@@ -41,7 +45,9 @@ These figures are BMF self-attributions without published method, error or false
 
 **Exchanged data.** PACC press releases list "internationale Datenaustauschprogramme" and crypto among its topics. The Rechnungshof (2019/33) found that about 86 percent of DAC1 records were matched to taxpayers automatically, while DAC2 matching of about 357,000 records received in September 2017 was still being tested. Promised worklists, including cases "von der automatisierten Risikobewertung ausgewählt" (selected by automated risk assessment), had not been delivered. The fraud office (ABB) reports that DAC reports arrive automatically but that criminal assessment is done by staff.
 
-**Missing.** No source states that CRS, DAC2 or DAC8 data are PACC model features. No published data-source list, DPIA, override rate or current CRS matching rate was found.
+**Historical experiment and current limits.** A BMF-funded SNAMS 2021 study, published as an author manuscript in 2022, links company-register relationships from 1991–2021 to tax identities and audit/statistical risk indicators. This documents implemented cross-source, historical analysis, not present production use or CRS/crypto inputs. Its final-model incremental benefit remained future work. Rechnungshof Bund 2026/5 separately found that some platform data were available for manual use but did not enter PACC automated selection in the examined period; it recommended broader integration. See [financial-data concentration proof and alternatives](financial-data-concentration-proof-and-alternatives.md).
+
+**Missing.** No source states that CRS, DAC2 or DAC8 data are PACC model features. No exhaustive published model-input inventory, DPIA, override rate or current CRS matching rate was found.
 
 **Conflicting answer.** Answer 2541/AB, given a day before 2592/AB, states "Es erfolgt keine KI-gestützte Mustererkennung" (no AI-based pattern recognition takes place) in detecting tax fraud. The likely reconciliation is that 2541/AB concerns the fraud office and criminal proceedings and 2592/AB concerns assessment and audit. That reading is an inference.
 
@@ -63,6 +69,8 @@ Under C-634/21 paras 43–50, an automated score is itself an Article 22 decisio
 - **What would be needed:** evidence that audit or review selection is itself strongly determined by the score and produces significant effects, and that DAC8 data enter the models. Neither is documented. A request under the IFG or an Article 15 GDPR request would meet the § 48e/§ 48f restrictions. See [[austrian-security-evidence-access|Austrian Security-Evidence Access]] ([Austrian Security-Evidence Access](austrian-security-evidence-access.md)).
 
 ## Actual use of financial data
+
+**Direct case evidence.** BFG RV/1300013/2020 establishes that foreign-account reports for 2017–2018 prompted a person-linked enquiry and paid tax correction. BFG RV/5100216/2024 upheld broader electronic account/depot information demands, including non-reportable relationships, for a GMSG compliance audit. The latter proves the demand and BFG holding, not delivery, subsequent profiling or a verified final VwGH outcome. Neither case proves PACC model input, general causal effectiveness or ten-year necessity.
 
 **Kontenregister queries**, from BMF and BMJ answers to parliamentary questions:
 
@@ -93,6 +101,8 @@ These are baselines and plans, not a measured DAC8 yield.
 - "The BMF's revenue attributions are audited results."
 
 ## See Also
+
+- [Financial-data concentration proof and alternatives](financial-data-concentration-proof-and-alternatives.md) — source locators, actual-use counterevidence and testable narrower designs.
 
 - [[austrian-insider-database-misuse|Austrian Insider Database Misuse]] ([Austrian Insider Database Misuse](austrian-insider-database-misuse.md)) — insider misuse of the AIS tax system.
 - [[transaction-profiling-and-sensitive-inference|Profiling and Sensitive Inference from Transaction Records]] ([Profiling and Sensitive Inference from Transaction Records](transaction-profiling-and-sensitive-inference.md)) — SCHUFA and Article 9 inference tests.

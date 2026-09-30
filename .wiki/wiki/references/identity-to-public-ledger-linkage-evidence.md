@@ -13,8 +13,9 @@ sources:
   - raw/papers/2026-09-29-acctmodel-victor-ethereum-clustering-fc2020.md
   - raw/papers/2026-09-29-acctmodel-torres-web3-wallet-leaks-usenix2023.md
   - raw/articles/2026-09-29-acctmodel-stablecoin-issuer-freeze-terms.md
+  - raw/papers/2026-09-30-finprofile-ghost-clusters-denominator-supplement.md
 created: 2026-09-04
-updated: 2026-09-29
+updated: 2026-09-30
 tags: [blockchain, linkage, amount-matching, clustering, attribution, false-positive, expert-evidence]
 aliases: [DLT linkage evidence, blockchain breach amplification]
 confidence: high
@@ -75,9 +76,17 @@ The [EDPB's July 2026 anonymisation consultation draft](../../raw/articles/2026-
 
 ## Retrospective expansion and error propagation
 
+### Protocol-level supplement, verified 30 September 2026
+
+Use the [Bitcoin UTXO reference](bitcoin-utxo-observation-and-attribution.md), [account/contract reference](account-contract-chain-data-evidence.md) and [off-chain/privacy observer reference](offchain-private-ledger-observation-limits.md) for exact data mechanics. They distinguish outpoint/script sets from inferred owners, account intent/receipts/logs/state, historical proxy/delegation behaviour and viewing-key scopes. A known address is a direct history anchor only for publicly address-linked data; shielded components require a different observer. Deterministic derivation from an actually disclosed public descriptor can expand observation without clustering, but collection by Austrian providers is not established.
+
+EIP-7702 on implementing forks invalidates blanket nonempty-code and unchanged-nonce classifications. A failed receipt does not roll back processed delegation indicators. L2 published data and historical availability also need their own chain/fork/archive evidence. Protocol authority is not empirical person-attribution precision.
+
 Later transactions and new labels can make past public activity easier to interpret. Möser and Narayanan also show the adverse side: one wrong change-output inference can merge unrelated clusters, and small local error rates can propagate through transitive clustering. Kappos and co-authors caution that investigator output is not definitive evidence. The 2025 Ghost Clusters study reinforces both propositions: attribution can be strong for particular seeded services, yet coverage differs substantially between services and providers and changes over time.
 
 ## Expert test for DAC8 matching
+
+**Denominator clarification.** Ghost Clusters' published false-label percentages use its known service-address sets, not the population of genuine negatives. They are not classical FPR. The [new supplement](../../raw/papers/2026-09-30-finprofile-ghost-clusters-denominator-supplement.md) supplies transparent FP/(TP+FP) calculations and service-specific recall. Neither metric validates natural-person ownership or wealth. See [concentration proof and alternatives](financial-data-concentration-proof-and-alternatives.md) for comparative benchmark limits.
 
 1. Freeze the asset, chain, provider, transaction category and calendar year.
 2. Test the actual DAC8 tuple first, without addresses, transaction IDs or hidden provider timestamps.
