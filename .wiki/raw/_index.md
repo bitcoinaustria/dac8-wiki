@@ -2,11 +2,11 @@
 
 > Immutable source material and provenance.
 
-Last updated: 2026-09-30
+Last updated: 2026-10-17
 
 ## Contents
 
-625 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
+702 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
 
 ## Categories
 
@@ -17,6 +17,14 @@ Last updated: 2026-09-30
 - [Data](data/_index.md)
 
 ## Recent Changes
+
+- 2026-10-17 (public-privacy round): Added seventeen publications on monitoring cues, actual financial participation, privacy frameworks, association, political misuse, economic control, consumer profiling and payment choice. Two companion records control [FTC intake-score arithmetic](articles/2026-10-17-privacy-ftc-broker-score-supplement.md) and [FCA loan-description scope](articles/2026-10-17-privacy-fca-loan-qualification.md). Read them with the original immutable digests. Companions are not independent corroboration; unavailable full texts were not treated as verified final findings.
+
+- 2026-10-17 (composition/control round): Added eighteen records covering six composition/linkage studies, two NIST privacy-method publications, six observed provider/control records and three further criminal cases with a later court-order companion. A document is not an independent event: Faulk restitution orders, Cloudflare deployment/incident accounts and related outcomes retain their distinct roles. Earlier source bodies are unchanged.
+
+- 2026-10-17: Added twenty-four records on admitted brokerage feedback, list economics, high-balance insider targeting, detection/confiscation, empirical phishing/repeat-loss studies, technical controls, financial centralisation and two targeted CJEU holdings. Read the [empirical precision supplement](articles/2026-10-17-scam-empirical-precision-supplement.md) with the Czybik/DeLiema digests and the [EBA supplement](articles/2026-10-17-scam-eba-loss-allocation-supplement.md) with the payment report. These and case-status documents are not independent events or populations. Historical raw bodies are unchanged.
+
+- 2026-10-15: Added sixteen records on Trezor/Brevo, ShipMonk, support-portal phishing, Ledger/Shopify, Coinbase costs/recoveries, Epsilon admitted reuse and repeat harm, Austrian/European recovery scams, stolen financial-customer contacts, supplier-scam evidence and French/US targeting observations. Source roles, dates, denominators and adverse findings are distinct; original raw bodies are unchanged.
 
 - 2026-09-30: Added two primary-law verification supplements on DAC scope, court holdings, deadlines and the unresolved Austrian Article 16 implementation boundary, plus a fixed-head PR14 review/follow-up snapshot. Corrections qualify earlier shorthand without rewriting historical raw records; the later-head check is targeted, not approval.
 - 2026-09-30: Added thirty protocol/client/specification and research records covering Bitcoin UTXOs and heuristics, Ethereum execution and contracts, bridges/vaults/rollups, Lightning and privacy-ledger observers, canonical snapshots and historical proofs. Separate supplements control the Core release-date correction and the 31.0 broadcast warning; historical raw records remain unchanged.

@@ -17,8 +17,11 @@ sources:
   - raw/articles/2026-09-23-twi-edpb-psd2-transaction-inference.md
   - raw/papers/2026-09-29-acctmodel-beres-ethereum-deanonymization-dapps2021.md
   - raw/articles/2026-09-29-atrisk-bmf-pacc-risk-scoring-self-description.md
+  - raw/papers/2026-10-17-depth-composition-ganta.md
+  - raw/papers/2026-10-17-depth-census-reconstruction.md
+  - raw/papers/2026-10-17-depth-linkage-quality-ons.md
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-17
 tags: [profiling, inference, special-categories, article-9-gdpr, reidentification, transaction-data, cjeu, dac8]
 aliases: [Transaction profiling, sensitive inference from payments, Article 9 inference test]
 confidence: medium
@@ -63,6 +66,12 @@ The C-252/21 test matters most for this repository. It moves the question from "
 
 **What it does not support.** Accurate labelling of individuals: the trait and health effect sizes are modest, and the gambling study reports associations. Nor does it support pinpointing a person's country or city from ledger timing. No peer-reviewed study inferring religion or sexual orientation from payment data was found; WP251's figures come from Facebook Likes.
 
+## Composition and linkage-quality supplement checked 17 October 2026
+
+The [[financial-data-composition-and-attribution-error|composition and attribution reference]] ([composition and attribution reference](financial-data-composition-and-attribution-error.md)) adds controlled cross-release experiments, reconstruction baselines and independent linkage validation. It distinguishes direct enrichment of an already named report from de-anonymisation, candidate reduction from accepted-link correctness, and sensitive-attribute correctness from person or ownership attribution.
+
+This qualifies, rather than extends, the older uniqueness figures above: neither a singleton nor a reconstructed feature bundle is automatically a verified real-person identity. The new Census evidence also preserves a weak overall commercial-data result alongside stronger narrowly defined subgroup results and effective protection. These additions do not refresh the earlier legal holdings or establish inference from annual DAC8 fields.
+
 ## Provider-side derived layer
 
 Chainalysis describes its KYT product as continuous, attribution-based risk scoring of customers' incoming and outgoing transactions. Scores rest on direct and multi-hop exposure to categories that include "gambling services" and cryptocurrency ATMs, and no error rates are published. This is vendor self-description with low confidence on accuracy. It does establish that provider-held records can already carry a derived behavioural layer about identified customers. Under WP251 that layer is inferred personal data. Where it reveals sensitive information, it falls under the C-252/21 test.
@@ -92,6 +101,8 @@ Chainalysis describes its KYT product as continuous, attribution-based risk scor
 
 ## See Also
 
+- [[financial-privacy-and-everyday-autonomy|Financial Privacy and Everyday Autonomy]] ([Financial Privacy and Everyday Autonomy](financial-privacy-and-everyday-autonomy.md)) — payment confidentiality, independent access and meaningful choice beyond a single reporting regime.
+- [[financial-data-composition-and-attribution-error|Financial-Data Composition and Attribution Error]] ([Financial-Data Composition and Attribution Error](financial-data-composition-and-attribution-error.md)) — cumulative disclosure, linkage errors, baselines and formal protection boundaries.
 - [[austrian-tax-risk-scoring-and-financial-data-use|Austrian Tax Risk Scoring and Actual Use of Financial Data]] ([Austrian Tax Risk Scoring and Actual Use of Financial Data](austrian-tax-risk-scoring-and-financial-data-use.md)) — Austrian automated scoring (PACC) and the SCHUFA question.
 - [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md)) — wealth and income inference; same granularity boundary.
 - [[bitcoin-payment-profile-retention|Bitcoin payment profiles and retention]] ([Bitcoin payment profiles and retention](../theses/bitcoin-payment-profile-retention.md)) — payment inference from stored identity links and the C-184/20 point.

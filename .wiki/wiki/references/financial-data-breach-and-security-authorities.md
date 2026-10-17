@@ -24,8 +24,10 @@ sources:
   - raw/articles/2026-09-29-bearer-kroll-claimant-data-breach.md
   - raw/articles/2026-09-29-bearer-fractal-id-kyc-breach.md
   - raw/articles/2026-09-29-bearer-au10tix-credential-exposure.md
+  - raw/articles/2026-10-15-scam-trezor-brevo-phishing.md
+  - raw/articles/2026-10-15-scam-coinbase-costs-10q.md
 created: 2026-09-04
-updated: 2026-09-29
+updated: 2026-10-15
 tags: [data-breach, tax-authority, casp, security, article-32, evidence, adverse-authority]
 aliases: [DAC8 breach evidence, financial database security]
 confidence: high
@@ -58,6 +60,12 @@ The 19 September update concerns Waltio, Coinbase, Bobigny, Saavedra/Iza and the
 DGFiP and FICOBA concern authority-held records rather than commercial-provider records. Both official accounts distinguish affected from unaffected fields; neither is an adjudication that the underlying reporting or register law was disproportionate.
 
 Bobigny is a separate press-reported allegation; Waltio is a private provider. The [Bobigny original-report digest](../../raw/articles/2026-09-19-bobigny-tax-insider-le-parisien.md) records the subscription access limit, and the [derivative digest](../../raw/articles/2026-09-19-bobigny-tax-insider-protos.md) separates reported payment to attackers from an unverified data-sale price. The [Waltio police attribution](../../raw/articles/2026-09-19-gendarmerie-waltio-target-selection.md) and [Coinbase fraud disclosure](../../raw/articles/2026-09-19-coinbase-insider-social-engineering-disclosure.md) supersede the earlier blanket absence-of-harm wording.
+
+## Incident endpoint supplement checked 15 October 2026
+
+The new [[leaked-data-scams-and-targeted-attacks|targeted-scam evidence map]] ([targeted-scam evidence map](leaked-data-scams-and-targeted-attacks.md)) distinguishes extraction, contact, clicks, secret disclosure, loss and physical harm. The [Brevo record](../../raw/articles/2026-10-15-scam-trezor-brevo-phishing.md) confirms an actual phishing campaign following compromise, not merely possible future misuse. Its click count is not a theft count.
+
+The [Coinbase accounting follow-up](../../raw/articles/2026-10-15-scam-coinbase-costs-10q.md) documents incident expenses and subsequent recoveries. These mixed amounts cannot be used as a census of customer thefts. This incident supplement does not refresh the legal holdings or other rows' verification dates.
 
 ## Governing authorities
 
@@ -115,6 +123,7 @@ A stronger case requires an identified controller and one of the following:
 
 ## See Also
 
+- [[leaked-data-scams-and-targeted-attacks|Leaked Data, Financial Scams and Targeted Attacks]] ([Leaked Data, Financial Scams and Targeted Attacks](leaked-data-scams-and-targeted-attacks.md)) — documented exploitation, repeat victimisation and outcome denominators.
 - [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)) — leak typology by data content and bearer-asset loss allocation.
 - [[data-risk-prevention-and-damages-thresholds|Data-Risk Prevention and Damages Thresholds]] ([Data-Risk Prevention and Damages Thresholds](data-risk-prevention-and-damages-thresholds.md)) — distinguishes preventive obligations from compensation and operational protection.
 
@@ -125,6 +134,8 @@ A stronger case requires an identified controller and one of the following:
 
 ## Sources
 
+- [Brevo campaign evidence](../../raw/articles/2026-10-15-scam-trezor-brevo-phishing.md)
+- [Coinbase accounting follow-up](../../raw/articles/2026-10-15-scam-coinbase-costs-10q.md)
 - [Kroll claimant breach](../../raw/articles/2026-09-29-bearer-kroll-claimant-data-breach.md)
 - [Fractal ID breach](../../raw/articles/2026-09-29-bearer-fractal-id-kyc-breach.md)
 - [AU10TIX credential exposure](../../raw/articles/2026-09-29-bearer-au10tix-credential-exposure.md)

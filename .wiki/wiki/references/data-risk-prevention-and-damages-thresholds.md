@@ -6,19 +6,23 @@ sources:
   - raw/articles/2026-09-19-cjeu-c590-22-tax-disclosure-fear.md
   - raw/articles/2026-09-19-ecthr-podchasov-access-encryption-risk.md
   - raw/articles/2026-09-19-ecthr-volodina-2-cyberviolence-protection.md
+  - raw/articles/2026-10-17-scam-cjeu-scalable-identity-theft.md
+  - raw/articles/2026-10-17-scam-cjeu-quirin-fear-supplement.md
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-10-17
 verified: 2026-09-19
 volatility: warm
 confidence: high
 aliases: [DAC8 harm and prevention thresholds]
 tags: [dac8, gdpr, article-82, article-8, prospective-risk, proof, remedies]
-summary: "Four judgments separate concrete security review, proven fear for damages, prospective architecture risks and individual protection against recurrent abuse."
+summary: "Six judgments distinguish prevention, proven non-material damage, actual identity misuse and remedy limits; the October addition refreshes only Scalable Capital and Quirin."
 ---
 
 # Data-Risk Prevention and Damages Thresholds
 
 Security obligations, compensation and operational protection against violence answer different questions. The following judgments support specific inquiries; none establishes DAC8 invalidity or a general reporting exemption.
+
+Verification scope: the 17 October 2026 supplement checks only *Scalable Capital* and *Quirin Privatbank*. The other four holdings retain their 19 September verification; Austrian later-case searches were not refreshed.
 
 ## Holdings and factual boundaries
 
@@ -28,6 +32,8 @@ Security obligations, compensation and operational protection against violence a
 | C-590/22, *PS*, paragraphs 22–36 | Proven fear with negative consequences can support compensation when actual third-party knowledge remains uncertain; no minimum seriousness threshold. | Infringement, damage and causation remain cumulative. Bare fear is insufficient. |
 | *Podchasov*, paragraphs 51–58, 70–79 | Compelled storage interferes with Article 8 without later access; direct-access architecture and criminal exploitation of weakened encryption matter prospectively. | Communications surveillance, deficient remedies and decryption obligations differ materially from confidential annual tax aggregates. |
 | *Volodina (no. 2)*, paragraphs 47–61 | Protection extends to private cyberviolence; effective remedies may include injunctions, with stronger responses needed in severe cases. | Operational protection retained a known or knowable real and immediate risk of recurrent violence in a concrete domestic-abuse setting. |
+| Joined C-182/22 and C-189/22, *Scalable Capital*, paragraphs 41–46,52–58 | Data theft is not itself identity theft; actual identity misuse is needed for that classification. Other proven non-material damage can still be compensated. | No automatic presumption of damage or CJEU award to the claimants; a small award must fully compensate the proven harm. |
+| C-655/23, *Quirin Privatbank*, paragraphs 42–52,56–64 | Proven negative feelings caused by unlawful disclosure can qualify without an additional tangible consequence or seriousness floor. | Infringement, damage and causation remain cumulative. GDPR does not itself supply the particular free-standing preventive merits injunction without erasure; national remedies remain possible and interim measures are distinct. |
 
 The CJEU pair is complementary: established non-reading is different from unresolved knowledge. Neither holding makes a completed attack necessary for compensation, but neither removes proof of damage and causation. Those Article 82 conditions must not be imported as preconditions for compliance with preventive Articles 5, 24 and 32 obligations.
 
@@ -45,6 +51,7 @@ Prospective architecture review can therefore be supported without asserting tha
 
 ## See Also
 
+- [[financial-data-threat-model-and-control-evaluation|Financial-Data Threat Model and Control Evaluation]] ([Financial-Data Threat Model and Control Evaluation](financial-data-threat-model-and-control-evaluation.md)) — preventive threat assessment distinguished from individual damages and remedy availability.
 - [[financial-data-breach-and-security-authorities|Financial-Data Breach and Security Authorities]] ([Financial-Data Breach and Security Authorities](financial-data-breach-and-security-authorities.md))
 - [[dac8-physical-risk-causation|DAC8 Physical-Risk Causation and Evidence]] ([DAC8 Physical-Risk Causation and Evidence](dac8-physical-risk-causation.md))
 
@@ -54,3 +61,5 @@ Prospective architecture review can therefore be supported without asserting tha
 - [C-590/22: tax disclosure and proven fear](../../raw/articles/2026-09-19-cjeu-c590-22-tax-disclosure-fear.md)
 - [Podchasov: access and encryption risks](../../raw/articles/2026-09-19-ecthr-podchasov-access-encryption-risk.md)
 - [Volodina (no. 2): cyberviolence protection](../../raw/articles/2026-09-19-ecthr-volodina-2-cyberviolence-protection.md)
+- [Scalable Capital: identity misuse and other damage](../../raw/articles/2026-10-17-scam-cjeu-scalable-identity-theft.md)
+- [Quirin: proven feelings and remedy boundary](../../raw/articles/2026-10-17-scam-cjeu-quirin-fear-supplement.md)

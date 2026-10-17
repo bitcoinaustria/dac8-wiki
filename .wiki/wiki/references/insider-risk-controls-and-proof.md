@@ -7,8 +7,11 @@ sources:
   - raw/articles/2026-09-19-edpb-insider-breach-example.md
   - raw/papers/2026-09-19-bra-criminal-insider-enablers.md
   - raw/articles/2026-09-04-mica-dora-casp-security-baseline.md
+  - raw/articles/2026-10-17-depth-sec-reporting-entitlements.md
+  - raw/articles/2026-10-17-depth-sec-disposal-copies.md
+  - raw/articles/2026-10-17-depth-desjardins-shared-exports.md
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-10-17
 verified: 2026-09-19
 volatility: warm
 confidence: high
@@ -43,6 +46,12 @@ Austrian evidence is collected separately: private-purpose queries in police, re
 
 These duties provide a benchmark for inspecting the tax-data workflow. They do not authorise tax-purpose reuse of separate records, determine retention under another regime or demonstrate that every human query must receive prior individual approval.
 
+## Observed boundary-failure supplement checked 17 October 2026
+
+The [[provider-control-boundaries-and-observed-failures|end-to-end control reference]] ([end-to-end control reference](provider-control-boundaries-and-observed-failures.md)) adds settled SEC findings on reporting entitlements and historical copies, and the Canadian Desjardins investigation of colleagues' exports reaching shared folders. In the latter, the insider lacked confidential banking-warehouse rights, not all internal access. A database-role diagram therefore cannot settle effective reach through outputs.
+
+The same reference preserves observed prevention of account access, implementation/recovery burdens and adequate victim-protection findings. The useful test is continuity of restrictions through applications, exports, job changes, archives, restoration and suppliers. Foreign findings do not establish an Austrian defect; these additions do not refresh the older DORA legal analysis.
+
 ## Decision-relevant proof
 
 Useful implementation evidence would connect a specific dataset to its permitted roles, bulk-export permissions, review history, log coverage, alert tests and correction of identified defects. This is an evidentiary inference from the controls, not a claim of an unrestricted right to receive security documentation.
@@ -51,6 +60,7 @@ The comparison is between demonstrably effective controls and a specified residu
 
 ## See Also
 
+- [[provider-control-boundaries-and-observed-failures|Provider Control Boundaries and Observed Failures]] ([Provider Control Boundaries and Observed Failures](provider-control-boundaries-and-observed-failures.md)) — observed control outcomes and effective-reach tests.
 - [[austrian-insider-database-misuse|Austrian Insider Database Misuse]] ([Austrian Insider Database Misuse](austrian-insider-database-misuse.md)) — Austrian § 302 StGB case law, AIS tax-query cases and log-review gaps.
 - [[dac8-security-architecture-and-audit-evidence|DAC8 Security Architecture and Audit Evidence]] ([DAC8 Security Architecture and Audit Evidence](dac8-security-architecture-and-audit-evidence.md))
 - [[european-data-misuse-and-physical-risk|European Data Misuse and Physical-Risk Evidence]] ([European Data Misuse and Physical-Risk Evidence](european-data-misuse-and-physical-risk.md))

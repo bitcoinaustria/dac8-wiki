@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-09-30
+Last updated: 2026-10-17
 
 ## Statistics
 
-- Sources: 625 raw source records
-- Articles: 68 compiled wiki articles
+- Sources: 702 raw source records
+- Articles: 77 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
 - Outputs: 21 reports and 6 PDF exports
-- Last compiled: 2026-09-30
-- Last lint: 2026-09-30
+- Last compiled: 2026-10-17
+- Last lint: 2026-10-17
 
 ## Quick Navigation
 
@@ -24,6 +24,14 @@ Last updated: 2026-09-30
 - [Outputs](output/_index.md)
 
 ## Recent Changes
+
+- 2026-10-17 (public-privacy round): Added a broader [privacy and surveillance argument bank](wiki/topics/privacy-financial-privacy-and-surveillance.md), with eleven everyday argument blocks, eight substantive objection replies and original English/German public drafts. Two evidence references cover [financial autonomy](wiki/references/financial-privacy-and-everyday-autonomy.md) and [surveillance/participation](wiki/references/surveillance-autonomy-and-democratic-safeguards.md). Nineteen source records represent seventeen additional publications plus two controlling qualifications, not nineteen independent studies. Preserves mixed experimental outcomes, normative/empirical distinctions, US/comparative-law boundaries and legitimate investigative interests. This user-requested layer goes beyond DAC8 without supplying a DAC8 causal finding, Austrian prevalence or a tested persuasion ranking. Prior outputs and website/pin unchanged.
+
+- 2026-10-17 (composition/control round): Added eighteen primary-source records and two references on [joint information and attribution error](wiki/references/financial-data-composition-and-attribution-error.md) and [observed provider-control boundaries](wiki/references/provider-control-boundaries-and-observed-failures.md). Expanded the integrated assessment to seventeen sections. Covers cross-release composition, reconstruction baselines, no-match controls, persistent identifier errors, privacy-guarantee boundaries, actual prevention, report/shared-export/copy failures and cross-provider capabilities. Three synthetic arithmetic counterexamples are not empirical rates. Preserves unknown acquisition routes, settled findings, revised restitution status and historical legal verification scopes. No new named-provider leak-to-assault proof or Austrian system finding is claimed.
+
+- 2026-10-17: Added twenty-four source records, including explicit precision/status supplements, and three connected references: [criminal data markets](wiki/references/criminal-data-markets-and-repeat-victimisation.md), [causal measurement](wiki/references/phishing-causal-evidence-and-measurement.md) and a [fourteen-section technical assessment](wiki/references/financial-data-threat-model-and-control-evaluation.md). Covers priced targeting, response feedback, high-balance selection, repeated harm, effective and limited controls, rolling retention, blockchain anchors and matched-workload alternatives. Targeted Scalable Capital/Quirin holdings do not refresh all older law. Three bounded specialist reviews; no Austrian system audit, empirical DAC8 attack rate, website/pin update or publication.
+
+- 2026-10-15: Added sixteen public primary/first-party records and a [leaked-data, financial-scam and targeted-attack evidence map](wiki/references/leaked-data-scams-and-targeted-attacks.md). Documents actual breach-enabled phishing, repeated fraud using reused victim data, revised supplier retention failures, and official physical-harm observations. Preserves unsuccessful attempts, exposure/contact/loss denominators, compensation/recoveries and case-level attribution limits; no DAC8 breach or Austrian attack rate established. Updated four connected references without refreshing their older legal holdings. Lint has no critical findings but flags sixteen other legal articles for overdue verification.
 
 - 2026-09-30: Corrected the [DAC history timeline](wiki/references/dac-history-timeline.md) after independent primary-law verification: reportable accounts versus review scope, DAC3 historical qualifications, DAC6 holding limits, sale-activity thresholds and filing/exchange deadlines. Added an explicit unresolved [Austrian Article 16 implementation boundary](raw/articles/2026-09-30-at-euahg-purpose-implementation.md). The [fixed-head review record](raw/repos/2026-09-30-pr14-dac-history-review-snapshot.md) distinguishes findings at `45ff2b6` from their targeted implementation at `645fc48`; it is not approval or a comprehensive later-head review. Historical raw sources remain unchanged.
 

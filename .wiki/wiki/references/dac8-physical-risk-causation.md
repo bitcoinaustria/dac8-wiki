@@ -33,8 +33,11 @@ sources:
   - raw/articles/2026-09-29-atcrypto-wels-2018-home-invasion-verdicts.md
   - raw/articles/2026-09-29-atcrypto-vienna-2025-kuzmin-homicide.md
   - raw/articles/2026-09-29-atcrypto-watchlist-finanzonline-crypto-phishing.md
+  - raw/articles/2026-10-15-scam-france-breach-physical-harm.md
+  - raw/articles/2026-10-15-scam-tangeman-stolen-databases.md
+  - raw/articles/2026-10-15-scam-tangeman-sentencing.md
 created: 2026-09-04
-updated: 2026-09-29
+updated: 2026-10-15
 tags: [dac8, krypto-mpfg, physical-security, causation, blockchain, evidence]
 aliases: [DAC8 wrench-attack risk, crypto tax data physical risk]
 confidence: medium
@@ -45,9 +48,9 @@ summary: "Causal-chain and evidence-gate analysis treating physical harm as a pr
 
 # DAC8 Physical-Risk Causation and Evidence
 
-> Physical coercion against crypto holders is an established threat class. French police now expressly attribute criminal target selection to leaked Waltio data. That is evidence concerning a private crypto-tax service, not proof that a DAC8 dataset caused an attack. The legally usable point remains a concrete severity and security factor, not a proven causal consequence of the statute.
+> Physical coercion against crypto holders is an established threat class. French police attribute criminal target selection to leaked Waltio data; the national cyber-assistance service also reports breach exploitation escalating to physical harm in aggregate operational observations. These are stronger than hypothetical warnings, but not proof that a DAC8 dataset caused an attack. The legally usable point remains a concrete severity and security factor, not a proven causal consequence of the statute.
 
-The 19 September update checks incident evidence. Existing legal-authority analysis retains its 4 September verification scope.
+The 15 October supplement below adds French operational observations and the same-case Tangeman evidence. Earlier incident entries retain their stated scope; legal-authority analysis retains its 4 September verification scope.
 
 ## What the reporting layer establishes
 
@@ -61,6 +64,7 @@ A provider may separately hold identity-to-ledger anchors under MiCA or TFR. Tho
 |---|---|---|
 | Crypto holders and relatives face physical coercion | AFT 2024 study and official DOJ accounts of convictions | No DAC8 inference follows from threat existence alone |
 | Leaked crypto-service data aid criminal target selection | Express Gendarmerie attribution concerning Waltio, September 2026 | Case-level provenance and extent remain unpublished; private tax service is not a tax authority |
+| Breach exploitation can escalate beyond fraud into physical intimidation | French cyber-assistance report pp.48–49 describes threats and assaults after crypto-sector breaches; DOJ describes stolen-database targeting in the Tangeman/Ferro enterprise | Aggregate operational/prosecution attribution, not a named provider-to-burglary causal judgment; same criminal case must not be counted twice |
 | KYC and claims intermediaries have leaked identity and address joined with crypto status, balances or wallet addresses | Company disclosures for Ledger (2020, status only), Kroll (2023, balances) and Fractal ID (2024, wallet addresses) | No source attributes a physical attack to these leaks; none involves tax data |
 | A Member State treats public address exposure of crypto-exposed persons as a safety risk | French Interior and Economy Ministry answers in the Journal officiel (2026) and Decree 2025-840 on masking directors' home addresses | Government positions on a public register, not findings on confidential tax data |
 | Self-custodied assets lack a refund backstop | PSD2 Articles 73–74 give bank-payment victims a refund; MiCA Article 75(8) covers only provider-attributable custodial losses; self-custody has neither | Coerced bank payments may also be "authorised"; recovery by tracing and freezing remains possible |
@@ -92,6 +96,12 @@ Target selection and locating a victim do not require an exposed wallet address 
 An offender's mistaken belief about accessible wealth can create danger even when the underlying data do not prove current holdings. This is not evidence that all reported users face equal risk, nor a measured incremental effect of DAC8. Incident counts without consistent definitions, exposed-population denominators and alternative explanations cannot provide that estimate.
 
 ## Institutional recognition and limits
+
+### Additional incident evidence checked 15 October 2026
+
+The [French annual report](../../raw/articles/2026-10-15-scam-france-breach-physical-harm.md) describes actual operational observations, not only prospective fear. It gives no named crypto dataset or exposed-person denominator. The [Tangeman announcement](../../raw/articles/2026-10-15-scam-tangeman-stolen-databases.md) makes stolen-database use explicit; the [April sentencing update](../../raw/articles/2026-10-15-scam-tangeman-sentencing.md) is the later procedural state. Neither identifies the database used for each burglary. Both concern the existing Ferro case 24cr417.
+
+The [[leaked-data-scams-and-targeted-attacks|expanded exploitation map]] ([expanded exploitation map](leaked-data-scams-and-targeted-attacks.md)) separates these accounts from first-party phishing evidence, failed attempts and repeat fraud. No DAC8-specific or Austrian leak-to-attack chain is established.
 
 The [[european-data-misuse-and-physical-risk|European evidence supplement]] ([European evidence supplement](european-data-misuse-and-physical-risk.md)) adds Dutch insider convictions, Finnish breach-related extortion, EDPB prospective risk guidance and pending C-609/26. It separates actual extortion from unproved attack connections and statutory access exceptions from confidential authority access. These additions do not establish DAC8-specific causation.
 
@@ -131,6 +141,7 @@ Article 2 ECHR should not be presented as a standalone facial-invalidity theory 
 
 ## See Also
 
+- [[leaked-data-scams-and-targeted-attacks|Leaked Data, Financial Scams and Targeted Attacks]] ([Leaked Data, Financial Scams and Targeted Attacks](leaked-data-scams-and-targeted-attacks.md)) — actual exploitation stages and explicit attribution limits.
 - [[austrian-crypto-crime-and-targeting-evidence|Austrian Crypto-Crime and Targeting Evidence]] ([Austrian Crypto-Crime and Targeting Evidence](austrian-crypto-crime-and-targeting-evidence.md)) — Austrian cases, selection routes and the FinanzOnline phishing pretext.
 - [[bearer-asset-irreversibility-and-leak-consequences|Bearer-Asset Irreversibility and Leak Consequences]] ([Bearer-Asset Irreversibility and Leak Consequences](bearer-asset-irreversibility-and-leak-consequences.md)) — loss allocation, leak typology by data content and French official recognition.
 - [[transaction-data-wealth-inference|Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8]] ([Vermögensschätzung aus Transaktionsdaten als Analogie für DAC8](../theses/transaction-data-wealth-inference.md)) — why ranking by apparent activity needs no accurate wealth estimate.
@@ -144,6 +155,9 @@ Article 2 ECHR should not be presented as a standalone facial-invalidity theory 
 
 ## Sources
 
+- [French annual-report observations](../../raw/articles/2026-10-15-scam-france-breach-physical-harm.md)
+- [Tangeman stolen-database attribution](../../raw/articles/2026-10-15-scam-tangeman-stolen-databases.md)
+- [Tangeman sentencing update](../../raw/articles/2026-10-15-scam-tangeman-sentencing.md)
 - [ECtHR Kurt v Austria](../../raw/articles/2026-09-04-ecthr-kurt-austria-physical-risk-threshold.md)
 - [Ordekian et al., Investigating Wrench Attacks](../../raw/papers/2026-09-04-ordekian-wrench-attacks-aft-2024.md)
 - [CJEU C-340/21](../../raw/articles/2026-09-04-cjeu-c340-21-tax-authority-breach-security.md)

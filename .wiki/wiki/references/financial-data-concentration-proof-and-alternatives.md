@@ -13,8 +13,11 @@ sources:
   - raw/articles/2026-09-30-finprofile-ftc-blackbaud-retention-complaint.md
   - raw/articles/2026-09-30-finprofile-ftc-blackbaud-final-controls.md
   - raw/articles/2026-09-30-finprofile-coinbase-partial-deletion-policy.md
+  - raw/articles/2026-10-15-scam-trezor-shipmonk-retention.md
+  - raw/articles/2026-10-17-scam-edpb-financial-centralisation.md
+  - raw/articles/2026-10-17-scam-nist-sanitisation-validation.md
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-17
 verified: 2026-09-30
 volatility: hot
 confidence: medium
@@ -44,6 +47,10 @@ The FTC Blackbaud complaint alleges that unnecessary retained backups and weak s
 
 **Inference:** mandatory preservation does not logically require unchanged support access, every operational copy or indefinite retention. A segregated archive is a concrete candidate for comparison, not yet proof of equivalent statutory-service performance.
 
+### Retention-effectiveness supplement checked 15 October 2026
+
+The [ShipMonk incident update](../../raw/articles/2026-10-15-scam-trezor-shipmonk-retention.md) reports that historical customer orders survived despite written deletion confirmations. The lesson is to test actual supplier-copy removal and access, not to infer safety from a policy or to conclude that every deletion architecture fails. The [[leaked-data-scams-and-targeted-attacks|expanded exploitation evidence]] ([expanded exploitation evidence](leaked-data-scams-and-targeted-attacks.md)) separately demonstrates why contact/relationship records can remain useful for phishing and repeat fraud without revealing keys or exact net wealth. The older legal, utility and implementation findings retain their original verification scope.
+
 ## Linkage metrics must identify their denominator
 
 The [UTXO](bitcoin-utxo-observation-and-attribution.md), [account/contract](account-contract-chain-data-evidence.md) and [off-chain/privacy](offchain-private-ledger-observation-limits.md) supplements now give the protocol-level foundation. A leaked identity anchor or actually held viewing/derivation material can expand historical and later observation without a new provider query. This is distinct from direct spend authority, ownership and complete net wealth. Deleted origin records do not withdraw already stolen anchor copies. Alternative comparisons should inventory these fields and derived information, not just database row counts.
@@ -58,12 +65,20 @@ The Visa PET prototype protects additional bank flags, while the hub already hol
 
 For the proposed external opinion, compare actual tax tasks and necessary records under identical workloads. Measure model utility, false assignments, accessible customer reach, copies, authorised retrieval latency and archive availability. Security improvements and tax equivalence are separate endpoints.
 
+### Additional control and concentration evidence checked 17 October 2026
+
+[EDPB Statement2/2024](../../raw/articles/2026-10-17-scam-edpb-financial-centralisation.md) explicitly identifies greater interference and security risk in a proposed central financial antifraud platform than in distributed PSP processing. This is an institutional proposal-stage position, not a DAC8 holding, a current PSR-status check or proof of equal decentralised utility. It supports demanding a concrete architecture comparison rather than assuming concentration is necessary.
+
+[NIST SP800-88r2](../../raw/articles/2026-10-17-scam-nist-sanitisation-validation.md) separately distinguishes sanitisation verification and validation. Media/key sanitisation does not prove removal of every application export, supplier record or restored backup. The [[financial-data-threat-model-and-control-evaluation|integrated control assessment]] ([integrated control assessment](financial-data-threat-model-and-control-evaluation.md)) turns these distinctions into copy, role and matched-workload tests. These additions do not refresh the earlier Austrian legal/production-use findings.
+
 ## Open proof gaps and access
 
 Public sources do not supply Austria's crypto/CRS model-input inventory, copy-specific retention, role/export matrix or time-window utility comparison. An information gap is not a defective-control finding. Own-data requests, requests for existing redacted records and supervisory access have different scopes and exceptions; consult the access reference before making requests.
 
 ## See Also
 
+- [[financial-data-threat-model-and-control-evaluation|Financial-Data Threat Model and Control Evaluation]] ([Financial-Data Threat Model and Control Evaluation](financial-data-threat-model-and-control-evaluation.md)) — security boundaries, rolling retention and falsifiable alternatives.
+- [[leaked-data-scams-and-targeted-attacks|Leaked Data, Financial Scams and Targeted Attacks]] ([Leaked Data, Financial Scams and Targeted Attacks](leaked-data-scams-and-targeted-attacks.md)) — reused targeting information, provider exposure and actual versus promised retention controls.
 - [Austrian tax risk scoring and financial-data use](austrian-tax-risk-scoring-and-financial-data-use.md)
 - [Provider record architecture](krypto-mpfg-provider-record-architecture.md)
 - [Identity-to-public-ledger linkage](identity-to-public-ledger-linkage-evidence.md)
@@ -72,5 +87,7 @@ Public sources do not supply Austria's crypto/CRS model-input inventory, copy-sp
 - [Financial-data breach evidence](financial-data-breach-and-security-authorities.md)
 
 ## Sources
+
+- [ShipMonk historical records and deletion assurances](../../raw/articles/2026-10-15-scam-trezor-shipmonk-retention.md)
 
 The source records in the frontmatter preserve individual dates, PDF locators, mechanical credibility scores and limits. Older digests were not overwritten; the new Ghost Clusters record is explicitly a supplement.

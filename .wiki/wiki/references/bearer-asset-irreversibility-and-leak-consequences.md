@@ -31,19 +31,22 @@ sources:
   - raw/articles/2026-09-29-payrisk-tether-freeze-disclosure-2026.md
   - raw/articles/2026-09-29-payrisk-commercial-theft-recovery-figures.md
   - raw/articles/2026-09-29-payrisk-cjeu-veracash-c665-23.md
+  - raw/articles/2026-10-15-scam-france-breach-physical-harm.md
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-15
 tags: [bearer-asset, self-custody, irreversibility, data-breach, kyc, physical-security, psd2, mica, france]
 aliases: [Bearer-asset risk, crypto theft irreversibility, KYC leak consequences]
 confidence: medium
 volatility: hot
 verified: 2026-09-29
-summary: "EU law gives bank-payment victims a statutory refund for unauthorised payments but gives self-custody holders no refund or recall right; KYC and intermediary leaks have joined identity, address and crypto status, balances or wallet addresses, and France treats address exposure as a safety emergency, but no source attributes a physical attack to a specific leak or involves DAC8 data."
+summary: "Loss-allocation and leak-content evidence distinguish compromised surrounding identity data from key control. French operational observations report breach-related physical harm, without attributing an assault to the specific Ledger, Kroll or Fractal ID leaks or establishing DAC8 involvement."
 ---
 
 # Bearer-Asset Irreversibility and Leak Consequences
 
 Self-custodied crypto-assets behave like bearer assets: control of the private key is control of the asset, and there is no account provider that can reverse a transfer. This article sets out how EU law allocates losses, which leaks have joined identity with crypto status, and what the evidence does and does not show about the step from leak to harm.
+
+The 15 October addition concerns incident attribution only. The legal and procedural material below retains its September verification scope and is not represented as a refreshed current-law review.
 
 ## Legal loss allocation
 
@@ -94,7 +97,7 @@ Two patterns matter. First, outsourced KYC and claims intermediaries concentrate
 - **French official counts.** The Interior Minister reported 77 cases of sequestration, abduction or extortion, or attempts, in the first half of 2026, against 45 in all of 2025; these figures are media-reported. A deputy's written question asserted about sixty in 2025. The counts use different definitions.
 - **Victim research.** The Abramova and Böhme survey of Ledger-leak victims (already in the wiki) reports physical-safety concern and two reported physical threats, not verified assaults.
 
-No source in this set attributes a completed physical attack to a specific leak. The Waltio police attribution concerns target selection and remains the strongest leak-to-targeting evidence.
+The earlier Ledger, Kroll and Fractal ID records do not attribute a completed physical attack to their respective leaks. The [French cyber-assistance annual report](../../raw/articles/2026-10-15-scam-france-breach-physical-harm.md) now adds aggregated operational observations of breach exploitation escalating to physical harm. That is not a named-provider causal judgment. The [[leaked-data-scams-and-targeted-attacks|expanded exploitation evidence]] ([expanded exploitation evidence](leaked-data-scams-and-targeted-attacks.md)) also adds explicit stolen-database targeting in the existing Tangeman/Ferro enterprise and direct phishing/repeat-fraud evidence.
 
 ## Official recognition in France
 
@@ -113,7 +116,7 @@ These are official government positions, not judicial findings or audited statis
 - DAC8 reports are confidential, not published. The French register decree concerns public data and shows available minimisation measures, not equal risk.
 - DAC8 annual reports contain identity, address and annual transaction values but no wallet address. A Fractal-type anchor arises only from provider-held MiCA or TFR records.
 - The strongest transferable points are three. A leak of identity plus address plus crypto status or value serves target selection and locating. Self-custody removes the refund backstop that limits credential-theft losses in banking. And concentration at intermediaries has repeatedly failed through a single credential.
-- The step from leak to attack remains unproved for any specific dataset. See [[dac8-physical-risk-causation|DAC8 Physical-Risk Causation and Evidence]] ([DAC8 Physical-Risk Causation and Evidence](dac8-physical-risk-causation.md)) for the causal ladder.
+- The new operational observations are not a case-level finding that a specific DAC8 or named provider dataset caused an assault. See [[dac8-physical-risk-causation|DAC8 Physical-Risk Causation and Evidence]] ([DAC8 Physical-Risk Causation and Evidence](dac8-physical-risk-causation.md)) for the causal ladder.
 
 ## Claims to exclude
 
@@ -128,6 +131,7 @@ These are official government positions, not judicial findings or audited statis
 
 ## See Also
 
+- [[leaked-data-scams-and-targeted-attacks|Leaked Data, Financial Scams and Targeted Attacks]] ([Leaked Data, Financial Scams and Targeted Attacks](leaked-data-scams-and-targeted-attacks.md)) — actual phishing, repeat harm and updated physical-attribution boundaries.
 - [[austrian-crypto-crime-and-targeting-evidence|Austrian Crypto-Crime and Targeting Evidence]] ([Austrian Crypto-Crime and Targeting Evidence](austrian-crypto-crime-and-targeting-evidence.md)) — Austrian cases, OGH loss allocation and tracing examples.
 - [[dac8-physical-risk-causation|DAC8 Physical-Risk Causation and Evidence]] ([DAC8 Physical-Risk Causation and Evidence](dac8-physical-risk-causation.md)) — causal ladder and proof requirements.
 - [[financial-data-breach-and-security-authorities|Financial-Data Breach and Security Authorities]] ([Financial-Data Breach and Security Authorities](financial-data-breach-and-security-authorities.md)) — authority and provider breach layers.
@@ -136,6 +140,7 @@ These are official government positions, not judicial findings or audited statis
 - [[aml-kyc-effectiveness-evidence|AML and KYC Effectiveness Evidence]] ([AML and KYC Effectiveness Evidence](aml-kyc-effectiveness-evidence.md)) — KYC data collection whose concentration these leaks expose.
 
 ## Sources
+- [French annual-report physical-harm observations](../../raw/articles/2026-10-15-scam-france-breach-physical-harm.md)
 - [CJEU C-665/23 Veracash](../../raw/articles/2026-09-29-payrisk-cjeu-veracash-c665-23.md)
 
 - [OGH 7 Ob 95/24g](../../raw/articles/2026-09-29-payrisk-ogh-7ob95-24g-authorised-phishing.md)

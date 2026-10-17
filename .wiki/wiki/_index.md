@@ -2,7 +2,7 @@
 
 > Synthesized, source-backed articles.
 
-Last updated: 2026-09-30
+Last updated: 2026-10-17
 
 ## Contents
 
@@ -17,6 +17,14 @@ Last updated: 2026-09-30
 - [Theses](theses/_index.md)
 
 ## Recent Changes
+
+- 2026-10-17 (public-privacy round): Added the [privacy and surveillance argument bank](topics/privacy-financial-privacy-and-surveillance.md), [financial-autonomy evidence](references/financial-privacy-and-everyday-autonomy.md) and [surveillance/participation evidence](references/surveillance-autonomy-and-democratic-safeguards.md). Eleven accessible arguments, eight objections and English/German drafts remain distinct from measured message effectiveness and DAC8-specific legal proof. Five older references gain reciprocal connections without refreshing their unrelated historical verification dates.
+
+- 2026-10-17 (composition/control round): Added [financial-data composition and attribution error](references/financial-data-composition-and-attribution-error.md) and [provider control boundaries and observed failures](references/provider-control-boundaries-and-observed-failures.md). Expanded the integrated technical assessment and connected criminal, profiling, insider and empirical references. Three synthetic counterexamples, detailed falsification tests and effective-reach definitions are distinct from real-system or population measurements.
+
+- 2026-10-17: Added [criminal data markets and repeat victimisation](references/criminal-data-markets-and-repeat-victimisation.md), [phishing causal evidence and measurement](references/phishing-causal-evidence-and-measurement.md) and an integrated [financial-data threat model and control evaluation](references/financial-data-threat-model-and-control-evaluation.md). Updated the incident map, concentration reference and targeted damages/prevention supplement with reciprocal connections. Preserves uncertainty, adverse evidence and historical verification scopes; no production-system audit or publication.
+
+- 2026-10-15: Added [Leaked Data, Financial Scams and Targeted Attacks](references/leaked-data-scams-and-targeted-attacks.md), synthesising sixteen additional primary/first-party records. Connected the breach, physical-risk, bearer-asset and data-concentration references; retained their historical legal-verification scopes. Actual exploitation, failed attempts, financial/accounting outcomes and aggregate physical-harm observations remain separate.
 
 - 2026-09-30: Added [Bitcoin UTXO observation and attribution](references/bitcoin-utxo-observation-and-attribution.md), [account/contract chain-data evidence](references/account-contract-chain-data-evidence.md) and [off-chain/private-ledger observation limits](references/offchain-private-ledger-observation-limits.md). Updated the linkage, account-model and financial-data-concentration syntheses; current specifications are not empirical ownership ground truth or proof of fleet-wide implementation.
 - 2026-09-30: Added [financial-data concentration proof and alternatives](references/financial-data-concentration-proof-and-alternatives.md), connected to the Austrian actual-use and ledger-linkage references. Supports counsel's argumentation aid, not a completed independent technical opinion.
