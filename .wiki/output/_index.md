@@ -4,6 +4,7 @@
 
 | Output | Type | Date |
 |--------|------|------|
+| [Privacy in Everyday Life: German and English Campaign Copy](report-privacy-campaign-copy-2026-10-17.md) | report, campaign draft, DE/EN | 2026-10-17 |
 | [AML, Crypto, DAC8, and Fundamental-Rights Research Report](research-report-aml-crypto-dac8-rights-2026-08-27.md) | report |  |
 | [Bitcoin als Zahlungsmittel: Identitätszuordnung und Zahlungsprofile](research-report-bitcoin-zahlungsprofile-2026-09-20.md) | report | 2026-09-20 |
 | [DAC8 VfGH-to-CJEU Research Report](research-report-dac8-vfgh-cjeu-2026-08-27.md) | report |  |

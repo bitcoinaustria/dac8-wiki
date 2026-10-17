@@ -10,7 +10,7 @@ Last updated: 2026-10-17
 - Articles: 77 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
-- Outputs: 21 reports and 6 PDF exports
+- Outputs: 22 reports and 6 PDF exports
 - Last compiled: 2026-10-17
 - Last lint: 2026-10-17
 
@@ -24,6 +24,8 @@ Last updated: 2026-10-17
 - [Outputs](output/_index.md)
 
 ## Recent Changes
+
+- 2026-10-17 (campaign draft): Added [parallel German and English campaign copy](output/report-privacy-campaign-copy-2026-10-17.md) with an opening, six everyday arguments, concrete demands, three FAQ replies, a short version and a bounded DAC8 bridge. An editorial evidence map separates source-backed mechanisms, illustrations and policy positions. Provider and contractor leaks remain a standalone argument. No website deployment or submodule-pin change.
 
 - 2026-10-17 (public-privacy round): Added a broader [privacy and surveillance argument bank](wiki/topics/privacy-financial-privacy-and-surveillance.md), with eleven everyday argument blocks, eight substantive objection replies and original English/German public drafts. Two evidence references cover [financial autonomy](wiki/references/financial-privacy-and-everyday-autonomy.md) and [surveillance/participation](wiki/references/surveillance-autonomy-and-democratic-safeguards.md). Nineteen source records represent seventeen additional publications plus two controlling qualifications, not nineteen independent studies. Preserves mixed experimental outcomes, normative/empirical distinctions, US/comparative-law boundaries and legitimate investigative interests. This user-requested layer goes beyond DAC8 without supplying a DAC8 causal finding, Austrian prevalence or a tested persuasion ranking. Prior outputs and website/pin unchanged.
 
