@@ -15,8 +15,9 @@ sources:
   - raw/articles/2026-08-30-dac8-impact-assessment-evidence-and-options.md
   - raw/articles/2026-09-04-eu-delegated-regulation-2025-1140-mica-records.md
   - raw/articles/2026-09-04-oecd-carf-external-wallet-address-retention.md
+  - raw/articles/2026-10-19-austrian-crypto-tax-boundaries.md
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-10-19
 tags: [dac8, austria, krypto-mpfg, reporting, transaction-granularity, xml, carf]
 aliases: [DAC8 every transaction, DAC8 transaction reporting]
 confidence: high
@@ -70,6 +71,12 @@ The absence of addresses and hashes from the DAC8 report does not mean they are 
 
 These layers make provider discovery important. They do not establish routine transmission, tax-authority access or lawful fusion. Each address-bearing record needs its own binding basis, purpose, period, controller and access path.
 
+## Reportability and income-tax liability: checked 19 October 2026
+
+Reporting and taxable realization are distinct tests. The [BMF/statutory supplement](../../raw/articles/2026-10-19-austrian-crypto-tax-boundaries.md) confirms that mere holding is not a disposal; moving assets between one's own wallets is not itself a sale. Associated fees and income events need separate analysis. The March 2022 regime generally covers acquisitions after February 2021, not all historical holdings.
+
+Non-realization alone does not establish that transfer data have no legitimate reconciliation value. Necessity and less intrusive alternatives still require evidence. This tax-only supplement does not refresh the September reporting-law or technical-specification review above.
+
 ## Litigation consequence
 
 The accurate privacy premise is broader than the transmitted XML but narrower than a claim of routine itemised reporting:
@@ -90,6 +97,7 @@ The strongest proportionality analysis should therefore examine both mandatory a
 
 ## Sources
 
+- [BMF and EStG: realization and transitional dates](../../raw/articles/2026-10-19-austrian-crypto-tax-boundaries.md)
 - [Krypto-MPfG, sections 6 and 18-21](../../../legal-docs/core/at-bgbl-i-96-2025-krypto-mpfg.pdf)
 - [Krypto-MPfG explanatory materials, RV 306](../../../legal-docs/supporting/at-krypto-mpfg-erlaeuterungen-rv-306.pdf)
 - [Krypto-MPfG-DV, section 4](../../../legal-docs/core/at-bgbl-ii-331-2025-krypto-mpfg-dv.pdf)

@@ -2,11 +2,11 @@
 
 > Immutable source material and provenance.
 
-Last updated: 2026-10-17
+Last updated: 2026-10-19
 
 ## Contents
 
-702 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact.
+706 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact. The [Ledger postal-campaign supplement](articles/2026-10-19-ledger-postal-phishing-boundary.md) controls the unverified address-provenance inference in the historical 2020-leak digest.
 
 ## Categories
 
@@ -17,6 +17,8 @@ Last updated: 2026-10-17
 - [Data](data/_index.md)
 
 ## Recent Changes
+
+- 2026-10-19: Added two bounded incident accounts, a Ledger postal-provenance qualification and Austrian tax-law distinctions. The Vaires report was accessible through original indexed text only; GMP does not establish low holdings. These records are not evidence of DAC8 leak causation. Correspondence and private artifacts are excluded.
 
 - 2026-10-17 (public-privacy round): Added seventeen publications on monitoring cues, actual financial participation, privacy frameworks, association, political misuse, economic control, consumer profiling and payment choice. Two companion records control [FTC intake-score arithmetic](articles/2026-10-17-privacy-ftc-broker-score-supplement.md) and [FCA loan-description scope](articles/2026-10-17-privacy-fca-loan-qualification.md). Read them with the original immutable digests. Companions are not independent corroboration; unavailable full texts were not treated as verified final findings.
 

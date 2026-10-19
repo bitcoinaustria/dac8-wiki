@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-10-17
+Last updated: 2026-10-19
 
 ## Statistics
 
-- Sources: 702 raw source records
+- Sources: 706 raw source records
 - Articles: 77 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
 - Outputs: 22 reports and 6 PDF exports
-- Last compiled: 2026-10-17
-- Last lint: 2026-10-17
+- Last compiled: 2026-10-19
+- Last lint: 2026-10-19
 
 ## Quick Navigation
 
@@ -24,6 +24,8 @@ Last updated: 2026-10-17
 - [Outputs](output/_index.md)
 
 ## Recent Changes
+
+- 2026-10-19: Added four public-source records on [mistaken targeting and delayed payment](wiki/references/dac8-physical-risk-causation.md), [Ledger postal-campaign provenance](wiki/references/source-verification-corrections.md) and [Austrian tax/reporting distinctions](wiki/references/dac8-transaction-granularity-and-reporting-layers.md). Preserves partial-access limits, other stolen property, substantial holdings in the GMP case and unproved leak-to-attack attribution. Older legal verification dates remain unchanged. Correspondence, press artifacts, private notes and website/gitlink changes are excluded.
 
 - 2026-10-17 (campaign draft): Added [parallel German and English campaign copy](output/report-privacy-campaign-copy-2026-10-17.md) with an opening, six everyday arguments, concrete demands, three FAQ replies, a short version and a bounded DAC8 bridge. An editorial evidence map separates source-backed mechanisms, illustrations and policy positions. Provider and contractor leaks remain a standalone argument. No website deployment or submodule-pin change.
 

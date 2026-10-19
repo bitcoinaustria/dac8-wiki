@@ -36,8 +36,11 @@ sources:
   - raw/articles/2026-10-15-scam-france-breach-physical-harm.md
   - raw/articles/2026-10-15-scam-tangeman-stolen-databases.md
   - raw/articles/2026-10-15-scam-tangeman-sentencing.md
+  - raw/articles/2026-10-19-vaires-mistaken-targeting.md
+  - raw/articles/2026-10-19-gmp-repeat-crypto-coercion.md
+  - raw/repos/2026-09-29-bearer-lopp-physical-attacks-dataset.md
 created: 2026-09-04
-updated: 2026-10-15
+updated: 2026-10-19
 tags: [dac8, krypto-mpfg, physical-security, causation, blockchain, evidence]
 aliases: [DAC8 wrench-attack risk, crypto tax data physical risk]
 confidence: medium
@@ -51,6 +54,8 @@ summary: "Causal-chain and evidence-gate analysis treating physical harm as a pr
 > Physical coercion against crypto holders is an established threat class. French police attribute criminal target selection to leaked Waltio data; the national cyber-assistance service also reports breach exploitation escalating to physical harm in aggregate operational observations. These are stronger than hypothetical warnings, but not proof that a DAC8 dataset caused an attack. The legally usable point remains a concrete severity and security factor, not a proven causal consequence of the statute.
 
 The 15 October supplement below adds French operational observations and the same-case Tangeman evidence. Earlier incident entries retain their stated scope; legal-authority analysis retains its 4 September verification scope.
+
+The 19 October supplement checks two additional incident accounts and rechecks the existing Waltio attribution. It does not refresh older proceedings or legal authorities.
 
 ## What the reporting layer establishes
 
@@ -94,6 +99,17 @@ Ordekian and co-authors identified public exposure, personal proximity, investig
 Target selection and locating a victim do not require an exposed wallet address or private key. A later coerced transfer is a separate attack stage. Linking identity to public-ledger history, by contrast, requires an additional verified anchor; annual DAC8 aggregates alone do not establish it. Fraudulent impersonation, burglary and coercion should not be collapsed into one causal claim.
 
 An offender's mistaken belief about accessible wealth can create danger even when the underlying data do not prove current holdings. This is not evidence that all reported users face equal risk, nor a measured incremental effect of DAC8. Incident counts without consistent definitions, exposed-population denominators and alternative explanations cannot provide that estimate.
+
+### Mistaken attribution and unavailable payment: checked 19 October 2026
+
+| Account | Supported distinction | Boundary |
+|---|---|---|
+| [Vaires-sur-Marne, March 2026](../../raw/articles/2026-10-19-vaires-mistaken-targeting.md) | Apparently mistaken crypto targeting still led to restraint and threats against a family; demanded crypto was not obtained. | Original reporting, partly accessible through indexed text; other property was stolen. No identified leak or verified zero holdings. |
+| [Greater Manchester, 2023 offences; January 2025 sentences](../../raw/articles/2026-10-19-gmp-repeat-crypto-coercion.md) | Inability to pay immediately did not prevent assault and detention. | Substantial previous payments and holdings; neither a negligible-wealth case nor a proven breach-to-attack chain. |
+
+The existing [Waltio police account](../../raw/articles/2026-09-19-gendarmerie-waltio-target-selection.md), rechecked against the original, expressly includes errors about actual holdings. Together these accounts support a serious but bounded proposition: **danger can arise from an offender's belief, not only from accurate knowledge of accessible assets or a successful theft.** Correcting a wealth inference after exposure cannot be assumed to avert coercion. This is a security inference, not a measured intervention effect.
+
+The [Lopp list](../../raw/repos/2026-09-29-bearer-lopp-physical-attacks-dataset.md) is a case-discovery corpus, not an independent corroborating source for cases it links or a representative risk sample. A website reproducing that list adds no independent incident. Its historical snapshot is not a current count; failed theft, no immediate payment and no holdings must not be treated as synonyms.
 
 ## Institutional recognition and limits
 
@@ -155,6 +171,9 @@ Article 2 ECHR should not be presented as a standalone facial-invalidity theory 
 
 ## Sources
 
+- [Vaires-sur-Marne: mistaken-targeting report and access limit](../../raw/articles/2026-10-19-vaires-mistaken-targeting.md)
+- [GMP: repeat coercion and delayed payment](../../raw/articles/2026-10-19-gmp-repeat-crypto-coercion.md)
+- [Lopp: historical discovery-corpus snapshot](../../raw/repos/2026-09-29-bearer-lopp-physical-attacks-dataset.md)
 - [French annual-report observations](../../raw/articles/2026-10-15-scam-france-breach-physical-harm.md)
 - [Tangeman stolen-database attribution](../../raw/articles/2026-10-15-scam-tangeman-stolen-databases.md)
 - [Tangeman sentencing update](../../raw/articles/2026-10-15-scam-tangeman-sentencing.md)

@@ -18,8 +18,9 @@ sources:
   - raw/articles/2026-10-15-scam-france-breach-physical-harm.md
   - raw/articles/2026-10-15-scam-tangeman-stolen-databases.md
   - raw/articles/2026-10-15-scam-tangeman-sentencing.md
+  - raw/articles/2026-10-19-ledger-postal-phishing-boundary.md
 created: 2026-10-15
-updated: 2026-10-17
+updated: 2026-10-19
 verified: 2026-10-15
 tags: [data-breach, financial-fraud, phishing, repeat-targeting, physical-security, evidence-limits]
 aliases: [Leak-enabled phishing, Recovery scam evidence, Financial victim lists]
@@ -62,6 +63,8 @@ The Trezor support case is particularly useful adverse evidence: a real intrusio
 
 Brevo adds an important distinction: an attacker used a compromised legitimate communication service as well as exporting a contact list. That access could contribute credibility independently of personalisation. The record does not isolate how much of the campaign's engagement was caused by leaked data rather than the sending channel.
 
+The [Ledger postal-campaign check of 19 October](../../raw/articles/2026-10-19-ledger-postal-phishing-boundary.md) confirms physical letters, not the source of each recipient address. Attribution to the 2020 leak is not established by that page.
+
 ### Coinbase: accounting is not a theft census
 
 The [June 2026 Form 10-Q](../../raw/articles/2026-10-15-scam-coinbase-costs-10q.md) reports USD 306.654 million of net incident losses in Q2/H1 2025 and later net recoveries of USD 33.854 million in Q2 2026 and USD 25.244 million in H1 2026. The measure mixes reimbursements, direct legal costs and qualifying rewards if any. It confirms a realised financial burden but is not a customer-theft total or victim count. Quarter and half-year figures overlap; losses and later recoveries must both be disclosed.
@@ -95,6 +98,8 @@ The [French crypto-sector notice](../../raw/articles/2026-10-15-scam-france-cryp
 In the [Tangeman plea announcement](../../raw/articles/2026-10-15-scam-tangeman-stolen-databases.md), DOJ expressly attributes crypto-theft target selection to stolen databases in an enterprise that also included residential burglars. The [sentencing update](../../raw/articles/2026-10-15-scam-tangeman-sentencing.md) records seventy months' imprisonment. The database provider, fields and route for each burglary remain unspecified. This is the same case 24cr417 as the existing Ferro evidence, not another criminal enterprise to add to incident counts.
 
 Taken together with the earlier Waltio police attribution, this rules out the blanket statement that official evidence concerns only speculative exploitation. It does not establish that a specified Ledger, Kroll or Fractal ID leak caused a physical assault, that DAC8 data were involved, or that an Austrian controller's safeguards failed.
+
+The [19 October mistaken-targeting supplement](dac8-physical-risk-causation.md#mistaken-attribution-and-unavailable-payment-checked-19-october-2026) adds incident evidence on offender belief versus accessible assets. It distinguishes mistaken identity, delayed payment and actual holdings rather than equating them with unsuccessful theft.
 
 ## Provider concentration and retention are independent risk strands
 
@@ -163,6 +168,7 @@ The AMF recovery-scam survey was not ingested: full primary access returned a ma
 
 ## Sources
 
+- [Ledger postal campaigns: source-of-address boundary](../../raw/articles/2026-10-19-ledger-postal-phishing-boundary.md)
 - [Trezor/Brevo campaign and exported emails](../../raw/articles/2026-10-15-scam-trezor-brevo-phishing.md)
 - [Trezor/ShipMonk historical retention](../../raw/articles/2026-10-15-scam-trezor-shipmonk-retention.md)
 - [Trezor support contact and no-loss findings](../../raw/articles/2026-10-15-scam-trezor-support-2024.md)

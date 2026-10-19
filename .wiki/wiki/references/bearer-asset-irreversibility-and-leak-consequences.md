@@ -32,8 +32,9 @@ sources:
   - raw/articles/2026-09-29-payrisk-commercial-theft-recovery-figures.md
   - raw/articles/2026-09-29-payrisk-cjeu-veracash-c665-23.md
   - raw/articles/2026-10-15-scam-france-breach-physical-harm.md
+  - raw/articles/2026-10-19-ledger-postal-phishing-boundary.md
 created: 2026-09-29
-updated: 2026-10-15
+updated: 2026-10-19
 tags: [bearer-asset, self-custody, irreversibility, data-breach, kyc, physical-security, psd2, mica, france]
 aliases: [Bearer-asset risk, crypto theft irreversibility, KYC leak consequences]
 confidence: medium
@@ -47,6 +48,8 @@ summary: "Loss-allocation and leak-content evidence distinguish compromised surr
 Self-custodied crypto-assets behave like bearer assets: control of the private key is control of the asset, and there is no account provider that can reverse a transfer. This article sets out how EU law allocates losses, which leaks have joined identity with crypto status, and what the evidence does and does not show about the step from leak to harm.
 
 The 15 October addition concerns incident attribution only. The legal and procedural material below retains its September verification scope and is not represented as a refreshed current-law review.
+
+The 19 October correction concerns postal-campaign provenance only; it does not refresh older legal or incident statuses.
 
 ## Legal loss allocation
 
@@ -81,7 +84,7 @@ What a leak contains determines which attack stage it serves.
 
 | Leak | Data joined with identity | Stage served | Source status |
 |---|---|---|---|
-| Ledger, 2020 | customer status (bought a hardware wallet); about 272,000 records with name, postal address and phone; about one million emails | target selection by crypto-holder status; locating; phishing by email, SMS and postal letters seeking the recovery phrase | company disclosure; Ledger says there is "no way to make any correlation" between the data and wallet funds |
+| Ledger, 2020 | customer status (bought a hardware wallet); about 272,000 records with name, postal address and phone; about one million emails | crypto-customer targeting and locating; follow-on phishing | company says the leaked data do not reveal wallet funds; current postal campaigns do not establish 2020-leak provenance |
 | Waltio, 2026 (already in the wiki) | email, annual gain or loss, year-end balances | target selection by apparent wealth; police attribute target selection to the leak | company disclosure plus Gendarmerie account |
 | Kroll, 2023 (FTX and two other crypto bankruptcies) | name, address, email, phone, claim amount, account ID, "coin holdings and balances" | target selection by balance; locating; tailored fraud | breach notices in a court-supervised case; balance-tailored phishing is secondary reporting |
 | Coinbase, 2025 (already in the wiki) | identity, address, ID images, balance snapshots, transaction history | impersonation fraud acknowledged by the company | company disclosure and Form 8-K |
@@ -140,6 +143,7 @@ These are official government positions, not judicial findings or audited statis
 - [[aml-kyc-effectiveness-evidence|AML and KYC Effectiveness Evidence]] ([AML and KYC Effectiveness Evidence](aml-kyc-effectiveness-evidence.md)) — KYC data collection whose concentration these leaks expose.
 
 ## Sources
+- [Ledger postal-campaign provenance qualification, October 2026](../../raw/articles/2026-10-19-ledger-postal-phishing-boundary.md)
 - [French annual-report physical-harm observations](../../raw/articles/2026-10-15-scam-france-breach-physical-harm.md)
 - [CJEU C-665/23 Veracash](../../raw/articles/2026-09-29-payrisk-cjeu-veracash-c665-23.md)
 

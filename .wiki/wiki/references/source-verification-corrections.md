@@ -13,8 +13,9 @@ sources:
   - raw/notes/2026-09-21-claimant-evidence-corrections.md
   - raw/articles/2026-09-30-dac-scope-primary-law-corrections.md
   - raw/articles/2026-09-30-at-euahg-purpose-implementation.md
+  - raw/articles/2026-10-19-ledger-postal-phishing-boundary.md
 created: 2026-09-04
-updated: 2026-09-30
+updated: 2026-10-19
 verified: 2026-09-04
 tags: [source-correction, provenance, dsg, empirical-evidence]
 confidence: high
@@ -47,6 +48,10 @@ The [primary-law scope supplement](../../raw/articles/2026-09-30-dac-scope-prima
 | Sanctions use without consent establishes unrestricted Austrian access. | The EU Article 215 exception is supported; the full Austrian authorization remains unresolved. Use the [national-text comparison](../../raw/articles/2026-09-30-at-euahg-purpose-implementation.md), not an inferred transposition defect. |
 
 Current synthesis is in [[dac-history-timeline|EU Tax-Information Exchange Timeline]] ([EU Tax-Information Exchange Timeline](dac-history-timeline.md)). The older DSG/empirical corrections above were not comprehensively re-verified in this history check; their original verification scope is preserved.
+
+## Ledger postal-campaign provenance checked 19 October 2026
+
+The [historical Ledger digest](../../raw/articles/2026-09-29-bearer-ledger-2020-leak-ceo-disclosure.md) overstates the proven postal-use link. The [controlling supplement](../../raw/articles/2026-10-19-ledger-postal-phishing-boundary.md) distinguishes documented letters from unverified recipient-address provenance. This targeted check does not refresh the older corrections above.
 
 ## See Also
 
