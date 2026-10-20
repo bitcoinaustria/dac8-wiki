@@ -724,3 +724,5 @@
 ## [2026-10-20] output | report on website arguments page → output/report-website-arguments-claim-map-2026-10-20.md
 
 ## [2026-10-20] lint | local command after restoring the hand-curated output index that the autofix had regenerated: 0 critical, 22 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-10-20] ingest | Endbesteuerungsgesetz 1993 → raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md; claim map updated for the tax objection and the pseudonym reason

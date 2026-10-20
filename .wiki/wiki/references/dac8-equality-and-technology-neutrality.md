@@ -16,6 +16,7 @@ sources:
   - raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md
   - raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md
   - raw/articles/2026-10-20-austria-crypto-kest-withholding-scope.md
+  - raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md
   - raw/articles/2026-10-20-krypto-mpfg-wfa-revenue-estimate.md
   - raw/articles/2026-09-29-atrisk-ab-1948-crypto-tax-revenue-data.md
 created: 2026-09-04
@@ -58,6 +59,8 @@ The factual inquiry must identify the exact records, applicable tax limitation a
 ## Withholding already collects the tax at domestic providers: checked 20 October 2026
 
 Since income accruing after 31 December 2023, Austrian crypto-asset service providers and domestic branches of foreign providers must withhold KESt on their customers' crypto income (§ 95 Abs. 2 Z 3 and § 124b Z 384 lit. d EStG; [record](../../raw/articles/2026-10-20-austria-crypto-kest-withholding-scope.md)). Withholding generally settles the income tax. The BMF states that crypto income is outside limited tax liability, so withholding "kann … unterbleiben" where the provider knows the customer is not unlimited taxable. Crypto-to-crypto swaps are not realisations (§ 27b Abs. 3). In 2024, crypto KESt withheld was EUR 33,839,499.66 ([1948/AB](../../raw/articles/2026-09-29-atrisk-ab-1948-crypto-tax-revenue-data.md), p. 2).
+
+The crypto withholding follows Austria's older final-taxation model. The [Endbesteuerungsgesetz](../../raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md) (BGBl. Nr. 11/1993) requires federal law to settle income tax on listed capital income, including bank interest, by the KESt deduction. Together with the GMSG's exclusion of domestic residents from automatic account exchange, this supports a strategic inference: Austria has long collected tax on savings without an annual report on each saver. The act itself does not say the tax office learns no names, and it does not decide whether DAC8's domestic reporting is disproportionate.
 
 The government's [impact assessment](../../raw/articles/2026-10-20-krypto-mpfg-wfa-revenue-estimate.md) (p. 17) expects about EUR 35 million a year from 2027, attributed to reports about foreign-held crypto-assets, and EUR 5 million in 2026 from relocation to domestic providers "auch aufgrund des Vorteils des automatischen KESt-Abzugs".
 
@@ -117,5 +120,6 @@ That recital is neither a standalone fundamental right nor an automatic rule for
 - [DAC8 domestic scope versus GMSG](../../raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md)
 - [Kapitalabfluss-Meldegesetz scope and expiry](../../raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md)
 - [Crypto KESt withholding scope](../../raw/articles/2026-10-20-austria-crypto-kest-withholding-scope.md)
+- [Endbesteuerungsgesetz 1993](../../raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md)
 - [Krypto-MPfG WFA revenue estimate](../../raw/articles/2026-10-20-krypto-mpfg-wfa-revenue-estimate.md)
 - [Parliamentary answer 1948/AB](../../raw/articles/2026-09-29-atrisk-ab-1948-crypto-tax-revenue-data.md)

@@ -6,7 +6,7 @@ Last updated: 2026-10-20
 
 ## Contents
 
-721 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact. The [Ledger postal-campaign supplement](articles/2026-10-19-ledger-postal-phishing-boundary.md) controls the unverified address-provenance inference in the historical 2020-leak digest.
+722 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact. The [Ledger postal-campaign supplement](articles/2026-10-19-ledger-postal-phishing-boundary.md) controls the unverified address-provenance inference in the historical 2020-leak digest.
 
 ## Categories
 
