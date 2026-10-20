@@ -16,8 +16,10 @@ sources:
   - raw/articles/2026-09-04-cjeu-c340-21-tax-authority-breach-security.md
   - raw/articles/2026-09-04-austria-gmsg-section-5-processing-retention.md
   - raw/articles/2026-09-04-austria-gmsg-retention-rationale-and-records.md
+  - raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md
+  - raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-10-20
 tags: [dac8, dac2, crs, proportionality, data-minimisation, litigation-strategy]
 aliases: [DAC8 DAC2 comparison, DAC8 distinguishing case]
 confidence: high
@@ -35,6 +37,7 @@ summary: "Field-level comparison showing which DAC8 features materially distingu
 | Dimension | DAC2 / facts in E 2097/2021 | DAC8 | Legal significance |
 |---|---|---|---|
 | Identity and account reference | Name, address, TIN, birth data, institution and account number or functional equivalent | Comparable biographical and provider identity, but no DAC8 user-account-number field | Identity matching is comparable; DAC2 additionally carries the account identifier. |
+| Residents of the reporting state | Not reported: GMSG § 91 Z 1 limits participating states to *other* Member States, so an account holder resident only in Austria is not a reportable person | Reported: DAC8 Annex VI IV(D)(8) covers residents of *any* Member State; Krypto-MPfG § 14(1) Z 1 includes Austria | EU-mandated difference, not Austrian gold-plating; recital 13 gives effectiveness, level-playing-field and non-discrimination reasons (checked 20 October 2026). |
 | Holdings | Year-end account balance or value, or closure | No year-end crypto-asset balance is reported | DAC8 is not a complete holdings or wealth register. |
 | Income and proceeds | Broad annual interest, dividend, income and sale/redemption totals, depending on account type | Annual values organized by crypto asset and activity category | DAC8 exposes more structured economic activity, but remains aggregated. |
 | Asset detail | No asset-by-asset unit and transaction-count profile in the fields considered by the VfGH | Asset name, values, units and counts for acquisitions and disposals | Supports a materially richer inference case. |
@@ -51,6 +54,16 @@ The Commission's impact assessment confirms that this difference was deliberate.
 “Transaction-based” must not be confused with itemised transmission. Every in-scope exchange and transfer feeds the report and the provider's processing duty, while the routine section 18 payload contains annual asset-and-category totals, units and counts rather than one record per underlying transaction.
 
 VfGH E 2097/2021 rejected an abstract security argument. CJEU C-340/21 does not overrule that result; it is a GDPR security-and-damages judgment. It does, however, supply a disciplined factual method: assess the nature, implementation and practical effects of the actual controls against the concrete processing risks, while recognising that a breach alone proves neither inadequacy nor invalidity. Combined with the enacted MiCA Table 3/Table 4 join, this supports targeted evidence requests rather than a generic assertion that crypto data are inherently insecure.
+
+## Domestic residents: checked 20 October 2026
+
+DAC8 recital 13 says the reporting obligation „sollte sich sowohl auf grenzüberschreitende als auch auf innerstaatliche Transaktionen erstrecken“. The recital speaks of transactions; the operative extension to the provider's own-state residents comes from Annex VI's "Member State Person" definition and, in Austria, Krypto-MPfG § 14(1) Z 1. Under the GMSG, by contrast, a person resident only in Austria is outside CRS/DAC2 reporting ([primary-text record](../../raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md)).
+
+This supports an accurate comparison: an Austrian resident's domestic bank account generates no automatic-exchange report, while the same person's account at an Austrian crypto-asset service provider does. Three limits keep it accurate:
+
+- Other domestic bank layers exist: the Kontenregister records account existence (not balances), banks withhold KESt, and AML records are kept. From March 2015 to December 2022 the [Kapitalabfluss-Meldegesetz](../../raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md) made banks report outflows of EUR 50,000 or more, including cash withdrawals, to the Finance Ministry. "Banks have never reported domestic withdrawals" would be wrong.
+- The difference is set by DAC8. It can be argued as a proportionality point against the EU baseline, or politically for EU-level change, but not as a national excess.
+- The State will cite recital 13's non-discrimination rationale: without domestic coverage, residents using foreign providers would be reported while those using domestic providers would not.
 
 ## Ranked arguments
 
@@ -109,3 +122,5 @@ These points were rejected in the Austrian DAC2 litigation, are factually inaccu
 - [CJEU C-340/21, Natsionalna agentsia za prihodite](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0340)
 - [GMSG section 5](../../raw/articles/2026-09-04-austria-gmsg-section-5-processing-retention.md)
 - [GMSG retention rationale and section 7a](../../raw/articles/2026-09-04-austria-gmsg-retention-rationale-and-records.md)
+- [DAC8 domestic scope versus GMSG](../../raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md)
+- [Kapitalabfluss-Meldegesetz scope and expiry](../../raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md)

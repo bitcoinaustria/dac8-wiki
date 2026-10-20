@@ -2,11 +2,11 @@
 
 > Immutable source material and provenance.
 
-Last updated: 2026-10-19
+Last updated: 2026-10-20
 
 ## Contents
 
-706 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact. The [Ledger postal-campaign supplement](articles/2026-10-19-ledger-postal-phishing-boundary.md) controls the unverified address-provenance inference in the historical 2020-leak digest.
+721 immutable source records. Source-level titles, summaries and dates are listed in the category indexes below. The twenty September 10 claimant-research digests must be read with the [controlling correction map](../wiki/references/claimant-selection-evidence-boundaries.md), not as fully verified current law or fact. The [Ledger postal-campaign supplement](articles/2026-10-19-ledger-postal-phishing-boundary.md) controls the unverified address-provenance inference in the historical 2020-leak digest.
 
 ## Categories
 
@@ -17,6 +17,8 @@ Last updated: 2026-10-19
 - [Data](data/_index.md)
 
 ## Recent Changes
+
+- 2026-10-20: Added fifteen records for sources cited on the campaign's arguments page: the 1983 German census judgment, Hughes's manifesto, a Bitcoin-whitepaper supplement, Austrian crypto KESt withholding, the Krypto-MPfG revenue estimate, DAC8 domestic scope against the GMSG, the expired Kapitalabfluss-Meldegesetz, the WikiLeaks payment blockade, four Canadian 2022 emergency-measures sources, the Global Forum's Bulgaria statement and C-340/21 paragraph 12. Four are supplements to existing records rather than independent sources. The [Gendinfo wording supplement](articles/2026-10-20-gendinfo-pegeot-attribution-precision.md) could not be re-fetched and is marked as such. Earlier raw bodies are unchanged.
 
 - 2026-10-19: Added two bounded incident accounts, a Ledger postal-provenance qualification and Austrian tax-law distinctions. The Vaires report was accessible through original indexed text only; GMP does not establish low holdings. These records are not evidence of DAC8 leak causation. Correspondence and private artifacts are excluded.
 

@@ -2,7 +2,7 @@
 
 > Synthesized, source-backed articles.
 
-Last updated: 2026-10-17
+Last updated: 2026-10-20
 
 ## Contents
 
@@ -17,6 +17,8 @@ Last updated: 2026-10-17
 - [Theses](theses/_index.md)
 
 ## Recent Changes
+
+- 2026-10-20: Integrated fifteen source records behind the campaign's arguments page. The [surveillance reference](references/surveillance-autonomy-and-democratic-safeguards.md) and [privacy topic](topics/privacy-financial-privacy-and-surveillance.md) gain the 1983 German census judgment, Hughes and the WikiLeaks and Canadian payment-channel cases, with the adverse BFH CRS ruling and the appeal court's narrowing on account freezing. [DAC8 versus DAC2](references/dac8-vs-dac2-distinguishing-arguments.md) and [equality](references/dac8-equality-and-technology-neutrality.md) add the domestic-resident scope contrast, the expired Kapitalabfluss-Meldegesetz and the KESt-withholding inference with its counterarguments. Targeted supplements in the [precedent matrix](references/austria-eu-precedent-matrix.md), [ledger-linkage](references/identity-to-public-ledger-linkage-evidence.md), [tax-exchange suspension](references/tax-exchange-confidentiality-and-suspension.md) and [physical-risk](references/dac8-physical-risk-causation.md) references keep their earlier verification dates.
 
 - 2026-10-17 (public-privacy round): Added the [privacy and surveillance argument bank](topics/privacy-financial-privacy-and-surveillance.md), [financial-autonomy evidence](references/financial-privacy-and-everyday-autonomy.md) and [surveillance/participation evidence](references/surveillance-autonomy-and-democratic-safeguards.md). Eleven accessible arguments, eight objections and English/German drafts remain distinct from measured message effectiveness and DAC8-specific legal proof. Five older references gain reciprocal connections without refreshing their unrelated historical verification dates.
 

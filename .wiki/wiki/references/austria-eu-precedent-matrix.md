@@ -55,14 +55,16 @@ sources:
   - raw/articles/2026-08-30-vwgh-ro2020-04-0015-access-recipients.md
   - raw/articles/2026-08-30-vwgh-ro2021-04-0030-recipient-identity.md
   - raw/articles/2026-08-30-bvwg-w137-2314413-access-restriction.md
+  - raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md
+  - raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md
 created: 2026-08-27
-updated: 2026-09-04
+updated: 2026-10-20
 tags: [dac8, austria, eu, precedent, standing, proportionality, article-267]
 aliases: [DAC8 case matrix, Austrian EU privacy precedents]
 confidence: high
 volatility: warm
 verified: 2026-09-04
-verification_scope: "September 4: urgent-protection threshold corrected against DSB D.1; other entries retain their earlier source verification dates."
+verification_scope: "September 4: urgent-protection threshold corrected against DSB D.1; other entries retain their earlier source verification dates. October 20: German comparative row added; BVerfG 1983 checked against the official text, BFH IX R 36/21 taken from its August 2026 record."
 summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR authorities support, limit, or contradict a citizen DAC8 challenge."
 ---
 
@@ -132,6 +134,15 @@ summary: "A procedural and merits matrix showing which Austrian, CJEU, and ECtHR
 | Narrow invalidity analogies | Schecke, C-92/09 and C-93/09; Luxembourg Business Registers, C-37/20 and C-601/20 | Indiscriminate public disclosure failed proportionality. DAC8 exchange is not public, so the analogy is limited. |
 | Remedy/security support | Schrems I, C-362/14; Berlioz, C-682/15 | Effective independent control and review remain material when personal data cross borders or support tax enforcement. |
 
+## Comparative German authority: added 20 October 2026
+
+| Weight | Authority | Relevance and limit |
+|---|---|---|
+| Persuasive framing | [BVerfG, 15 December 1983, 1 BvR 209/83](../../raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md), BVerfGE 65, 1 | Recognised informational self-determination; Rn. 146 explains why people must be able to know who knows what about them and how uncertainty about recording induces conformity. Rn. 148: the right is not unlimited. German constitutional law; no binding effect in Austria. |
+| Adverse comparative | [BFH IX R 36/21](../../raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md), 23 January 2024 | Applied the same right to CRS data received from Switzerland and held the interference justified; rejected abstract hacking-risk, no-suspicion, equality and deletion arguments. The closest German authority on automatic tax exchange, and it cuts against a challenge. |
+
+Cite the 1983 judgment for the value of the right, never as authority that automatic tax-account exchange is unconstitutional. The [surveillance reference](surveillance-autonomy-and-democratic-safeguards.md) places both in the wider evidence.
+
 ## Bottom line
 
 The rights framework sharpens the claim but does not reverse the present risk assessment. For DAC8-mandated reporting fields, an ordinary Austrian reportable user must challenge the EU baseline and confront the strongly adverse DAC2 and DAC6 authorities; separate Austrian choices such as retention duration or safeguards remain reviewable. The narrower all-customer case requires a genuinely non-reportable user, an identifiable provider, and proof that the provider creates or retains the full section 18 annual aggregate profile solely because of section 20(1). Without those facts, neither case is filing-ready. No identified precedent automatically invalidates DAC8.
@@ -147,3 +158,7 @@ For the procedure-checked successful-case matrix and filing anatomy, see [[succe
 ## Source correction
 
 - [DSB urgent-threshold correction](../../raw/articles/2026-09-04-dsb-urgent-threshold-correction.md)
+
+## See Also
+
+- [[surveillance-autonomy-and-democratic-safeguards|Surveillance, Autonomy and Democratic Safeguards]] ([Surveillance, Autonomy and Democratic Safeguards](surveillance-autonomy-and-democratic-safeguards.md)) — informational self-determination, chilling evidence and foreign payment-channel cases.

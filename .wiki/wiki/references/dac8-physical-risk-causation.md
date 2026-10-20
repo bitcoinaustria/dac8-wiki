@@ -39,8 +39,9 @@ sources:
   - raw/articles/2026-10-19-vaires-mistaken-targeting.md
   - raw/articles/2026-10-19-gmp-repeat-crypto-coercion.md
   - raw/repos/2026-09-29-bearer-lopp-physical-attacks-dataset.md
+  - raw/articles/2026-10-20-gendinfo-pegeot-attribution-precision.md
 created: 2026-09-04
-updated: 2026-10-19
+updated: 2026-10-20
 tags: [dac8, krypto-mpfg, physical-security, causation, blockchain, evidence]
 aliases: [DAC8 wrench-attack risk, crypto tax data physical risk]
 confidence: medium
@@ -86,7 +87,7 @@ Ordekian and co-authors identified public exposure, personal proximity, investig
 
 ## Incident evidence and misuse mechanisms
 
-- **Waltio:** official police attribution includes mistakes about actual holdings. It is stronger than a hypothetical threat model, but not a published causal judgment. See the [source digest](../../raw/articles/2026-09-19-gendarmerie-waltio-target-selection.md).
+- **Waltio:** official police attribution includes mistakes about actual holdings. It is stronger than a hypothetical threat model, but not a published causal judgment. See the [source digest](../../raw/articles/2026-09-19-gendarmerie-waltio-target-selection.md). The [20 October wording supplement](../../raw/articles/2026-10-20-gendinfo-pegeot-attribution-precision.md) records that Col. Pegeot (UNPJ, Division des opérations) names the leak „notamment“ among the reasons for the rise, with the leaked data „que les malfaiteurs utilisent pour identifier leurs cibles, même si des erreurs surviennent parfois sur les montants réels détenus“. That wording was supplied with the campaign's source notes; the page refused automated retrieval on 20 October. Public copy should say "one reason", not "the reason".
 - **Haute-Garonne:** an official armed-extortion investigation refers to apparently hacked personal data without identifying the originating leak. [Source](../../raw/articles/2026-09-19-gendarmerie-haute-garonne-crypto-extortion.md).
 - **St Felix and Ferro:** official sentencing accounts establish physical attacks on holders and relatives, and an enterprise combining digital targeting with burglary. They do not identify DAC8 data. [St Felix](../../raw/articles/2026-09-19-doj-st-felix-crypto-home-invasions.md), [Ferro](../../raw/articles/2026-09-19-doj-ferro-crypto-burglary.md).
 - **Bobigny:** original reporting concerns alleged tax-insider assistance to an attack on a prison officer. The derivative account adds the wife's involvement. Searches about crypto investors are not proof of attacks on those investors. Neither guilt nor a final disposition was verified. [Original-report limits](../../raw/articles/2026-09-19-bobigny-tax-insider-le-parisien.md), [derivative account](../../raw/articles/2026-09-19-bobigny-tax-insider-protos.md).
@@ -171,6 +172,7 @@ Article 2 ECHR should not be presented as a standalone facial-invalidity theory 
 
 ## Sources
 
+- [Gendinfo: precise Waltio attribution wording (not re-fetched)](../../raw/articles/2026-10-20-gendinfo-pegeot-attribution-precision.md)
 - [Vaires-sur-Marne: mistaken-targeting report and access limit](../../raw/articles/2026-10-19-vaires-mistaken-targeting.md)
 - [GMP: repeat coercion and delayed payment](../../raw/articles/2026-10-19-gmp-repeat-crypto-coercion.md)
 - [Lopp: historical discovery-corpus snapshot](../../raw/repos/2026-09-29-bearer-lopp-physical-attacks-dataset.md)

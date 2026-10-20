@@ -2,17 +2,17 @@
 
 > Evidence on DAC8 law, national implementation, and constitutional and EU judicial-review routes.
 
-Last updated: 2026-10-19
+Last updated: 2026-10-20
 
 ## Statistics
 
-- Sources: 706 raw source records
+- Sources: 721 raw source records
 - Articles: 77 compiled wiki articles
 - Inventory records: 0 tracked items
 - Datasets: 0 manifests
-- Outputs: 22 reports and 6 PDF exports
-- Last compiled: 2026-10-19
-- Last lint: 2026-10-19
+- Outputs: 23 reports and 6 PDF exports
+- Last compiled: 2026-10-20
+- Last lint: 2026-10-20
 
 ## Quick Navigation
 
@@ -24,6 +24,8 @@ Last updated: 2026-10-19
 - [Outputs](output/_index.md)
 
 ## Recent Changes
+
+- 2026-10-20: Added fifteen source records for the campaign's arguments page and integrated them into the [privacy topic](wiki/topics/privacy-financial-privacy-and-surveillance.md), [surveillance](wiki/references/surveillance-autonomy-and-democratic-safeguards.md), [DAC8 versus DAC2](wiki/references/dac8-vs-dac2-distinguishing-arguments.md), [equality](wiki/references/dac8-equality-and-technology-neutrality.md) and four further references. Covers the 1983 German census judgment with adverse BFH authority, the WikiLeaks and Canadian payment-channel cases with the appeal court's narrowing and pending leave, DAC8's domestic scope against the GMSG and the expired Kapitalabfluss-Meldegesetz, crypto KESt withholding and the WFA revenue basis, and the Bulgarian breach's CRS/DAC content and scale. The Gendinfo wording could not be re-fetched and is marked. Older verification dates are unchanged. A [claim map for the arguments page](output/report-website-arguments-claim-map-2026-10-20.md) flags three lawyer items and three sources verified outside the wiki.
 
 - 2026-10-19: Added four public-source records on [mistaken targeting and delayed payment](wiki/references/dac8-physical-risk-causation.md), [Ledger postal-campaign provenance](wiki/references/source-verification-corrections.md) and [Austrian tax/reporting distinctions](wiki/references/dac8-transaction-granularity-and-reporting-layers.md). Preserves partial-access limits, other stolen property, substantial holdings in the GMP case and unproved leak-to-attack attribution. Older legal verification dates remain unchanged. Correspondence, press artifacts, private notes and website/gitlink changes are excluded.
 

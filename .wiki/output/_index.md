@@ -4,6 +4,7 @@
 
 | Output | Type | Date |
 |--------|------|------|
+| [Website Arguments Page: Claim Map and Publication Boundaries](report-website-arguments-claim-map-2026-10-20.md) | report, claim map | 2026-10-20 |
 | [Privacy in Everyday Life: German and English Campaign Copy](report-privacy-campaign-copy-2026-10-17.md) | report, campaign draft, DE/EN | 2026-10-17 |
 | [AML, Crypto, DAC8, and Fundamental-Rights Research Report](research-report-aml-crypto-dac8-rights-2026-08-27.md) | report |  |
 | [Bitcoin als Zahlungsmittel: Identitätszuordnung und Zahlungsprofile](research-report-bitcoin-zahlungsprofile-2026-09-20.md) | report | 2026-09-20 |
