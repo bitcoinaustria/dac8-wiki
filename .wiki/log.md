@@ -706,3 +706,23 @@
 ## [2026-10-19] lint | local command: 0 critical, 16 warnings, 0 suggestions, 0 auto-fixed
 
 ## [2026-10-19] publication-review | Two independent read-only reviews found no blocking factual or confidentiality issue; clarified the Ledger table and labelled the own-wallet tax conclusion as a statutory inference. Both required lint invocations completed with zero critical findings and the same sixteen baseline stale-verification warnings, hence a non-zero default lint exit. One warned article received only a separately scoped tax supplement; its older reporting-law verification date remains unchanged. Checked 985 local links/source paths across fourteen changed Markdown files, actual counts of 706 raw records and 77 compiled articles, and the unchanged historical raw bodies. Whitespace and bounded confidentiality checks pass. No correspondence, press/PDF output, private notes, website content or gitlink is included.
+
+## [2026-10-20] lint | local command: 0 critical, 22 warnings, 0 suggestions, 2 auto-fixed
+
+## [2026-10-20] ingest | 15 records for sources cited on the campaign's arguments page, each rechecked against its primary source on 20 October 2026 except where marked: raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md, raw/articles/2026-10-20-hughes-cypherpunk-manifesto-1993.md, raw/articles/2026-10-20-nakamoto-whitepaper-abstract-transfer-model.md (supplement), raw/articles/2026-10-20-austria-crypto-kest-withholding-scope.md, raw/articles/2026-10-20-krypto-mpfg-wfa-revenue-estimate.md (supplement), raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md, raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md, raw/papers/2026-10-20-bridy-internet-payment-blockades.md, raw/papers/2026-10-20-canada-dedc-report-financial-measures.md, raw/articles/2026-10-20-canada-fina-frozen-accounts-testimony.md, raw/articles/2026-10-20-canada-2024-fc-42-emergencies-act.md, raw/articles/2026-10-20-canada-2026-fca-6-emergencies-act-appeal.md, raw/articles/2026-10-20-gendinfo-pegeot-attribution-precision.md (supplement; not re-fetched, HTTP 403 and Internet Archive offline), raw/articles/2026-10-20-oecd-global-forum-bulgaria-breach-statement.md, raw/articles/2026-10-20-cjeu-c340-21-para-12-affected-persons.md (supplement). Already recorded and not duplicated: BFH IX R 36/21, 1948/AB crypto KESt 2024, the whitepaper's section 10 quotations, DAC8 recital 13 in English, the Swiss Bulgaria suspension. Adverse findings recorded: the 2026 FCA 6 holding that freezing alone was not a s. 8 seizure, small donors not frozen, Supreme Court leave pending, the Kapitalabfluss-Meldegesetz's large-withdrawal reports until December 2022, and BVerfG Rn. 148. The official FCA reasons page refused retrieval; paragraph quotations come from a hash-recorded third-party PDF matching the court's summary.
+
+## [2026-10-20] compile | 15 sources → 0 new articles, 9 updated (surveillance-autonomy-and-democratic-safeguards, privacy-financial-privacy-and-surveillance, dac8-vs-dac2-distinguishing-arguments, dac8-equality-and-technology-neutrality, austria-eu-precedent-matrix, identity-to-public-ledger-linkage-evidence, tax-exchange-confidentiality-and-suspension, dac8-physical-risk-causation, uncompiled-source-coverage). New dated sections state what each source does and does not support; the KESt point is labelled strategic inference with five counterarguments. BFH IX R 36/21 moved from the uncompiled backlog into three articles. Existing `verified` dates are kept and supplements are described in `verification_scope` or section headings, following the repository's practice. New reciprocal See Also between the surveillance reference and the precedent matrix.
+
+## [2026-10-20] lint | local command: 0 critical, 22 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-10-20] lint | local command: 0 critical, 22 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-10-20] lint | local command: 0 critical, 22 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-10-20] lint | local command: 0 critical, 22 warnings, 0 suggestions, 1 auto-fixed
+
+## [2026-10-20] output | report on website arguments page → output/report-website-arguments-claim-map-2026-10-20.md
+
+## [2026-10-20] lint | local command after restoring the hand-curated output index that the autofix had regenerated: 0 critical, 22 warnings, 0 suggestions, 0 auto-fixed
+
+## [2026-10-20] ingest | Endbesteuerungsgesetz 1993 → raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md; claim map updated for the tax objection and the pseudonym reason

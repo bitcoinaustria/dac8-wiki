@@ -14,8 +14,10 @@ sources:
   - raw/papers/2026-09-29-acctmodel-torres-web3-wallet-leaks-usenix2023.md
   - raw/articles/2026-09-29-acctmodel-stablecoin-issuer-freeze-terms.md
   - raw/papers/2026-09-30-finprofile-ghost-clusters-denominator-supplement.md
+  - raw/articles/2026-09-29-acctmodel-bitcoin-whitepaper-privacy.md
+  - raw/articles/2026-10-20-nakamoto-whitepaper-abstract-transfer-model.md
 created: 2026-09-04
-updated: 2026-09-30
+updated: 2026-10-20
 tags: [blockchain, linkage, amount-matching, clustering, attribution, false-positive, expert-evidence]
 aliases: [DLT linkage evidence, blockchain breach amplification]
 confidence: high
@@ -53,6 +55,8 @@ The final EDPB blockchain guidance provides the institutional basis for the dist
 - paragraph 50 notes that directly identifying data written on-chain may be practically impossible to delete or modify;
 - paragraph 61 describes append-only ledgers as potentially persistent and widely replicated;
 - paragraphs 63–64 emphasise storage limitation and preventing future linkage of existing and future transactions.
+
+The design document already anticipated the mechanism. Section 10 of the [Bitcoin whitepaper](../../raw/articles/2026-09-29-acctmodel-bitcoin-whitepaper-privacy.md) places privacy in keeping public keys unlinked to identities, recommends a new key pair per transaction, concedes that multi-input transactions link inputs to one owner and warns that "if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner". The quotations were rechecked on 20 October 2026 ([supplement](../../raw/articles/2026-10-20-nakamoto-whitepaper-abstract-transfer-model.md)). This is design intent, not a measurement; the clustering studies above measure how far linkage goes in practice.
 
 The better formulation is not that DLT data are absolutely immutable or that every address reveals a wallet. It is that a verified identity-to-ledger anchor may remain publicly queryable, may expose historical context and may become more informative when later labels or transactions appear.
 
@@ -130,3 +134,5 @@ Later transactions and new labels can make past public activity easier to interp
 - [Victor, Ethereum clustering heuristics](../../raw/papers/2026-09-29-acctmodel-victor-ethereum-clustering-fc2020.md)
 - [Torres, Willi and Shinde, Web3 wallet leaks](../../raw/papers/2026-09-29-acctmodel-torres-web3-wallet-leaks-usenix2023.md)
 - [Circle and Tether freeze terms](../../raw/articles/2026-09-29-acctmodel-stablecoin-issuer-freeze-terms.md)
+- [Bitcoin whitepaper, section 10](../../raw/articles/2026-09-29-acctmodel-bitcoin-whitepaper-privacy.md)
+- [Bitcoin whitepaper: abstract, transfer model and section 10 recheck](../../raw/articles/2026-10-20-nakamoto-whitepaper-abstract-transfer-model.md)

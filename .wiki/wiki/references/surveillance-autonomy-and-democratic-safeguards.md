@@ -12,10 +12,18 @@ sources:
   - raw/articles/2026-10-17-privacy-naacp-association.md
   - raw/papers/2026-10-17-privacy-church-purpose-misuse.md
   - raw/articles/2026-09-04-ecthr-big-brother-watch-end-to-end-safeguards.md
+  - raw/articles/2026-10-20-hughes-cypherpunk-manifesto-1993.md
+  - raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md
+  - raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md
+  - raw/papers/2026-10-20-bridy-internet-payment-blockades.md
+  - raw/papers/2026-10-20-canada-dedc-report-financial-measures.md
+  - raw/articles/2026-10-20-canada-fina-frozen-accounts-testimony.md
+  - raw/articles/2026-10-20-canada-2024-fc-42-emergencies-act.md
+  - raw/articles/2026-10-20-canada-2026-fca-6-emergencies-act-appeal.md
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-20
 verified: 2026-10-17
-verification_scope: "The named experiments, original conceptual works and historical authorities were checked. Big Brother Watch's specified paragraphs were rechecked; Cooper's final 2023 paper was not fully accessible. No Austrian surveillance effect was measured."
+verification_scope: "The named experiments, original conceptual works and historical authorities were checked. Big Brother Watch's specified paragraphs were rechecked; Cooper's final 2023 paper was not fully accessible. No Austrian surveillance effect was measured. 20 October supplement: Hughes, BVerfG Rn. 146-148, Bridy pp. 1524-1525, the DEDC report, FINA evidence, 2024 FC 42 and 2026 FCA 6 were checked against their texts; the BFH record was not rechecked."
 volatility: warm
 confidence: medium
 tags: [privacy, surveillance, autonomy, chilling-effects, association, accountability, evidence-limits]
@@ -38,6 +46,14 @@ Here, “surveillance” describes observation or analysis of information about 
 Neither framework makes individual preference an absolute veto. Existing norms can be unjust; new information flows can improve services, research or safety. The defensible public argument is therefore justified boundaries and accountable changes, not that all reuse or aggregation is wrong.
 
 A useful test is whether the system would still deserve scrutiny if it never leaked. If the concern is opaque classification, coercion or inhibition, stronger perimeter security may not address it.
+
+### Selective disclosure and constitutional reasoning: added 20 October 2026
+
+[Hughes's 1993 manifesto](../../raw/articles/2026-10-20-hughes-cypherpunk-manifesto-1993.md) defines privacy as "the power to selectively reveal oneself to the world" and distinguishes it from secrecy. Its cash-purchase example illustrates a transaction that need not reveal identity. It is advocacy and a definition, not evidence about any system; it does not mention bitcoin.
+
+The [German Federal Constitutional Court's 1983 census judgment](../../raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md), Rn. 146, gives the constitutional version of the same idea. A legal order in which citizens can no longer know "wer was wann und bei welcher Gelegenheit über sie weiß" is incompatible with informational self-determination. Uncertainty whether deviant conduct is recorded and stored leads people to avoid attracting attention. This is normative reasoning, not a measured effect; the experiments below supply the bounded empirical side.
+
+The same judgment says at Rn. 148 that the right is not unlimited. [BFH IX R 36/21](../../raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md) applied it in 2024 and upheld CRS exchange of foreign-account data as a justified interference. The 1983 judgment supports the value of knowing who holds what about you. It does not support a claim that German law forbids automatic tax-account exchange. Both are German law and persuasive at most in Austria.
 
 ## Observed reading: Penney's Wikipedia study
 
@@ -99,6 +115,18 @@ The governance inference is that capability needs durable boundaries: purposes, 
 
 These sources support the social value of protected participation, not a numeric estimate of donations or associations lost under DAC8.
 
+## Payment channels and financial records used against political causes: added 20 October 2026
+
+Two non-European episodes show the mechanism concretely. They concern payment access and emergency information sharing, not tax reporting.
+
+**WikiLeaks, 2010.** [Bridy](../../raw/papers/2026-10-20-bridy-internet-payment-blockades.md), pp. 1524–1525, records that Moneybookers, then PayPal, Visa and MasterCard stopped processing donations and that "[n]one of the participating payment processors was under court order to block payments to WikiLeaks". The source is secondary scholarship relying on press reports. Its account of political pressure on the card networks is the author's characterisation, not a court or Commission finding. No donor data disclosure is shown.
+
+**Canada, 2022.** Under the Emergency Economic Measures Order, about 280 financial products worth about CAD 8 million were frozen and restored by 24 February 2022, according to the [Special Joint Committee's 2024 report](../../raw/papers/2026-10-20-canada-dedc-report-financial-measures.md), pp. 62–64. Interim figures given to the [Finance Committee on 22 February 2022](../../raw/articles/2026-10-20-canada-fina-frozen-accounts-testimony.md) were over 206 accounts and about CAD 7.8 million. The same report states that donors' names were never given to banks and that small donors were not frozen unless they were within the prohibited area. It also records 170 bitcoin wallet addresses shared with virtual-asset service providers.
+
+The [Federal Court](../../raw/articles/2026-10-20-canada-2024-fc-42-emergencies-act.md) held the emergency declaration unreasonable. It found that compelled disclosure of account information to the RCMP was a seizure (para. 334) and that freezing without an objective standard breached Charter s. 8 (para. 341), unjustified under s. 1 (para. 359). The [Federal Court of Appeal](../../raw/articles/2026-10-20-canada-2026-fca-6-emergencies-act-appeal.md) dismissed the government's appeals in January 2026. It narrowed the reasoning: freezing alone was not a search or seizure (para. 416), but warrantless information sharing under ss. 5–6 of the Order on a bare "reason to believe", without review, breached s. 8 and was not saved by s. 1 (paras. 451–474). A leave application to the Supreme Court of Canada (docket 42261) was pending on 20 October 2026.
+
+**What these episodes support.** Payment intermediaries can cut off lawful or not-yet-adjudicated causes without a court order. Financial records can be passed to police under emergency powers on weak standards, and a court can later find that sharing unconstitutional. **What they do not support.** They do not show that tax data were used, that small donors were frozen in Canada, that the Canadian judgments are final or that any EU or Austrian authority would act similarly. Present them as known foreign cases, not as predictions.
+
 ## The strongest surveillance objection must be answered
 
 The [Big Brother Watch digest](../../raw/articles/2026-09-04-ecthr-big-brother-watch-end-to-end-safeguards.md), checked against the identified Grand Chamber paragraphs, preserves adverse authority: bulk interception was not held inherently incompatible with Article 8. The Court recognised national-security capability while finding specific defects in the old UK bulk regime; the foreign-intelligence receipt regime was upheld.
@@ -122,7 +150,10 @@ For a particular financial regime, the causal bridge still requires its actual f
 - [[privacy-financial-privacy-and-surveillance|Privacy, Financial Privacy and Surveillance]] ([Privacy, Financial Privacy and Surveillance](../topics/privacy-financial-privacy-and-surveillance.md)) — accessible arguments and fair replies.
 - [[financial-privacy-and-everyday-autonomy|Financial Privacy and Everyday Autonomy]] ([Financial Privacy and Everyday Autonomy](financial-privacy-and-everyday-autonomy.md)) — payment relationships, coercion and consumer leverage.
 - [[phishing-causal-evidence-and-measurement|Phishing, Repeat Harm and Causal Measurement]] ([Phishing, Repeat Harm and Causal Measurement](phishing-causal-evidence-and-measurement.md)) — compatible causal standards for the separate breach/scam pathway.
+- [[austria-eu-precedent-matrix|Austria and EU Precedent Matrix]] ([Austria and EU Precedent Matrix](austria-eu-precedent-matrix.md)) — where the German informational self-determination authorities sit among binding Austrian and EU precedent.
 
 ## Sources
 
 The exact raw records above distinguish publications, experiments, original conceptual arguments and court/investigative records. A source's own historical examples are not independently counted without verification. The unavailable UN report and inaccessible final Cooper article were not ingested as fully read evidence. Big Brother Watch's recheck is limited to the stated holdings and safeguards, not a refresh of all linked Austrian law.
+
+20 October 2026 additions: [Hughes 1993](../../raw/articles/2026-10-20-hughes-cypherpunk-manifesto-1993.md), [BVerfG 1983](../../raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md), [BFH IX R 36/21](../../raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md), [Bridy 2015](../../raw/papers/2026-10-20-bridy-internet-payment-blockades.md), [DEDC report](../../raw/papers/2026-10-20-canada-dedc-report-financial-measures.md), [FINA evidence](../../raw/articles/2026-10-20-canada-fina-frozen-accounts-testimony.md), [2024 FC 42](../../raw/articles/2026-10-20-canada-2024-fc-42-emergencies-act.md) and [2026 FCA 6](../../raw/articles/2026-10-20-canada-2026-fca-6-emergencies-act-appeal.md).

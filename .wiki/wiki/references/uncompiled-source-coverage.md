@@ -23,7 +23,6 @@ sources:
   - raw/articles/2026-08-27-eurlex-dac8-case-law-negative-search.md
   - raw/articles/2026-08-27-france-lpf-article-l81.md
   - raw/articles/2026-08-27-gdpr-article-79-jurisdiction.md
-  - raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md
   - raw/articles/2026-08-27-hudoc-automatic-tax-exchange-negative-search.md
   - raw/articles/2026-08-27-luxembourg-crs-philipp-s-lead.md
   - raw/articles/2026-08-27-mishcon-austrian-crs-claim.md
@@ -46,7 +45,7 @@ sources:
   - raw/articles/2026-08-28-eu-dac8-corrigendum-2025-90947.md
   - raw/articles/2026-08-28-eu-directive-2011-16-consolidated-2026.md
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-10-20
 verified: 2026-08-28
 tags: [coverage, uncompiled-sources, backlog, lint-repair]
 confidence: low
@@ -83,7 +82,6 @@ This reference page makes the remaining raw-source coverage gap explicit. These 
 | [EUR-Lex exact-citation DAC8 search: directive only, no case-law result](../../raw/articles/2026-08-27-eurlex-dac8-case-law-negative-search.md) | `raw/articles/2026-08-27-eurlex-dac8-case-law-negative-search.md` | An exact-citation EUR-Lex search for 2023/2226 returned only the DAC8 directive itself and no EU case-law document. | eu, eur-lex, dac8, case-law-search, negative-result, provenance |
 | [France Tax Procedure Code Article L81](../../raw/articles/2026-08-27-france-lpf-article-l81.md) | `raw/articles/2026-08-27-france-lpf-article-l81.md` | Current French statutory basis for tax-authority information requests, including requests that may concern unidentified persons under prescribed conditions. | france, tax-procedure, information-request, proportionality, primary-law |
 | [GDPR Article 79: judicial remedy and forum](../../raw/articles/2026-08-27-gdpr-article-79-jurisdiction.md) | `raw/articles/2026-08-27-gdpr-article-79-jurisdiction.md` | Article 79 preserves administrative remedies and provides jurisdiction at the controller's or processor's establishment or, generally, at the data subject's habitual residence. | gdpr, article-79, jurisdiction, judicial-remedy, habitual-residence |
-| [German BFH IX R 36/21: CRS processing and deletion challenge](../../raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md) | `raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md` | German Federal Fiscal Court judgment rejecting a constitutional and data-protection challenge to CRS data received from Switzerland. | dac2, crs, germany, bfh, data-protection, comparative-law, primary-court |
 | [HUDOC searches: no merits decision on FATCA, CRS, DAC2, DAC8 or CARF automatic exchange](../../raw/articles/2026-08-27-hudoc-automatic-tax-exchange-negative-search.md) | `raw/articles/2026-08-27-hudoc-automatic-tax-exchange-negative-search.md` | Exact-term HUDOC searches found no ECtHR merits decision deciding FATCA, CRS, DAC2, DAC8 or CARF periodic automatic tax-information exchange; Ferrieri mentions DAC8 only in its legal-framework section. | echr, hudoc, fatca, crs, dac2, dac8, carf, automatic-exchange, negative-result, provenance |
 | [Reported 2026 Luxembourg CRS hearing: unverified proceeding lead](../../raw/articles/2026-08-27-luxembourg-crs-philipp-s-lead.md) | `raw/articles/2026-08-27-luxembourg-crs-philipp-s-lead.md` | Counsel-side report of a January 2026 Luxembourg CRS hearing involving an Austrian citizen and a possible CJEU reference. | dac2, crs, luxembourg, proceeding-lead, claimant-source, unverified |
 | [Mishcon description of the Austrian CRS claim](../../raw/articles/2026-08-27-mishcon-austrian-crs-claim.md) | `raw/articles/2026-08-27-mishcon-austrian-crs-claim.md` | Counsel-side description of an Austrian client's EUR 40 CRS challenge and the arguments advanced against DAC2. | dac2, crs, austria, claimant-source, campaign-source, proceeding |

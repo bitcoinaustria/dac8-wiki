@@ -20,10 +20,16 @@ sources:
   - raw/papers/2026-10-17-privacy-ecb-payment-choice.md
   - raw/papers/2026-10-17-depth-nist-deidentification.md
   - raw/papers/2026-10-17-depth-linkage-quality-ons.md
+  - raw/articles/2026-10-20-hughes-cypherpunk-manifesto-1993.md
+  - raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md
+  - raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md
+  - raw/papers/2026-10-20-bridy-internet-payment-blockades.md
+  - raw/papers/2026-10-20-canada-dedc-report-financial-measures.md
+  - raw/articles/2026-10-20-canada-2026-fca-6-emergencies-act-appeal.md
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-20
 verified: 2026-10-17
-verification_scope: "Broader public-interest synthesis of the identified research, guidance and historical authorities. Public lines are proposed wording, not quotations or empirically tested persuasion rankings. No DAC8-specific harm or Austrian-system finding is inferred."
+verification_scope: "Broader public-interest synthesis of the identified research, guidance and historical authorities. Public lines are proposed wording, not quotations or empirically tested persuasion rankings. No DAC8-specific harm or Austrian-system finding is inferred. 20 October additions (Hughes, BVerfG 1983, WikiLeaks, Canada 2022) were checked against their sources; the remainder keeps its 17 October verification."
 volatility: warm
 confidence: medium
 tags: [privacy, financial-privacy, surveillance, autonomy, public-understanding, association, accountability]
@@ -49,6 +55,8 @@ People routinely share different information with a doctor, a close friend, a sh
 
 [Nissenbaum](../../raw/papers/2026-10-17-privacy-nissenbaum-context.md) explains why the recipient, context and transfer conditions matter. [Solove](../../raw/papers/2026-10-17-privacy-solove-nothing-to-hide.md) adds that opaque processing and inability to challenge it can matter even without exposing a secret.
 
+Two older formulations make the same point in a quotable way. [Hughes (1993)](../../raw/articles/2026-10-20-hughes-cypherpunk-manifesto-1993.md) separates privacy from secrecy: privacy is "the power to selectively reveal oneself to the world". The [German Constitutional Court (1983)](../../raw/articles/2026-10-20-bverfg-1983-volkszaehlungsurteil.md), Rn. 146, holds a legal order incompatible with informational self-determination if citizens can no longer know who knows what about them, when and on what occasion. The first is advocacy; the second is German constitutional reasoning, limited by Rn. 148 and applied in 2024 to uphold CRS exchange ([BFH IX R 36/21](../../raw/articles/2026-08-27-germany-bfh-ix-r-36-21-crs.md)). Neither is Austrian law or evidence of a measured effect.
+
 **Fair limit:** “It is private” does not end every justification debate. Some information sharing protects others or serves an important public purpose. The relevant questions are who needs which information, why, and with what limits—not whether the person is sufficiently ashamed to deserve privacy.
 
 ## 2. Money records choices, not just wealth
@@ -73,6 +81,8 @@ People need room to research an unfamiliar illness, explore ideas, reconsider be
 
 The [Swiss randomised study](../../raw/papers/2026-10-17-privacy-swiss-dataveillance-2026.md) found task-specific effects of monitoring cues. Some outcomes involved a searched link or a refused personal question; opinion sharing measured comfort, not actual public speech. The companion evidence reference preserves mixed and null findings.
 
+The 1983 German census judgment states the mechanism as constitutional reasoning: whoever is unsure whether deviant behaviour is recorded and stored "wird versuchen, nicht durch solche Verhaltensweisen aufzufallen" (Rn. 146). Pair it with the experiments rather than presenting it as an empirical finding.
+
 **Fair limit:** This is evidence that inhibition can occur, not that everyone is silenced, all behavioural changes are harmful or an Austrian financial-reporting law caused them. A privacy case remains meaningful without attaching an invented population percentage to freedom.
 
 ## 4. Financial independence needs practical room to act
@@ -96,6 +106,8 @@ The relevant privacy is relational. Confidential help from a bank can protect a 
 Confidential participation can protect civil society, mutual help and minority viewpoints. The interest matters even to people who personally feel comfortable being public: associations depend on others being able to participate too.
 
 [NAACP v. Alabama](../../raw/articles/2026-10-17-privacy-naacp-association.md) arose from a concrete record of reprisals. [Bonta](../../raw/articles/2026-10-17-privacy-bonta-donor-collection.md) concerned a particular blanket donor-collection requirement. They make the mechanism understandable without converting historical US holdings into Austrian law.
+
+Payment channels are part of the same picture. In 2010 the major processors stopped handling donations to WikiLeaks without a court order ([Bridy](../../raw/papers/2026-10-20-bridy-internet-payment-blockades.md), pp. 1524–1525). In 2022 Canada froze about 280 accounts, cards and credit lines under emergency powers ([parliamentary report](../../raw/papers/2026-10-20-canada-dedc-report-financial-measures.md), pp. 62–64), and courts later held that the compelled, warrantless sharing of targeted customers' financial information with police breached the Charter ([2026 FCA 6](../../raw/articles/2026-10-20-canada-2026-fca-6-emergencies-act-appeal.md); leave to the Supreme Court pending). The same report says small donors were not frozen unless within the protest zone, and the appeal court held that freezing alone was not a search. The [surveillance reference](../references/surveillance-autonomy-and-democratic-safeguards.md) sets out the details and limits.
 
 **Fair limit:** Confidential association does not imply anonymous political financing without limits. Transparency about public office, conflicts of interest, corruption and regulated donations presents different interests. A public argument should explain which confidentiality is justified and which accountability must remain.
 

@@ -13,8 +13,14 @@ sources:
   - raw/articles/2026-08-27-eu-mica-regulation-2023-1114.md
   - raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md
   - raw/articles/2026-09-04-austria-gmsg-retention-rationale-and-records.md
+  - raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md
+  - raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md
+  - raw/articles/2026-10-20-austria-crypto-kest-withholding-scope.md
+  - raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md
+  - raw/articles/2026-10-20-krypto-mpfg-wfa-revenue-estimate.md
+  - raw/articles/2026-09-29-atrisk-ab-1948-crypto-tax-revenue-data.md
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-10-20
 tags: [dac8, krypto-mpfg, equality, article-20-charter, technology-neutrality, comparators]
 aliases: [DAC8 equality, crypto technology neutrality]
 confidence: high
@@ -42,12 +48,31 @@ Under Charter Article 20, comparable situations must not be treated differently 
 | A particular DAC8 field versus the corresponding DAC2 field set | Counts, units, transfer direction and the external-address knowledge category require a field-specific explanation beyond account, balance, income and gross-proceeds reporting. | E 2097/2021 upheld DAC2, and DAC8's impact assessment explains why transaction-derived aggregates were chosen. No general comparison of all crypto and bank data is sound. |
 | Economically and tax-equivalent tokenised versus conventional product | If legal rights, tax treatment, risk and intermediation are materially the same, technology alone may not justify an additional field or weaker safeguard. | A concrete product pair is required. The legal classification, transfer method and visibility gap may be material differences. |
 | Same payment function through crypto versus card or SEPA | Can expose a technology-specific burden where the underlying economic and tax facts are genuinely identical. | Often weak: use of a crypto-asset can itself be a taxable disposal and the provider may have different knowledge. VfGH G 606/2015 accepted equal cash/card obligations despite existing electronic traces. |
+| Austrian resident's domestic bank account versus the same person's account at an Austrian crypto provider (added 20 October 2026) | The bank account generates no automatic-exchange report (GMSG § 91 Z 1: other states only); the crypto account does (Krypto-MPfG § 14(1) Z 1). Both providers withhold KESt on the resident's income. | DAC8 itself requires own-state coverage, so this tests the EU baseline, not an Austrian choice. Recital 13 states a non-discrimination reason. Banks reported outflows of EUR 50,000 or more, including cash withdrawals, until December 2022 under the Kapitalabfluss-Meldegesetz. |
 
 ## Ten years versus five years
 
 This is the cleanest enacted Austrian comparator. Section 5(3) GMSG requires provider deletion of transmitted information after five years, a period described in the 2018 materials as appropriate for data-protection reasons. Section 7a GMSG uses seven years for compliance records. Krypto-MPfG sections 20(4) and 39 use ten years for both layers. The correct claim is not that this difference proves invalidity. It is that a maximum-period choice needs a record-layer-specific rational ground when an adjacent automatic tax-reporting regime uses a differentiated 5/7 structure.
 
 The factual inquiry must identify the exact records, applicable tax limitation and correction periods, frequency of later use, open-proceeding exceptions, backups and the consequence of earlier deletion. The authority-copy retention basis must be analysed separately because section 20(4) addresses the provider.
+
+## Withholding already collects the tax at domestic providers: checked 20 October 2026
+
+Since income accruing after 31 December 2023, Austrian crypto-asset service providers and domestic branches of foreign providers must withhold KESt on their customers' crypto income (§ 95 Abs. 2 Z 3 and § 124b Z 384 lit. d EStG; [record](../../raw/articles/2026-10-20-austria-crypto-kest-withholding-scope.md)). Withholding generally settles the income tax. The BMF states that crypto income is outside limited tax liability, so withholding "kann … unterbleiben" where the provider knows the customer is not unlimited taxable. Crypto-to-crypto swaps are not realisations (§ 27b Abs. 3). In 2024, crypto KESt withheld was EUR 33,839,499.66 ([1948/AB](../../raw/articles/2026-09-29-atrisk-ab-1948-crypto-tax-revenue-data.md), p. 2).
+
+The crypto withholding follows Austria's older final-taxation model. The [Endbesteuerungsgesetz](../../raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md) (BGBl. Nr. 11/1993) requires federal law to settle income tax on listed capital income, including bank interest, by the KESt deduction. Together with the GMSG's exclusion of domestic residents from automatic account exchange, this supports a strategic inference: Austria has long collected tax on savings without an annual report on each saver. The act itself does not say the tax office learns no names, and it does not decide whether DAC8's domestic reporting is disproportionate.
+
+The government's [impact assessment](../../raw/articles/2026-10-20-krypto-mpfg-wfa-revenue-estimate.md) (p. 17) expects about EUR 35 million a year from 2027, attributed to reports about foreign-held crypto-assets, and EUR 5 million in 2026 from relocation to domestic providers "auch aufgrund des Vorteils des automatischen KESt-Abzugs".
+
+**Strategic inference, not a holding.** For an Austrian resident at a withholding domestic provider, the tax is already collected at source, and the stated revenue rationale points elsewhere. The State must therefore explain what the annual DAC8 totals add for that group, particularly for swaps and own-wallet transfers that trigger no tax.
+
+**Counterarguments and limits.**
+
+- DAC8 mandates own-state coverage; Austria cannot exempt withholding providers' resident customers on its own. The argument targets EU-level necessity or policy, not a national excess.
+- Withholding covers only domestic providers and branches. Residents using foreign providers are not covered, and DAC8 is designed partly to reach them.
+- Reports can serve reconciliation, loss offset, opt-in regular assessment, holdings acquired before March 2021, wrong residence declarations and checks that withholding was correct.
+- "Not unlimited taxable" (no Austrian Wohnsitz or habitual abode) is not identical to treaty residence abroad. A German resident with an Austrian home may be unlimited taxable in Austria.
+- The WFA figure is a forecast, not measured DAC8 yield.
 
 ## Technology neutrality
 
@@ -92,3 +117,9 @@ That recital is neither a standalone fundamental right nor an automatic rule for
 - [MiCA](../../raw/articles/2026-08-27-eu-mica-regulation-2023-1114.md)
 - [DAC8](../../raw/articles/2026-08-27-eu-directive-2023-2226-dac8.md)
 - [GMSG retention rationale and compliance records](../../raw/articles/2026-09-04-austria-gmsg-retention-rationale-and-records.md)
+- [DAC8 domestic scope versus GMSG](../../raw/articles/2026-10-20-dac8-domestic-scope-versus-gmsg.md)
+- [Kapitalabfluss-Meldegesetz scope and expiry](../../raw/articles/2026-10-20-austria-kapitalabfluss-meldegesetz-expiry.md)
+- [Crypto KESt withholding scope](../../raw/articles/2026-10-20-austria-crypto-kest-withholding-scope.md)
+- [Endbesteuerungsgesetz 1993](../../raw/articles/2026-10-20-austria-endbesteuerungsgesetz-1993.md)
+- [Krypto-MPfG WFA revenue estimate](../../raw/articles/2026-10-20-krypto-mpfg-wfa-revenue-estimate.md)
+- [Parliamentary answer 1948/AB](../../raw/articles/2026-09-29-atrisk-ab-1948-crypto-tax-revenue-data.md)
