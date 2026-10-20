@@ -27,7 +27,7 @@ summary: "Maps every reason, objection and demand on the dac8.org arguments page
 
 # Website Arguments Page: Claim Map and Publication Boundaries
 
-Working research note, 20 October 2026; not legal advice. This maps the page data in `src/data/arguments.ts` on the dac8.org branch `t3/privacy-arguments` (head `a8be730`, pull request 70). German and English carry the same claims; the claims below follow the English text.
+Working research note, 20 October 2026; not legal advice. This maps the page data in `src/data/arguments.ts` on the dac8.org branch `t3/privacy-arguments` (head `a8be730`, pull request 70; wording since revised in pull request 71, head `54543d8`). German and English carry the same claims; the claims below follow the English text.
 
 Markers: **Lawyer** means clear the wording with the campaign lawyer before publication. **Gap** means the wiki holds no verified record yet. **Recheck** means the source could not be re-fetched on 20 October 2026.
 
@@ -117,9 +117,10 @@ DAC8-specific reasons replace the old optional DAC8 bridge.
 
 | Demand | Claim | Sources | Publication boundary |
 |---|---|---|---|
-| No stockpiling of data | Determine reportability before preparing data; Germany and the Netherlands do so only for reported customers. | [Comparators](../wiki/references/dac8-member-state-implementation-comparators.md) | DAC8 still requires status checks for all customers. |
+| No financial file without suspicion | Investigate on specific suspicion, with a legal basis and independent oversight, instead of collecting data on everyone. | [VISION](../../VISION.md); [surveillance](../wiki/references/surveillance-autonomy-and-democratic-safeguards.md) | Campaign principle, not a statement of current law. E 2097/2021 accepted suspicionless DAC2 exchange; never imply a court has adopted this principle for tax reporting. |
+| No stockpiling of data | As long as DAC8 applies, Austria should not prepare data for all customers; Germany and the Netherlands do so only for reported customers. | [Comparators](../wiki/references/dac8-member-state-implementation-comparators.md) | DAC8 still requires status checks for all customers. |
 | Do not report transfers to your own wallet | They trigger no tax but after a leak show who probably keeps how much bitcoin at home. Austria should push in Brussels, including in the recast, "which needs unanimity" (letter). | [Reporting layers](../wiki/references/dac8-transaction-granularity-and-reporting-layers.md); [recast](../raw/articles/2026-09-30-eu-dac-future-com-2026-308-dac-recast.md); [recast status](../raw/articles/2026-09-30-eu-dac-future-dac-recast-procedural-status.md) | **Lawyer** (letter wording). Unanimity under Arts. 113 and 115 TFEU is recorded as of 30 September 2026; date it. Unanimity lets Austria block the recast, but a block leaves the existing DAC8 duty in force; removing it needs every Member State. The recast keeps the DAC8 fields in substance. Totals show money moved out, not holdings, so "probably" must stay. "No tax" is a statutory inference. |
-| Collect only what taxation needs | Units and counts must be justified. | [Field necessity](../wiki/references/dac8-field-necessity-and-alternatives.md) | These fields are DAC8-mandated, so this is an EU-level demand. |
+| Collect only what is shown to be necessary | The state must demonstrate why units and counts are needed. | [Field necessity](../wiki/references/dac8-field-necessity-and-alternatives.md) | These fields are DAC8-mandated, so this is an EU-level demand. |
 | Keep data for less time | Five years for bank reports and generally six in Ireland; "simplicity" is no reason; copies at service providers must be verifiably deleted. | as above; [Trezor](../raw/articles/2026-10-15-scam-trezor-shipmonk-retention.md) | Rational-ground question. DAC8 allows five to ten years for provider records. |
 | Limit access, secure rights | Purpose limits; new purposes only by law; see your data before it is reported; correction, deletion and review. | [Lifecycle](../wiki/references/dac8-data-lifecycle-access-retention-remedies.md); [user duties](../raw/articles/2026-08-27-austria-krypto-mpfg-user-facing-duties.md) | Policy demand. The Krypto-MPfG already requires notice before the first report that a user's data are covered; the demand goes further, to seeing the content. |
 
